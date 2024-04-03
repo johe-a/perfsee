@@ -91,18 +91,11 @@
     ]
   },
   "scripts": {
-    "cli": "cross-env DEBUG='perfsee:*' node tools/cli.js",
-    "codegen": "yarn cli codegen",
     "build:ts": "tsc -b ./tsconfigs/tsconfig.project.json --verbose",
-    "build": "yarn codegen && cross-env NODE_ENV=production run-p 'build:ts' 'cli bundle -p @perfsee/platform';lerna run postbuild",
-    "build:npm": "cross-env NODE_ENV=production run-p 'cli bundle -p @perfsee/bundle-report' 'cli bundle -p @perfsee/package-report' && yarn cli build -a && yarn clean:tests",
-    "build:rs": "lerna run build:rs --concurrency 1 --stream",
-    "run:ts": "cross-env TS_NODE_PROJECT=tsconfigs/tsconfig.cjs.json NODE_CONFIG_DIR=config DOTENV_CONFIG_PATH=./packages/platform-server/.env node -r ts-node/register/transpile-only -r tsconfig-paths/register",
     "clean": "shx rm -rf ./packages/**/*.tsbuildinfo && shx rm -rf ./packages/**/{esm,dist}",
     "clean:node_modules": "shx rm -rf node_modules packages/*/node_modules",
-    "clean:tests": "shx rm -rf './packages/**/{esm,dist}/**/__tests__'",
     "lint": "cross-env NODE_OPTIONS=--max-old-space-size=8192 eslint . --cache --cache-location ./.eslint-cache",
-    "circular": "madge --circular --ts-config ./tsconfig.json packages/**/src/index.ts packages/**/src/index.tsx",
+    "circular": "madge --circular --ts-config ./tsconfig.json packages/**/src/index.ts",
     "postinstall": "husky install",
     "release": "lerna version --sign-git-tag --exact --allow-branch main"
   },
