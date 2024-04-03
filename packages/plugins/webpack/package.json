@@ -26,11 +26,5 @@
   },
   "peerDependencies": {
     "webpack": ">= 4"
-  },
-  "devDependencies": {
-    "@perfsee/package": "workspace:*"
-  },
-  "scripts": {
-    "analyze": "npx @perfsee/package ./ --project=perfsee"
   }
 }
