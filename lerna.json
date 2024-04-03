@@ -1,9 +1,7 @@
 {
   "packages": [
     "packages/*",
-    "examples/*",
-    "packages/plugins/*",
-    "packages/runner/*"
+    "packages/plugins/*"
   ],
   "version": "1.12.5",
   "useWorkspaces": true,
