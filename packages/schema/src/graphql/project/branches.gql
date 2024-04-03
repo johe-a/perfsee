@@ -1,5 +1,0 @@
-query recentBranches($projectId: ID!) {
-  project(id: $projectId) {
-    recentBranches
-  }
-}

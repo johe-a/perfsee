@@ -1,9 +1,0 @@
-#import './fragments/page-fields.gql'
-
-query pages($projectId: ID!) {
-  project(id: $projectId) {
-    pages {
-      ...pageFields
-    }
-  }
-}

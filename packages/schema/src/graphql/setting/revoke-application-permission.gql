@@ -1,3 +1,0 @@
-mutation revokeApplicationPermissions($projectId: ID!, $applicationId: Int!) {
-  revokeApplicationPermissions(projectId: $projectId, applicationId: $applicationId)
-}

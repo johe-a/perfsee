@@ -1,7 +1,0 @@
-#import './fragments/project-fields.gql'
-
-mutation updateProject($projectId: ID!, $projectInput: UpdateProjectInput!) {
-  updateProject(projectId: $projectId, input: $projectInput) {
-    ...projectFields
-  }
-}

@@ -1,6 +1,0 @@
-query pendingJobsAggregation {
-  pendingJobsAggregation {
-    jobType
-    count
-  }
-}

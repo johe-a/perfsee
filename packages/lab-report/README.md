@@ -1,1 +1,0 @@
-# `@perfsee/lab-report`

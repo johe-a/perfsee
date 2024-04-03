@@ -1,9 +1,0 @@
-query appVersions($projectId: ID!, $from: DateTime, $to: DateTime, $length: Int) {
-  project(id: $projectId) {
-    appVersions(from: $from, to: $to, length: $length) {
-      hash
-      branch
-      version
-    }
-  }
-}

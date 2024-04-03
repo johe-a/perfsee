@@ -1,7 +1,0 @@
-#import '../fragments/usage-pack.gql'
-
-mutation createUsagePack($input: CreateUsagePackInput!) {
-  createUsagePack(input: $input) {
-    ...usagePack
-  }
-}

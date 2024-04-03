@@ -1,3 +1,0 @@
-mutation addProjectOwner($email: String!, $projectId: ID!) {
-  addProjectOwner(email: $email, projectId: $projectId)
-}

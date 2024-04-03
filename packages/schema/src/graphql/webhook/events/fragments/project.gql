@@ -1,7 +1,0 @@
-fragment webhookProject on Project {
-  id
-  host
-  namespace
-  name
-  isPublic
-}

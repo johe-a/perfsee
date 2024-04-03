@@ -1,3 +1,0 @@
-mutation ping($projectId: ID!, $pageId: Int!, $profileId: Int, $envId: Int) {
-  pingConnection(projectId: $projectId, pageId: $pageId, profileId: $profileId, envId: $envId)
-}

@@ -1,7 +1,0 @@
-#import './fragments/runner-script.gql'
-
-query extensionScripts($jobType: String!) {
-  extensionScripts(jobType: $jobType) {
-    ...runnerScriptInfo
-  }
-}

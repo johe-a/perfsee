@@ -7866,7 +7866,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@perfsee/jsonr@workspace:packages/jsonr"
   dependencies:
-    "@perfsee/package": "workspace:*"
     tslib: ^2.4.0
   languageName: unknown
   linkType: soft

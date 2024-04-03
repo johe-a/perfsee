@@ -1,7 +1,0 @@
-query searchUsers($query: String!) {
-  searchUsers(query: $query) {
-    username
-    email
-    avatarUrl
-  }
-}

@@ -1,1 +1,0 @@
-# `@perfsee/package-report`

@@ -1,7 +1,0 @@
-#import './fragments/project-fields.gql'
-
-query project($projectId: ID!) {
-  project(id: $projectId) {
-    ...projectFields
-  }
-}

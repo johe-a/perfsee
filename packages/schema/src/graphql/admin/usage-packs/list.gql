@@ -1,7 +1,0 @@
-#import '../fragments/usage-pack.gql'
-
-query allUsagePacks {
-  allUsagePacks {
-    ...usagePack
-  }
-}

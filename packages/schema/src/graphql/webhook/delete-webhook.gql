@@ -1,3 +1,0 @@
-mutation deleteWebhook($webhookId: ID!) {
-  deleteWebhook(id: $webhookId)
-}

@@ -9,73 +9,10 @@
       "path": "../packages/bundle-analyzer"
     },
     {
-      "path": "../packages/bundle-report"
-    },
-    {
-      "path": "../packages/chrome-finder"
-    },
-    {
-      "path": "../packages/components"
-    },
-    {
-      "path": "../packages/dls"
-    },
-    {
-      "path": "../packages/flamechart"
-    },
-    {
-      "path": "../packages/iri"
-    },
-    {
       "path": "../packages/jsonr"
     },
     {
-      "path": "../packages/lab-report"
-    },
-    {
-      "path": "../packages/ori"
-    },
-    {
-      "path": "../packages/package-build-stats"
-    },
-    {
-      "path": "../packages/package-report"
-    },
-    {
-      "path": "../packages/package"
-    },
-    {
-      "path": "../packages/platform-server"
-    },
-    {
-      "path": "../packages/platform"
-    },
-    {
-      "path": "../packages/schema"
-    },
-    {
-      "path": "../packages/sdk"
-    },
-    {
-      "path": "../packages/server-common"
-    },
-    {
-      "path": "../packages/shared"
-    },
-    {
-      "path": "../packages/source-coverage"
-    },
-    {
-      "path": "../packages/tracehouse"
-    },
-    {
-      "path": "../packages/treemap"
-    },
-    {
       "path": "../packages/utils"
-    },
-    {
-      "path": "../packages/vscode-extension"
     },
     {
       "path": "../packages/plugins/esbuild"
@@ -88,30 +25,6 @@
     },
     {
       "path": "../packages/plugins/webpack"
-    },
-    {
-      "path": "../packages/runner/bundle"
-    },
-    {
-      "path": "../packages/runner/executor"
-    },
-    {
-      "path": "../packages/runner/lab"
-    },
-    {
-      "path": "../packages/runner/package"
-    },
-    {
-      "path": "../packages/runner/shared"
-    },
-    {
-      "path": "../packages/runner/source"
-    },
-    {
-      "path": "../examples"
-    },
-    {
-      "path": "../tools"
     }
   ]
 }

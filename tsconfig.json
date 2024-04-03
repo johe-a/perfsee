@@ -40,8 +40,7 @@
     "baseUrl": "./"
   },
   "include": [
-    "./packages",
-    "./examples"
+    "./packages"
   ],
   "exclude": [
     "node_modules",

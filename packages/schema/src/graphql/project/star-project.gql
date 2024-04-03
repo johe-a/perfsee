@@ -1,3 +1,0 @@
-mutation toggleStarProject($projectId: ID!, $star: Boolean!) {
-  toggleStarProject(projectId: $projectId, star: $star)
-}

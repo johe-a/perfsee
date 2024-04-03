@@ -1,3 +1,0 @@
-mutation updateGroupUserPermission($groupId: ID!, $email: String!, $permission: Permission!, $isAdd: Boolean!) {
-  updateGroupUserPermission(groupId: $groupId, email: $email, permission: $permission, isAdd: $isAdd)
-}

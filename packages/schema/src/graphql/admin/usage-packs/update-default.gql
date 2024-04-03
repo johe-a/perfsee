@@ -1,3 +1,0 @@
-mutation setDefaultUsagePack($id: Int!) {
-  setDefaultUsagePack(id: $id)
-}

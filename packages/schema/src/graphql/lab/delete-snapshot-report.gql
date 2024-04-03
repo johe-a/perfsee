@@ -1,3 +1,0 @@
-mutation deleteSnapshotReport($projectId: ID!, $reportId: Int!) {
-  deleteSnapshotReport(projectId: $projectId, snapshotReportId: $reportId)
-}

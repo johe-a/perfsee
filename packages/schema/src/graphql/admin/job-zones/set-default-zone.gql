@@ -1,3 +1,0 @@
-mutation setDefaultJobZone($zone: String!) {
-  setDefaultJobZone(zone: $zone)
-}

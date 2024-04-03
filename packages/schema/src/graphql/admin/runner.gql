@@ -1,7 +1,0 @@
-#import './fragments/runner.gql'
-
-query runner($id: ID!) {
-  runner(id: $id) {
-    ...runnerInfo
-  }
-}

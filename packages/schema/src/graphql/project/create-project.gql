@@ -1,7 +1,0 @@
-#import './fragments/project-fields.gql'
-
-mutation createProject($input: CreateProjectInput!) {
-  createProject(input: $input) {
-    ...projectFields
-  }
-}

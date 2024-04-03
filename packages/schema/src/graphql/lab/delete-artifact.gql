@@ -1,3 +1,0 @@
-mutation deleteArtifact($projectId: ID!, $artifactId: Int!) {
-  deleteArtifact(projectId: $projectId, artifactId: $artifactId)
-}

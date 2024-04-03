@@ -1,8 +1,0 @@
-query vscodeGetProjectsByNamespaceAndName($host: GitHost!, $namespace: String!, $name: String!) {
-  projectsByRepo(host: $host, namespace: $namespace, name: $name) {
-    id
-    name
-    namespace
-    host
-  }
-}

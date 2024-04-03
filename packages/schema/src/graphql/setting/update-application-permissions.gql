@@ -1,3 +1,0 @@
-mutation updateApplicationPermissions($projectId: ID!, $applicationId: Int!, $permissions: [Permission!]!) {
-  updateApplicationPermissions(projectId: $projectId, applicationId: $applicationId, permissions: $permissions)
-}

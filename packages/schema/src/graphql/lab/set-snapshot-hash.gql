@@ -1,3 +1,0 @@
-mutation setSnapshotHash($projectId: ID!, $snapshotId: Int!, $hash: String!) {
-  setSnapshotHash(projectId: $projectId, snapshotId: $snapshotId, hash: $hash)
-}

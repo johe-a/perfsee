@@ -1,7 +1,0 @@
-query application($name: String!) {
-  application(name: $name) {
-    id
-    username
-    avatarUrl
-  }
-}

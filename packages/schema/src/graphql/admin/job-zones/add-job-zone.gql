@@ -1,3 +1,0 @@
-mutation addJobZones($zones: [String!]!) {
-  insertAvailableJobZones(zones: $zones)
-}

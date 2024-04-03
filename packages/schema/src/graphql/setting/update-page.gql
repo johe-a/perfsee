@@ -1,7 +1,0 @@
-#import './fragments/page-fields.gql'
-
-mutation updatePage($projectId: ID!, $pageInput: UpdatePageInput!) {
-  updatePage(input: $pageInput, projectId: $projectId) {
-    ...pageFields
-  }
-}

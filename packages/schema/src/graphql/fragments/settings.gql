@@ -1,9 +1,0 @@
-fragment settings on ApplicationSettings {
-  enableSignup
-  enableOauth
-  enableProjectCreate
-  enableProjectDelete
-  enableProjectImport
-  oauthProviders
-  usePendingJobTable
-}

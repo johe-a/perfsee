@@ -1,5 +1,0 @@
-query issueCommits($projectId: ID!) {
-  project(id: $projectId) {
-    issueCommits
-  }
-}

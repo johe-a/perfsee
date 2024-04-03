@@ -1,6 +1,0 @@
-query verifyProjectId($projectId: ID!) {
-  verifyProjectId(id: $projectId) {
-    error,
-    ok
-  }
-}
