@@ -1,5 +1,5 @@
 {
-  "name": "perfsee",
+  "name": "@fe/perfsee",
   "version": "0.0.0",
   "license": "UNLICENSED",
   "private": true,
@@ -91,13 +91,14 @@
     ]
   },
   "scripts": {
-    "build:ts": "tsc -b ./tsconfigs/tsconfig.project.json --verbose",
+    "build": "tsc -b ./tsconfigs/tsconfig.project.json --verbose",
     "clean": "shx rm -rf ./packages/**/*.tsbuildinfo && shx rm -rf ./packages/**/{esm,dist}",
-    "clean:node_modules": "shx rm -rf node_modules packages/*/node_modules",
+    "clean:node_modules": "shx rm -rf  node_modules packages/*/node_modules(N)",
     "lint": "cross-env NODE_OPTIONS=--max-old-space-size=8192 eslint . --cache --cache-location ./.eslint-cache",
     "circular": "madge --circular --ts-config ./tsconfig.json packages/**/src/index.ts",
     "postinstall": "husky install",
-    "release": "lerna version"
+    "release": "lerna version",
+    "publish": "lerna publish"
   },
   "packageManager": "yarn@3.4.1"
 }

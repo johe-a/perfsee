@@ -468,6 +468,168 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fe/perfsee-bundle-analyzer@workspace:*, @fe/perfsee-bundle-analyzer@workspace:packages/bundle-analyzer":
+  version: 0.0.0-use.local
+  resolution: "@fe/perfsee-bundle-analyzer@workspace:packages/bundle-analyzer"
+  dependencies:
+    "@eyhn/msgpack-stream": ^2.8.4
+    "@fe/perfsee-jsonr": "workspace:*"
+    "@fe/perfsee-utils": "workspace:*"
+    acorn: ^8.7.1
+    acorn-walk: ^8.2.0
+    htmlparser2: ^8.0.1
+    isolated-vm: ^4.7.2
+    lodash: ^4.17.21
+    query-string: ^7.1.1
+    tar: ^6.1.11
+    tslib: ^2.4.0
+  dependenciesMeta:
+    isolated-vm:
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@fe/perfsee-esbuild@workspace:packages/plugins/esbuild":
+  version: 0.0.0-use.local
+  resolution: "@fe/perfsee-esbuild@workspace:packages/plugins/esbuild"
+  dependencies:
+    "@fe/perfsee-bundle-analyzer": "workspace:*"
+    "@fe/perfsee-plugin-utils": "workspace:*"
+    chalk: ^4.1.2
+    esbuild: ~0.16.0
+    lodash: ^4.17.21
+    tslib: ^2.4.0
+  peerDependencies:
+    esbuild: "> 0.10"
+  languageName: unknown
+  linkType: soft
+
+"@fe/perfsee-jsonr@workspace:*, @fe/perfsee-jsonr@workspace:packages/jsonr":
+  version: 0.0.0-use.local
+  resolution: "@fe/perfsee-jsonr@workspace:packages/jsonr"
+  dependencies:
+    tslib: ^2.4.0
+  languageName: unknown
+  linkType: soft
+
+"@fe/perfsee-plugin-utils@workspace:*, @fe/perfsee-plugin-utils@workspace:packages/plugins/utils":
+  version: 0.0.0-use.local
+  resolution: "@fe/perfsee-plugin-utils@workspace:packages/plugins/utils"
+  dependencies:
+    "@fe/perfsee-bundle-analyzer": "workspace:*"
+    "@fe/perfsee-jsonr": "workspace:*"
+    "@fe/perfsee-utils": "workspace:*"
+    "@types/env-ci": ^3.1.1
+    "@types/find-cache-dir": ^3.2.1
+    "@types/node-fetch": ^2.5.12
+    "@types/table": ^6.3.2
+    "@types/uuid": ^9.0.0
+    chalk: ^4.1.2
+    debug: 4.3.4
+    env-ci: ^7.2.1
+    find-cache-dir: ^3.3.2
+    lodash: ^4.17.21
+    node-fetch: ^2.6.2
+    open: ^8.4.2
+    query-string: ^7.1.1
+    simple-git: ^3.15.0
+    table: ^6.8.0
+    tar: ^6.1.11
+    tslib: ^2.4.0
+    uuid: ^9.0.0
+  languageName: unknown
+  linkType: soft
+
+"@fe/perfsee-rollup@workspace:packages/plugins/rollup":
+  version: 0.0.0-use.local
+  resolution: "@fe/perfsee-rollup@workspace:packages/plugins/rollup"
+  dependencies:
+    "@fe/perfsee-bundle-analyzer": "workspace:*"
+    "@fe/perfsee-plugin-utils": "workspace:*"
+    chalk: ^4.1.2
+    lodash: ^4.17.21
+    rollup: ^2.77.0
+    tslib: ^2.4.0
+  peerDependencies:
+    rollup: ">2"
+  languageName: unknown
+  linkType: soft
+
+"@fe/perfsee-utils@workspace:*, @fe/perfsee-utils@workspace:packages/utils":
+  version: 0.0.0-use.local
+  resolution: "@fe/perfsee-utils@workspace:packages/utils"
+  dependencies:
+    tslib: ^2.4.0
+  languageName: unknown
+  linkType: soft
+
+"@fe/perfsee-webpack@workspace:packages/plugins/webpack":
+  version: 0.0.0-use.local
+  resolution: "@fe/perfsee-webpack@workspace:packages/plugins/webpack"
+  dependencies:
+    "@fe/perfsee-bundle-analyzer": "workspace:*"
+    "@fe/perfsee-plugin-utils": "workspace:*"
+    chalk: ^4.1.2
+    tslib: ^2.4.0
+  peerDependencies:
+    webpack: ">= 4"
+  languageName: unknown
+  linkType: soft
+
+"@fe/perfsee@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@fe/perfsee@workspace:."
+  dependencies:
+    "@commitlint/config-conventional": ^17.0.3
+    "@commitlint/config-lerna-scopes": ^17.0.2
+    "@types/debug": ^4.1.7
+    "@types/lodash": ^4.14.182
+    "@types/node": 16
+    "@types/prettier": ^2.6.4
+    "@types/react": ^18.0.15
+    "@types/react-dom": ^18.0.6
+    "@types/webpack": 4.41.27
+    "@types/yup": ^0.29.14
+    "@typescript-eslint/eslint-plugin": ^5.30.7
+    "@typescript-eslint/parser": ^5.30.7
+    chalk: ^4.1.2
+    commitlint: ^17.0.3
+    cross-env: ^7.0.3
+    css-loader: ^6.7.1
+    esbuild: ~0.16.0
+    eslint: ^8.20.0
+    eslint-config-prettier: ^8.5.0
+    eslint-plugin-import: ^2.26.0
+    eslint-plugin-prettier: ^4.2.1
+    eslint-plugin-react: ^7.30.1
+    eslint-plugin-react-hooks: ^4.6.0
+    eslint-plugin-sonarjs: ^0.18.0
+    eslint-plugin-unicorn: ^45.0.0
+    extract-comments: ^1.1.0
+    husky: ^8.0.1
+    lerna: ^6.0.0
+    lint-staged: ^13.0.3
+    madge: ^5.0.1
+    node-fetch: ^2.6.2
+    npm-run-all: ^4.1.5
+    prettier: ^2.7.1
+    rollup: ^2.77.0
+    rollup-plugin-dts: ^4.2.2
+    rollup-plugin-sourcemaps: ^0.6.3
+    shx: ^0.3.4
+    ts-loader: ^9.3.1
+    ts-node: ^10.9.1
+    tsconfig-paths: ^4.0.0
+    tslib: ^2.4.0
+    typescript: ~4.7.4
+    vite: ^3.0.2
+    webpack: ^5.73.0
+    webpack-cli: ^5.0.0
+    webpack-dev-server: ^4.9.3
+    yup: ^0.32.11
+  languageName: unknown
+  linkType: soft
+
 "@gar/promisify@npm:^1.1.3":
   version: 1.1.3
   resolution: "@gar/promisify@npm:1.1.3"
@@ -1778,114 +1940,6 @@ __metadata:
   checksum: 890bdc69a52942791b276caa2cd65ef816576d6b5ada91aa28cf302b35d567c801dafe167f2525dcb313f5b420986ea11bd56228dd7ddde1116944d8f924a0a1
   languageName: node
   linkType: hard
-
-"@perfsee/bundle-analyzer@workspace:*, @perfsee/bundle-analyzer@workspace:packages/bundle-analyzer":
-  version: 0.0.0-use.local
-  resolution: "@perfsee/bundle-analyzer@workspace:packages/bundle-analyzer"
-  dependencies:
-    "@eyhn/msgpack-stream": ^2.8.4
-    "@perfsee/jsonr": "workspace:*"
-    "@perfsee/utils": "workspace:*"
-    acorn: ^8.7.1
-    acorn-walk: ^8.2.0
-    htmlparser2: ^8.0.1
-    isolated-vm: ^4.7.2
-    lodash: ^4.17.21
-    query-string: ^7.1.1
-    tar: ^6.1.11
-    tslib: ^2.4.0
-  dependenciesMeta:
-    isolated-vm:
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@perfsee/esbuild@workspace:packages/plugins/esbuild":
-  version: 0.0.0-use.local
-  resolution: "@perfsee/esbuild@workspace:packages/plugins/esbuild"
-  dependencies:
-    "@perfsee/bundle-analyzer": "workspace:*"
-    "@perfsee/plugin-utils": "workspace:*"
-    chalk: ^4.1.2
-    esbuild: ~0.16.0
-    lodash: ^4.17.21
-    tslib: ^2.4.0
-  peerDependencies:
-    esbuild: "> 0.10"
-  languageName: unknown
-  linkType: soft
-
-"@perfsee/jsonr@workspace:*, @perfsee/jsonr@workspace:packages/jsonr":
-  version: 0.0.0-use.local
-  resolution: "@perfsee/jsonr@workspace:packages/jsonr"
-  dependencies:
-    tslib: ^2.4.0
-  languageName: unknown
-  linkType: soft
-
-"@perfsee/plugin-utils@workspace:*, @perfsee/plugin-utils@workspace:packages/plugins/utils":
-  version: 0.0.0-use.local
-  resolution: "@perfsee/plugin-utils@workspace:packages/plugins/utils"
-  dependencies:
-    "@perfsee/bundle-analyzer": "workspace:*"
-    "@perfsee/jsonr": "workspace:*"
-    "@perfsee/utils": "workspace:*"
-    "@types/env-ci": ^3.1.1
-    "@types/find-cache-dir": ^3.2.1
-    "@types/node-fetch": ^2.5.12
-    "@types/table": ^6.3.2
-    "@types/uuid": ^9.0.0
-    chalk: ^4.1.2
-    debug: 4.3.4
-    env-ci: ^7.2.1
-    find-cache-dir: ^3.3.2
-    lodash: ^4.17.21
-    node-fetch: ^2.6.2
-    open: ^8.4.2
-    query-string: ^7.1.1
-    simple-git: ^3.15.0
-    table: ^6.8.0
-    tar: ^6.1.11
-    tslib: ^2.4.0
-    uuid: ^9.0.0
-  languageName: unknown
-  linkType: soft
-
-"@perfsee/rollup@workspace:packages/plugins/rollup":
-  version: 0.0.0-use.local
-  resolution: "@perfsee/rollup@workspace:packages/plugins/rollup"
-  dependencies:
-    "@perfsee/bundle-analyzer": "workspace:*"
-    "@perfsee/plugin-utils": "workspace:*"
-    chalk: ^4.1.2
-    lodash: ^4.17.21
-    rollup: ^2.77.0
-    tslib: ^2.4.0
-  peerDependencies:
-    rollup: ">2"
-  languageName: unknown
-  linkType: soft
-
-"@perfsee/utils@workspace:*, @perfsee/utils@workspace:packages/utils":
-  version: 0.0.0-use.local
-  resolution: "@perfsee/utils@workspace:packages/utils"
-  dependencies:
-    tslib: ^2.4.0
-  languageName: unknown
-  linkType: soft
-
-"@perfsee/webpack@workspace:packages/plugins/webpack":
-  version: 0.0.0-use.local
-  resolution: "@perfsee/webpack@workspace:packages/plugins/webpack"
-  dependencies:
-    "@perfsee/bundle-analyzer": "workspace:*"
-    "@perfsee/plugin-utils": "workspace:*"
-    chalk: ^4.1.2
-    tslib: ^2.4.0
-  peerDependencies:
-    webpack: ">= 4"
-  languageName: unknown
-  linkType: soft
 
 "@phenomnomnominal/tsquery@npm:4.1.1":
   version: 4.1.1
@@ -8937,60 +8991,6 @@ __metadata:
   checksum: 5b1e2daa247062061325b8fdbfd1fb56dde0a448fb1455453276ea18c60685bdad23a445dc148cf87bc216be1573357509b7d4060494a6fd768c7efad833ee45
   languageName: node
   linkType: hard
-
-"perfsee@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "perfsee@workspace:."
-  dependencies:
-    "@commitlint/config-conventional": ^17.0.3
-    "@commitlint/config-lerna-scopes": ^17.0.2
-    "@types/debug": ^4.1.7
-    "@types/lodash": ^4.14.182
-    "@types/node": 16
-    "@types/prettier": ^2.6.4
-    "@types/react": ^18.0.15
-    "@types/react-dom": ^18.0.6
-    "@types/webpack": 4.41.27
-    "@types/yup": ^0.29.14
-    "@typescript-eslint/eslint-plugin": ^5.30.7
-    "@typescript-eslint/parser": ^5.30.7
-    chalk: ^4.1.2
-    commitlint: ^17.0.3
-    cross-env: ^7.0.3
-    css-loader: ^6.7.1
-    esbuild: ~0.16.0
-    eslint: ^8.20.0
-    eslint-config-prettier: ^8.5.0
-    eslint-plugin-import: ^2.26.0
-    eslint-plugin-prettier: ^4.2.1
-    eslint-plugin-react: ^7.30.1
-    eslint-plugin-react-hooks: ^4.6.0
-    eslint-plugin-sonarjs: ^0.18.0
-    eslint-plugin-unicorn: ^45.0.0
-    extract-comments: ^1.1.0
-    husky: ^8.0.1
-    lerna: ^6.0.0
-    lint-staged: ^13.0.3
-    madge: ^5.0.1
-    node-fetch: ^2.6.2
-    npm-run-all: ^4.1.5
-    prettier: ^2.7.1
-    rollup: ^2.77.0
-    rollup-plugin-dts: ^4.2.2
-    rollup-plugin-sourcemaps: ^0.6.3
-    shx: ^0.3.4
-    ts-loader: ^9.3.1
-    ts-node: ^10.9.1
-    tsconfig-paths: ^4.0.0
-    tslib: ^2.4.0
-    typescript: ~4.7.4
-    vite: ^3.0.2
-    webpack: ^5.73.0
-    webpack-cli: ^5.0.0
-    webpack-dev-server: ^4.9.3
-    yup: ^0.32.11
-  languageName: unknown
-  linkType: soft
 
 "picocolors@npm:^1.0.0":
   version: 1.0.0

@@ -20,9 +20,9 @@ import { join, resolve } from 'path'
 import findCacheDir from 'find-cache-dir'
 import open from 'open'
 
-import { BundleResult, calcBundleScore, ModuleReasons, ModuleTreeNode } from '@perfsee/bundle-analyzer'
+import { BundleResult, calcBundleScore, ModuleReasons, ModuleTreeNode } from '@fe/perfsee-bundle-analyzer'
 
-export const PACKAGE_NAME = '@perfsee/plugin-utils'
+export const PACKAGE_NAME = '@fe/perfsee-plugin-utils'
 
 interface Data {
   branch: string

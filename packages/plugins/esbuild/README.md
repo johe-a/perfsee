@@ -1,4 +1,4 @@
-# `@perfsee/esbuild`
+# `@fe/perfsee-esbuild`
 
 [Repo](https://github.com/perfsee/perfsee) | [Docs](https://perfsee.com/docs)
 
@@ -7,7 +7,7 @@ Perfsee esbuild plugin used to collect bundle information and analyze.
 ## Usage
 
 ```ts
-const { PerfseePlugin } = require('@perfsee/esbuild')
+const { PerfseePlugin } = require('@fe/perfsee-esbuild')
 
 // Do not use buildAsync
 require('esbuild').build({

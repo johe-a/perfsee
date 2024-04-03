@@ -1,24 +1,22 @@
 {
-  "name": "@perfsee/bundle-analyzer",
+  "name": "@fe/perfsee-bundle-analyzer",
   "version": "1.12.5",
   "description": "Bundle analyzer by perfsee",
   "sideEffect": false,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "repository": "https://github.com/perfsee/perfsee",
   "license": "Apache-2.0",
   "files": [
     "dist",
     "CHANGELOG.md"
   ],
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "access": "public"
+    "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
     "@eyhn/msgpack-stream": "^2.8.4",
-    "@perfsee/jsonr": "workspace:*",
-    "@perfsee/utils": "workspace:*",
+    "@fe/perfsee-jsonr": "workspace:*",
+    "@fe/perfsee-utils": "workspace:*",
     "acorn": "^8.7.1",
     "acorn-walk": "^8.2.0",
     "htmlparser2": "^8.0.1",

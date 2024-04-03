@@ -17,7 +17,7 @@ limitations under the License.
 import fs from 'fs'
 import { dirname, join, resolve } from 'path'
 
-import { readJSONFile, resolveNodeModulePath } from '@perfsee/bundle-analyzer'
+import { readJSONFile, resolveNodeModulePath } from '@fe/perfsee-bundle-analyzer'
 
 export const catchModuleVersionFromRequest = (
   request: any,

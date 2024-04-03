@@ -1,8 +1,7 @@
 {
-  "name": "@perfsee/esbuild",
+  "name": "@fe/perfsee-esbuild",
   "version": "1.12.5",
   "description": "perfsee esbuild plugin",
-  "repository": "https://github.com/perfsee/perfsee",
   "license": "Apache-2.0",
   "keywords": [
     "esbuild",
@@ -15,12 +14,11 @@
     "CHANGELOG.md"
   ],
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "access": "public"
+    "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
-    "@perfsee/bundle-analyzer": "workspace:*",
-    "@perfsee/plugin-utils": "workspace:*",
+    "@fe/perfsee-bundle-analyzer": "workspace:*",
+    "@fe/perfsee-plugin-utils": "workspace:*",
     "chalk": "^4.1.2",
     "lodash": "^4.17.21",
     "tslib": "^2.4.0"

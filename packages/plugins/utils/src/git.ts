@@ -16,7 +16,7 @@ limitations under the License.
 
 import simpleGit from 'simple-git'
 
-import { parseGitRemoteUrl } from '@perfsee/utils'
+import { parseGitRemoteUrl } from '@fe/perfsee-utils'
 
 export const getCurrentCommit = async () => {
   try {

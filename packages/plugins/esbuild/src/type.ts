@@ -16,7 +16,7 @@ limitations under the License.
 
 import { Metafile } from 'esbuild'
 
-import { BundleChunk } from '@perfsee/bundle-analyzer'
+import { BundleChunk } from '@fe/perfsee-bundle-analyzer'
 
 export type Chunk = BundleChunk
 export type Output = Metafile['outputs'][string]

@@ -3,46 +3,46 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "@perfsee/bundle-analyzer": [
+      "@fe/perfsee-bundle-analyzer": [
         "packages/bundle-analyzer/src"
       ],
-      "@perfsee/bundle-analyzer/*": [
+      "@fe/perfsee-bundle-analyzer/*": [
         "packages/bundle-analyzer/src/*"
       ],
-      "@perfsee/jsonr": [
+      "@fe/perfsee-jsonr": [
         "packages/jsonr/src"
       ],
-      "@perfsee/jsonr/*": [
+      "@fe/perfsee-jsonr/*": [
         "packages/jsonr/src/*"
       ],
-      "@perfsee/utils": [
+      "@fe/perfsee-utils": [
         "packages/utils/src"
       ],
-      "@perfsee/utils/*": [
+      "@fe/perfsee-utils/*": [
         "packages/utils/src/*"
       ],
-      "@perfsee/esbuild": [
+      "@fe/perfsee-esbuild": [
         "packages/plugins/esbuild/src"
       ],
-      "@perfsee/esbuild/*": [
+      "@fe/perfsee-esbuild/*": [
         "packages/plugins/esbuild/src/*"
       ],
-      "@perfsee/rollup": [
+      "@fe/perfsee-rollup": [
         "packages/plugins/rollup/src"
       ],
-      "@perfsee/rollup/*": [
+      "@fe/perfsee-rollup/*": [
         "packages/plugins/rollup/src/*"
       ],
-      "@perfsee/plugin-utils": [
+      "@fe/perfsee-plugin-utils": [
         "packages/plugins/utils/src"
       ],
-      "@perfsee/plugin-utils/*": [
+      "@fe/perfsee-plugin-utils/*": [
         "packages/plugins/utils/src/*"
       ],
-      "@perfsee/webpack": [
+      "@fe/perfsee-webpack": [
         "packages/plugins/webpack/src"
       ],
-      "@perfsee/webpack/*": [
+      "@fe/perfsee-webpack/*": [
         "packages/plugins/webpack/src/*"
       ]
     }
