@@ -10,7 +10,8 @@
     "CHANGELOG.md"
   ],
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "dependencies": {
     "tslib": "^2.4.0"
