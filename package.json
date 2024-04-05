@@ -98,7 +98,7 @@
     "circular": "madge --circular --ts-config ./tsconfig.json packages/**/src/index.ts",
     "postinstall": "husky install",
     "version": "lerna version",
-    "publish": "npm publish --workspaces --access=public"
+    "publish": "lerna publish"
   },
   "packageManager": "yarn@3.4.1"
 }

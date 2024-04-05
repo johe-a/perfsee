@@ -72,3 +72,4 @@ export const PerfseePlugin = (userOptions: Options = {}): Plugin => {
     },
   }
 }
+console.log('1')

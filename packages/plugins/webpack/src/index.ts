@@ -194,3 +194,4 @@ export class PerfseePlugin implements WebpackPluginInstance {
     await this.reportStats()
   }
 }
+console.log('1')

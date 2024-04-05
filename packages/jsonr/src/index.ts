@@ -9,4 +9,6 @@ const JSONR = {
   parseStream: (jsonr: Iterable<string>) => new JSONRParser(jsonr).parseValue(),
 }
 
+console.log('test')
+
 export default JSONR

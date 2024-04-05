@@ -55,7 +55,6 @@ const config = {
   },
   rules: {
     // 0 = off, 1 = warn, 2 = error
-    'no-console': [2, { allow: ['error', 'warn', 'info', 'assert'] }],
     'comma-dangle': ['error', 'only-multiline'],
     'no-var': 2,
     'one-var-declaration-per-line': 2,

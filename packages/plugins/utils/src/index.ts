@@ -7,3 +7,4 @@ export * from './options'
 export * from './package-json'
 export * from './module'
 export * from './build-upload-client'
+console.log('1')
