@@ -1,5 +1,4 @@
 /*eslint no-constant-condition: ["error", { "checkLoops": false }]*/
-
 const N_FIRST_CHARS = '-0123456789.'
 const N_CHARS = '-0123456789.eE+'
 const REF_NAME_CHARS = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
