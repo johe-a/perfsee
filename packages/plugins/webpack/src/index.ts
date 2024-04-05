@@ -26,7 +26,7 @@ import {
   Module,
 } from 'webpack'
 
-import { BundleToolkit, ID, PerfseeReportStats, Reason, StatsParser, hashCode } from '@fe/perfsee-bundle-analyzer'
+import { BundleToolkit, ID, PerfseeReportStats, Reason, StatsParser, hashCode } from '@johefe/perfsee-bundle-analyzer'
 import {
   CommonPluginOptions as Options,
   initOptions,
@@ -35,7 +35,7 @@ import {
   generateReports,
   getBuildEnv,
   catchModuleVersionFromRequest,
-} from '@fe/perfsee-plugin-utils'
+} from '@johefe/perfsee-plugin-utils'
 
 export interface StatsReport {
   reports: string

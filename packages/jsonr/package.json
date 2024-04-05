@@ -1,5 +1,5 @@
 {
-  "name": "@fe/perfsee-jsonr",
+  "name": "@johefe/perfsee-jsonr",
   "version": "1.12.6-alpha.0",
   "description": "JSON with references",
   "sideEffect": false,

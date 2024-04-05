@@ -1,5 +1,5 @@
 {
-  "name": "@fe/perfsee-bundle-analyzer",
+  "name": "@johefe/perfsee-bundle-analyzer",
   "version": "1.12.6-alpha.0",
   "description": "Bundle analyzer by perfsee",
   "sideEffect": false,
@@ -16,8 +16,8 @@
   },
   "dependencies": {
     "@eyhn/msgpack-stream": "^2.8.4",
-    "@fe/perfsee-jsonr": "workspace:*",
-    "@fe/perfsee-utils": "workspace:*",
+    "@johefe/perfsee-jsonr": "workspace:*",
+    "@johefe/perfsee-utils": "workspace:*",
     "acorn": "^8.7.1",
     "acorn-walk": "^8.2.0",
     "htmlparser2": "^8.0.1",

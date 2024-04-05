@@ -21,7 +21,7 @@ import {
   initOptions,
   BuildUploadClient,
   generateReports,
-} from '@fe/perfsee-plugin-utils'
+} from '@johefe/perfsee-plugin-utils'
 
 import { esbuildResult2Stats } from './adaptor'
 import { getOutputPath } from './util'

@@ -2,7 +2,7 @@
  * This is the only file you need to modify
  */
 
-import { Audit, BundleAuditScore } from '@fe/perfsee-bundle-analyzer'
+import { Audit, BundleAuditScore } from '@johefe/perfsee-bundle-analyzer'
 
 const exampleAudit: Audit = ({ chunks }) => {
   const initialAssets = new Set(

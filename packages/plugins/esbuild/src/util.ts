@@ -20,7 +20,7 @@ import { resolve, join, relative, dirname } from 'path'
 import { BuildOptions, Metafile } from 'esbuild'
 import { union } from 'lodash'
 
-import { AssetTypeEnum, BundleModule, detectFileType } from '@fe/perfsee-bundle-analyzer'
+import { AssetTypeEnum, BundleModule, detectFileType } from '@johefe/perfsee-bundle-analyzer'
 
 import { Chunk, Output } from './type'
 

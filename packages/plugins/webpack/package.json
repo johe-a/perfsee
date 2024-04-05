@@ -1,5 +1,5 @@
 {
-  "name": "@fe/perfsee-webpack",
+  "name": "@johefe/perfsee-webpack",
   "version": "1.12.6-alpha.0",
   "description": "perfsee webpack plugin",
   "license": "Apache-2.0",
@@ -18,8 +18,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@fe/perfsee-bundle-analyzer": "workspace:*",
-    "@fe/perfsee-plugin-utils": "workspace:*",
+    "@johefe/perfsee-bundle-analyzer": "workspace:*",
+    "@johefe/perfsee-plugin-utils": "workspace:*",
     "chalk": "^4.1.2",
     "tslib": "^2.4.0"
   },
