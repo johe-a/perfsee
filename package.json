@@ -97,8 +97,8 @@
     "lint": "cross-env NODE_OPTIONS=--max-old-space-size=8192 eslint . --cache --cache-location ./.eslint-cache",
     "circular": "madge --circular --ts-config ./tsconfig.json packages/**/src/index.ts",
     "postinstall": "husky install",
-    "release": "lerna version",
-    "publish": "lerna publish"
+    "version": "lerna version",
+    "publish": "npm publish --workspaces --access=public"
   },
   "packageManager": "yarn@3.4.1"
 }
