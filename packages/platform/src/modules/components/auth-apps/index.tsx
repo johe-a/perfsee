@@ -20,8 +20,8 @@ import { useModule } from '@sigi/react'
 import { fromPairs } from 'lodash'
 import { FC, memo, useCallback, useEffect, useRef } from 'react'
 
-import { useToggleState } from '@perfsee/components'
-import { Permission } from '@perfsee/schema'
+import { useToggleState } from '@fe/perfsee-components'
+import { Permission } from '@fe/perfsee-schema'
 
 import { AddAuthModal } from './add-auth-modal'
 import { AuthApplication, AuthAppsModule } from './module'

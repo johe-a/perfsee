@@ -19,14 +19,14 @@ import { Draft } from 'immer'
 import { Observable } from 'rxjs'
 import { switchMap, map, withLatestFrom, endWith, startWith, exhaustMap, filter } from 'rxjs/operators'
 
-import { GraphQLClient, createErrorCatcher } from '@perfsee/platform/common'
+import { GraphQLClient, createErrorCatcher } from '@fe/perfsee-platform/common'
 import {
   artifactsQuery,
   ArtifactsQuery,
   dispatchArtifactJobMutation,
   BundleJobStatus,
   deleteArtifactMutation,
-} from '@perfsee/schema'
+} from '@fe/perfsee-schema'
 
 import { ProjectModule } from '../../shared'
 

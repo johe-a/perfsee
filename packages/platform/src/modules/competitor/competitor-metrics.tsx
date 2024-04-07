@@ -24,10 +24,10 @@ import {
   renderTooltip,
   TooltipRendererParam,
   formatChartData,
-} from '@perfsee/components/chart'
-import { formatTime } from '@perfsee/platform/common'
-import { useProject } from '@perfsee/platform/modules/shared'
-import { LighthouseScoreMetric } from '@perfsee/shared'
+} from '@fe/perfsee-components/chart'
+import { formatTime } from '@fe/perfsee-platform/common'
+import { useProject } from '@fe/perfsee-platform/modules/shared'
+import { LighthouseScoreMetric } from '@fe/perfsee-shared'
 
 import { MeasureSelector, SnapshotChartTooltip, SnapshotChartItemType } from '../project/statistics/charts/components'
 import { Metrics } from '../project/statistics/charts/utils'

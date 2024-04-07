@@ -1,1 +1,1 @@
-# `@perfsee/iri`
+# `@fe/perfsee-iri`

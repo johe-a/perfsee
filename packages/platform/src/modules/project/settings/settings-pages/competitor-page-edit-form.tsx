@@ -19,7 +19,7 @@ import { useModuleState } from '@sigi/react'
 import { isEqual } from 'lodash'
 import { useCallback, useState, FormEvent } from 'react'
 
-import { MultiSelector, RequiredTextField, URLTextField } from '@perfsee/components'
+import { MultiSelector, RequiredTextField, URLTextField } from '@fe/perfsee-components'
 
 import { CompetitorMaxCount, PageRelation, PageSchema, PropertyModule, UpdatePagePayload } from '../../../shared'
 import { disableSavePage, emptyRelation } from '../helper'

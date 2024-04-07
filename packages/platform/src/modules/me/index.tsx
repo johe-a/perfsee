@@ -19,9 +19,9 @@ import { useModule, useModuleState } from '@sigi/react'
 import { useCallback, useEffect } from 'react'
 import { Link, Switch, useHistory } from 'react-router-dom'
 
-import { BodyContainer, ContentCard, Route } from '@perfsee/components'
-import { serverLink } from '@perfsee/platform/common'
-import { staticPath } from '@perfsee/shared/routes'
+import { BodyContainer, ContentCard, Route } from '@fe/perfsee-components'
+import { serverLink } from '@fe/perfsee-platform/common'
+import { staticPath } from '@fe/perfsee-shared/routes'
 
 import { SecondaryNav } from '../layout'
 import { ConnectedAccount, ConnectedAccountsModule, GlobalModule } from '../shared'

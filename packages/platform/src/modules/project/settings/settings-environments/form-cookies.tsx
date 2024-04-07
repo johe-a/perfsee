@@ -31,9 +31,9 @@ import dayjs from 'dayjs'
 import { capitalize, pick } from 'lodash'
 import { FormEvent, forwardRef, useMemo, useState, useCallback, useImperativeHandle } from 'react'
 
-import { RequiredTextField, TooltipWithEllipsis, useToggleState } from '@perfsee/components'
-import { lighten, SharedColors } from '@perfsee/dls'
-import { CookieSchema } from '@perfsee/platform/modules/shared'
+import { RequiredTextField, TooltipWithEllipsis, useToggleState } from '@fe/perfsee-components'
+import { lighten, SharedColors } from '@fe/perfsee-dls'
+import { CookieSchema } from '@fe/perfsee-platform/modules/shared'
 
 import { NormalToken, TextFieldStyles } from '../style'
 

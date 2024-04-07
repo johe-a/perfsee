@@ -16,11 +16,11 @@ limitations under the License.
 
 import { isNumber, round } from 'lodash'
 
-import templates from '@perfsee/email-templates'
-import { SnapshotReport } from '@perfsee/platform-server/db'
-import { SnapshotStatus } from '@perfsee/server-common'
-import { MetricType } from '@perfsee/shared'
-import { pathFactory } from '@perfsee/shared/routes'
+import templates from '@fe/perfsee-email-templates'
+import { SnapshotReport } from '@fe/perfsee-platform-server/db'
+import { SnapshotStatus } from '@fe/perfsee-server-common'
+import { MetricType } from '@fe/perfsee-shared'
+import { pathFactory } from '@fe/perfsee-shared/routes'
 
 import { SendMailOptions } from '../../../email'
 import { formatTime } from '../../shared'

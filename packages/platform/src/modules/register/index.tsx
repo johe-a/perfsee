@@ -19,9 +19,9 @@ import { useModuleState } from '@sigi/react'
 import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
-import { BodyContainer, useQueryString } from '@perfsee/components'
-import { serverLink } from '@perfsee/platform/common'
-import { staticPath } from '@perfsee/shared/routes'
+import { BodyContainer, useQueryString } from '@fe/perfsee-components'
+import { serverLink } from '@fe/perfsee-platform/common'
+import { staticPath } from '@fe/perfsee-shared/routes'
 
 import { GlobalModule } from '../shared'
 

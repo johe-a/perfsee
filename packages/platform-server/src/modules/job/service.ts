@@ -27,16 +27,16 @@ import {
   PendingJob,
   Runner,
   SnapshotReport,
-} from '@perfsee/platform-server/db'
-import { UserError } from '@perfsee/platform-server/error'
-import { EventEmitter, OnEvent } from '@perfsee/platform-server/event'
-import { InternalIdService } from '@perfsee/platform-server/helpers'
-import { Logger } from '@perfsee/platform-server/logger'
-import { Metric } from '@perfsee/platform-server/metrics'
-import { JobLogStorage } from '@perfsee/platform-server/storage'
-import { createDataLoader } from '@perfsee/platform-server/utils'
-import { CreateJobEvent, JobType, UNKNOWN_RUNNER_ZONE, UpdateJobTraceParams } from '@perfsee/server-common'
-import { JobLog, JobLogLevel } from '@perfsee/shared'
+} from '@fe/perfsee-platform-server/db'
+import { UserError } from '@fe/perfsee-platform-server/error'
+import { EventEmitter, OnEvent } from '@fe/perfsee-platform-server/event'
+import { InternalIdService } from '@fe/perfsee-platform-server/helpers'
+import { Logger } from '@fe/perfsee-platform-server/logger'
+import { Metric } from '@fe/perfsee-platform-server/metrics'
+import { JobLogStorage } from '@fe/perfsee-platform-server/storage'
+import { createDataLoader } from '@fe/perfsee-platform-server/utils'
+import { CreateJobEvent, JobType, UNKNOWN_RUNNER_ZONE, UpdateJobTraceParams } from '@fe/perfsee-server-common'
+import { JobLog, JobLogLevel } from '@fe/perfsee-shared'
 
 import { ApplicationSettingService } from '../application-setting'
 import { ProjectUsageService } from '../project-usage/service'

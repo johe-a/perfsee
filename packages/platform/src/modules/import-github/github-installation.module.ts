@@ -18,8 +18,8 @@ import { Effect, EffectModule, ImmerReducer, Module } from '@sigi/core'
 import { Draft } from 'immer'
 import { endWith, switchMap, map, Observable, startWith } from 'rxjs'
 
-import { createErrorCatcher, GraphQLClient } from '@perfsee/platform/common'
-import { githubInstallationQuery, GithubInstallationQuery } from '@perfsee/schema'
+import { createErrorCatcher, GraphQLClient } from '@fe/perfsee-platform/common'
+import { githubInstallationQuery, GithubInstallationQuery } from '@fe/perfsee-schema'
 
 export type Installation = NonNullable<GithubInstallationQuery['githubInstallation']>
 

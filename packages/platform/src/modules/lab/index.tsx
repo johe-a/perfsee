@@ -16,8 +16,8 @@ limitations under the License.
 
 import { Switch, Redirect } from 'react-router'
 
-import { Route } from '@perfsee/components'
-import { staticPath } from '@perfsee/shared/routes'
+import { Route } from '@fe/perfsee-components'
+import { staticPath } from '@fe/perfsee-shared/routes'
 
 import { ComparisonBox } from '../components/comparison-box'
 import { SnapshotDetail } from '../snapshots'

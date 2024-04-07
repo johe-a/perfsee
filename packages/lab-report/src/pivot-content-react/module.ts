@@ -7,8 +7,8 @@ import {
   prepareProfilingDataFrontendFromExport,
   ReactDevtoolProfilingDataExport,
   ReactDevtoolProfilingDataFrontend,
-} from '@perfsee/flamechart'
-import { createErrorCatcher, RxFetch } from '@perfsee/shared'
+} from '@fe/perfsee-flamechart'
+import { createErrorCatcher, RxFetch } from '@fe/perfsee-shared'
 
 interface State {
   selectedFiberID: number | null

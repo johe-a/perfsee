@@ -27,11 +27,11 @@ import {
   IconWithTips,
   HeaderWithVerticalLineStyles,
   ForeignLink,
-} from '@perfsee/components'
-import { PerformanceTabType } from '@perfsee/lab-report/snapshot-type'
-import { formatTime } from '@perfsee/platform/common'
-import { LighthouseScoreMetric, MetricType } from '@perfsee/shared'
-import { pathFactory } from '@perfsee/shared/routes'
+} from '@fe/perfsee-components'
+import { PerformanceTabType } from '@fe/perfsee-lab-report/snapshot-type'
+import { formatTime } from '@fe/perfsee-platform/common'
+import { LighthouseScoreMetric, MetricType } from '@fe/perfsee-shared'
+import { pathFactory } from '@fe/perfsee-shared/routes'
 
 import { PropertyModule, useProjectRouteGenerator } from '../shared'
 

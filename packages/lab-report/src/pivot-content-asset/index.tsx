@@ -26,9 +26,9 @@ import {
 import { groupBy } from 'lodash'
 import { useState, useCallback, useMemo, useRef, useLayoutEffect, useEffect } from 'react'
 
-import { Table, useQueryString, useWideScreen } from '@perfsee/components'
-import { lighten, SharedColors } from '@perfsee/dls'
-import { RequestSchema } from '@perfsee/shared'
+import { Table, useQueryString, useWideScreen } from '@fe/perfsee-components'
+import { lighten, SharedColors } from '@fe/perfsee-dls'
+import { RequestSchema } from '@fe/perfsee-shared'
 
 import { SnapshotDetailType } from '../snapshot-type'
 

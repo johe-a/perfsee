@@ -21,7 +21,7 @@ import TerserWebpackPlugin from 'terser-webpack-plugin'
 import webpack from 'webpack'
 import { merge } from 'webpack-merge'
 
-import { PerfseePlugin } from '@perfsee/webpack'
+import { PerfseePlugin } from '@fe/perfsee-webpack'
 
 export function runExample(entry: string, webpackConfigToOverride: webpack.Configuration) {
   return new Promise<void>((resolve, reject) => {

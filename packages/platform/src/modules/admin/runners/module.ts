@@ -20,7 +20,7 @@ import { isEqual } from 'lodash'
 import { combineLatest, Observable, of } from 'rxjs'
 import { distinctUntilChanged, endWith, map, mergeMap, startWith, switchMap } from 'rxjs/operators'
 
-import { createErrorCatcher, GraphQLClient } from '@perfsee/platform/common'
+import { createErrorCatcher, GraphQLClient } from '@fe/perfsee-platform/common'
 import {
   updateRunnerMutation,
   runnerQuery,
@@ -32,7 +32,7 @@ import {
   RunnerRunningJobsQuery,
   deleteRunnerMutation,
   UpdateRunnerInput,
-} from '@perfsee/schema'
+} from '@fe/perfsee-schema'
 
 export type RunningJob = RunnerRunningJobsQuery['runner']['runningJobs'][0]
 export type Runner = RunnerInfoFragment & {

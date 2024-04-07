@@ -77,7 +77,7 @@ import {
   CubeShapeIcon,
 } from '@fluentui/react-icons-mdl2'
 
-import { FlameIcon } from '@perfsee/components'
+import { FlameIcon } from '@fe/perfsee-components'
 
 registerIcons({
   icons: {

@@ -14,11 +14,11 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { AssetContent } from '@perfsee/lab-report/pivot-content-asset'
-import { AnalysisReportContent } from '@perfsee/lab-report/pivot-content-performance'
-import { PerformanceTabType, SnapshotDetailType } from '@perfsee/lab-report/snapshot-type'
-import { lazy } from '@perfsee/platform/common'
-import { Trace } from '@perfsee/platform/modules/job-trace'
+import { AssetContent } from '@fe/perfsee-lab-report/pivot-content-asset'
+import { AnalysisReportContent } from '@fe/perfsee-lab-report/pivot-content-performance'
+import { PerformanceTabType, SnapshotDetailType } from '@fe/perfsee-lab-report/snapshot-type'
+import { lazy } from '@fe/perfsee-platform/common'
+import { Trace } from '@fe/perfsee-platform/modules/job-trace'
 
 import { MultiContentOverview, MultiContentBreakdown } from './multi-report'
 import { OverviewPivotContent } from './pivot-content-overview'
@@ -27,18 +27,20 @@ import { UserFlowPivotContent } from './pivot-content-userflow'
 
 export const FlameChartPivotContent = lazy(
   // @ts-expect-error
-  () => import(/* webpackChunkName: "pivot-content-flamechart" */ '@perfsee/lab-report/pivot-content-flamechart'),
+  () => import(/* webpackChunkName: "pivot-content-flamechart" */ '@fe/perfsee-lab-report/pivot-content-flamechart'),
 )
 
 export const SourceCoveragePivotContent = lazy(
   () =>
     // @ts-expect-error
-    import(/* webpackChunkName: "pivot-content-source-coverage" */ '@perfsee/lab-report/pivot-content-source-coverage'),
+    import(
+      /* webpackChunkName: "pivot-content-source-coverage" */ '@fe/perfsee-lab-report/pivot-content-source-coverage'
+    ),
 )
 
 export const ReactPivotContent = lazy(
   // @ts-expect-error
-  () => import(/* webpackChunkName: "pivot-content-react" */ '@perfsee/lab-report/pivot-content-react'),
+  () => import(/* webpackChunkName: "pivot-content-react" */ '@fe/perfsee-lab-report/pivot-content-react'),
 )
 
 type PivotContentProps = {

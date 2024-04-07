@@ -3,14 +3,14 @@ import { merge } from 'lodash'
 import { Response, ResponseInit, BodyInit, RequestInit } from 'node-fetch'
 import Sinon from 'sinon'
 
-import { PartialRunnerConfig, RunnerConfig } from '@perfsee/job-runner-shared'
+import { PartialRunnerConfig, RunnerConfig } from '@fe/perfsee-job-runner-shared'
 import {
   JobRequestResponse,
   RegisterRunnerParams,
   RegisterRunnerResponse,
   UpdateJobTraceParams,
   UpdateJobTraceResponse,
-} from '@perfsee/server-common'
+} from '@fe/perfsee-server-common'
 
 import { PlatformClient } from '../platform-client'
 

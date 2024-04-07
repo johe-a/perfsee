@@ -17,7 +17,7 @@ limitations under the License.
 import fs from 'fs'
 import { join } from 'path'
 
-import { readJSONFile, resolveNodeModulePath } from '@perfsee/bundle-analyzer'
+import { readJSONFile, resolveNodeModulePath } from '@fe/perfsee-bundle-analyzer'
 
 export function getAllPackagesVersions(repoPath: string, modules: Map<string, string>) {
   const versions = []

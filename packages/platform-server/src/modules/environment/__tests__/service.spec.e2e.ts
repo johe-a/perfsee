@@ -1,8 +1,8 @@
 import { faker } from '@faker-js/faker'
 
-import { Project, Environment, SnapshotReport, User } from '@perfsee/platform-server/db'
-import test, { GraphQLTestingClient, initTestDB, create } from '@perfsee/platform-server/test'
-import { deleteEnvironmentMutation, updateEnvironmentMutation } from '@perfsee/schema'
+import { Project, Environment, SnapshotReport, User } from '@fe/perfsee-platform-server/db'
+import test, { GraphQLTestingClient, initTestDB, create } from '@fe/perfsee-platform-server/test'
+import { deleteEnvironmentMutation, updateEnvironmentMutation } from '@fe/perfsee-schema'
 
 import { mockCreateReport } from '../../snapshot/snapshot-report/__tests__/utils'
 

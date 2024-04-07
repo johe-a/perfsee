@@ -25,8 +25,8 @@ import { Theme } from '@emotion/react'
 import styled from '@emotion/styled'
 import { FC, ComponentType } from 'react'
 
-import { Tag } from '@perfsee/components'
-import { SnapshotStatus } from '@perfsee/schema'
+import { Tag } from '@fe/perfsee-components'
+import { SnapshotStatus } from '@fe/perfsee-schema'
 
 const statusIconMap: Record<SnapshotStatus, ComponentType> = {
   [SnapshotStatus.Completed]: CheckCircleOutlined,

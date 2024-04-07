@@ -4043,6 +4043,721 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fe/perfsee-bundle-analyzer@workspace:*, @fe/perfsee-bundle-analyzer@workspace:packages/bundle-analyzer":
+  version: 0.0.0-use.local
+  resolution: "@fe/perfsee-bundle-analyzer@workspace:packages/bundle-analyzer"
+  dependencies:
+    "@eyhn/msgpack-stream": ^2.8.4
+    "@fe/perfsee-jsonr": "workspace:*"
+    "@fe/perfsee-utils": "workspace:*"
+    acorn: ^8.7.1
+    acorn-walk: ^8.2.0
+    htmlparser2: ^8.0.1
+    isolated-vm: ^4.7.2
+    lodash: ^4.17.21
+    query-string: ^7.1.1
+    tar: ^6.1.11
+    tslib: ^2.4.0
+  dependenciesMeta:
+    isolated-vm:
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@fe/perfsee-bundle-report@workspace:*, @fe/perfsee-bundle-report@workspace:packages/bundle-report":
+  version: 0.0.0-use.local
+  resolution: "@fe/perfsee-bundle-report@workspace:packages/bundle-report"
+  dependencies:
+    "@abraham/reflection": ^0.12.0
+    "@ant-design/icons": ^5.0.0
+    "@emotion/react": ^11.9.3
+    "@emotion/styled": ^11.9.3
+    "@fe/perfsee-components": "workspace:*"
+    "@fe/perfsee-dls": "workspace:*"
+    "@fe/perfsee-schema": "workspace:*"
+    "@fe/perfsee-shared": "workspace:*"
+    "@fe/perfsee-treemap": "workspace:*"
+    "@fe/perfsee-utils": "workspace:*"
+    "@fluentui/react": ^8.105.5
+    "@fluentui/theme": ^2.6.22
+    "@mdx-js/react": ^2.1.2
+    "@types/mdx-js__react": ^1.5.5
+    dayjs: ^1.11.3
+    lodash: ^4.17.21
+    query-string: ^7.1.1
+    react-router: ^5.2.1
+    react-router-dom: ^5.3.0
+    shiki: ^1.1.6
+  peerDependencies:
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  languageName: unknown
+  linkType: soft
+
+"@fe/perfsee-chrome-finder@workspace:*, @fe/perfsee-chrome-finder@workspace:packages/chrome-finder":
+  version: 0.0.0-use.local
+  resolution: "@fe/perfsee-chrome-finder@workspace:packages/chrome-finder"
+  dependencies:
+    puppeteer-core: ^21.11.0
+  peerDependencies:
+    puppeteer-core: ">= 13"
+  languageName: unknown
+  linkType: soft
+
+"@fe/perfsee-components@workspace:*, @fe/perfsee-components@workspace:packages/components":
+  version: 0.0.0-use.local
+  resolution: "@fe/perfsee-components@workspace:packages/components"
+  dependencies:
+    "@ant-design/icons": ^5.0.0
+    "@emotion/react": ^11.9.3
+    "@emotion/styled": ^11.9.3
+    "@fe/perfsee-dls": "workspace:*"
+    "@fe/perfsee-schema": "workspace:*"
+    "@fe/perfsee-shared": "workspace:*"
+    "@fe/perfsee-treemap": "workspace:*"
+    "@fluentui/react": ^8.105.5
+    "@fluentui/theme": ^2.6.22
+    "@mdx-js/react": ^2.1.2
+    "@sigi/core": ^2.12.1
+    "@sigi/react": ^2.12.2
+    "@types/react-helmet": ^6.1.5
+    dayjs: ^1.11.3
+    echarts: ^5.3.3
+    immer: ^9.0.15
+    lodash: ^4.17.21
+    query-string: ^7.1.1
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    react-helmet: ^6.1.0
+    react-router: ^5.2.1
+    react-router-dom: ^5.3.0
+    rxjs: ^7.5.6
+  languageName: unknown
+  linkType: soft
+
+"@fe/perfsee-dls@workspace:*, @fe/perfsee-dls@workspace:packages/dls":
+  version: 0.0.0-use.local
+  resolution: "@fe/perfsee-dls@workspace:packages/dls"
+  dependencies:
+    "@emotion/core": ^11.0.0
+    "@emotion/react": ^11.9.3
+    "@fluentui/react": ^8.105.5
+    "@fluentui/theme": ^2.6.22
+    color-converters: ^0.1.1
+    react: ^18.2.0
+  languageName: unknown
+  linkType: soft
+
+"@fe/perfsee-email-templates@workspace:packages/email-templates":
+  version: 0.0.0-use.local
+  resolution: "@fe/perfsee-email-templates@workspace:packages/email-templates"
+  dependencies:
+    "@maizzle/framework": ^4.0.2
+  languageName: unknown
+  linkType: soft
+
+"@fe/perfsee-esbuild@workspace:packages/plugins/esbuild":
+  version: 0.0.0-use.local
+  resolution: "@fe/perfsee-esbuild@workspace:packages/plugins/esbuild"
+  dependencies:
+    "@fe/perfsee-bundle-analyzer": "workspace:*"
+    "@fe/perfsee-package": "workspace:*"
+    "@fe/perfsee-plugin-utils": "workspace:*"
+    chalk: ^4.1.2
+    esbuild: ~0.16.0
+    lodash: ^4.17.21
+    tslib: ^2.4.0
+  peerDependencies:
+    esbuild: "> 0.10"
+  languageName: unknown
+  linkType: soft
+
+"@fe/perfsee-flamechart@workspace:*, @fe/perfsee-flamechart@workspace:packages/flamechart":
+  version: 0.0.0-use.local
+  resolution: "@fe/perfsee-flamechart@workspace:packages/flamechart"
+  dependencies:
+    "@types/react-devtools-inline": ^4.24.3
+    tslib: ^2.4.0
+  peerDependencies:
+    react: ">= 16.8.0"
+    react-dom: ">= 16.8.0"
+  languageName: unknown
+  linkType: soft
+
+"@fe/perfsee-iri@workspace:*, @fe/perfsee-iri@workspace:packages/iri":
+  version: 0.0.0-use.local
+  resolution: "@fe/perfsee-iri@workspace:packages/iri"
+  dependencies:
+    "@napi-rs/cli": ^2.11.4
+  languageName: unknown
+  linkType: soft
+
+"@fe/perfsee-job-runner-bundle@workspace:*, @fe/perfsee-job-runner-bundle@workspace:packages/runner/bundle":
+  version: 0.0.0-use.local
+  resolution: "@fe/perfsee-job-runner-bundle@workspace:packages/runner/bundle"
+  dependencies:
+    "@fe/perfsee-bundle-analyzer": "workspace:*"
+    "@fe/perfsee-job-runner-shared": "workspace:*"
+    "@fe/perfsee-server-common": "workspace:*"
+    "@fe/perfsee-shared": "workspace:*"
+    ts-node: ^10.9.1
+    uuid: ^9.0.0
+  languageName: unknown
+  linkType: soft
+
+"@fe/perfsee-job-runner-lab@workspace:*, @fe/perfsee-job-runner-lab@workspace:packages/runner/lab":
+  version: 0.0.0-use.local
+  resolution: "@fe/perfsee-job-runner-lab@workspace:packages/runner/lab"
+  dependencies:
+    "@fe/perfsee-chrome-finder": "workspace:*"
+    "@fe/perfsee-job-runner-shared": "workspace:*"
+    "@fe/perfsee-shared": "workspace:*"
+    "@fe/perfsee-tracehouse": "workspace:*"
+    "@types/fluent-ffmpeg": ^2.1.20
+    "@types/node-fetch": ^2.5.12
+    "@types/react-devtools-inline": ^4.24.3
+    acorn: ^8.7.1
+    acorn-walk: ^8.2.0
+    fluent-ffmpeg: ^2.1.2
+    jimp: ^0.22.0
+    lighthouse: 11.6.0
+    lighthouse-logger: ^2.0.1
+    lodash: ^4.17.21
+    node-fetch: ^2.6.2
+    puppeteer-core: ^21.11.0
+    ts-node: ^10.9.1
+    uuid: ^9.0.0
+    vm2: ^3.9.11
+  peerDependencies:
+    "@ffmpeg-installer/ffmpeg": ^1.1.0
+  languageName: unknown
+  linkType: soft
+
+"@fe/perfsee-job-runner-package@workspace:*, @fe/perfsee-job-runner-package@workspace:packages/runner/package":
+  version: 0.0.0-use.local
+  resolution: "@fe/perfsee-job-runner-package@workspace:packages/runner/package"
+  dependencies:
+    "@fe/perfsee-job-runner-shared": "workspace:*"
+    "@fe/perfsee-package": "workspace:*"
+    "@fe/perfsee-server-common": "workspace:*"
+    "@fe/perfsee-shared": "workspace:*"
+    ts-node: ^10.9.1
+    uuid: ^9.0.0
+  languageName: unknown
+  linkType: soft
+
+"@fe/perfsee-job-runner-shared@workspace:*, @fe/perfsee-job-runner-shared@workspace:packages/runner/shared":
+  version: 0.0.0-use.local
+  resolution: "@fe/perfsee-job-runner-shared@workspace:packages/runner/shared"
+  dependencies:
+    "@fe/perfsee-iri": "workspace:*"
+    "@fe/perfsee-server-common": "workspace:*"
+    "@fe/perfsee-shared": "workspace:*"
+    "@types/node-fetch": ^2.5.12
+    chalk: ^4.1.2
+    lodash: ^4.17.21
+    node-fetch: ^2.6.2
+    winston: ^3.8.1
+    winston-transport: ^4.5.0
+  languageName: unknown
+  linkType: soft
+
+"@fe/perfsee-job-runner-source@workspace:*, @fe/perfsee-job-runner-source@workspace:packages/runner/source":
+  version: 0.0.0-use.local
+  resolution: "@fe/perfsee-job-runner-source@workspace:packages/runner/source"
+  dependencies:
+    "@fe/perfsee-bundle-analyzer": "workspace:*"
+    "@fe/perfsee-job-runner-shared": "workspace:*"
+    "@fe/perfsee-ori": "workspace:*"
+    "@fe/perfsee-server-common": "workspace:*"
+    "@fe/perfsee-shared": "workspace:*"
+    "@fe/perfsee-source-coverage": "workspace:*"
+    lodash: ^4.17.21
+    ts-node: ^10.9.1
+    uuid: ^9.0.0
+  languageName: unknown
+  linkType: soft
+
+"@fe/perfsee-job-runner@workspace:packages/runner/executor":
+  version: 0.0.0-use.local
+  resolution: "@fe/perfsee-job-runner@workspace:packages/runner/executor"
+  dependencies:
+    "@fe/perfsee-job-runner-bundle": "workspace:*"
+    "@fe/perfsee-job-runner-lab": "workspace:*"
+    "@fe/perfsee-job-runner-package": "workspace:*"
+    "@fe/perfsee-job-runner-shared": "workspace:*"
+    "@fe/perfsee-job-runner-source": "workspace:*"
+    "@fe/perfsee-server-common": "workspace:*"
+    "@fe/perfsee-shared": "workspace:*"
+    "@ffmpeg-installer/ffmpeg": ^1.1.0
+    chalk: ^4.1.2
+    clipanion: ^3.1.0
+    lodash: ^4.17.21
+    node-fetch: ^2.6.2
+    tar: ^6.1.11
+    uuid: ^9.0.0
+    winston: ^3.7.2
+  languageName: unknown
+  linkType: soft
+
+"@fe/perfsee-jsonr@workspace:*, @fe/perfsee-jsonr@workspace:packages/jsonr":
+  version: 0.0.0-use.local
+  resolution: "@fe/perfsee-jsonr@workspace:packages/jsonr"
+  dependencies:
+    "@fe/perfsee-package": "workspace:*"
+    tslib: ^2.4.0
+  languageName: unknown
+  linkType: soft
+
+"@fe/perfsee-lab-report@workspace:*, @fe/perfsee-lab-report@workspace:packages/lab-report":
+  version: 0.0.0-use.local
+  resolution: "@fe/perfsee-lab-report@workspace:packages/lab-report"
+  dependencies:
+    "@abraham/reflection": ^0.12.0
+    "@ant-design/icons": ^5.0.0
+    "@emotion/react": ^11.9.3
+    "@emotion/styled": ^11.9.3
+    "@fe/perfsee-components": "workspace:*"
+    "@fe/perfsee-dls": "workspace:*"
+    "@fe/perfsee-schema": "workspace:*"
+    "@fe/perfsee-shared": "workspace:*"
+    "@fe/perfsee-treemap": "workspace:*"
+    "@fe/perfsee-utils": "workspace:*"
+    "@fluentui/react": ^8.105.5
+    "@fluentui/react-icons-mdl2": ^1.3.31
+    "@fluentui/theme": ^2.6.22
+    "@mdx-js/react": ^2.1.2
+    "@sigi/core": ^2.12.1
+    "@sigi/di": ^2.11.3
+    "@sigi/react": ^2.12.2
+    "@types/mdx-js__react": ^1.5.5
+    dayjs: ^1.11.3
+    echarts: ^5.3.3
+    fuse.js: ^6.6.2
+    immer: ^9.0.15
+    lodash: ^4.17.21
+    query-string: ^7.1.1
+    react-router: ^5.2.1
+    react-virtualized-auto-sizer: ^1.0.7
+    react-window: ^1.8.8
+    rxjs: ^7.5.6
+  peerDependencies:
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  languageName: unknown
+  linkType: soft
+
+"@fe/perfsee-ori@workspace:*, @fe/perfsee-ori@workspace:packages/ori":
+  version: 0.0.0-use.local
+  resolution: "@fe/perfsee-ori@workspace:packages/ori"
+  dependencies:
+    "@napi-rs/cli": ^2.11.4
+  languageName: unknown
+  linkType: soft
+
+"@fe/perfsee-package-build-stats@workspace:*, @fe/perfsee-package-build-stats@workspace:packages/package-build-stats":
+  version: 0.0.0-use.local
+  resolution: "@fe/perfsee-package-build-stats@workspace:packages/package-build-stats"
+  dependencies:
+    "@babel/core": ^7.13.8
+    "@babel/parser": ^7.13.9
+    "@babel/plugin-proposal-export-default-from": ^7.12.13
+    "@babel/preset-env": ^7.13.9
+    "@babel/preset-typescript": ^7.13.0
+    "@babel/traverse": ^7.13.0
+    "@babel/types": ^7.21.4
+    "@types/autoprefixer": 9
+    "@types/babel__traverse": ^7.11.0
+    "@types/enhanced-resolve": ^3.0.6
+    "@types/lodash": ^4.14.168
+    "@types/memory-fs": ^0.3.2
+    "@types/mini-css-extract-plugin": ^1.2.2
+    "@types/node": ^14.14.31
+    "@types/rimraf": ^3.0.0
+    "@types/shortid": ^0.0.29
+    "@types/stats-lite": ^2.2.0
+    "@types/terser-webpack-plugin": 4
+    "@types/webpack": ^4.41.26
+    "@types/write-file-webpack-plugin": ^4.5.0
+    autoprefixer: ^9.7.6
+    babel-eslint: ^10.1.0
+    babel-loader: ^8.3.0
+    builtin-modules: ^3.1.0
+    css-loader: ^4.3.0
+    cssnano: ^4.1.10
+    csso-webpack-plugin: ^2.0.0-beta.1
+    debug: ^4.2.0
+    dotenv: ^8.2.0
+    enhanced-resolve: ^5.7.0
+    esbuild: ^0.11.4
+    esbuild-loader: ^2.11.0
+    escape-string-regexp: ^2.0.0
+    fast-safe-stringify: ^2.0.7
+    file-loader: ^6.1.1
+    husky: ^4.3.0
+    is-valid-npm-name: ^0.0.5
+    jest: ^28.1.3
+    less: ^4.1.1
+    less-loader: ^7.3.0
+    lodash: ^4.17.21
+    memory-fs: ^0.5.0
+    mini-css-extract-plugin: ^1.3.9
+    mitt: ^2.1.0
+    node-fetch: ^2.6.1
+    np: ^7.4.0
+    optimize-css-assets-webpack-plugin: ^5.0.4
+    p-series: ^2.1.0
+    performance-now: ^2.1.0
+    pify: ^5.0.0
+    postcss-loader: ^3.0.0
+    prettier: ^2.1.2
+    pretty-quick: ^3.1.0
+    rimraf: ^3.0.2
+    sanitize-filename: ^1.6.3
+    sass: ^1.52.3
+    sass-loader: ^8.0.2
+    server: ^1.0.32
+    shebang-loader: ^0.0.1
+    shortid: ^2.2.15
+    stats-lite: ^2.1.0
+    string-replace-loader: ^3.0.1
+    svelte: ^3.35.0
+    svelte-loader: ^2.13.6
+    terser: ^5.6.0
+    terser-webpack-plugin: ^4.2.3
+    ts-node: ^10.9.1
+    ts-node-dev: ^2.0.0
+    typescript: ^4.2.3
+    vm2: ^3.9.7
+    webpack: ^4.44.2
+    webpack-merge: ^5.9.0
+    write-file-webpack-plugin: ^4.5.1
+  languageName: unknown
+  linkType: soft
+
+"@fe/perfsee-package-report@workspace:*, @fe/perfsee-package-report@workspace:packages/package-report":
+  version: 0.0.0-use.local
+  resolution: "@fe/perfsee-package-report@workspace:packages/package-report"
+  dependencies:
+    "@abraham/reflection": ^0.12.0
+    "@ant-design/icons": ^5.0.0
+    "@emotion/react": ^11.9.3
+    "@emotion/styled": ^11.9.3
+    "@fe/perfsee-components": "workspace:*"
+    "@fe/perfsee-dls": "workspace:*"
+    "@fe/perfsee-schema": "workspace:*"
+    "@fe/perfsee-shared": "workspace:*"
+    "@fe/perfsee-utils": "workspace:*"
+    "@fluentui/react": ^8.105.5
+    "@fluentui/theme": ^2.6.22
+    "@mdx-js/react": ^2.1.2
+    "@types/mdx-js__react": ^1.5.5
+    dayjs: ^1.11.3
+    lodash: ^4.17.21
+    query-string: ^7.1.1
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    react-router: ^5.2.1
+    react-router-dom: ^5.3.0
+  languageName: unknown
+  linkType: soft
+
+"@fe/perfsee-package@workspace:*, @fe/perfsee-package@workspace:packages/package":
+  version: 0.0.0-use.local
+  resolution: "@fe/perfsee-package@workspace:packages/package"
+  dependencies:
+    "@arrows/composition": ^1.2.2
+    "@arrows/dispatch": ^1.0.3
+    "@fe/perfsee-chrome-finder": "workspace:*"
+    "@fe/perfsee-package-build-stats": "workspace:*"
+    "@fe/perfsee-utils": "workspace:*"
+    "@types/benchmark": ^2.1.2
+    benchmark: ^2.1.4
+    chalk: ^4.1.2
+    clipanion: ^3.1.0
+    env-ci: ^7.2.1
+    esbuild: ^0.17.11
+    find-cache-dir: ^3.3.2
+    glob: ^9.2.1
+    node-fetch: ^2.6.2
+    open: ^8.4.2
+    package-json-type: ^1.0.3
+    puppeteer-core: ^21.11.0
+    simple-git: ^3.15.0
+    tar: ^6.1.13
+    ts-node: ^10.9.1
+    tslib: ^2.5.0
+  bin:
+    perfsee-package: ./bin/cli.js
+  languageName: unknown
+  linkType: soft
+
+"@fe/perfsee-platform-server@workspace:packages/platform-server":
+  version: 0.0.0-use.local
+  resolution: "@fe/perfsee-platform-server@workspace:packages/platform-server"
+  dependencies:
+    "@apollo/server": ^4.6.0
+    "@aws-sdk/client-s3": ^3.449.0
+    "@aws-sdk/lib-storage": ^3.449.0
+    "@faker-js/faker": ^7.3.0
+    "@fe/perfsee-schema": "workspace:*"
+    "@fe/perfsee-server-common": "workspace:*"
+    "@fe/perfsee-shared": "workspace:*"
+    "@nestjs/apollo": ^11.0.5
+    "@nestjs/common": ^9.4.0
+    "@nestjs/core": ^9.4.0
+    "@nestjs/event-emitter": ^1.4.1
+    "@nestjs/graphql": ^11.0.5
+    "@nestjs/platform-express": ^9.4.0
+    "@nestjs/schedule": ^2.2.1
+    "@nestjs/serve-static": ^3.0.1
+    "@nestjs/swagger": ^7.3.0
+    "@nestjs/terminus": ^9.2.2
+    "@nestjs/testing": ^9.4.0
+    "@nestjs/throttler": ^4.0.0
+    "@nestjs/typeorm": ^9.0.1
+    "@types/debug": ^4.1.7
+    "@types/express-session": ^1.17.5
+    "@types/json-bigint": ^1.0.1
+    "@types/nodemailer": ^6.4.4
+    "@types/redlock": ^4.0.3
+    "@types/uuid": ^9.0.0
+    ava: ^5.0.0
+    body-parser: ^1.20.2
+    chalk: ^4.1.2
+    clipanion: ^3.1.0
+    dataloader: ^2.1.0
+    dayjs: ^1.11.3
+    debug: ^4.3.4
+    dotenv: ^16.0.1
+    express: ^4.18.2
+    express-session: ^1.17.3
+    file-type: ^16.5.4
+    form-data: ^4.0.0
+    graphql: ^16.6.0
+    graphql-type-json: ^0.3.2
+    ioredis: ^5.3.2
+    json-bigint: ^1.0.0
+    lodash: ^4.17.21
+    mysql2: ^2.3.3
+    nest-router: ^1.0.9
+    node-abort-controller: ^3.0.1
+    node-fetch: ^2.6.2
+    nodemailer: ^6.7.7
+    prom-client: 14.1.1
+    query-string: ^7.1.1
+    redlock: ^4.2.0
+    reflect-metadata: 0.2.1
+    rxjs: ^7.5.6
+    sinon: ^15.0.0
+    supertest: ^6.3.3
+    ts-morph: ^15.1.0
+    typeorm: ^0.3.15
+    uuid: ^9.0.0
+  languageName: unknown
+  linkType: soft
+
+"@fe/perfsee-platform@workspace:packages/platform":
+  version: 0.0.0-use.local
+  resolution: "@fe/perfsee-platform@workspace:packages/platform"
+  dependencies:
+    "@abraham/reflection": ^0.12.0
+    "@ant-design/icons": ^5.0.0
+    "@emotion/css": ^11.9.0
+    "@emotion/react": ^11.9.3
+    "@emotion/styled": ^11.9.3
+    "@fe/perfsee-bundle-report": "workspace:*"
+    "@fe/perfsee-dls": "workspace:*"
+    "@fe/perfsee-flamechart": "workspace:*"
+    "@fe/perfsee-lab-report": "workspace:*"
+    "@fe/perfsee-package-report": "workspace:*"
+    "@fe/perfsee-schema": "workspace:*"
+    "@fe/perfsee-shared": "workspace:*"
+    "@fe/perfsee-tracehouse": "workspace:*"
+    "@fe/perfsee-treemap": "workspace:*"
+    "@fluentui/react": ^8.105.5
+    "@fluentui/react-hooks": ^8.6.16
+    "@fluentui/react-icons-mdl2": ^1.3.31
+    "@fluentui/theme": ^2.6.22
+    "@fluentui/utilities": ^8.13.6
+    "@mdx-js/react": ^2.1.2
+    "@sigi/core": ^2.12.1
+    "@sigi/devtool": ^2.12.1
+    "@sigi/di": ^2.11.3
+    "@sigi/react": ^2.12.2
+    "@types/mdx-js__react": ^1.5.5
+    "@types/react": ^18.0.15
+    "@types/react-dom": ^18.0.6
+    "@types/react-router": ^5.1.17
+    "@types/react-router-dom": ^5.3.2
+    "@types/react-virtualized-auto-sizer": 1.0.1
+    "@types/react-window": ^1.8.5
+    color: ^4.2.3
+    color-converters: ^0.1.1
+    dayjs: ^1.11.3
+    echarts: ^5.3.3
+    fuse.js: ^6.6.2
+    graphql: ^16.0.0
+    immer: ^9.0.15
+    lodash: ^4.17.21
+    modern-css-reset: ^1.4.0
+    path-to-regexp: ^1.8.0
+    query-string: ^7.1.1
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    react-router: ^5.2.1
+    react-router-dom: ^5.3.0
+    react-virtualized-auto-sizer: ^1.0.7
+    react-window: ^1.8.8
+    rxjs: ^7.5.6
+  languageName: unknown
+  linkType: soft
+
+"@fe/perfsee-plugin-utils@workspace:*, @fe/perfsee-plugin-utils@workspace:packages/plugins/utils":
+  version: 0.0.0-use.local
+  resolution: "@fe/perfsee-plugin-utils@workspace:packages/plugins/utils"
+  dependencies:
+    "@fe/perfsee-bundle-analyzer": "workspace:*"
+    "@fe/perfsee-jsonr": "workspace:*"
+    "@fe/perfsee-utils": "workspace:*"
+    "@types/env-ci": ^3.1.1
+    "@types/find-cache-dir": ^3.2.1
+    "@types/node-fetch": ^2.5.12
+    "@types/table": ^6.3.2
+    "@types/uuid": ^9.0.0
+    chalk: ^4.1.2
+    debug: 4.3.4
+    env-ci: ^7.2.1
+    find-cache-dir: ^3.3.2
+    lodash: ^4.17.21
+    node-fetch: ^2.6.2
+    open: ^8.4.2
+    query-string: ^7.1.1
+    simple-git: ^3.15.0
+    table: ^6.8.0
+    tar: ^6.1.11
+    tslib: ^2.4.0
+    uuid: ^9.0.0
+  languageName: unknown
+  linkType: soft
+
+"@fe/perfsee-rollup@workspace:packages/plugins/rollup":
+  version: 0.0.0-use.local
+  resolution: "@fe/perfsee-rollup@workspace:packages/plugins/rollup"
+  dependencies:
+    "@fe/perfsee-bundle-analyzer": "workspace:*"
+    "@fe/perfsee-package": "workspace:*"
+    "@fe/perfsee-plugin-utils": "workspace:*"
+    chalk: ^4.1.2
+    lodash: ^4.17.21
+    rollup: ^2.77.0
+    tslib: ^2.4.0
+  peerDependencies:
+    rollup: ">2"
+  languageName: unknown
+  linkType: soft
+
+"@fe/perfsee-schema@workspace:*, @fe/perfsee-schema@workspace:packages/schema":
+  version: 0.0.0-use.local
+  resolution: "@fe/perfsee-schema@workspace:packages/schema"
+  languageName: unknown
+  linkType: soft
+
+"@fe/perfsee-sdk@workspace:packages/sdk":
+  version: 0.0.0-use.local
+  resolution: "@fe/perfsee-sdk@workspace:packages/sdk"
+  dependencies:
+    "@fe/perfsee-schema": "workspace:*"
+    "@fe/perfsee-shared": "workspace:*"
+    chalk: ^4.1.2
+    clipanion: ^3.1.0
+    graphql: ^16.0.0
+    lodash: ^4.17.21
+    node-fetch: ^2.6.2
+    simple-git: ^3.15.0
+  bin:
+    perfsee: ./bin/cli.js
+  languageName: unknown
+  linkType: soft
+
+"@fe/perfsee-server-common@workspace:*, @fe/perfsee-server-common@workspace:packages/server-common":
+  version: 0.0.0-use.local
+  resolution: "@fe/perfsee-server-common@workspace:packages/server-common"
+  dependencies:
+    "@fe/perfsee-shared": "workspace:*"
+  languageName: unknown
+  linkType: soft
+
+"@fe/perfsee-shared@workspace:*, @fe/perfsee-shared@workspace:packages/shared":
+  version: 0.0.0-use.local
+  resolution: "@fe/perfsee-shared@workspace:packages/shared"
+  dependencies:
+    "@fe/perfsee-bundle-analyzer": "workspace:*"
+    "@fe/perfsee-flamechart": "workspace:*"
+    "@fe/perfsee-package": "workspace:*"
+    "@fe/perfsee-plugin-utils": "workspace:*"
+    "@fe/perfsee-tracehouse": "workspace:*"
+    "@fe/perfsee-utils": "workspace:*"
+    "@fluentui/react": ^8.105.5
+    "@sigi/di": ^2.11.3
+    dayjs: ^1.11.3
+    graphql: ^16.0.0
+    lodash: ^4.17.21
+    query-string: ^7.1.1
+    react: ^18.2.0
+    rxjs: ^7.5.6
+  languageName: unknown
+  linkType: soft
+
+"@fe/perfsee-source-coverage@workspace:*, @fe/perfsee-source-coverage@workspace:packages/source-coverage":
+  version: 0.0.0-use.local
+  resolution: "@fe/perfsee-source-coverage@workspace:packages/source-coverage"
+  dependencies:
+    lighthouse: 11.6.0
+  languageName: unknown
+  linkType: soft
+
+"@fe/perfsee-tracehouse@workspace:*, @fe/perfsee-tracehouse@workspace:packages/tracehouse":
+  version: 0.0.0-use.local
+  resolution: "@fe/perfsee-tracehouse@workspace:packages/tracehouse"
+  dependencies:
+    lighthouse: 11.6.0
+  languageName: unknown
+  linkType: soft
+
+"@fe/perfsee-treemap@workspace:*, @fe/perfsee-treemap@workspace:packages/treemap":
+  version: 0.0.0-use.local
+  resolution: "@fe/perfsee-treemap@workspace:packages/treemap"
+  dependencies:
+    "@types/d3-hierarchy": ^3.1.0
+    d3-hierarchy: ^3.1.2
+    tslib: ^2.4.0
+    twgl.js: ^5.0.0
+  languageName: unknown
+  linkType: soft
+
+"@fe/perfsee-utils@workspace:*, @fe/perfsee-utils@workspace:packages/utils":
+  version: 0.0.0-use.local
+  resolution: "@fe/perfsee-utils@workspace:packages/utils"
+  dependencies:
+    tslib: ^2.4.0
+  languageName: unknown
+  linkType: soft
+
+"@fe/perfsee-webpack@workspace:packages/plugins/webpack":
+  version: 0.0.0-use.local
+  resolution: "@fe/perfsee-webpack@workspace:packages/plugins/webpack"
+  dependencies:
+    "@fe/perfsee-bundle-analyzer": "workspace:*"
+    "@fe/perfsee-package": "workspace:*"
+    "@fe/perfsee-plugin-utils": "workspace:*"
+    chalk: ^4.1.2
+    tslib: ^2.4.0
+  peerDependencies:
+    webpack: ">= 4"
+  languageName: unknown
+  linkType: soft
+
 "@ffmpeg-installer/darwin-arm64@npm:4.1.5":
   version: 4.1.5
   resolution: "@ffmpeg-installer/darwin-arm64@npm:4.1.5"
@@ -7604,721 +8319,6 @@ __metadata:
   checksum: 3a7a3c8f253170436f353a61b807d2e2e7a686e6a9607487fde6459ddfff34c8000414287a6cd904bd81e002ce4564811b3c7789a0fd932cf015df6c4002fd02
   languageName: node
   linkType: hard
-
-"@perfsee/bundle-analyzer@workspace:*, @perfsee/bundle-analyzer@workspace:packages/bundle-analyzer":
-  version: 0.0.0-use.local
-  resolution: "@perfsee/bundle-analyzer@workspace:packages/bundle-analyzer"
-  dependencies:
-    "@eyhn/msgpack-stream": ^2.8.4
-    "@perfsee/jsonr": "workspace:*"
-    "@perfsee/utils": "workspace:*"
-    acorn: ^8.7.1
-    acorn-walk: ^8.2.0
-    htmlparser2: ^8.0.1
-    isolated-vm: ^4.7.2
-    lodash: ^4.17.21
-    query-string: ^7.1.1
-    tar: ^6.1.11
-    tslib: ^2.4.0
-  dependenciesMeta:
-    isolated-vm:
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@perfsee/bundle-report@workspace:*, @perfsee/bundle-report@workspace:packages/bundle-report":
-  version: 0.0.0-use.local
-  resolution: "@perfsee/bundle-report@workspace:packages/bundle-report"
-  dependencies:
-    "@abraham/reflection": ^0.12.0
-    "@ant-design/icons": ^5.0.0
-    "@emotion/react": ^11.9.3
-    "@emotion/styled": ^11.9.3
-    "@fluentui/react": ^8.105.5
-    "@fluentui/theme": ^2.6.22
-    "@mdx-js/react": ^2.1.2
-    "@perfsee/components": "workspace:*"
-    "@perfsee/dls": "workspace:*"
-    "@perfsee/schema": "workspace:*"
-    "@perfsee/shared": "workspace:*"
-    "@perfsee/treemap": "workspace:*"
-    "@perfsee/utils": "workspace:*"
-    "@types/mdx-js__react": ^1.5.5
-    dayjs: ^1.11.3
-    lodash: ^4.17.21
-    query-string: ^7.1.1
-    react-router: ^5.2.1
-    react-router-dom: ^5.3.0
-    shiki: ^1.1.6
-  peerDependencies:
-    react: ^18.2.0
-    react-dom: ^18.2.0
-  languageName: unknown
-  linkType: soft
-
-"@perfsee/chrome-finder@workspace:*, @perfsee/chrome-finder@workspace:packages/chrome-finder":
-  version: 0.0.0-use.local
-  resolution: "@perfsee/chrome-finder@workspace:packages/chrome-finder"
-  dependencies:
-    puppeteer-core: ^21.11.0
-  peerDependencies:
-    puppeteer-core: ">= 13"
-  languageName: unknown
-  linkType: soft
-
-"@perfsee/components@workspace:*, @perfsee/components@workspace:packages/components":
-  version: 0.0.0-use.local
-  resolution: "@perfsee/components@workspace:packages/components"
-  dependencies:
-    "@ant-design/icons": ^5.0.0
-    "@emotion/react": ^11.9.3
-    "@emotion/styled": ^11.9.3
-    "@fluentui/react": ^8.105.5
-    "@fluentui/theme": ^2.6.22
-    "@mdx-js/react": ^2.1.2
-    "@perfsee/dls": "workspace:*"
-    "@perfsee/schema": "workspace:*"
-    "@perfsee/shared": "workspace:*"
-    "@perfsee/treemap": "workspace:*"
-    "@sigi/core": ^2.12.1
-    "@sigi/react": ^2.12.2
-    "@types/react-helmet": ^6.1.5
-    dayjs: ^1.11.3
-    echarts: ^5.3.3
-    immer: ^9.0.15
-    lodash: ^4.17.21
-    query-string: ^7.1.1
-    react: ^18.2.0
-    react-dom: ^18.2.0
-    react-helmet: ^6.1.0
-    react-router: ^5.2.1
-    react-router-dom: ^5.3.0
-    rxjs: ^7.5.6
-  languageName: unknown
-  linkType: soft
-
-"@perfsee/dls@workspace:*, @perfsee/dls@workspace:packages/dls":
-  version: 0.0.0-use.local
-  resolution: "@perfsee/dls@workspace:packages/dls"
-  dependencies:
-    "@emotion/core": ^11.0.0
-    "@emotion/react": ^11.9.3
-    "@fluentui/react": ^8.105.5
-    "@fluentui/theme": ^2.6.22
-    color-converters: ^0.1.1
-    react: ^18.2.0
-  languageName: unknown
-  linkType: soft
-
-"@perfsee/email-templates@workspace:packages/email-templates":
-  version: 0.0.0-use.local
-  resolution: "@perfsee/email-templates@workspace:packages/email-templates"
-  dependencies:
-    "@maizzle/framework": ^4.0.2
-  languageName: unknown
-  linkType: soft
-
-"@perfsee/esbuild@workspace:packages/plugins/esbuild":
-  version: 0.0.0-use.local
-  resolution: "@perfsee/esbuild@workspace:packages/plugins/esbuild"
-  dependencies:
-    "@perfsee/bundle-analyzer": "workspace:*"
-    "@perfsee/package": "workspace:*"
-    "@perfsee/plugin-utils": "workspace:*"
-    chalk: ^4.1.2
-    esbuild: ~0.16.0
-    lodash: ^4.17.21
-    tslib: ^2.4.0
-  peerDependencies:
-    esbuild: "> 0.10"
-  languageName: unknown
-  linkType: soft
-
-"@perfsee/flamechart@workspace:*, @perfsee/flamechart@workspace:packages/flamechart":
-  version: 0.0.0-use.local
-  resolution: "@perfsee/flamechart@workspace:packages/flamechart"
-  dependencies:
-    "@types/react-devtools-inline": ^4.24.3
-    tslib: ^2.4.0
-  peerDependencies:
-    react: ">= 16.8.0"
-    react-dom: ">= 16.8.0"
-  languageName: unknown
-  linkType: soft
-
-"@perfsee/iri@workspace:*, @perfsee/iri@workspace:packages/iri":
-  version: 0.0.0-use.local
-  resolution: "@perfsee/iri@workspace:packages/iri"
-  dependencies:
-    "@napi-rs/cli": ^2.11.4
-  languageName: unknown
-  linkType: soft
-
-"@perfsee/job-runner-bundle@workspace:*, @perfsee/job-runner-bundle@workspace:packages/runner/bundle":
-  version: 0.0.0-use.local
-  resolution: "@perfsee/job-runner-bundle@workspace:packages/runner/bundle"
-  dependencies:
-    "@perfsee/bundle-analyzer": "workspace:*"
-    "@perfsee/job-runner-shared": "workspace:*"
-    "@perfsee/server-common": "workspace:*"
-    "@perfsee/shared": "workspace:*"
-    ts-node: ^10.9.1
-    uuid: ^9.0.0
-  languageName: unknown
-  linkType: soft
-
-"@perfsee/job-runner-lab@workspace:*, @perfsee/job-runner-lab@workspace:packages/runner/lab":
-  version: 0.0.0-use.local
-  resolution: "@perfsee/job-runner-lab@workspace:packages/runner/lab"
-  dependencies:
-    "@perfsee/chrome-finder": "workspace:*"
-    "@perfsee/job-runner-shared": "workspace:*"
-    "@perfsee/shared": "workspace:*"
-    "@perfsee/tracehouse": "workspace:*"
-    "@types/fluent-ffmpeg": ^2.1.20
-    "@types/node-fetch": ^2.5.12
-    "@types/react-devtools-inline": ^4.24.3
-    acorn: ^8.7.1
-    acorn-walk: ^8.2.0
-    fluent-ffmpeg: ^2.1.2
-    jimp: ^0.22.0
-    lighthouse: 11.6.0
-    lighthouse-logger: ^2.0.1
-    lodash: ^4.17.21
-    node-fetch: ^2.6.2
-    puppeteer-core: ^21.11.0
-    ts-node: ^10.9.1
-    uuid: ^9.0.0
-    vm2: ^3.9.11
-  peerDependencies:
-    "@ffmpeg-installer/ffmpeg": ^1.1.0
-  languageName: unknown
-  linkType: soft
-
-"@perfsee/job-runner-package@workspace:*, @perfsee/job-runner-package@workspace:packages/runner/package":
-  version: 0.0.0-use.local
-  resolution: "@perfsee/job-runner-package@workspace:packages/runner/package"
-  dependencies:
-    "@perfsee/job-runner-shared": "workspace:*"
-    "@perfsee/package": "workspace:*"
-    "@perfsee/server-common": "workspace:*"
-    "@perfsee/shared": "workspace:*"
-    ts-node: ^10.9.1
-    uuid: ^9.0.0
-  languageName: unknown
-  linkType: soft
-
-"@perfsee/job-runner-shared@workspace:*, @perfsee/job-runner-shared@workspace:packages/runner/shared":
-  version: 0.0.0-use.local
-  resolution: "@perfsee/job-runner-shared@workspace:packages/runner/shared"
-  dependencies:
-    "@perfsee/iri": "workspace:*"
-    "@perfsee/server-common": "workspace:*"
-    "@perfsee/shared": "workspace:*"
-    "@types/node-fetch": ^2.5.12
-    chalk: ^4.1.2
-    lodash: ^4.17.21
-    node-fetch: ^2.6.2
-    winston: ^3.8.1
-    winston-transport: ^4.5.0
-  languageName: unknown
-  linkType: soft
-
-"@perfsee/job-runner-source@workspace:*, @perfsee/job-runner-source@workspace:packages/runner/source":
-  version: 0.0.0-use.local
-  resolution: "@perfsee/job-runner-source@workspace:packages/runner/source"
-  dependencies:
-    "@perfsee/bundle-analyzer": "workspace:*"
-    "@perfsee/job-runner-shared": "workspace:*"
-    "@perfsee/ori": "workspace:*"
-    "@perfsee/server-common": "workspace:*"
-    "@perfsee/shared": "workspace:*"
-    "@perfsee/source-coverage": "workspace:*"
-    lodash: ^4.17.21
-    ts-node: ^10.9.1
-    uuid: ^9.0.0
-  languageName: unknown
-  linkType: soft
-
-"@perfsee/job-runner@workspace:packages/runner/executor":
-  version: 0.0.0-use.local
-  resolution: "@perfsee/job-runner@workspace:packages/runner/executor"
-  dependencies:
-    "@ffmpeg-installer/ffmpeg": ^1.1.0
-    "@perfsee/job-runner-bundle": "workspace:*"
-    "@perfsee/job-runner-lab": "workspace:*"
-    "@perfsee/job-runner-package": "workspace:*"
-    "@perfsee/job-runner-shared": "workspace:*"
-    "@perfsee/job-runner-source": "workspace:*"
-    "@perfsee/server-common": "workspace:*"
-    "@perfsee/shared": "workspace:*"
-    chalk: ^4.1.2
-    clipanion: ^3.1.0
-    lodash: ^4.17.21
-    node-fetch: ^2.6.2
-    tar: ^6.1.11
-    uuid: ^9.0.0
-    winston: ^3.7.2
-  languageName: unknown
-  linkType: soft
-
-"@perfsee/jsonr@workspace:*, @perfsee/jsonr@workspace:packages/jsonr":
-  version: 0.0.0-use.local
-  resolution: "@perfsee/jsonr@workspace:packages/jsonr"
-  dependencies:
-    "@perfsee/package": "workspace:*"
-    tslib: ^2.4.0
-  languageName: unknown
-  linkType: soft
-
-"@perfsee/lab-report@workspace:*, @perfsee/lab-report@workspace:packages/lab-report":
-  version: 0.0.0-use.local
-  resolution: "@perfsee/lab-report@workspace:packages/lab-report"
-  dependencies:
-    "@abraham/reflection": ^0.12.0
-    "@ant-design/icons": ^5.0.0
-    "@emotion/react": ^11.9.3
-    "@emotion/styled": ^11.9.3
-    "@fluentui/react": ^8.105.5
-    "@fluentui/react-icons-mdl2": ^1.3.31
-    "@fluentui/theme": ^2.6.22
-    "@mdx-js/react": ^2.1.2
-    "@perfsee/components": "workspace:*"
-    "@perfsee/dls": "workspace:*"
-    "@perfsee/schema": "workspace:*"
-    "@perfsee/shared": "workspace:*"
-    "@perfsee/treemap": "workspace:*"
-    "@perfsee/utils": "workspace:*"
-    "@sigi/core": ^2.12.1
-    "@sigi/di": ^2.11.3
-    "@sigi/react": ^2.12.2
-    "@types/mdx-js__react": ^1.5.5
-    dayjs: ^1.11.3
-    echarts: ^5.3.3
-    fuse.js: ^6.6.2
-    immer: ^9.0.15
-    lodash: ^4.17.21
-    query-string: ^7.1.1
-    react-router: ^5.2.1
-    react-virtualized-auto-sizer: ^1.0.7
-    react-window: ^1.8.8
-    rxjs: ^7.5.6
-  peerDependencies:
-    react: ^18.2.0
-    react-dom: ^18.2.0
-  languageName: unknown
-  linkType: soft
-
-"@perfsee/ori@workspace:*, @perfsee/ori@workspace:packages/ori":
-  version: 0.0.0-use.local
-  resolution: "@perfsee/ori@workspace:packages/ori"
-  dependencies:
-    "@napi-rs/cli": ^2.11.4
-  languageName: unknown
-  linkType: soft
-
-"@perfsee/package-build-stats@workspace:*, @perfsee/package-build-stats@workspace:packages/package-build-stats":
-  version: 0.0.0-use.local
-  resolution: "@perfsee/package-build-stats@workspace:packages/package-build-stats"
-  dependencies:
-    "@babel/core": ^7.13.8
-    "@babel/parser": ^7.13.9
-    "@babel/plugin-proposal-export-default-from": ^7.12.13
-    "@babel/preset-env": ^7.13.9
-    "@babel/preset-typescript": ^7.13.0
-    "@babel/traverse": ^7.13.0
-    "@babel/types": ^7.21.4
-    "@types/autoprefixer": 9
-    "@types/babel__traverse": ^7.11.0
-    "@types/enhanced-resolve": ^3.0.6
-    "@types/lodash": ^4.14.168
-    "@types/memory-fs": ^0.3.2
-    "@types/mini-css-extract-plugin": ^1.2.2
-    "@types/node": ^14.14.31
-    "@types/rimraf": ^3.0.0
-    "@types/shortid": ^0.0.29
-    "@types/stats-lite": ^2.2.0
-    "@types/terser-webpack-plugin": 4
-    "@types/webpack": ^4.41.26
-    "@types/write-file-webpack-plugin": ^4.5.0
-    autoprefixer: ^9.7.6
-    babel-eslint: ^10.1.0
-    babel-loader: ^8.3.0
-    builtin-modules: ^3.1.0
-    css-loader: ^4.3.0
-    cssnano: ^4.1.10
-    csso-webpack-plugin: ^2.0.0-beta.1
-    debug: ^4.2.0
-    dotenv: ^8.2.0
-    enhanced-resolve: ^5.7.0
-    esbuild: ^0.11.4
-    esbuild-loader: ^2.11.0
-    escape-string-regexp: ^2.0.0
-    fast-safe-stringify: ^2.0.7
-    file-loader: ^6.1.1
-    husky: ^4.3.0
-    is-valid-npm-name: ^0.0.5
-    jest: ^28.1.3
-    less: ^4.1.1
-    less-loader: ^7.3.0
-    lodash: ^4.17.21
-    memory-fs: ^0.5.0
-    mini-css-extract-plugin: ^1.3.9
-    mitt: ^2.1.0
-    node-fetch: ^2.6.1
-    np: ^7.4.0
-    optimize-css-assets-webpack-plugin: ^5.0.4
-    p-series: ^2.1.0
-    performance-now: ^2.1.0
-    pify: ^5.0.0
-    postcss-loader: ^3.0.0
-    prettier: ^2.1.2
-    pretty-quick: ^3.1.0
-    rimraf: ^3.0.2
-    sanitize-filename: ^1.6.3
-    sass: ^1.52.3
-    sass-loader: ^8.0.2
-    server: ^1.0.32
-    shebang-loader: ^0.0.1
-    shortid: ^2.2.15
-    stats-lite: ^2.1.0
-    string-replace-loader: ^3.0.1
-    svelte: ^3.35.0
-    svelte-loader: ^2.13.6
-    terser: ^5.6.0
-    terser-webpack-plugin: ^4.2.3
-    ts-node: ^10.9.1
-    ts-node-dev: ^2.0.0
-    typescript: ^4.2.3
-    vm2: ^3.9.7
-    webpack: ^4.44.2
-    webpack-merge: ^5.9.0
-    write-file-webpack-plugin: ^4.5.1
-  languageName: unknown
-  linkType: soft
-
-"@perfsee/package-report@workspace:*, @perfsee/package-report@workspace:packages/package-report":
-  version: 0.0.0-use.local
-  resolution: "@perfsee/package-report@workspace:packages/package-report"
-  dependencies:
-    "@abraham/reflection": ^0.12.0
-    "@ant-design/icons": ^5.0.0
-    "@emotion/react": ^11.9.3
-    "@emotion/styled": ^11.9.3
-    "@fluentui/react": ^8.105.5
-    "@fluentui/theme": ^2.6.22
-    "@mdx-js/react": ^2.1.2
-    "@perfsee/components": "workspace:*"
-    "@perfsee/dls": "workspace:*"
-    "@perfsee/schema": "workspace:*"
-    "@perfsee/shared": "workspace:*"
-    "@perfsee/utils": "workspace:*"
-    "@types/mdx-js__react": ^1.5.5
-    dayjs: ^1.11.3
-    lodash: ^4.17.21
-    query-string: ^7.1.1
-    react: ^18.2.0
-    react-dom: ^18.2.0
-    react-router: ^5.2.1
-    react-router-dom: ^5.3.0
-  languageName: unknown
-  linkType: soft
-
-"@perfsee/package@workspace:*, @perfsee/package@workspace:packages/package":
-  version: 0.0.0-use.local
-  resolution: "@perfsee/package@workspace:packages/package"
-  dependencies:
-    "@arrows/composition": ^1.2.2
-    "@arrows/dispatch": ^1.0.3
-    "@perfsee/chrome-finder": "workspace:*"
-    "@perfsee/package-build-stats": "workspace:*"
-    "@perfsee/utils": "workspace:*"
-    "@types/benchmark": ^2.1.2
-    benchmark: ^2.1.4
-    chalk: ^4.1.2
-    clipanion: ^3.1.0
-    env-ci: ^7.2.1
-    esbuild: ^0.17.11
-    find-cache-dir: ^3.3.2
-    glob: ^9.2.1
-    node-fetch: ^2.6.2
-    open: ^8.4.2
-    package-json-type: ^1.0.3
-    puppeteer-core: ^21.11.0
-    simple-git: ^3.15.0
-    tar: ^6.1.13
-    ts-node: ^10.9.1
-    tslib: ^2.5.0
-  bin:
-    package: ./bin/cli.js
-  languageName: unknown
-  linkType: soft
-
-"@perfsee/platform-server@workspace:packages/platform-server":
-  version: 0.0.0-use.local
-  resolution: "@perfsee/platform-server@workspace:packages/platform-server"
-  dependencies:
-    "@apollo/server": ^4.6.0
-    "@aws-sdk/client-s3": ^3.449.0
-    "@aws-sdk/lib-storage": ^3.449.0
-    "@faker-js/faker": ^7.3.0
-    "@nestjs/apollo": ^11.0.5
-    "@nestjs/common": ^9.4.0
-    "@nestjs/core": ^9.4.0
-    "@nestjs/event-emitter": ^1.4.1
-    "@nestjs/graphql": ^11.0.5
-    "@nestjs/platform-express": ^9.4.0
-    "@nestjs/schedule": ^2.2.1
-    "@nestjs/serve-static": ^3.0.1
-    "@nestjs/swagger": ^7.3.0
-    "@nestjs/terminus": ^9.2.2
-    "@nestjs/testing": ^9.4.0
-    "@nestjs/throttler": ^4.0.0
-    "@nestjs/typeorm": ^9.0.1
-    "@perfsee/schema": "workspace:*"
-    "@perfsee/server-common": "workspace:*"
-    "@perfsee/shared": "workspace:*"
-    "@types/debug": ^4.1.7
-    "@types/express-session": ^1.17.5
-    "@types/json-bigint": ^1.0.1
-    "@types/nodemailer": ^6.4.4
-    "@types/redlock": ^4.0.3
-    "@types/uuid": ^9.0.0
-    ava: ^5.0.0
-    body-parser: ^1.20.2
-    chalk: ^4.1.2
-    clipanion: ^3.1.0
-    dataloader: ^2.1.0
-    dayjs: ^1.11.3
-    debug: ^4.3.4
-    dotenv: ^16.0.1
-    express: ^4.18.2
-    express-session: ^1.17.3
-    file-type: ^16.5.4
-    form-data: ^4.0.0
-    graphql: ^16.6.0
-    graphql-type-json: ^0.3.2
-    ioredis: ^5.3.2
-    json-bigint: ^1.0.0
-    lodash: ^4.17.21
-    mysql2: ^2.3.3
-    nest-router: ^1.0.9
-    node-abort-controller: ^3.0.1
-    node-fetch: ^2.6.2
-    nodemailer: ^6.7.7
-    prom-client: 14.1.1
-    query-string: ^7.1.1
-    redlock: ^4.2.0
-    reflect-metadata: 0.2.1
-    rxjs: ^7.5.6
-    sinon: ^15.0.0
-    supertest: ^6.3.3
-    ts-morph: ^15.1.0
-    typeorm: ^0.3.15
-    uuid: ^9.0.0
-  languageName: unknown
-  linkType: soft
-
-"@perfsee/platform@workspace:packages/platform":
-  version: 0.0.0-use.local
-  resolution: "@perfsee/platform@workspace:packages/platform"
-  dependencies:
-    "@abraham/reflection": ^0.12.0
-    "@ant-design/icons": ^5.0.0
-    "@emotion/css": ^11.9.0
-    "@emotion/react": ^11.9.3
-    "@emotion/styled": ^11.9.3
-    "@fluentui/react": ^8.105.5
-    "@fluentui/react-hooks": ^8.6.16
-    "@fluentui/react-icons-mdl2": ^1.3.31
-    "@fluentui/theme": ^2.6.22
-    "@fluentui/utilities": ^8.13.6
-    "@mdx-js/react": ^2.1.2
-    "@perfsee/bundle-report": "workspace:*"
-    "@perfsee/dls": "workspace:*"
-    "@perfsee/flamechart": "workspace:*"
-    "@perfsee/lab-report": "workspace:*"
-    "@perfsee/package-report": "workspace:*"
-    "@perfsee/schema": "workspace:*"
-    "@perfsee/shared": "workspace:*"
-    "@perfsee/tracehouse": "workspace:*"
-    "@perfsee/treemap": "workspace:*"
-    "@sigi/core": ^2.12.1
-    "@sigi/devtool": ^2.12.1
-    "@sigi/di": ^2.11.3
-    "@sigi/react": ^2.12.2
-    "@types/mdx-js__react": ^1.5.5
-    "@types/react": ^18.0.15
-    "@types/react-dom": ^18.0.6
-    "@types/react-router": ^5.1.17
-    "@types/react-router-dom": ^5.3.2
-    "@types/react-virtualized-auto-sizer": 1.0.1
-    "@types/react-window": ^1.8.5
-    color: ^4.2.3
-    color-converters: ^0.1.1
-    dayjs: ^1.11.3
-    echarts: ^5.3.3
-    fuse.js: ^6.6.2
-    graphql: ^16.0.0
-    immer: ^9.0.15
-    lodash: ^4.17.21
-    modern-css-reset: ^1.4.0
-    path-to-regexp: ^1.8.0
-    query-string: ^7.1.1
-    react: ^18.2.0
-    react-dom: ^18.2.0
-    react-router: ^5.2.1
-    react-router-dom: ^5.3.0
-    react-virtualized-auto-sizer: ^1.0.7
-    react-window: ^1.8.8
-    rxjs: ^7.5.6
-  languageName: unknown
-  linkType: soft
-
-"@perfsee/plugin-utils@workspace:*, @perfsee/plugin-utils@workspace:packages/plugins/utils":
-  version: 0.0.0-use.local
-  resolution: "@perfsee/plugin-utils@workspace:packages/plugins/utils"
-  dependencies:
-    "@perfsee/bundle-analyzer": "workspace:*"
-    "@perfsee/jsonr": "workspace:*"
-    "@perfsee/utils": "workspace:*"
-    "@types/env-ci": ^3.1.1
-    "@types/find-cache-dir": ^3.2.1
-    "@types/node-fetch": ^2.5.12
-    "@types/table": ^6.3.2
-    "@types/uuid": ^9.0.0
-    chalk: ^4.1.2
-    debug: 4.3.4
-    env-ci: ^7.2.1
-    find-cache-dir: ^3.3.2
-    lodash: ^4.17.21
-    node-fetch: ^2.6.2
-    open: ^8.4.2
-    query-string: ^7.1.1
-    simple-git: ^3.15.0
-    table: ^6.8.0
-    tar: ^6.1.11
-    tslib: ^2.4.0
-    uuid: ^9.0.0
-  languageName: unknown
-  linkType: soft
-
-"@perfsee/rollup@workspace:packages/plugins/rollup":
-  version: 0.0.0-use.local
-  resolution: "@perfsee/rollup@workspace:packages/plugins/rollup"
-  dependencies:
-    "@perfsee/bundle-analyzer": "workspace:*"
-    "@perfsee/package": "workspace:*"
-    "@perfsee/plugin-utils": "workspace:*"
-    chalk: ^4.1.2
-    lodash: ^4.17.21
-    rollup: ^2.77.0
-    tslib: ^2.4.0
-  peerDependencies:
-    rollup: ">2"
-  languageName: unknown
-  linkType: soft
-
-"@perfsee/schema@workspace:*, @perfsee/schema@workspace:packages/schema":
-  version: 0.0.0-use.local
-  resolution: "@perfsee/schema@workspace:packages/schema"
-  languageName: unknown
-  linkType: soft
-
-"@perfsee/sdk@workspace:packages/sdk":
-  version: 0.0.0-use.local
-  resolution: "@perfsee/sdk@workspace:packages/sdk"
-  dependencies:
-    "@perfsee/schema": "workspace:*"
-    "@perfsee/shared": "workspace:*"
-    chalk: ^4.1.2
-    clipanion: ^3.1.0
-    graphql: ^16.0.0
-    lodash: ^4.17.21
-    node-fetch: ^2.6.2
-    simple-git: ^3.15.0
-  bin:
-    perfsee: ./bin/cli.js
-  languageName: unknown
-  linkType: soft
-
-"@perfsee/server-common@workspace:*, @perfsee/server-common@workspace:packages/server-common":
-  version: 0.0.0-use.local
-  resolution: "@perfsee/server-common@workspace:packages/server-common"
-  dependencies:
-    "@perfsee/shared": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"@perfsee/shared@workspace:*, @perfsee/shared@workspace:packages/shared":
-  version: 0.0.0-use.local
-  resolution: "@perfsee/shared@workspace:packages/shared"
-  dependencies:
-    "@fluentui/react": ^8.105.5
-    "@perfsee/bundle-analyzer": "workspace:*"
-    "@perfsee/flamechart": "workspace:*"
-    "@perfsee/package": "workspace:*"
-    "@perfsee/plugin-utils": "workspace:*"
-    "@perfsee/tracehouse": "workspace:*"
-    "@perfsee/utils": "workspace:*"
-    "@sigi/di": ^2.11.3
-    dayjs: ^1.11.3
-    graphql: ^16.0.0
-    lodash: ^4.17.21
-    query-string: ^7.1.1
-    react: ^18.2.0
-    rxjs: ^7.5.6
-  languageName: unknown
-  linkType: soft
-
-"@perfsee/source-coverage@workspace:*, @perfsee/source-coverage@workspace:packages/source-coverage":
-  version: 0.0.0-use.local
-  resolution: "@perfsee/source-coverage@workspace:packages/source-coverage"
-  dependencies:
-    lighthouse: 11.6.0
-  languageName: unknown
-  linkType: soft
-
-"@perfsee/tracehouse@workspace:*, @perfsee/tracehouse@workspace:packages/tracehouse":
-  version: 0.0.0-use.local
-  resolution: "@perfsee/tracehouse@workspace:packages/tracehouse"
-  dependencies:
-    lighthouse: 11.6.0
-  languageName: unknown
-  linkType: soft
-
-"@perfsee/treemap@workspace:*, @perfsee/treemap@workspace:packages/treemap":
-  version: 0.0.0-use.local
-  resolution: "@perfsee/treemap@workspace:packages/treemap"
-  dependencies:
-    "@types/d3-hierarchy": ^3.1.0
-    d3-hierarchy: ^3.1.2
-    tslib: ^2.4.0
-    twgl.js: ^5.0.0
-  languageName: unknown
-  linkType: soft
-
-"@perfsee/utils@workspace:*, @perfsee/utils@workspace:packages/utils":
-  version: 0.0.0-use.local
-  resolution: "@perfsee/utils@workspace:packages/utils"
-  dependencies:
-    tslib: ^2.4.0
-  languageName: unknown
-  linkType: soft
-
-"@perfsee/webpack@workspace:packages/plugins/webpack":
-  version: 0.0.0-use.local
-  resolution: "@perfsee/webpack@workspace:packages/plugins/webpack"
-  dependencies:
-    "@perfsee/bundle-analyzer": "workspace:*"
-    "@perfsee/package": "workspace:*"
-    "@perfsee/plugin-utils": "workspace:*"
-    chalk: ^4.1.2
-    tslib: ^2.4.0
-  peerDependencies:
-    webpack: ">= 4"
-  languageName: unknown
-  linkType: soft
 
 "@phenomnomnominal/tsquery@npm:4.1.1":
   version: 4.1.1
@@ -27757,11 +27757,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "perfsee-vscode@workspace:packages/vscode-extension"
   dependencies:
-    "@perfsee/dls": "workspace:*"
-    "@perfsee/flamechart": "workspace:*"
-    "@perfsee/schema": "workspace:*"
-    "@perfsee/shared": "workspace:*"
-    "@perfsee/utils": "workspace:*"
+    "@fe/perfsee-dls": "workspace:*"
+    "@fe/perfsee-flamechart": "workspace:*"
+    "@fe/perfsee-schema": "workspace:*"
+    "@fe/perfsee-shared": "workspace:*"
+    "@fe/perfsee-utils": "workspace:*"
     "@types/diff": ^5.0.2
     "@types/vscode": ^1.50.0
     diff: ^5.1.0

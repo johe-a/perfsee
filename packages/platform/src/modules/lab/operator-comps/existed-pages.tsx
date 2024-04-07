@@ -18,7 +18,7 @@ import { Checkbox, Stack, PrimaryButton, TextField, ResponsiveMode } from '@flue
 import { useDispatchers, useModuleState } from '@sigi/react'
 import { FC, useCallback, useState, useMemo } from 'react'
 
-import { MultiSelector } from '@perfsee/components'
+import { MultiSelector } from '@fe/perfsee-components'
 
 import { PropertyModule } from '../../shared'
 import { LabListModule } from '../list/module'

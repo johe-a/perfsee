@@ -18,8 +18,8 @@ import { PlusCircleOutlined } from '@ant-design/icons'
 import { Callout, Stack, TextField } from '@fluentui/react'
 import { FC, useCallback, useRef, KeyboardEvent } from 'react'
 
-import { useToggleState } from '@perfsee/components'
-import { isValidEmail } from '@perfsee/components/form/validators'
+import { useToggleState } from '@fe/perfsee-components'
+import { isValidEmail } from '@fe/perfsee-components/form/validators'
 
 interface Props {
   onPick: (email: string) => void

@@ -18,10 +18,10 @@ import { Spinner, SpinnerSize } from '@fluentui/react'
 import { useModule } from '@sigi/react'
 import { useEffect, useState } from 'react'
 
-import { useWideScreen } from '@perfsee/components'
-import { TreeMapChart } from '@perfsee/components/treemap'
-import { SourceCoverageResult } from '@perfsee/shared'
-import { hierarchy, HierarchyNode } from '@perfsee/treemap'
+import { useWideScreen } from '@fe/perfsee-components'
+import { TreeMapChart } from '@fe/perfsee-components/treemap'
+import { SourceCoverageResult } from '@fe/perfsee-shared'
+import { hierarchy, HierarchyNode } from '@fe/perfsee-treemap'
 
 import { SnapshotDetailType, SnapshotReportSchema } from '../snapshot-type'
 

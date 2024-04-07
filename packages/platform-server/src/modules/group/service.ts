@@ -27,14 +27,14 @@ import {
   ProjectGroup,
   DBService,
   Snapshot,
-} from '@perfsee/platform-server/db'
-import { UserError } from '@perfsee/platform-server/error'
-import { PaginationInput } from '@perfsee/platform-server/graphql'
-import { Logger } from '@perfsee/platform-server/logger'
-import { Metric } from '@perfsee/platform-server/metrics'
-import { createDataLoader } from '@perfsee/platform-server/utils'
-import { SnapshotStatus } from '@perfsee/server-common'
-import { MetricType } from '@perfsee/shared'
+} from '@fe/perfsee-platform-server/db'
+import { UserError } from '@fe/perfsee-platform-server/error'
+import { PaginationInput } from '@fe/perfsee-platform-server/graphql'
+import { Logger } from '@fe/perfsee-platform-server/logger'
+import { Metric } from '@fe/perfsee-platform-server/metrics'
+import { createDataLoader } from '@fe/perfsee-platform-server/utils'
+import { SnapshotStatus } from '@fe/perfsee-server-common'
+import { MetricType } from '@fe/perfsee-shared'
 
 import { PermissionProvider, Permission } from '../permission'
 import { UserService } from '../user'

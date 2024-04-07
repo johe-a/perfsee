@@ -1,4 +1,4 @@
-# `@perfsee/webpack`
+# `@fe/perfsee-webpack`
 
 Perfsee webpack plugin used to collect bundle information and analyze.
 
@@ -7,7 +7,7 @@ Perfsee webpack plugin used to collect bundle information and analyze.
 ## Usage
 
 ```ts
-const { PerfseePlugin } = require('@perfsee/webpack')
+const { PerfseePlugin } = require('@fe/perfsee-webpack')
 
 export default {
   ...

@@ -14,8 +14,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { workerMain } from '@perfsee/job-runner-shared'
-import { JobType } from '@perfsee/server-common'
+import { workerMain } from '@fe/perfsee-job-runner-shared'
+import { JobType } from '@fe/perfsee-server-common'
 
 import { E2EJobWorker, LabJobWorker, PingJobWorker } from './lighthouse'
 

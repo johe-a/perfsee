@@ -19,9 +19,9 @@ import { Draft } from 'immer'
 import { Observable } from 'rxjs'
 import { exhaustMap, map } from 'rxjs/operators'
 
-import { GraphQLClient, RxFetch, serverLink } from '@perfsee/platform/common'
-import { pendingJobsAggregationQuery, PendingJobsAggregationQuery } from '@perfsee/schema'
-import { HealthCheckCategory, HealthCheckStatus } from '@perfsee/shared'
+import { GraphQLClient, RxFetch, serverLink } from '@fe/perfsee-platform/common'
+import { pendingJobsAggregationQuery, PendingJobsAggregationQuery } from '@fe/perfsee-schema'
+import { HealthCheckCategory, HealthCheckStatus } from '@fe/perfsee-shared'
 
 export type PendingJobsAggregation = PendingJobsAggregationQuery['pendingJobsAggregation']
 

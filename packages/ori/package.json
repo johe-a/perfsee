@@ -1,5 +1,5 @@
 {
-  "name": "@perfsee/ori",
+  "name": "@fe/perfsee-ori",
   "version": "1.10.0",
   "description": "Profile parsing service",
   "private": true,

@@ -18,9 +18,9 @@ const { execSync } = require('child_process')
 const fs = require('fs')
 const path = require('path')
 
-execSync('yarn build:rs --scope=@perfsee/ori')
+execSync('yarn build:rs --scope=@fe/perfsee-ori')
 
-const { generateDocs } = require('@perfsee/ori')
+const { generateDocs } = require('@fe/perfsee-ori')
 
 const rules = Object.entries(generateDocs())
 

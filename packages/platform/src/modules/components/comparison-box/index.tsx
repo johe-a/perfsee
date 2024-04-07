@@ -21,9 +21,9 @@ import { stringifyUrl } from 'query-string'
 import { useCallback, useMemo, useRef } from 'react'
 import { useHistory } from 'react-router-dom'
 
-import { Badge, TeachingBubbleHost, TooltipWithEllipsis } from '@perfsee/components'
-import { PerformanceTabType } from '@perfsee/lab-report/snapshot-type'
-import { pathFactory } from '@perfsee/shared/routes'
+import { Badge, TeachingBubbleHost, TooltipWithEllipsis } from '@fe/perfsee-components'
+import { PerformanceTabType } from '@fe/perfsee-lab-report/snapshot-type'
+import { pathFactory } from '@fe/perfsee-shared/routes'
 
 import { CompareModule, CompetitorMaxCount, useProject } from '../../shared'
 

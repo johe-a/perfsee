@@ -16,9 +16,9 @@ limitations under the License.
 
 import { Switch, Redirect } from 'react-router'
 
-import { Route } from '@perfsee/components'
-import { lazy } from '@perfsee/platform/common'
-import { staticPath } from '@perfsee/shared/routes'
+import { Route } from '@fe/perfsee-components'
+import { lazy } from '@fe/perfsee-platform/common'
+import { staticPath } from '@fe/perfsee-shared/routes'
 
 import { BundleReportContainer } from './detail'
 import { BundleList } from './list'

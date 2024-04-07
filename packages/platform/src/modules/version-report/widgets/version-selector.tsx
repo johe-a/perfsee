@@ -16,7 +16,7 @@ limitations under the License.
 
 import { FC, useMemo } from 'react'
 
-import { Select } from '@perfsee/components'
+import { Select } from '@fe/perfsee-components'
 
 type Props = {
   commit: string

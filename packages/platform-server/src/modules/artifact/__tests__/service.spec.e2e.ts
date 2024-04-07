@@ -16,9 +16,9 @@ limitations under the License.
 
 import { faker } from '@faker-js/faker'
 
-import { Artifact, Project } from '@perfsee/platform-server/db'
-import test, { GraphQLTestingClient, initTestDB, create } from '@perfsee/platform-server/test'
-import { artifactQuery, artifactsQuery, artifactWithBaselineQuery } from '@perfsee/schema'
+import { Artifact, Project } from '@fe/perfsee-platform-server/db'
+import test, { GraphQLTestingClient, initTestDB, create } from '@fe/perfsee-platform-server/test'
+import { artifactQuery, artifactsQuery, artifactWithBaselineQuery } from '@fe/perfsee-schema'
 
 let gqlClient: GraphQLTestingClient
 let slug: string

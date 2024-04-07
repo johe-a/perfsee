@@ -18,7 +18,7 @@ import { Stack, IStackTokens } from '@fluentui/react'
 import { useEffect, useState, useCallback } from 'react'
 import { useLocation } from 'react-router-dom'
 
-import { Message, notificationSubject } from '@perfsee/platform/common'
+import { Message, notificationSubject } from '@fe/perfsee-platform/common'
 
 import { Notice } from './notice'
 

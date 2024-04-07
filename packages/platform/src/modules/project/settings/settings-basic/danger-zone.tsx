@@ -3,9 +3,9 @@ import { useModule } from '@sigi/react'
 import { useCallback, useState } from 'react'
 import { Redirect } from 'react-router-dom'
 
-import { ColorButton, Modal, ModalType, useToggleState } from '@perfsee/components'
-import { DeleteProgress, ProjectModule, useSettings } from '@perfsee/platform/modules/shared'
-import { pathFactory } from '@perfsee/shared/routes'
+import { ColorButton, Modal, ModalType, useToggleState } from '@fe/perfsee-components'
+import { DeleteProgress, ProjectModule, useSettings } from '@fe/perfsee-platform/modules/shared'
+import { pathFactory } from '@fe/perfsee-shared/routes'
 
 import {
   ButtonInnerText,

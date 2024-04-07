@@ -18,7 +18,7 @@ import { Field, ObjectType, GraphQLISODateTime, registerEnumType, ID } from '@ne
 import GraphQLJSON from 'graphql-type-json'
 import { BaseEntity, Column, CreateDateColumn, Entity, Index, OneToMany, PrimaryGeneratedColumn } from 'typeorm'
 
-import { JobType } from '@perfsee/server-common'
+import { JobType } from '@fe/perfsee-server-common'
 
 import type { Job } from './job.entity'
 

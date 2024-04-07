@@ -19,8 +19,8 @@ import { Draft } from 'immer'
 import { forkJoin, Observable } from 'rxjs'
 import { map, switchMap } from 'rxjs/operators'
 
-import { GraphQLClient } from '@perfsee/platform/common'
-import { ExtensionScriptsQuery, extensionScriptsQuery } from '@perfsee/schema'
+import { GraphQLClient } from '@fe/perfsee-platform/common'
+import { ExtensionScriptsQuery, extensionScriptsQuery } from '@fe/perfsee-schema'
 
 export type ExtensionScript = ExtensionScriptsQuery['extensionScripts'][number]
 

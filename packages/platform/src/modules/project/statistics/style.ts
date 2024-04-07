@@ -19,7 +19,7 @@ import styled from '@emotion/styled'
 import { IShimmeredDetailsListProps, SharedColors } from '@fluentui/react'
 import { Link } from 'react-router-dom'
 
-import { getStringColor } from '@perfsee/components'
+import { getStringColor } from '@fe/perfsee-components'
 
 export const tableHeaderStyles: IShimmeredDetailsListProps['detailsListStyles'] = {
   headerWrapper: {

@@ -14,9 +14,9 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { logger } from '@perfsee/job-runner-shared'
-import { JobInfo } from '@perfsee/server-common'
-import { JobLogLevel } from '@perfsee/shared'
+import { logger } from '@fe/perfsee-job-runner-shared'
+import { JobInfo } from '@fe/perfsee-server-common'
+import { JobLogLevel } from '@fe/perfsee-shared'
 
 import { ConfigManager } from './config'
 import { localRunnerScriptEntry } from './local-entry'

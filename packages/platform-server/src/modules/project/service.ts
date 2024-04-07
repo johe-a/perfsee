@@ -18,8 +18,8 @@ import { ForbiddenException, Injectable, NotFoundException } from '@nestjs/commo
 import { differenceBy, isEmpty, isUndefined, omitBy } from 'lodash'
 import { Brackets, In } from 'typeorm'
 
-import { Config } from '@perfsee/platform-server/config'
-import { Cron, CronExpression } from '@perfsee/platform-server/cron'
+import { Config } from '@fe/perfsee-platform-server/config'
+import { Cron, CronExpression } from '@fe/perfsee-platform-server/cron'
 import {
   DBService,
   Environment,
@@ -32,15 +32,15 @@ import {
   Setting,
   User,
   UserStarredProject,
-} from '@perfsee/platform-server/db'
-import { mapInternalError, UserError } from '@perfsee/platform-server/error'
-import { PaginationInput } from '@perfsee/platform-server/graphql'
-import { InternalIdService } from '@perfsee/platform-server/helpers'
-import { Logger } from '@perfsee/platform-server/logger'
-import { Metric } from '@perfsee/platform-server/metrics'
-import { JobLogStorage, ObjectStorage } from '@perfsee/platform-server/storage'
-import { createDataLoader } from '@perfsee/platform-server/utils'
-import { GitHost } from '@perfsee/shared'
+} from '@fe/perfsee-platform-server/db'
+import { mapInternalError, UserError } from '@fe/perfsee-platform-server/error'
+import { PaginationInput } from '@fe/perfsee-platform-server/graphql'
+import { InternalIdService } from '@fe/perfsee-platform-server/helpers'
+import { Logger } from '@fe/perfsee-platform-server/logger'
+import { Metric } from '@fe/perfsee-platform-server/metrics'
+import { JobLogStorage, ObjectStorage } from '@fe/perfsee-platform-server/storage'
+import { createDataLoader } from '@fe/perfsee-platform-server/utils'
+import { GitHost } from '@fe/perfsee-shared'
 
 import { ApplicationSettingService } from '../application-setting'
 import { GithubService } from '../github'

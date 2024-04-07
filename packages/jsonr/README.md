@@ -5,7 +5,7 @@ JSON with references
 # Example
 
 ```
-import JSONR from '@perfsee/jsonr'
+import JSONR from '@fe/perfsee-jsonr'
 
 const jsonrStr = JSONR.stringify({ hello: "world" })
 const obj = JSONR.parse(jsonrStr)

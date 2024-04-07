@@ -15,7 +15,7 @@ limitations under the License.
 */
 
 import { ObjectType, Field, registerEnumType, ID } from '@nestjs/graphql'
-import { GitHost } from '@perfsee/shared'
+import { GitHost } from '@fe/perfsee-shared'
 import {
   Entity,
   PrimaryGeneratedColumn,

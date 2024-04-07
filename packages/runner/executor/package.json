@@ -1,5 +1,5 @@
 {
-  "name": "@perfsee/job-runner",
+  "name": "@fe/perfsee-job-runner",
   "version": "1.12.2",
   "description": "Perfsee job runner",
   "main": "./dist/index.js",
@@ -7,10 +7,10 @@
   "repository": "https://github.com/perfsee/perfsee",
   "license": "Apache-2.0",
   "dependencies": {
+    "@fe/perfsee-job-runner-shared": "workspace:*",
+    "@fe/perfsee-server-common": "workspace:*",
+    "@fe/perfsee-shared": "workspace:*",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
-    "@perfsee/job-runner-shared": "workspace:*",
-    "@perfsee/server-common": "workspace:*",
-    "@perfsee/shared": "workspace:*",
     "chalk": "^4.1.2",
     "clipanion": "^3.1.0",
     "lodash": "^4.17.21",
@@ -20,9 +20,9 @@
     "winston": "^3.7.2"
   },
   "devDependencies": {
-    "@perfsee/job-runner-bundle": "workspace:*",
-    "@perfsee/job-runner-lab": "workspace:*",
-    "@perfsee/job-runner-package": "workspace:*",
-    "@perfsee/job-runner-source": "workspace:*"
+    "@fe/perfsee-job-runner-bundle": "workspace:*",
+    "@fe/perfsee-job-runner-lab": "workspace:*",
+    "@fe/perfsee-job-runner-package": "workspace:*",
+    "@fe/perfsee-job-runner-source": "workspace:*"
   }
 }

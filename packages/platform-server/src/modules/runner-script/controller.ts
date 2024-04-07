@@ -34,9 +34,9 @@ import { ApiExcludeController } from '@nestjs/swagger'
 import { Response } from 'express'
 import { v4 as uuid } from 'uuid'
 
-import { RunnerScript, User } from '@perfsee/platform-server/db'
-import { ObjectStorage } from '@perfsee/platform-server/storage'
-import { JobType } from '@perfsee/server-common'
+import { RunnerScript, User } from '@fe/perfsee-platform-server/db'
+import { ObjectStorage } from '@fe/perfsee-platform-server/storage'
+import { JobType } from '@fe/perfsee-server-common'
 
 import { ApplicationSettingService } from '../application-setting'
 import { CurrentUser } from '../auth'

@@ -17,8 +17,8 @@ limitations under the License.
 import { Stack } from '@fluentui/react'
 import { FC } from 'react'
 
-import { Size } from '@perfsee/shared'
-import { pathFactory } from '@perfsee/shared/routes'
+import { Size } from '@fe/perfsee-shared'
+import { pathFactory } from '@fe/perfsee-shared/routes'
 
 import { useProjectRouteGenerator } from '../../../shared'
 

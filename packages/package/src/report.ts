@@ -24,7 +24,7 @@ import open from 'open'
 import { getBuildEnv } from './build-env'
 import { GraphQLClient } from './gql-client'
 
-const PACKAGE_NAME = '@perfsee/package'
+const PACKAGE_NAME = '@fe/perfsee-package'
 
 interface Data {
   report: any

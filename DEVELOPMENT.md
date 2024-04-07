@@ -53,13 +53,13 @@ You could start them separately as you need:
 
 ```bash
 # start the backend service, default listen port is 3000
-yarn dev -p @perfsee/platform-server
+yarn dev -p @fe/perfsee-platform-server
 
 # start the frontend service, default listen port is 8080
-yarn dev -p @perfsee/platform
+yarn dev -p @fe/perfsee-platform
 
 # start the job runner service, no listening port, rely on the backend service
-yarn dev -p @perfsee/job-runner
+yarn dev -p @fe/perfsee-job-runner
 ```
 
 or you can omit the `-p` argument and a prompt will be shown to let you select available service to start.
@@ -69,9 +69,9 @@ yarn dev
 
 # output
 🐒 Choose a project to dev: (Use arrow keys)
-❯ @perfsee/platform
-  @perfsee/platform-server
-  @perfsee/job-runner
+❯ @fe/perfsee-platform
+  @fe/perfsee-platform-server
+  @fe/perfsee-job-runner
 ```
 
 ## Testing
@@ -150,7 +150,7 @@ If you prefer uploading them to CDN, you could build the frontend part with `PUB
 
 ```bash
 export PUBLIC_PATH=https://you.cdn/perfsee/prefix
-yarn cli bundle -p @perfsee/platform
+yarn cli bundle -p @fe/perfsee-platform
 ```
 
 ### Backend

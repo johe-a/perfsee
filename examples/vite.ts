@@ -16,7 +16,7 @@ limitations under the License.
 
 import { build } from 'vite'
 
-import { PerfseePlugin } from '@perfsee/rollup'
+import { PerfseePlugin } from '@fe/perfsee-rollup'
 
 export const runVite = async (root: string): Promise<any> => {
   return build({

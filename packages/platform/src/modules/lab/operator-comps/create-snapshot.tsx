@@ -18,7 +18,7 @@ import { PrimaryButton, Stack, Dialog, IconButton } from '@fluentui/react'
 import { useDispatchers } from '@sigi/react'
 import { useState, useCallback, useMemo, useEffect } from 'react'
 
-import { Permission } from '@perfsee/schema'
+import { Permission } from '@fe/perfsee-schema'
 
 import { PropertyModule, useProject } from '../../shared'
 

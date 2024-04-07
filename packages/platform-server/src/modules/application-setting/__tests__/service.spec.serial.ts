@@ -1,8 +1,8 @@
 import Sinon from 'sinon'
 
-import { Config, ConfigModule } from '@perfsee/platform-server/config'
-import { Redis } from '@perfsee/platform-server/redis'
-import test, { createDBTestingModule, createMock } from '@perfsee/platform-server/test'
+import { Config, ConfigModule } from '@fe/perfsee-platform-server/config'
+import { Redis } from '@fe/perfsee-platform-server/redis'
+import test, { createDBTestingModule, createMock } from '@fe/perfsee-platform-server/test'
 
 import { ApplicationSettingService } from '../service'
 

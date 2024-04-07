@@ -25,7 +25,7 @@ import {
   RelationId,
 } from 'typeorm'
 
-import { Permission } from '@perfsee/shared'
+import { Permission } from '@fe/perfsee-shared'
 
 import type { User } from './user.entity'
 import type { Group } from './group.entity'

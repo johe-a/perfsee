@@ -16,8 +16,8 @@ limitations under the License.
 
 import { Theme } from '@emotion/react'
 
-import { lighten, SharedColors } from '@perfsee/dls'
-import { SnapshotStatus } from '@perfsee/schema'
+import { lighten, SharedColors } from '@fe/perfsee-dls'
+import { SnapshotStatus } from '@fe/perfsee-schema'
 
 export const getScoreColor = (score: number) => {
   return score < 50 ? SharedColors.red10 : score < 90 ? SharedColors.orange10 : lighten(SharedColors.green20, 0.5)

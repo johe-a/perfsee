@@ -16,7 +16,7 @@ limitations under the License.
 
 import { faker } from '@faker-js/faker'
 
-import { ExternalAccount } from '@perfsee/shared'
+import { ExternalAccount } from '@fe/perfsee-shared'
 
 import { UserConnectedAccount } from '../mysql'
 

@@ -1,6 +1,6 @@
-import { Artifact } from '@perfsee/platform-server/db'
-import { BundleJobStatus } from '@perfsee/server-common'
-import { GitHost } from '@perfsee/shared'
+import { Artifact } from '@fe/perfsee-platform-server/db'
+import { BundleJobStatus } from '@fe/perfsee-server-common'
+import { GitHost } from '@fe/perfsee-shared'
 
 import { BundleNotificationInfo } from '../type'
 

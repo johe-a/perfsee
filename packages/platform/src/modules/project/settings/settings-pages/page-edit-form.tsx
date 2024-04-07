@@ -18,7 +18,7 @@ import { DialogFooter, PrimaryButton, DefaultButton, Stack } from '@fluentui/rea
 import { useModule } from '@sigi/react'
 import { useCallback, useState, useMemo } from 'react'
 
-import { MultiSelector, RequiredTextField, URLTextField } from '@perfsee/components'
+import { MultiSelector, RequiredTextField, URLTextField } from '@fe/perfsee-components'
 
 import { CompetitorMaxCount, PageRelation, PageSchema, PropertyModule, UpdatePagePayload } from '../../../shared'
 import { disableSavePage, emptyRelation } from '../helper'

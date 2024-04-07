@@ -19,8 +19,8 @@ import { MDXProvider } from '@mdx-js/react'
 import { Component } from 'react'
 import { BrowserRouter as Router } from 'react-router-dom'
 
-import { MDXComponents } from '@perfsee/components'
-import { ThemeProvider } from '@perfsee/dls'
+import { MDXComponents } from '@fe/perfsee-components'
+import { ThemeProvider } from '@fe/perfsee-dls'
 
 import { AppError, AppErrorTitle, Face } from './app.error'
 import './icons'

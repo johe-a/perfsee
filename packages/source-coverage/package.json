@@ -1,5 +1,5 @@
 {
-  "name": "@perfsee/source-coverage",
+  "name": "@fe/perfsee-source-coverage",
   "version": "1.10.0",
   "description": "Perfsee source coverage analyzer.",
   "repository": "https://github.com/perfsee/perfsee",

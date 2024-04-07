@@ -5,8 +5,8 @@ import {
   labSnapshotReportCompletedEventQuery,
   QueryResponse,
   sourceFinishedEventQuery,
-} from '@perfsee/schema'
-import { WebhookEventType } from '@perfsee/shared'
+} from '@fe/perfsee-schema'
+import { WebhookEventType } from '@fe/perfsee-shared'
 
 import type { RequestOptions } from '../graphql'
 import type { GqlService } from '../graphql.module'

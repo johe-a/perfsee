@@ -17,7 +17,7 @@ limitations under the License.
 import { Injectable } from '@nestjs/common'
 import { chunk } from 'lodash'
 
-import { ScriptFile } from '@perfsee/platform-server/db'
+import { ScriptFile } from '@fe/perfsee-platform-server/db'
 
 export interface SourceMapTrackParams {
   artifactId: number

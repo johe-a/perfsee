@@ -16,8 +16,8 @@ limitations under the License.
 
 import { Field, ID, ObjectType } from '@nestjs/graphql'
 
-import { Application } from '@perfsee/platform-server/db'
-import { GitHost } from '@perfsee/shared'
+import { Application } from '@fe/perfsee-platform-server/db'
+import { GitHost } from '@fe/perfsee-shared'
 
 import { Permission } from '../permission'
 

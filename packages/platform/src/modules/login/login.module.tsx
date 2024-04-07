@@ -19,8 +19,8 @@ import { Draft } from 'immer'
 import { Observable } from 'rxjs'
 import { switchMap, map, startWith, endWith } from 'rxjs/operators'
 
-import { GraphQLClient } from '@perfsee/platform/common'
-import { availableOAuthProvidersQuery } from '@perfsee/schema'
+import { GraphQLClient } from '@fe/perfsee-platform/common'
+import { availableOAuthProvidersQuery } from '@fe/perfsee-schema'
 
 interface State {
   oauthProviders: string[] | null

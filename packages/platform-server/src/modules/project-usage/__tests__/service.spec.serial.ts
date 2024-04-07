@@ -1,7 +1,7 @@
 import { faker } from '@faker-js/faker'
 
-import { Project, ProjectJobUsage, ProjectStorageUsage, UsagePack } from '@perfsee/platform-server/db'
-import test, { createMock, initTestDB, createDBTestingModule, create } from '@perfsee/platform-server/test'
+import { Project, ProjectJobUsage, ProjectStorageUsage, UsagePack } from '@fe/perfsee-platform-server/db'
+import test, { createMock, initTestDB, createDBTestingModule, create } from '@fe/perfsee-platform-server/test'
 
 import { ProjectService } from '../../project/service'
 import { ProjectUsageService } from '../service'

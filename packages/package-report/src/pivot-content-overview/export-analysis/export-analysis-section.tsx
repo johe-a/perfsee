@@ -17,8 +17,8 @@ limitations under the License.
 import { Text } from '@fluentui/react'
 import React, { ChangeEvent, Component, FC, useCallback } from 'react'
 
-import { lighten } from '@perfsee/dls'
-import { PackageStats, PrettyBytes } from '@perfsee/shared'
+import { lighten } from '@fe/perfsee-dls'
+import { PackageStats, PrettyBytes } from '@fe/perfsee-shared'
 
 import { BundleCardTitle } from '../styles'
 

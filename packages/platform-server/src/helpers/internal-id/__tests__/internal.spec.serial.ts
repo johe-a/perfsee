@@ -1,7 +1,7 @@
 import test from 'ava'
 
-import { InternalIdUsage } from '@perfsee/platform-server/db'
-import { createDBTestingModule, initTestDB } from '@perfsee/platform-server/test'
+import { InternalIdUsage } from '@fe/perfsee-platform-server/db'
+import { createDBTestingModule, initTestDB } from '@fe/perfsee-platform-server/test'
 
 import { InternalIdService } from '../service'
 

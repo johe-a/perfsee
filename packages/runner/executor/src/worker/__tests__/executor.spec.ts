@@ -3,8 +3,8 @@ import { resolve } from 'path'
 import ava, { TestFn } from 'ava'
 import Sinon from 'sinon'
 
-import { RunnerConfig } from '@perfsee/job-runner-shared'
-import { JobInfo, JobType } from '@perfsee/server-common'
+import { RunnerConfig } from '@fe/perfsee-job-runner-shared'
+import { JobInfo, JobType } from '@fe/perfsee-server-common'
 
 import { ConfigManager } from '../../config'
 import { JobWorkerExecutor } from '../executor'

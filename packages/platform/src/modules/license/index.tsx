@@ -16,7 +16,7 @@ limitations under the License.
 
 import { css } from '@emotion/react'
 
-import { BodyContainer } from '@perfsee/components'
+import { BodyContainer } from '@fe/perfsee-components'
 
 import LicenseContent from './license.txt'
 

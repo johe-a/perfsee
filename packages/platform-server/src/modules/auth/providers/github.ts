@@ -18,7 +18,7 @@ import { HttpException, HttpStatus, Injectable } from '@nestjs/common'
 import fetch from 'node-fetch'
 import qs from 'query-string'
 
-import { Config } from '@perfsee/platform-server/config'
+import { Config } from '@fe/perfsee-platform-server/config'
 
 import { OAuthProvider } from './provider'
 

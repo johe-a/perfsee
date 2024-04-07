@@ -1,7 +1,7 @@
 import { Test } from '@nestjs/testing'
 
-import test, { createMock } from '@perfsee/platform-server/test'
-import { SourceStatus } from '@perfsee/server-common'
+import test, { createMock } from '@fe/perfsee-platform-server/test'
+import { SourceStatus } from '@fe/perfsee-server-common'
 
 import { SourceController } from '../controller'
 import { SourceService } from '../service'

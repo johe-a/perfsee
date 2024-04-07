@@ -18,7 +18,7 @@ import styled from '@emotion/styled'
 import { useModule } from '@sigi/react'
 import { useRef, useEffect, useState, useCallback } from 'react'
 
-import { HierarchyNode, NameSearchEngine, SearchEngine, TreeMap, TreeMapData } from '@perfsee/treemap'
+import { HierarchyNode, NameSearchEngine, SearchEngine, TreeMap, TreeMapData } from '@fe/perfsee-treemap'
 
 import { TreeMapControllerModule } from './controller'
 import { SearchBox, useSearchBoxShortcut } from './search-box'

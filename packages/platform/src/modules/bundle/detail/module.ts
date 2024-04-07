@@ -28,9 +28,9 @@ import {
   distinctUntilChanged,
 } from 'rxjs/operators'
 
-import { GraphQLClient, createErrorCatcher, RxFetch } from '@perfsee/platform/common'
-import { ArtifactQuery, artifactQuery, ArtifactWithBaselineQuery, artifactWithBaselineQuery } from '@perfsee/schema'
-import { BundleDiff, BundleResult, ModuleSource, diffBundleResult } from '@perfsee/shared'
+import { GraphQLClient, createErrorCatcher, RxFetch } from '@fe/perfsee-platform/common'
+import { ArtifactQuery, artifactQuery, ArtifactWithBaselineQuery, artifactWithBaselineQuery } from '@fe/perfsee-schema'
+import { BundleDiff, BundleResult, ModuleSource, diffBundleResult } from '@fe/perfsee-shared'
 
 import { ProjectModule } from '../../shared'
 

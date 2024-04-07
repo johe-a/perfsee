@@ -19,7 +19,7 @@ import { useModule } from '@sigi/react'
 import dayjs from 'dayjs'
 import { useCallback, useMemo } from 'react'
 
-import { BodyContainer, NotFound, useQueryString, DateRangeSelector } from '@perfsee/components'
+import { BodyContainer, NotFound, useQueryString, DateRangeSelector } from '@fe/perfsee-components'
 
 import { GroupModule } from '../../shared/group.module'
 

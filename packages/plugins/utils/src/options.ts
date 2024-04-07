@@ -16,7 +16,7 @@ limitations under the License.
 
 import { merge } from 'lodash'
 
-import { Audit, BundleResult, PerfseeReportStats, AuditID } from '@perfsee/bundle-analyzer'
+import { Audit, BundleResult, PerfseeReportStats, AuditID } from '@fe/perfsee-bundle-analyzer'
 
 import { getBuildEnv } from './build-env'
 import { ReportOptions } from './viewer'

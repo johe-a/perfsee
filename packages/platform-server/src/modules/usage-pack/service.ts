@@ -1,6 +1,6 @@
 import { Injectable, OnApplicationBootstrap } from '@nestjs/common'
 
-import { DBService, UsagePack } from '@perfsee/platform-server/db'
+import { DBService, UsagePack } from '@fe/perfsee-platform-server/db'
 
 import { CreateUsagePackInput, UpdateUsagePackInput } from './types'
 

@@ -19,9 +19,9 @@ import { Args, Int, Parent, Query, ResolveField, Resolver } from '@nestjs/graphq
 import dayjs from 'dayjs'
 import { groupBy, sumBy } from 'lodash'
 
-import { Job, Project, Runner } from '@perfsee/platform-server/db'
-import { UserError } from '@perfsee/platform-server/error'
-import { JobType } from '@perfsee/server-common'
+import { Job, Project, Runner } from '@fe/perfsee-platform-server/db'
+import { UserError } from '@fe/perfsee-platform-server/error'
+import { JobType } from '@fe/perfsee-server-common'
 
 import { getJobTypeConcurrency, JobService } from './service'
 import { JobAggregation, JobTrace, TimeUsage, TimeUsageInput } from './types'

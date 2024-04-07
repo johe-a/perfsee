@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { CommonGitHost, GitHost } from '@perfsee/utils'
+import { CommonGitHost, GitHost } from '@fe/perfsee-utils'
 
 export function getCommitLink(project: { host: GitHost; namespace: string; name: string }, commitHash: string) {
   const host = GitHost[project.host]

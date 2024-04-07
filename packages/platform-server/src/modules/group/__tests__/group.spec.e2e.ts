@@ -1,8 +1,8 @@
 import { faker } from '@faker-js/faker'
 import { chunk, sample } from 'lodash'
 
-import { Group, Project, ProjectGroup, User } from '@perfsee/platform-server/db'
-import test, { create, GraphQLTestingClient, initTestDB } from '@perfsee/platform-server/test'
+import { Group, Project, ProjectGroup, User } from '@fe/perfsee-platform-server/db'
+import test, { create, GraphQLTestingClient, initTestDB } from '@fe/perfsee-platform-server/test'
 import {
   createGroupMutation,
   groupQuery,
@@ -10,7 +10,7 @@ import {
   Permission,
   updateGroupMutation,
   updateGroupUserPermissionMutation,
-} from '@perfsee/schema'
+} from '@fe/perfsee-schema'
 
 let gqlClient: GraphQLTestingClient
 let group: Group

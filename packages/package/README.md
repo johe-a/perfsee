@@ -1,4 +1,4 @@
-# `@perfsee/package`
+# `@fe/perfsee-package`
 
 [Repo](https://github.com/perfsee/perfsee) | [Docs](https://perfsee.com/docs)
 
@@ -11,7 +11,7 @@ Perfsee SDK to analyze packages and upload results to perfsee platform.
 If there are benchmark files described below which named `xxx.bench.{js,ts}`(by default), this command will run benchmarks before uploading.
 
 ```bash
-PERFSEE_TOKEN=<your-token> npx @perfsee/package <path-to-package> --project=<perfsee-project-id>
+PERFSEE_TOKEN=<your-token> npx @fe/perfsee-package <path-to-package> --project=<perfsee-project-id>
 ```
 
 Environment `PERFSEE_TOKEN` and option `project` are necessary.
@@ -21,7 +21,7 @@ Environment `PERFSEE_TOKEN` and option `project` are necessary.
 Create a file named `test.bench.js` under the project.
 
 ```js
-const Benchmark = require('@perfsee/package')
+const Benchmark = require('@fe/perfsee-package')
 
 Benchmark('foo', () => {
   bar()

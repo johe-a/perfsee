@@ -19,8 +19,8 @@ import { useModule } from '@sigi/react'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useParams } from 'react-router'
 
-import { JobStatus, JobType } from '@perfsee/schema'
-import { RouteTypes } from '@perfsee/shared/routes'
+import { JobStatus, JobType } from '@fe/perfsee-schema'
+import { RouteTypes } from '@fe/perfsee-shared/routes'
 
 import { useProject } from '../shared'
 

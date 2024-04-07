@@ -4,12 +4,12 @@ title: Benchmark API
 sidebar_position: 3
 ---
 
-The benchmark API in `@perfsee/package` is quite simple.
+The benchmark API in `@fe/perfsee-package` is quite simple.
 
 ## Quick example
 
 ```js
-const Benchmark = require('@perfsee/package')
+const Benchmark = require('@fe/perfsee-package')
 
 Benchmark('Reduce elements', () => {
   ;[1, 2].reduce((a, b) => a + b)
@@ -31,7 +31,7 @@ Benchmark('My second case', () => {
 If you prefer to writting in typescript:
 
 ```ts
-import Benchmark from '@perfsee/package'
+import Benchmark from '@fe/perfsee-package'
 
 Benchmark('Reduce elements', () => {
   ;[1, 2].reduce((a, b) => a + b)
@@ -41,7 +41,7 @@ Benchmark('Reduce elements', () => {
 ### Multiple cases
 
 ```js
-const Benchmark = require('@perfsee/package')
+const Benchmark = require('@fe/perfsee-package')
 
 Benchmark('Many cases', [
   {

@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { PrettyBytes, RequestSchema, formatTime } from '@perfsee/shared'
+import { PrettyBytes, RequestSchema, formatTime } from '@fe/perfsee-shared'
 
 import { RequestType } from '../snapshot-type'
 

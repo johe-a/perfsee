@@ -19,13 +19,13 @@ import { Draft } from 'immer'
 import { Observable } from 'rxjs'
 import { map, startWith, endWith, switchMap, mergeMap } from 'rxjs/operators'
 
-import { GraphQLClient, createErrorCatcher } from '@perfsee/platform/common'
+import { GraphQLClient, createErrorCatcher } from '@fe/perfsee-platform/common'
 import {
   accessTokensQuery,
   AccessTokensQuery,
   generateAccessTokenMutation,
   deleteAccessTokenMutation,
-} from '@perfsee/schema'
+} from '@fe/perfsee-schema'
 
 export type AccessToken = NonNullable<AccessTokensQuery['user']>['accessTokens'][0]
 

@@ -19,7 +19,7 @@ import { ApiExcludeController } from '@nestjs/swagger'
 import { Request } from 'express'
 import { mapKeys, pick } from 'lodash'
 
-import { required } from '@perfsee/platform-server/error'
+import { required } from '@fe/perfsee-platform-server/error'
 
 import { AuthService } from '../auth/auth.service'
 import { EnvironmentService } from '../environment/service'

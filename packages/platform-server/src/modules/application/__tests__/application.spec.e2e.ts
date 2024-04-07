@@ -1,7 +1,7 @@
 import { faker } from '@faker-js/faker'
 
-import { AccessToken, Application, Project, User } from '@perfsee/platform-server/db'
-import test, { create, GraphQLTestingClient, initTestDB } from '@perfsee/platform-server/test'
+import { AccessToken, Application, Project, User } from '@fe/perfsee-platform-server/db'
+import test, { create, GraphQLTestingClient, initTestDB } from '@fe/perfsee-platform-server/test'
 import {
   applicationQuery,
   authorizeApplicationMutation,
@@ -15,7 +15,7 @@ import {
   userQuery,
   projectQuery,
   updateProjectMutation,
-} from '@perfsee/schema'
+} from '@fe/perfsee-schema'
 
 let gqlClient: GraphQLTestingClient
 let applicationGqlClient: GraphQLTestingClient

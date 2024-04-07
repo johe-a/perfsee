@@ -18,11 +18,11 @@ import TabItem from '@theme/TabItem';
 
 ```bash
 # 或者任何你的项目使用的包管理工具，例如 npm/pnpm
-yarn add @perfsee/webpack -D
+yarn add @fe/perfsee-webpack -D
 ```
 
 ```js title="webpack.config.js"
-const { PerfseePlugin } = require('@perfsee/webpack')
+const { PerfseePlugin } = require('@fe/perfsee-webpack')
 
 module.exports = {
   // ...
@@ -59,11 +59,11 @@ module.exports = {
 
 ```bash
 # 或者任何你的项目使用的包管理工具，例如 npm/pnpm
-yarn add @perfsee/esbuild -D
+yarn add @fe/perfsee-esbuild -D
 ```
 
 ```js title="build.js"
-const { PerfseePlugin } = require('@perfsee/esbuild')
+const { PerfseePlugin } = require('@fe/perfsee-esbuild')
 
 require('esbuild').build({
   // ...
@@ -99,11 +99,11 @@ require('esbuild').build({
 
 ```bash
 # 或者任何你的项目使用的包管理工具，例如 npm/pnpm
-yarn add @perfsee/rollup -D
+yarn add @fe/perfsee-rollup -D
 ```
 
 ```js title=" rollup.config.js"
-const { PerfseePlugin } = require('@perfsee/rollup')
+const { PerfseePlugin } = require('@fe/perfsee-rollup')
 
 module.exports = {
   // ...

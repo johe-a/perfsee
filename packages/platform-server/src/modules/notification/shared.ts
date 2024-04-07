@@ -23,8 +23,8 @@ import {
   Setting,
   Snapshot,
   User,
-} from '@perfsee/platform-server/db'
-import { isMatch } from '@perfsee/shared'
+} from '@fe/perfsee-platform-server/db'
+import { isMatch } from '@fe/perfsee-shared'
 
 export function shouldSendBundleJobMessage(setting: Setting, artifact: Artifact, hasWarning: boolean) {
   let sourceMatch = false

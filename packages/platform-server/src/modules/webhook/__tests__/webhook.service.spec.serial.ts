@@ -19,9 +19,9 @@ import { createHmac } from 'crypto'
 import { Observable, Observer } from 'rxjs'
 import Sinon from 'sinon'
 
-import { Application, Project, User } from '@perfsee/platform-server/db'
-import { RxFetch } from '@perfsee/platform-server/helpers'
-import test, { createMock, initTestDB, createDBTestingModule, create } from '@perfsee/platform-server/test'
+import { Application, Project, User } from '@fe/perfsee-platform-server/db'
+import { RxFetch } from '@fe/perfsee-platform-server/helpers'
+import test, { createMock, initTestDB, createDBTestingModule, create } from '@fe/perfsee-platform-server/test'
 
 import { WebhookService } from '../service'
 

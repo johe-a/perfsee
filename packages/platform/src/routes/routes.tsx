@@ -16,8 +16,8 @@ limitations under the License.
 
 import { Switch } from 'react-router'
 
-import { NotFound, Route } from '@perfsee/components'
-import { staticPath } from '@perfsee/shared/routes'
+import { NotFound, Route } from '@fe/perfsee-components'
+import { staticPath } from '@fe/perfsee-shared/routes'
 
 import { LoginRedirect } from '../modules/login/login-redirect'
 import { ApplicationSettings, User } from '../modules/shared'

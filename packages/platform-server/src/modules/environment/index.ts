@@ -16,7 +16,7 @@ limitations under the License.
 
 import { forwardRef, Module } from '@nestjs/common'
 
-import { DBModule } from '@perfsee/platform-server/db'
+import { DBModule } from '@fe/perfsee-platform-server/db'
 
 import { NotificationModule } from '../notification'
 import { ProjectModule } from '../project'

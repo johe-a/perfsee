@@ -19,9 +19,9 @@ import { useModuleState } from '@sigi/react'
 import { useMemo } from 'react'
 import { Link } from 'react-router-dom'
 
-import { ForeignLink } from '@perfsee/components'
-import { serverLink } from '@perfsee/platform/common'
-import { staticPath } from '@perfsee/shared/routes'
+import { ForeignLink } from '@fe/perfsee-components'
+import { serverLink } from '@fe/perfsee-platform/common'
+import { staticPath } from '@fe/perfsee-shared/routes'
 
 import { UserAvatar } from '../me/avatar'
 import { GlobalModule } from '../shared'

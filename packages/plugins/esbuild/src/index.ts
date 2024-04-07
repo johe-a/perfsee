@@ -16,7 +16,12 @@ limitations under the License.
 
 import { Plugin, PluginBuild } from 'esbuild'
 
-import { CommonPluginOptions as Options, initOptions, BuildUploadClient, generateReports } from '@perfsee/plugin-utils'
+import {
+  CommonPluginOptions as Options,
+  initOptions,
+  BuildUploadClient,
+  generateReports,
+} from '@fe/perfsee-plugin-utils'
 
 import { esbuildResult2Stats } from './adaptor'
 import { getOutputPath } from './util'

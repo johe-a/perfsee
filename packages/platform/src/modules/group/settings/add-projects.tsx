@@ -17,7 +17,7 @@ limitations under the License.
 import { Persona, PersonaInitialsColor, PersonaSize, PrimaryButton, SelectionMode, Stack } from '@fluentui/react'
 import { useCallback, useMemo, useState } from 'react'
 
-import { Modal, PopConfirm, Table, TableColumnProps, useToggleState } from '@perfsee/components'
+import { Modal, PopConfirm, Table, TableColumnProps, useToggleState } from '@fe/perfsee-components'
 
 import { ProjectInGroup } from '../../shared'
 import { SearchProjectsSelect } from '../components'

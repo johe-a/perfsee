@@ -16,8 +16,8 @@ limitations under the License.
 
 import { padEnd, padStart, truncate } from 'lodash'
 
-import { SnapshotReport } from '@perfsee/platform-server/db'
-import { SnapshotStatus } from '@perfsee/server-common'
+import { SnapshotReport } from '@fe/perfsee-platform-server/db'
+import { SnapshotStatus } from '@fe/perfsee-server-common'
 
 import { LabCompletedAction } from '../../types'
 

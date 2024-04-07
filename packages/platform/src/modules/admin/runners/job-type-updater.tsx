@@ -18,7 +18,7 @@ import { Dropdown, IDropdownOption, IDropdownProps } from '@fluentui/react'
 import { useDispatchers } from '@sigi/react'
 import { memo, useCallback } from 'react'
 
-import { JobType } from '@perfsee/schema'
+import { JobType } from '@fe/perfsee-schema'
 
 import { Runner, RunnersModule } from './module'
 

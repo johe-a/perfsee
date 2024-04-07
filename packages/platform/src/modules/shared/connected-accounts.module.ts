@@ -19,8 +19,8 @@ import { Draft } from 'immer'
 import { Observable } from 'rxjs'
 import { switchMap, map, startWith, endWith } from 'rxjs/operators'
 
-import { createErrorCatcher, GraphQLClient } from '@perfsee/platform/common'
-import { disconnectAccountMutation, UserConnectedAccountsQuery, userConnectedAccountsQuery } from '@perfsee/schema'
+import { createErrorCatcher, GraphQLClient } from '@fe/perfsee-platform/common'
+import { disconnectAccountMutation, UserConnectedAccountsQuery, userConnectedAccountsQuery } from '@fe/perfsee-schema'
 
 export type ConnectedAccount = NonNullable<UserConnectedAccountsQuery['user']>['connectedAccounts'][number]
 

@@ -1,6 +1,6 @@
 import { Field, InputType, PartialType, PickType } from '@nestjs/graphql'
 
-import { UsagePack } from '@perfsee/platform-server/db'
+import { UsagePack } from '@fe/perfsee-platform-server/db'
 
 @InputType()
 export class CreateUsagePackInput extends PickType(

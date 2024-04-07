@@ -2,8 +2,8 @@ import { Stack, Separator, List } from '@fluentui/react'
 import { SharedColors } from '@fluentui/theme'
 import { FC, useCallback } from 'react'
 
-import { TooltipWithEllipsis, ColorButton } from '@perfsee/components'
-import { PageSchema } from '@perfsee/platform/modules/shared'
+import { TooltipWithEllipsis, ColorButton } from '@fe/perfsee-components'
+import { PageSchema } from '@fe/perfsee-platform/modules/shared'
 
 import { NormalToken } from '../style'
 

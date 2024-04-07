@@ -17,8 +17,8 @@ limitations under the License.
 import { Stack, Label, Text } from '@fluentui/react'
 import { FC, useCallback } from 'react'
 
-import { SharedColors } from '@perfsee/dls'
-import { SearchedUser } from '@perfsee/platform/modules/shared'
+import { SharedColors } from '@fe/perfsee-dls'
+import { SearchedUser } from '@fe/perfsee-platform/modules/shared'
 
 import { UserInfo } from './types'
 import { UserSearchPicker } from './user-search-picker'

@@ -3,8 +3,8 @@ import { useModule } from '@sigi/react'
 import { omit } from 'lodash'
 import { FormEvent, useCallback, useEffect, useMemo, useState } from 'react'
 
-import { Modal, RequiredTextField } from '@perfsee/components'
-import { CreateUsagePackInput, UpdateUsagePackInput } from '@perfsee/schema'
+import { Modal, RequiredTextField } from '@fe/perfsee-components'
+import { CreateUsagePackInput, UpdateUsagePackInput } from '@fe/perfsee-schema'
 
 import { UsagePack, UsagePackModule } from './module'
 

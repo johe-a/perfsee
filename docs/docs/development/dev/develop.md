@@ -50,7 +50,7 @@ You can choose the service you need to develop, and then start it independently:
 
 ```bash
 # Start backend service, default listening to port 3000, access through http://localhost:3000
-yarn dev -p @perfsee/platform-server
+yarn dev -p @fe/perfsee-platform-server
 ```
 
 </TabItem>
@@ -59,7 +59,7 @@ yarn dev -p @perfsee/platform-server
 ```bash
 # Start frontend service, default listening to port 8080, access through http://localhost:8080
 # Depends on the backend service, all backend requests will be proxied to http://localhost:3000
-yarn dev -p @perfsee/platform
+yarn dev -p @fe/perfsee-platform
 ```
 
 </TabItem>
@@ -68,7 +68,7 @@ yarn dev -p @perfsee/platform
 ```bash
 # Start job runner service, will not listen to any port
 # Depends on the backend service. if you want the job system work properly job service need to be started
-yarn dev -p @perfsee/job-runner
+yarn dev -p @fe/perfsee-job-runner
 ```
 
 </TabItem>

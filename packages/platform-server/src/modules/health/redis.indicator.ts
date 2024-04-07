@@ -17,8 +17,8 @@ limitations under the License.
 import { Injectable } from '@nestjs/common'
 import { HealthCheckError, HealthIndicator, HealthIndicatorResult } from '@nestjs/terminus'
 
-import { Redis } from '@perfsee/platform-server/redis'
-import { HealthCheckCategory } from '@perfsee/shared'
+import { Redis } from '@fe/perfsee-platform-server/redis'
+import { HealthCheckCategory } from '@fe/perfsee-shared'
 
 @Injectable()
 export class RedisIndicator extends HealthIndicator {

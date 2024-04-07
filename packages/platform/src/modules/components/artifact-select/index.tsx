@@ -20,7 +20,7 @@ import { useModule } from '@sigi/react'
 import dayjs from 'dayjs'
 import { FC, useState, useEffect, useMemo, useCallback } from 'react'
 
-import { Pagination, Table, TableColumnProps } from '@perfsee/components'
+import { Pagination, Table, TableColumnProps } from '@fe/perfsee-components'
 
 import { useProject } from '../../shared'
 import { ArtifactNameSelector, BranchSelector } from '../bundle-property'

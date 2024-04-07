@@ -1,9 +1,9 @@
 import { HttpStatus } from '@nestjs/common'
 import request from 'supertest'
 
-import { Artifact, Job, JobStatus, PendingJob, Runner } from '@perfsee/platform-server/db'
-import test, { create, initTestDB } from '@perfsee/platform-server/test'
-import { JobRequestResponse, JobType, UpdateJobTraceParams } from '@perfsee/server-common'
+import { Artifact, Job, JobStatus, PendingJob, Runner } from '@fe/perfsee-platform-server/db'
+import test, { create, initTestDB } from '@fe/perfsee-platform-server/test'
+import { JobRequestResponse, JobType, UpdateJobTraceParams } from '@fe/perfsee-server-common'
 
 let runner: Runner
 test.before(async () => {

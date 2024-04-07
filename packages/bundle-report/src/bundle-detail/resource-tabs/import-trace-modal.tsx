@@ -22,10 +22,10 @@ import jsLang from 'shiki/langs/javascript.mjs'
 import githubLight from 'shiki/themes/github-light.mjs'
 import getWasm from 'shiki/wasm'
 
-import { Empty, FileIcon } from '@perfsee/components'
-import { Chart, ChartHeader, EChartsOption } from '@perfsee/components/chart'
-import { ChartEventParam } from '@perfsee/components/chart/types'
-import { SOURCE_CODE_PATH, PackageIssueMap, AssetTypeEnum, ModuleReasons, ModuleReasonTypes } from '@perfsee/shared'
+import { Empty, FileIcon } from '@fe/perfsee-components'
+import { Chart, ChartHeader, EChartsOption } from '@fe/perfsee-components/chart'
+import { ChartEventParam } from '@fe/perfsee-components/chart/types'
+import { SOURCE_CODE_PATH, PackageIssueMap, AssetTypeEnum, ModuleReasons, ModuleReasonTypes } from '@fe/perfsee-shared'
 
 import { CodeContainer, ModulePath, MoreResults } from '../style'
 

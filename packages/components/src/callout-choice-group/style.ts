@@ -16,7 +16,7 @@ limitations under the License.
 
 import styled from '@emotion/styled'
 
-import { NeutralColors } from '@perfsee/dls'
+import { NeutralColors } from '@fe/perfsee-dls'
 
 export const CalloutWrapper = styled.div({
   display: 'inline-block',

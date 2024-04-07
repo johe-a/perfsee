@@ -11,10 +11,10 @@ import {
   Snapshot,
   SnapshotReport,
   User,
-} from '@perfsee/platform-server/db'
-import { Redis } from '@perfsee/platform-server/redis'
-import test, { create, createDBTestingModule, createMock, initTestDB } from '@perfsee/platform-server/test'
-import { BundleJobPassedUpdate, BundleJobStatus } from '@perfsee/server-common'
+} from '@fe/perfsee-platform-server/db'
+import { Redis } from '@fe/perfsee-platform-server/redis'
+import test, { create, createDBTestingModule, createMock, initTestDB } from '@fe/perfsee-platform-server/test'
+import { BundleJobPassedUpdate, BundleJobStatus } from '@fe/perfsee-server-common'
 
 import { ProjectService } from '../../project/service'
 import { NotificationProviderFactory } from '../provider'

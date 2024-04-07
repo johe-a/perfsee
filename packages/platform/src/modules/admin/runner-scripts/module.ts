@@ -20,7 +20,7 @@ import qs from 'query-string'
 import { forkJoin, Observable } from 'rxjs'
 import { exhaustMap, map, switchMap, mergeMap, startWith, endWith } from 'rxjs/operators'
 
-import { GraphQLClient, RxFetch, createErrorCatcher, serverLink } from '@perfsee/platform/common'
+import { GraphQLClient, RxFetch, createErrorCatcher, serverLink } from '@fe/perfsee-platform/common'
 import {
   runnerScriptsQuery,
   activatedRunnerScriptsQuery,
@@ -28,7 +28,7 @@ import {
   UpdateRunnerScriptInput,
   JobType,
   updateRunnerScriptMutation,
-} from '@perfsee/schema'
+} from '@fe/perfsee-schema'
 
 export type RunnerScript = RunnerScriptsQuery['runnerScripts'][number]
 

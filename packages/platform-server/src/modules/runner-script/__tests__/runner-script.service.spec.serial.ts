@@ -1,6 +1,6 @@
-import { RunnerScript } from '@perfsee/platform-server/db'
-import test, { createMock, initTestDB, createDBTestingModule } from '@perfsee/platform-server/test'
-import { JobType } from '@perfsee/server-common'
+import { RunnerScript } from '@fe/perfsee-platform-server/db'
+import test, { createMock, initTestDB, createDBTestingModule } from '@fe/perfsee-platform-server/test'
+import { JobType } from '@fe/perfsee-server-common'
 
 import { RunnerScriptService } from '../service'
 

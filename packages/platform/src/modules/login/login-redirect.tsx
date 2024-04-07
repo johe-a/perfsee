@@ -16,7 +16,7 @@ limitations under the License.
 
 import { Redirect } from 'react-router-dom'
 
-import { staticPath } from '@perfsee/shared/routes'
+import { staticPath } from '@fe/perfsee-shared/routes'
 
 export const LoginRedirect = () => {
   return <Redirect to={{ pathname: staticPath.login, search: '?returnUrl=' + encodeURIComponent(location.href) }} />

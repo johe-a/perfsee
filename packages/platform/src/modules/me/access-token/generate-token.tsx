@@ -17,8 +17,8 @@ limitations under the License.
 import { DefaultButton, Dialog, DialogFooter, DialogType, PrimaryButton, Stack, TextField } from '@fluentui/react'
 import { FC, useCallback, useMemo, useState } from 'react'
 
-import { useToggleState } from '@perfsee/components'
-import { notify } from '@perfsee/platform/common'
+import { useToggleState } from '@fe/perfsee-components'
+import { notify } from '@fe/perfsee-platform/common'
 
 type Props = {
   generateResult: string | null

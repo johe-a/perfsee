@@ -16,10 +16,10 @@ limitations under the License.
 
 import { Injectable } from '@nestjs/common'
 
-import { AppVersion, InternalIdUsage } from '@perfsee/platform-server/db'
-import { InternalIdService } from '@perfsee/platform-server/helpers'
-import { Metric } from '@perfsee/platform-server/metrics'
-import { nDaysBefore } from '@perfsee/platform-server/utils'
+import { AppVersion, InternalIdUsage } from '@fe/perfsee-platform-server/db'
+import { InternalIdService } from '@fe/perfsee-platform-server/helpers'
+import { Metric } from '@fe/perfsee-platform-server/metrics'
+import { nDaysBefore } from '@fe/perfsee-platform-server/utils'
 
 @Injectable()
 export class AppVersionService {

@@ -27,7 +27,7 @@ import {
   BaseEntity,
 } from 'typeorm'
 
-import { SnapshotStatus } from '@perfsee/server-common'
+import { SnapshotStatus } from '@fe/perfsee-server-common'
 
 import type { Project } from './project.entity'
 import type { SnapshotReport } from './snapshot-report.entity'

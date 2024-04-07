@@ -17,8 +17,8 @@ limitations under the License.
 import { Stack } from '@fluentui/react'
 import { useCallback, FC } from 'react'
 
-import { Select } from '@perfsee/components'
-import { SnapshotTrigger } from '@perfsee/schema'
+import { Select } from '@fe/perfsee-components'
+import { SnapshotTrigger } from '@fe/perfsee-schema'
 
 const triggerOptions = Object.entries(SnapshotTrigger).map(([name, value]) => {
   return {

@@ -16,7 +16,7 @@ limitations under the License.
 
 import { isNil } from 'lodash'
 
-import { Maybe } from '@perfsee/schema'
+import { Maybe } from '@fe/perfsee-schema'
 
 export function transformNumberToPercent(value?: Maybe<number>): string {
   return isNil(value) ? '-' : `${(value * 100).toFixed(2)}%`

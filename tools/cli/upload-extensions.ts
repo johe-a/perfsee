@@ -19,7 +19,7 @@ import { readFileSync } from 'fs'
 import { Option } from 'clipanion'
 import fetch from 'node-fetch'
 
-import { validateAuditResult, runInVm } from '@perfsee/bundle-analyzer'
+import { validateAuditResult, runInVm } from '@fe/perfsee-bundle-analyzer'
 
 import { Package, packagePath } from '../utils'
 
@@ -40,7 +40,7 @@ export class UploadExtensionsCommand extends Command {
     let error = false
 
     const pkg: Package = require(packagePath(
-      '@perfsee/bundle-analyzer',
+      '@fe/perfsee-bundle-analyzer',
       'src',
       'stats-parser',
       'audit',
@@ -49,8 +49,8 @@ export class UploadExtensionsCommand extends Command {
     ))
 
     // bundle
-    await this.execAsync('NODE_ENV=production yarn cli bundle -p @perfsee/bundle-analyzer')
-    const bundleAuditPath = packagePath('@perfsee/bundle-analyzer', 'tmp', 'audit')
+    await this.execAsync('NODE_ENV=production yarn cli bundle -p @fe/perfsee-bundle-analyzer')
+    const bundleAuditPath = packagePath('@fe/perfsee-bundle-analyzer', 'tmp', 'audit')
 
     // test
     const source = readFileSync(require.resolve(bundleAuditPath), 'utf-8')

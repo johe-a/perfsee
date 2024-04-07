@@ -27,7 +27,7 @@ import {
   ManyToOne,
 } from 'typeorm'
 
-import { FlameChartDiagnosticInfo } from '@perfsee/shared'
+import { FlameChartDiagnosticInfo } from '@fe/perfsee-shared'
 
 import type { Project } from './project.entity'
 import type { SnapshotReport } from './snapshot-report.entity'

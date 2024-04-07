@@ -18,7 +18,7 @@ import { BranchesOutlined } from '@ant-design/icons'
 import dayjs from 'dayjs'
 import { FC } from 'react'
 
-import { pathFactory } from '@perfsee/shared/routes'
+import { pathFactory } from '@fe/perfsee-shared/routes'
 
 import { useProjectRouteGenerator } from '../../../shared'
 

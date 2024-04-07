@@ -16,7 +16,7 @@ limitations under the License.
 
 import { Injectable } from '@nestjs/common'
 
-import { DBService, InternalId, InternalIdUsage } from '@perfsee/platform-server/db'
+import { DBService, InternalId, InternalIdUsage } from '@fe/perfsee-platform-server/db'
 
 @Injectable()
 export class InternalIdService {

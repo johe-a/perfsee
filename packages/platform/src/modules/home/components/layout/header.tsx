@@ -1,6 +1,6 @@
 import { useCallback, useState } from 'react'
 
-import { staticPath } from '@perfsee/shared/routes'
+import { staticPath } from '@fe/perfsee-shared/routes'
 
 import CloseIcon from '../../assets/close-icon.svg'
 import Github from '../../assets/github.svg'

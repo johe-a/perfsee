@@ -19,14 +19,14 @@ import { Draft } from 'immer'
 import { EMPTY, Observable } from 'rxjs'
 import { switchMap, map, startWith, endWith, filter, distinctUntilChanged, catchError } from 'rxjs/operators'
 
-import { createErrorCatcher, GraphQLClient, RxFetch } from '@perfsee/platform/common'
+import { createErrorCatcher, GraphQLClient, RxFetch } from '@fe/perfsee-platform/common'
 import {
   PackageBundleDetailQuery,
   packageBundleDetailQuery,
   PackageBundleHistoryQuery,
   packageBundleHistoryQuery,
-} from '@perfsee/schema'
-import { BenchmarkResult, PackageStats, Size } from '@perfsee/shared'
+} from '@fe/perfsee-schema'
+import { BenchmarkResult, PackageStats, Size } from '@fe/perfsee-shared'
 
 type PackageBundleDetail = PackageBundleDetailQuery['packageBundle']
 type PackageBundleHistory = PackageBundleHistoryQuery['packageBundleHistory']

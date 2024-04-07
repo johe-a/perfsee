@@ -16,7 +16,7 @@ limitations under the License.
 
 import assert from 'assert'
 
-import { dynamicImport } from '@perfsee/job-runner-shared'
+import { dynamicImport } from '@fe/perfsee-job-runner-shared'
 
 type FlowResult = LH.Gatherer.GatherResult & { lhr: LH.Result; stepName: string }
 

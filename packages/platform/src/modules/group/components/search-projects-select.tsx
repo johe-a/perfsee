@@ -18,7 +18,7 @@ import { useModule } from '@sigi/react'
 import { debounce } from 'lodash'
 import { useState, useCallback, useMemo, useEffect } from 'react'
 
-import { SearchSelect } from '@perfsee/components'
+import { SearchSelect } from '@fe/perfsee-components'
 
 import { CreateGroupModule } from '../../shared'
 

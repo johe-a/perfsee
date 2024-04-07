@@ -26,8 +26,8 @@ import { Theme } from '@emotion/react'
 import styled from '@emotion/styled'
 import { FC, ComponentType } from 'react'
 
-import { Tag } from '@perfsee/components'
-import { JobStatus } from '@perfsee/schema'
+import { Tag } from '@fe/perfsee-components'
+import { JobStatus } from '@fe/perfsee-schema'
 
 const statusIconMap: Record<JobStatus | 'Picked', ComponentType> = {
   [JobStatus.Done]: CheckCircleOutlined,

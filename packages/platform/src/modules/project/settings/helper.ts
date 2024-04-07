@@ -14,8 +14,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { formatTime } from '@perfsee/platform/common'
-import { PrettyBytes } from '@perfsee/shared'
+import { formatTime } from '@fe/perfsee-platform/common'
+import { PrettyBytes } from '@fe/perfsee-shared'
 
 import { DeviceType, ConnectionType, PageSchema, PageRelation } from '../../shared'
 

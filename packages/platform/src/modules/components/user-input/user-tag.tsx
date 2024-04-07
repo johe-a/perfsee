@@ -19,7 +19,7 @@ import styled from '@emotion/styled'
 import { Persona, PersonaSize } from '@fluentui/react'
 import { FC, useCallback } from 'react'
 
-import { Tag } from '@perfsee/components'
+import { Tag } from '@fe/perfsee-components'
 
 const TagWrapper = styled(Tag)({
   padding: '0 4px 0 0',

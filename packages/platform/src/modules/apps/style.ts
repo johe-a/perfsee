@@ -1,7 +1,7 @@
 import styled from '@emotion/styled'
 import { SearchBox, Text } from '@fluentui/react'
 
-import { Card } from '@perfsee/components'
+import { Card } from '@fe/perfsee-components'
 
 export const CardContainer = styled(Card)({
   width: 550,

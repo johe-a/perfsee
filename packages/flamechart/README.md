@@ -7,7 +7,7 @@ a flamechart component for react.
 ### Usage
 
 ```js
-import { importMainThreadProfileFromChromeTimeline, FlamechartContainer } from '@perfsee/flamechart'
+import { importMainThreadProfileFromChromeTimeline, FlamechartContainer } from '@fe/perfsee-flamechart'
 
 const rawChromeProfile = require('example-chrome-profile.json')
 const profile = importMainThreadProfileFromChromeTimeline(rawChromeProfile)

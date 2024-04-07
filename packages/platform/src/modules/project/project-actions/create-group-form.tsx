@@ -18,7 +18,7 @@ import { DialogFooter, PrimaryButton, DefaultButton, Stack, TextField } from '@f
 import { useModule } from '@sigi/react'
 import { FC, memo, useCallback, useState } from 'react'
 
-import { Form } from '@perfsee/components'
+import { Form } from '@fe/perfsee-components'
 
 import { SearchProjectsSelect } from '../../group/components'
 import { CreateGroupModule } from '../../shared'

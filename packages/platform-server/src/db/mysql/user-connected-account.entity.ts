@@ -17,7 +17,7 @@ limitations under the License.
 import { registerEnumType } from '@nestjs/graphql'
 import { BaseEntity, Column, Entity, Index, ManyToOne, PrimaryGeneratedColumn, RelationId } from 'typeorm'
 
-import { ExternalAccount } from '@perfsee/shared'
+import { ExternalAccount } from '@fe/perfsee-shared'
 
 import type { User } from './user.entity'
 

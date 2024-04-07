@@ -20,8 +20,8 @@ import Protocol from 'devtools-protocol'
 import Gatherer from 'lighthouse/types/gatherer'
 import { Browser, HTTPResponse } from 'puppeteer-core'
 
-import { AbstractJobLogger } from '@perfsee/job-runner-shared'
-import { ReactDevtoolProfilingDataExport } from '@perfsee/shared'
+import { AbstractJobLogger } from '@fe/perfsee-job-runner-shared'
+import { ReactDevtoolProfilingDataExport } from '@fe/perfsee-shared'
 
 import {
   detectReactDom,

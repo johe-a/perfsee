@@ -19,8 +19,8 @@ import { useModule } from '@sigi/react'
 import { noop } from 'lodash'
 import { FC, useCallback } from 'react'
 
-import { useToggleState } from '@perfsee/components'
-import { SnapshotStatus } from '@perfsee/schema'
+import { useToggleState } from '@fe/perfsee-components'
+import { SnapshotStatus } from '@fe/perfsee-schema'
 
 import { ArtifactSelect, ArtifactSelectEventPayload } from '../../components'
 

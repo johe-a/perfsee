@@ -19,8 +19,8 @@ import { Draft } from 'immer'
 import { Observable } from 'rxjs'
 import { map, switchMap, startWith, endWith } from 'rxjs/operators'
 
-import { GraphQLClient, createErrorCatcher } from '@perfsee/platform/common'
-import { groupArtifactsQuery, GroupArtifactsQuery, GroupArtifactsQueryVariables } from '@perfsee/schema'
+import { GraphQLClient, createErrorCatcher } from '@fe/perfsee-platform/common'
+import { groupArtifactsQuery, GroupArtifactsQuery, GroupArtifactsQueryVariables } from '@fe/perfsee-schema'
 
 export type BundleHistory = GroupArtifactsQuery['group']['projects'][0]['artifactHistory'][0]
 

@@ -19,7 +19,7 @@ import { BaseExceptionFilter } from '@nestjs/core'
 import { GqlContextType } from '@nestjs/graphql'
 import { Response } from 'express'
 
-import { UserError } from '@perfsee/platform-server/error'
+import { UserError } from '@fe/perfsee-platform-server/error'
 
 @Catch()
 export class AnyErrorFilter extends BaseExceptionFilter {

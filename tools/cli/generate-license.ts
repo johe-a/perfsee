@@ -39,6 +39,6 @@ export class GenerateLicenseCommand extends Command {
       .filter((line: string) => line.trim() !== '!')
       .map((line: string) => line.replace(/!/g, '').trim())
       .join('\n')
-    await fs.writeFile(packagePath('@perfsee/platform', 'src/modules/license/license.txt'), licenseContent)
+    await fs.writeFile(packagePath('@fe/perfsee-platform', 'src/modules/license/license.txt'), licenseContent)
   }
 }

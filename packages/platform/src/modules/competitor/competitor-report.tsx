@@ -20,9 +20,9 @@ import { parse } from 'query-string'
 import { useEffect, useMemo, useCallback } from 'react'
 import { useHistory, useParams } from 'react-router-dom'
 
-import { ContentCard } from '@perfsee/components'
-import { PerformanceTabType } from '@perfsee/lab-report/snapshot-type'
-import { pathFactory } from '@perfsee/shared/routes'
+import { ContentCard } from '@fe/perfsee-components'
+import { PerformanceTabType } from '@fe/perfsee-lab-report/snapshot-type'
+import { pathFactory } from '@fe/perfsee-shared/routes'
 
 import { PropertyModule, CompetitorMaxCount, useProjectRouteGenerator } from '../shared'
 import { LoadingShimmer } from '../snapshots/components/loading-shimmer'

@@ -1,4 +1,4 @@
-# `@perfsee/components`
+# `@fe/perfsee-components`
 
 Common components used in frontend pages.
 

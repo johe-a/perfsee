@@ -17,7 +17,7 @@ limitations under the License.
 import { DefaultButton, Dialog, DialogFooter, Persona, PrimaryButton, Stack, TooltipHost } from '@fluentui/react'
 import { useCallback, useState } from 'react'
 
-import { IconToggleButton } from '@perfsee/components'
+import { IconToggleButton } from '@fe/perfsee-components'
 
 import { ConnectedAccount } from '../shared/connected-accounts.module'
 

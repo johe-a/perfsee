@@ -16,7 +16,7 @@ limitations under the License.
 
 import { get } from 'lodash'
 
-import { RunnerConfig, logger } from '@perfsee/job-runner-shared'
+import { RunnerConfig, logger } from '@fe/perfsee-job-runner-shared'
 
 import { SIMPLE_URL_REGEXP } from '../constants'
 

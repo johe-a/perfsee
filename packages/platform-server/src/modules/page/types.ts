@@ -16,7 +16,7 @@ limitations under the License.
 
 import { Int, InputType, Field, ObjectType, PartialType, OmitType } from '@nestjs/graphql'
 
-import { Page } from '@perfsee/platform-server/db'
+import { Page } from '@fe/perfsee-platform-server/db'
 
 @InputType()
 export class CreatePageInput extends PartialType(OmitType(Page, ['projectId', 'id', 'iid'], InputType)) {

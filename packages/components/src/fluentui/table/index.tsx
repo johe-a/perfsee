@@ -16,7 +16,7 @@ limitations under the License.
 
 import { IDetailsRowStyles, DetailsRow, IDetailsListProps } from '@fluentui/react/lib/DetailsList'
 
-import { NeutralColors } from '@perfsee/dls'
+import { NeutralColors } from '@fe/perfsee-dls'
 
 export const HeaderWithVerticalLineStyles = {
   headerWrapper: {

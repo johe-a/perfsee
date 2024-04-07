@@ -18,13 +18,13 @@ import { Stack } from '@fluentui/react'
 import { useModule } from '@sigi/react'
 import { useCallback, useEffect, useMemo } from 'react'
 
-import { useWideScreen } from '@perfsee/components'
+import { useWideScreen } from '@fe/perfsee-components'
 import {
   buildProfilesFromReactDevtoolExportProfileData,
   FlamechartReactDevtoolProfileContainer,
   prepareProfilingDataFrontendFromExport,
   ReactDevtoolProfilingDataExport,
-} from '@perfsee/flamechart'
+} from '@fe/perfsee-flamechart'
 
 import { SnapshotDetailType } from '../snapshot-type'
 

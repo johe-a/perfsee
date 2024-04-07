@@ -18,7 +18,7 @@ import Gatherer from 'lighthouse/types/gatherer'
 import { truncate } from 'lodash'
 import { Protocol } from 'puppeteer-core'
 
-import { logger } from '@perfsee/job-runner-shared'
+import { logger } from '@fe/perfsee-job-runner-shared'
 
 import { GathererInstance } from './gatherer'
 

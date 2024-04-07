@@ -17,11 +17,11 @@ limitations under the License.
 import { Stack } from '@fluentui/react'
 import { FC } from 'react'
 
-import { AuditItemDetail } from '@perfsee/bundle-report/bundle-detail/resource-tabs/audits'
-import { CollapsiblePanel, ForeignLink, formatMDLink } from '@perfsee/components'
-import { LabAuditDetail } from '@perfsee/lab-report/lab-audit-detail'
-import { LighthouseAudit } from '@perfsee/lab-report/snapshot-type'
-import { BundleAuditResult } from '@perfsee/shared'
+import { AuditItemDetail } from '@fe/perfsee-bundle-report/bundle-detail/resource-tabs/audits'
+import { CollapsiblePanel, ForeignLink, formatMDLink } from '@fe/perfsee-components'
+import { LabAuditDetail } from '@fe/perfsee-lab-report/lab-audit-detail'
+import { LighthouseAudit } from '@fe/perfsee-lab-report/snapshot-type'
+import { BundleAuditResult } from '@fe/perfsee-shared'
 
 import { VersionIssue } from '../types'
 

@@ -17,8 +17,8 @@ limitations under the License.
 import { Stack, Link, SharedColors, NeutralColors } from '@fluentui/react'
 import { FC, memo, useCallback, useContext } from 'react'
 
-import { NetworkRequest } from '@perfsee/flamechart'
-import { TraceEvent, CauseForLcp, DomNode, FunctionStackTrace } from '@perfsee/shared'
+import { NetworkRequest } from '@fe/perfsee-flamechart'
+import { TraceEvent, CauseForLcp, DomNode, FunctionStackTrace } from '@fe/perfsee-shared'
 
 import { LighthouseScoreBlock } from '../../pivot-content-overview/lighthouse-score-block'
 import { SnapshotDetailType } from '../../snapshot-type'

@@ -16,7 +16,7 @@ limitations under the License.
 
 import styled from '@emotion/styled'
 
-import { VscodeIcon as DefaultVscodeIcon } from '@perfsee/components'
+import { VscodeIcon as DefaultVscodeIcon } from '@fe/perfsee-components'
 
 export const PanelContainer = styled.div(({ theme }) => ({
   flexBasis: '50%',

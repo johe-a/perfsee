@@ -1,5 +1,5 @@
 {
-  "name": "@perfsee/utils",
+  "name": "@fe/perfsee-utils",
   "version": "1.10.0",
   "description": "utilities function of perfsee platform",
   "main": "dist/index.js",

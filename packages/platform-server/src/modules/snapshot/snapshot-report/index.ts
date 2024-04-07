@@ -16,7 +16,7 @@ limitations under the License.
 
 import { Module } from '@nestjs/common'
 
-import { StorageModule } from '@perfsee/platform-server/storage'
+import { StorageModule } from '@fe/perfsee-platform-server/storage'
 
 import { ProjectModule } from '../../project'
 import { ProjectUsageModule } from '../../project-usage'

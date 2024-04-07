@@ -9,7 +9,7 @@ Web tree map chart, based on webgl.
 ## Usage
 
 ```ts
-import { hierarchy, TreeMap } from '@perfsee/treemap'
+import { hierarchy, TreeMap } from '@fe/perfsee-treemap'
 
 const treemapData = hierarchy({
   name: 'root',

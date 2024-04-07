@@ -1,11 +1,11 @@
-# `@perfsee/sdk`
+# `@fe/perfsee-sdk`
 
 > Perfsee sdk and command line tools
 
 ## Installation
 
 ```
-npm install -g @perfsee/sdk
+npm install -g @fe/perfsee-sdk
 ```
 
 ## Usage
@@ -38,7 +38,7 @@ You can use it on your webhook server with the code below. Learn more in our [We
 
 ```ts
 import express from 'express'
-import { WebhookEvent } from '@perfsee/sdk'
+import { WebhookEvent } from '@fe/perfsee-sdk'
 
 const app = express()
 

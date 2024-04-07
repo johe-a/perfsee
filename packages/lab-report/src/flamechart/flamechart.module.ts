@@ -19,8 +19,8 @@ import { Draft, freeze } from 'immer'
 import { Observable } from 'rxjs'
 import { endWith, map, mergeMap, startWith, switchMap } from 'rxjs/operators'
 
-import { reportMetricsQuery, ReportMetricsQueryVariables } from '@perfsee/schema'
-import { FlameChartData, MetricType, createErrorCatcher, GraphQLClient, RxFetch } from '@perfsee/shared'
+import { reportMetricsQuery, ReportMetricsQueryVariables } from '@fe/perfsee-schema'
+import { FlameChartData, MetricType, createErrorCatcher, GraphQLClient, RxFetch } from '@fe/perfsee-shared'
 
 interface State {
   flamechart: FlameChartData | null

@@ -17,7 +17,7 @@ limitations under the License.
 import { Theme } from '@emotion/react'
 import styled from '@emotion/styled'
 
-import { lighten } from '@perfsee/dls'
+import { lighten } from '@fe/perfsee-dls'
 
 export interface TagProps {
   type?: keyof Theme['tag']

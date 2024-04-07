@@ -17,8 +17,8 @@ limitations under the License.
 import Chalk, { Instance } from 'chalk'
 import { getBorderCharacters, table } from 'table'
 
-import { BundleAuditScore, BundleResult, calcBundleScore, calcEntryPointScore } from '@perfsee/bundle-analyzer'
-import { PrettyBytes } from '@perfsee/utils'
+import { BundleAuditScore, BundleResult, calcBundleScore, calcEntryPointScore } from '@fe/perfsee-bundle-analyzer'
+import { PrettyBytes } from '@fe/perfsee-utils'
 
 const chalk =
   process.env.NODE_ENV === 'test' && process.env.ENABLE_REPORT_COLOR !== 'true' ? new Instance({ level: 0 }) : Chalk

@@ -17,9 +17,9 @@ limitations under the License.
 import styled from '@emotion/styled'
 import { MouseEventHandler, useCallback, useEffect, useState } from 'react'
 
-import { SharedColors } from '@perfsee/dls'
-import { SnapshotUserFlowDetailType } from '@perfsee/lab-report/snapshot-type'
-import { TimelineSchema } from '@perfsee/shared'
+import { SharedColors } from '@fe/perfsee-dls'
+import { SnapshotUserFlowDetailType } from '@fe/perfsee-lab-report/snapshot-type'
+import { TimelineSchema } from '@fe/perfsee-shared'
 
 interface Props {
   steps: SnapshotUserFlowDetailType[]

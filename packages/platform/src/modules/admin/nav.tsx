@@ -2,7 +2,7 @@ import { INavLink, INavLinkGroup } from '@fluentui/react'
 import { useCallback, useEffect, useMemo } from 'react'
 import { useHistory, useParams } from 'react-router'
 
-import { pathFactory, RouteTypes } from '@perfsee/shared/routes'
+import { pathFactory, RouteTypes } from '@fe/perfsee-shared/routes'
 
 import { SecondaryNav } from '../layout'
 

@@ -22,9 +22,9 @@ export * from './job-log'
 export * from './source-coverage'
 export * from './external-account'
 export * from './source-statistics'
-export * from '@perfsee/bundle-analyzer/types'
-export * from '@perfsee/bundle-analyzer/stats'
-export type { BuildUploadParams } from '@perfsee/plugin-utils'
+export * from '@fe/perfsee-bundle-analyzer/types'
+export * from '@fe/perfsee-bundle-analyzer/stats'
+export type { BuildUploadParams } from '@fe/perfsee-plugin-utils'
 export type {
   SaveOptions,
   Summary as BenchmarkSummary,
@@ -36,5 +36,5 @@ export type {
   PackageJson,
   PackageStats,
   BenchmarkResult,
-} from '@perfsee/package'
+} from '@fe/perfsee-package'
 export * from './trace-event'

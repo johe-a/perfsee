@@ -19,8 +19,8 @@ import { Draft } from 'immer'
 import { Observable } from 'rxjs'
 import { switchMap, map, startWith, endWith } from 'rxjs/operators'
 
-import { GraphQLClient, createErrorCatcher } from '@perfsee/platform/common'
-import { artifactsQuery, ArtifactsQuery } from '@perfsee/schema'
+import { GraphQLClient, createErrorCatcher } from '@fe/perfsee-platform/common'
+import { artifactsQuery, ArtifactsQuery } from '@fe/perfsee-schema'
 
 export type Artifact = ArtifactsQuery['project']['artifacts']['edges'][0]['node']
 

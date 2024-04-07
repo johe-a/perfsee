@@ -1,4 +1,4 @@
-# `@perfsee/shared`
+# `@fe/perfsee-shared`
 
 The shared stuff only in private packages.
 

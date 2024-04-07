@@ -19,8 +19,8 @@ import { Draft, freeze } from 'immer'
 import { Observable } from 'rxjs'
 import { switchMap, map, startWith, endWith } from 'rxjs/operators'
 
-import { createErrorCatcher, RxFetch } from '@perfsee/platform/common'
-import { SourceAnalyzeStatistics } from '@perfsee/shared'
+import { createErrorCatcher, RxFetch } from '@fe/perfsee-platform/common'
+import { SourceAnalyzeStatistics } from '@fe/perfsee-shared'
 
 interface State {
   data: SourceAnalyzeStatistics | null

@@ -27,9 +27,9 @@ import {
   CustomSeriesOption,
   TooltipRendererParam,
   renderTooltip,
-} from '@perfsee/components/chart'
-import { TraceTimesWithoutFCP, formatTime } from '@perfsee/shared'
-import { Task } from '@perfsee/tracehouse'
+} from '@fe/perfsee-components/chart'
+import { TraceTimesWithoutFCP, formatTime } from '@fe/perfsee-shared'
+import { Task } from '@fe/perfsee-tracehouse'
 
 import { RecordCategory, RecordType } from '../snapshot-type'
 

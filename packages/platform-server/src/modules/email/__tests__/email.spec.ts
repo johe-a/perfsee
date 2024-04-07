@@ -2,8 +2,8 @@ import { Test } from '@nestjs/testing'
 import nodemailer from 'nodemailer'
 import sinon from 'sinon'
 
-import { ConfigModule } from '@perfsee/platform-server/config'
-import test, { createMock } from '@perfsee/platform-server/test'
+import { ConfigModule } from '@fe/perfsee-platform-server/config'
+import test, { createMock } from '@fe/perfsee-platform-server/test'
 
 import { EmailModule, EmailService } from '..'
 import { ApplicationSettingService } from '../../application-setting'

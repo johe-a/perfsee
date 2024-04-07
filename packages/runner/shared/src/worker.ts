@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { UpdateJobEvent } from '@perfsee/server-common'
+import { UpdateJobEvent } from '@fe/perfsee-server-common'
 
 import { AbstractJobLogger, logger } from './logger'
 import { PlatformClient } from './platform-client'

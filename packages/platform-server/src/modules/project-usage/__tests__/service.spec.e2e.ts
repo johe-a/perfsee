@@ -1,6 +1,6 @@
-import { Project } from '@perfsee/platform-server/db'
-import test, { GraphQLTestingClient, initTestDB } from '@perfsee/platform-server/test'
-import { projectUsageQuery } from '@perfsee/schema'
+import { Project } from '@fe/perfsee-platform-server/db'
+import test, { GraphQLTestingClient, initTestDB } from '@fe/perfsee-platform-server/test'
+import { projectUsageQuery } from '@fe/perfsee-schema'
 
 let gqlClient: GraphQLTestingClient
 let slug: string

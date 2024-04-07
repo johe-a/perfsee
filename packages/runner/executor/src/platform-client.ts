@@ -24,7 +24,7 @@ import { merge } from 'lodash'
 import fetch, { RequestInit } from 'node-fetch'
 import { extract } from 'tar'
 
-import { RunnerConfig, logger } from '@perfsee/job-runner-shared'
+import { RunnerConfig, logger } from '@fe/perfsee-job-runner-shared'
 import {
   RegisterRunnerParams,
   RegisterRunnerResponse,
@@ -36,7 +36,7 @@ import {
   UNKNOWN_RUNNER_ZONE,
   JobType,
   RunnerScriptResponse,
-} from '@perfsee/server-common'
+} from '@fe/perfsee-server-common'
 
 const currentRunnerScript: { [jobType: string]: string } = {}
 

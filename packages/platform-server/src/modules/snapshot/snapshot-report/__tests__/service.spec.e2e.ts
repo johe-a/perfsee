@@ -1,9 +1,9 @@
 import { faker } from '@faker-js/faker'
 
-import { Page, Project, Snapshot } from '@perfsee/platform-server/db'
-import test, { GraphQLTestingClient, initTestDB, create } from '@perfsee/platform-server/test'
-import { snapshotReportHistoryQuery, snapshotReportQuery, snapshotReportsQuery } from '@perfsee/schema'
-import { SnapshotStatus } from '@perfsee/server-common'
+import { Page, Project, Snapshot } from '@fe/perfsee-platform-server/db'
+import test, { GraphQLTestingClient, initTestDB, create } from '@fe/perfsee-platform-server/test'
+import { snapshotReportHistoryQuery, snapshotReportQuery, snapshotReportsQuery } from '@fe/perfsee-schema'
+import { SnapshotStatus } from '@fe/perfsee-server-common'
 
 import { mockCreateReport } from './utils'
 

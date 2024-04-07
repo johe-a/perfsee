@@ -18,8 +18,8 @@ import { DialogFooter, PrimaryButton, DefaultButton, Stack, TextField } from '@f
 import { useModule } from '@sigi/react'
 import { FC, memo, useCallback, useState } from 'react'
 
-import { Form, Select } from '@perfsee/components'
-import { GitHost } from '@perfsee/schema'
+import { Form, Select } from '@fe/perfsee-components'
+import { GitHost } from '@fe/perfsee-schema'
 
 import { CreateProjectModule } from '../../shared'
 

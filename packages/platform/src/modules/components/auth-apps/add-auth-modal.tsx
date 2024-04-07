@@ -19,8 +19,8 @@ import { Checkbox, DefaultButton, Dialog, DialogFooter, DialogType, PrimaryButto
 import { useModule } from '@sigi/react'
 import { FC, memo, useCallback, useRef, useState } from 'react'
 
-import { Pagination, useToggleState } from '@perfsee/components'
-import { Permission } from '@perfsee/schema'
+import { Pagination, useToggleState } from '@fe/perfsee-components'
+import { Permission } from '@fe/perfsee-schema'
 
 import { Application, AuthAppsModule } from './module'
 import { AddAppWrap, AppList, AppWrap, Avatar, Content, PermissionCheckWrap, Title } from './styled'

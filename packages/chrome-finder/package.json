@@ -1,5 +1,5 @@
 {
-  "name": "@perfsee/chrome-finder",
+  "name": "@fe/perfsee-chrome-finder",
   "version": "1.10.0",
   "description": "Chrome executable bin finder",
   "license": "Apache-2.0",

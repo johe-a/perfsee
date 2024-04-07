@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common'
 import { Response } from 'express'
 import { StringifiableRecord, stringifyUrl } from 'query-string'
 
-import { Config } from '@perfsee/platform-server/config'
+import { Config } from '@fe/perfsee-platform-server/config'
 
 @Injectable()
 export class UrlService {

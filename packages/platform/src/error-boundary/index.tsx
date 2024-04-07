@@ -17,8 +17,8 @@ limitations under the License.
 import { useInstance } from '@sigi/react'
 import { ErrorInfo, HTMLAttributes, PureComponent, ReactNode, memo } from 'react'
 
-import { CrashIcon } from '@perfsee/components'
-import { LoggerFactory, digestString } from '@perfsee/platform/common'
+import { CrashIcon } from '@fe/perfsee-components'
+import { LoggerFactory, digestString } from '@fe/perfsee-platform/common'
 
 import { CrashContainer, crashIconStyle, CrashId, Recover } from './style'
 

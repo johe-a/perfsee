@@ -17,8 +17,8 @@ limitations under the License.
 import { useTheme } from '@emotion/react'
 import { FC, memo, useMemo } from 'react'
 
-import { Chart, EChartsOption } from '@perfsee/components/chart'
-import { MetricScoreSchema } from '@perfsee/shared'
+import { Chart, EChartsOption } from '@fe/perfsee-components/chart'
+import { MetricScoreSchema } from '@fe/perfsee-shared'
 
 import { PerformanceRadarWrap } from './styled'
 import { formatPerformanceValue, getScoreMapKey, PerformanceKeys, PerformanceScoreColorMap } from './utils'

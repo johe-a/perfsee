@@ -1,5 +1,5 @@
 {
-  "name": "@perfsee/email-templates",
+  "name": "@fe/perfsee-email-templates",
   "version": "1.0.0",
   "description": "HTML Templates for email",
   "private": true,

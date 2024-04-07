@@ -18,9 +18,9 @@ import { SelectionMode, TooltipHost } from '@fluentui/react'
 import { flatMap } from 'lodash'
 import { FC, useMemo } from 'react'
 
-import { HeaderWithVerticalLineStyles, onRenderVerticalLineRow, Table, TableColumnProps } from '@perfsee/components'
-import { SnapshotDetailType, SnapshotReportSchema } from '@perfsee/lab-report/snapshot-type'
-import { PrettyBytes, RequestSchema, TimingType, TraceTimesWithoutFCP } from '@perfsee/shared'
+import { HeaderWithVerticalLineStyles, onRenderVerticalLineRow, Table, TableColumnProps } from '@fe/perfsee-components'
+import { SnapshotDetailType, SnapshotReportSchema } from '@fe/perfsee-lab-report/snapshot-type'
+import { PrettyBytes, RequestSchema, TimingType, TraceTimesWithoutFCP } from '@fe/perfsee-shared'
 
 import { HeaderTitle } from '../style'
 

@@ -1,1 +1,1 @@
-# `@perfsee/lab-report`
+# `@fe/perfsee-lab-report`

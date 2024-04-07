@@ -21,7 +21,7 @@ import { useModule } from '@sigi/react'
 import { useEffect } from 'react'
 import { useLocation } from 'react-router'
 
-import { staticPath } from '@perfsee/shared/routes'
+import { staticPath } from '@fe/perfsee-shared/routes'
 
 import { Notifications } from '../modules/components'
 import { Header, Footer } from '../modules/layout'

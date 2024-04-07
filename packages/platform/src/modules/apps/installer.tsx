@@ -15,9 +15,9 @@ import { useModule } from '@sigi/react'
 import { useCallback, useEffect, useState } from 'react'
 import { useParams } from 'react-router'
 
-import { BodyContainer, Pagination, useQueryString, Table } from '@perfsee/components'
-import { Permission } from '@perfsee/schema'
-import { pathFactory, RouteTypes } from '@perfsee/shared/routes'
+import { BodyContainer, Pagination, useQueryString, Table } from '@fe/perfsee-components'
+import { Permission } from '@fe/perfsee-schema'
+import { pathFactory, RouteTypes } from '@fe/perfsee-shared/routes'
 
 import { ProjectNode, ProjectsModule } from '../project/list.module'
 import { ProjectModule } from '../shared'

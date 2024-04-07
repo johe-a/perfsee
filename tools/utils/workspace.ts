@@ -67,7 +67,7 @@ export class Package {
   /**
    * name of package
    *
-   * eg. @perfsee/platform
+   * eg. @fe/perfsee-platform
    */
   name!: PackageName
 

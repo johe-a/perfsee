@@ -1,8 +1,14 @@
 import { faker } from '@faker-js/faker'
 
-import { Group, Project, ProjectGroup, User } from '@perfsee/platform-server/db'
-import { Metric } from '@perfsee/platform-server/metrics'
-import test, { createMock, initTestDB, createDBTestingModule, DeepMocked, create } from '@perfsee/platform-server/test'
+import { Group, Project, ProjectGroup, User } from '@fe/perfsee-platform-server/db'
+import { Metric } from '@fe/perfsee-platform-server/metrics'
+import test, {
+  createMock,
+  initTestDB,
+  createDBTestingModule,
+  DeepMocked,
+  create,
+} from '@fe/perfsee-platform-server/test'
 
 import { PermissionProvider, Permission } from '../../permission'
 import { UserService } from '../../user'

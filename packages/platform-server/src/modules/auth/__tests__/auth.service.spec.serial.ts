@@ -1,10 +1,10 @@
 import { isMatch } from 'lodash'
 
-import { ConfigModule } from '@perfsee/platform-server/config'
-import { User } from '@perfsee/platform-server/db'
-import { HelpersModule } from '@perfsee/platform-server/helpers'
-import { RedisModule } from '@perfsee/platform-server/redis'
-import test, { createMock, initTestDB, create, createDBTestingModule } from '@perfsee/platform-server/test'
+import { ConfigModule } from '@fe/perfsee-platform-server/config'
+import { User } from '@fe/perfsee-platform-server/db'
+import { HelpersModule } from '@fe/perfsee-platform-server/helpers'
+import { RedisModule } from '@fe/perfsee-platform-server/redis'
+import test, { createMock, initTestDB, create, createDBTestingModule } from '@fe/perfsee-platform-server/test'
 
 import { AuthService } from '../auth.service'
 

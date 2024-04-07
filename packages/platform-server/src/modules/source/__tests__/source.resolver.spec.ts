@@ -1,7 +1,7 @@
 import { Test } from '@nestjs/testing'
 
-import { Project, SourceIssue } from '@perfsee/platform-server/db'
-import test, { createMock, defaultPagination } from '@perfsee/platform-server/test'
+import { Project, SourceIssue } from '@fe/perfsee-platform-server/db'
+import test, { createMock, defaultPagination } from '@fe/perfsee-platform-server/test'
 
 import { ProjectSourceIssueResolver } from '../resolver'
 import { SourceService } from '../service'

@@ -16,7 +16,7 @@ limitations under the License.
 
 import { Global, Module } from '@nestjs/common'
 
-import { DBModule } from '@perfsee/platform-server/db'
+import { DBModule } from '@fe/perfsee-platform-server/db'
 
 import { CryptoService } from './crypto/crypto-service'
 import { RxFetch } from './fetch'

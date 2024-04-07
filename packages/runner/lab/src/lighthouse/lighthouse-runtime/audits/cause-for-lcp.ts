@@ -16,8 +16,8 @@ limitations under the License.
 
 import type { TraceEvent } from 'lighthouse'
 
-import { dynamicImport } from '@perfsee/job-runner-shared'
-import { FunctionStackTrace } from '@perfsee/shared'
+import { dynamicImport } from '@fe/perfsee-job-runner-shared'
+import { FunctionStackTrace } from '@fe/perfsee-shared'
 
 import { getNetworkRecords } from '../../helpers'
 import * as SamplesHandler from '../../helpers/samples-handler'

@@ -18,8 +18,8 @@ import { Effect, EffectModule, ImmerReducer, Module } from '@sigi/core'
 import { Draft } from 'immer'
 import { map, Observable, switchMap } from 'rxjs'
 
-import { createErrorCatcher, GraphQLClient } from '@perfsee/platform/common'
-import { recentArtifactNamesQuery, recentBranchesQuery } from '@perfsee/schema'
+import { createErrorCatcher, GraphQLClient } from '@fe/perfsee-platform/common'
+import { recentArtifactNamesQuery, recentBranchesQuery } from '@fe/perfsee-schema'
 
 import { ProjectModule } from './project.module'
 

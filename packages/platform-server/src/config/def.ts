@@ -2,7 +2,7 @@ import { ApolloDriverConfig } from '@nestjs/apollo'
 import { RedisOptions } from 'ioredis'
 import { DataSourceOptions } from 'typeorm'
 
-import { ExternalAccount } from '@perfsee/shared'
+import { ExternalAccount } from '@fe/perfsee-shared'
 
 import { LeafPaths } from '../utils/types'
 

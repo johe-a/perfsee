@@ -16,7 +16,7 @@ limitations under the License.
 
 import { Command } from 'clipanion'
 
-import { logger } from '@perfsee/job-runner-shared'
+import { logger } from '@fe/perfsee-job-runner-shared'
 
 import { ConfigManager, printValidationErrors } from '../config'
 import { Runner } from '../runner'

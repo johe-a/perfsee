@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 
-import { ForeignLink } from '@perfsee/components'
-import { staticPath } from '@perfsee/shared/routes'
+import { ForeignLink } from '@fe/perfsee-components'
+import { staticPath } from '@fe/perfsee-shared/routes'
 
 import BannerLeftImage from '../../assets/banner-bg-left.png'
 import BannerRightImage from '../../assets/banner-bg-right.png'

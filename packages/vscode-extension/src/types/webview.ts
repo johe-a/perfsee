@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { FlameChartData, MetricType } from '@perfsee/shared'
+import { FlameChartData, MetricType } from '@fe/perfsee-shared'
 
 export interface WebViewProps {
   data: FlameChartData | 'prev'

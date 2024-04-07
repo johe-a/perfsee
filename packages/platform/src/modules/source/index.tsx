@@ -40,12 +40,12 @@ import {
   ContentCard,
   Empty,
   useWideScreen,
-} from '@perfsee/components'
-import { ConstantColors } from '@perfsee/dls'
-import { FlamechartPlaceholder } from '@perfsee/lab-report/flamechart'
-import { formatTime, stopPropagation } from '@perfsee/platform/common'
-import { getCommitLink } from '@perfsee/shared'
-import { pathFactory } from '@perfsee/shared/routes'
+} from '@fe/perfsee-components'
+import { ConstantColors } from '@fe/perfsee-dls'
+import { FlamechartPlaceholder } from '@fe/perfsee-lab-report/flamechart'
+import { formatTime, stopPropagation } from '@fe/perfsee-platform/common'
+import { getCommitLink } from '@fe/perfsee-shared'
+import { pathFactory } from '@fe/perfsee-shared/routes'
 
 import { CommitHashSelector } from '../components'
 import { ProjectModule, ProjectInfo, useProjectRouteGenerator } from '../shared'

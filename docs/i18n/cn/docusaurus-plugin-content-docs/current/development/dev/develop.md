@@ -51,7 +51,7 @@ Perfsee 由很多组件及服务组成，但在日常开发的过程中，最常
 
 ```bash
 # 启动后端服务，默认监听 3000 端口，通过 http://localhost:3000 访问
-yarn dev -p @perfsee/platform-server
+yarn dev -p @fe/perfsee-platform-server
 ```
 
 </TabItem>
@@ -60,7 +60,7 @@ yarn dev -p @perfsee/platform-server
 ```bash
 # 启动前端服务，默认监听 8080 端口，通过 http://localhost:8080 访问
 # 依赖后端服务，所有后端请求都会被代理到 http://localhost:3000
-yarn dev -p @perfsee/platform
+yarn dev -p @fe/perfsee-platform
 ```
 
 </TabItem>
@@ -69,7 +69,7 @@ yarn dev -p @perfsee/platform
 ```bash
 # 启动任务执行器服务，不会监听任何端口
 # 依赖后端服务，想要消费本地任务，需要启动 Job Runner
-yarn dev -p @perfsee/job-runner
+yarn dev -p @fe/perfsee-job-runner
 ```
 
 </TabItem>

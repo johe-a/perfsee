@@ -16,7 +16,7 @@ limitations under the License.
 
 import { Resolver, ResolveField, Parent } from '@nestjs/graphql'
 
-import { Project, UsagePack } from '@perfsee/platform-server/db'
+import { Project, UsagePack } from '@fe/perfsee-platform-server/db'
 
 import { ProjectUsageService } from './service'
 import { ProjectUsage } from './types'

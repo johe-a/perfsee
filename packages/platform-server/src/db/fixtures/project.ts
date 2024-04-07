@@ -15,7 +15,7 @@ limitations under the License.
 */
 
 import { faker } from '@faker-js/faker'
-import { GitHost } from '@perfsee/shared'
+import { GitHost } from '@fe/perfsee-shared'
 import { Project } from '../mysql'
 
 import { registerEntityFactory } from './factory'

@@ -1,5 +1,5 @@
 {
-  "name": "@perfsee/package",
+  "name": "@fe/perfsee-package",
   "version": "1.12.2",
   "description": "package analyzer sdk by perfsee",
   "sideEffect": false,
@@ -37,9 +37,9 @@
   "dependencies": {
     "@arrows/composition": "^1.2.2",
     "@arrows/dispatch": "^1.0.3",
-    "@perfsee/chrome-finder": "workspace:*",
-    "@perfsee/package-build-stats": "workspace:*",
-    "@perfsee/utils": "workspace:*",
+    "@fe/perfsee-chrome-finder": "workspace:*",
+    "@fe/perfsee-package-build-stats": "workspace:*",
+    "@fe/perfsee-utils": "workspace:*",
     "benchmark": "^2.1.4",
     "chalk": "^4.1.2",
     "clipanion": "^3.1.0",

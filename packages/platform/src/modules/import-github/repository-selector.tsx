@@ -19,7 +19,7 @@ import { SelectionMode } from '@fluentui/utilities'
 import { useModule } from '@sigi/react'
 import React, { useCallback, useEffect, useMemo, useState } from 'react'
 
-import { ForeignLink, MessageBar, Table, TableColumnProps } from '@perfsee/components'
+import { ForeignLink, MessageBar, Table, TableColumnProps } from '@fe/perfsee-components'
 
 import { GithubRepositoryModel, Repository } from './github-repository.module'
 import { CenterText, SelectorContainer } from './style'

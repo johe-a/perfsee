@@ -26,8 +26,8 @@ import { useModule } from '@sigi/react'
 import { uniq } from 'lodash'
 import { useCallback } from 'react'
 
-import { UserEmailsInput } from '@perfsee/platform/modules/components'
-import { MessageTargetType, BundleMessageSource, BundleMessageFilter, LabMessageSource } from '@perfsee/schema'
+import { UserEmailsInput } from '@fe/perfsee-platform/modules/components'
+import { MessageTargetType, BundleMessageSource, BundleMessageFilter, LabMessageSource } from '@fe/perfsee-schema'
 
 import { BasicSettingsModule, SettingKeys, Settings } from './module'
 import { Field } from './style'

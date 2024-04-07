@@ -21,7 +21,7 @@ import { SharedColors } from '@fluentui/theme'
 import dayjs from 'dayjs'
 import { useCallback, useMemo } from 'react'
 
-import { SimpleBarChart } from '@perfsee/components'
+import { SimpleBarChart } from '@fe/perfsee-components'
 
 const Container = styled.div({
   minWidth: '200px',

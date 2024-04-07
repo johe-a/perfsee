@@ -3,8 +3,8 @@ import test from 'ava'
 import { Response } from 'express'
 import sinon from 'sinon'
 
-import { ConfigModule } from '@perfsee/platform-server/config'
-import { pathFactory } from '@perfsee/shared/routes'
+import { ConfigModule } from '@fe/perfsee-platform-server/config'
+import { pathFactory } from '@fe/perfsee-shared/routes'
 
 import { UrlService } from '..'
 

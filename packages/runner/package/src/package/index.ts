@@ -20,10 +20,10 @@ import { join, parse } from 'path'
 
 import { v4 as uuid } from 'uuid'
 
-import { JobWorker } from '@perfsee/job-runner-shared'
-import { analyze, extractBundleFromStream, runBrowser, BenchmarkResult, PackageStats } from '@perfsee/package/index'
-import { BundleJobStatus, JobType, PackageJobPayload, PackageJobUpdate } from '@perfsee/server-common'
-import { PackOptions } from '@perfsee/shared'
+import { JobWorker } from '@fe/perfsee-job-runner-shared'
+import { analyze, extractBundleFromStream, runBrowser, BenchmarkResult, PackageStats } from '@fe/perfsee-package/index'
+import { BundleJobStatus, JobType, PackageJobPayload, PackageJobUpdate } from '@fe/perfsee-server-common'
+import { PackOptions } from '@fe/perfsee-shared'
 
 export class PackageWorker extends JobWorker<PackageJobPayload> {
   private pwd!: string

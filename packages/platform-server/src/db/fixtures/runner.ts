@@ -18,7 +18,7 @@ import os from 'os'
 
 import { faker } from '@faker-js/faker'
 
-import { JobType, UNKNOWN_RUNNER_ZONE } from '@perfsee/server-common'
+import { JobType, UNKNOWN_RUNNER_ZONE } from '@fe/perfsee-server-common'
 
 import { Runner } from '../mysql'
 

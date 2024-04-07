@@ -24,7 +24,7 @@ import {
   MetricKeyType,
   LocalStorageType,
   EntryDiffBrief,
-} from '@perfsee/shared'
+} from '@fe/perfsee-shared'
 
 type PartialSnapshotReport = {
   status?: SnapshotStatus

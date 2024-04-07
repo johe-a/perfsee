@@ -1,5 +1,5 @@
 {
-  "name": "@perfsee/plugin-utils",
+  "name": "@fe/perfsee-plugin-utils",
   "version": "1.12.2",
   "description": "pertsuite plugin utilities",
   "repository": "https://github.com/perfsee/perfsee",
@@ -20,9 +20,9 @@
     "access": "public"
   },
   "dependencies": {
-    "@perfsee/bundle-analyzer": "workspace:*",
-    "@perfsee/jsonr": "workspace:*",
-    "@perfsee/utils": "workspace:*",
+    "@fe/perfsee-bundle-analyzer": "workspace:*",
+    "@fe/perfsee-jsonr": "workspace:*",
+    "@fe/perfsee-utils": "workspace:*",
     "chalk": "^4.1.2",
     "debug": "4.3.4",
     "env-ci": "^7.2.1",

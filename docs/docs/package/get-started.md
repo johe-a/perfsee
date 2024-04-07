@@ -8,7 +8,7 @@ sidebar_position: 1
 
 ```bash
 # or any package manager you are using, e.g. npm/pnpm
-yarn add @perfsee/package -D
+yarn add @fe/perfsee-package -D
 ```
 
 ## Step 2: Create Benchmark files (optional)
@@ -16,7 +16,7 @@ yarn add @perfsee/package -D
 Create a file named `test.bench.js` under the project.
 
 ```js
-const Benchmark = require('@perfsee/package')
+const Benchmark = require('@fe/perfsee-package')
 
 Benchmark('foo', () => {
   bar()
@@ -48,7 +48,7 @@ More about benchmark api, please refer to [Benchmark API](./benchmark-api).
 Before analysis, it's necessary to create a perfsee project and apply API Token on the [Token Management](https://perfsee.com/me/access-token) page.
 
 ```bash
-PERFSEE_TOKEN=<your-token> npx @perfsee/package <path-to-package> --project=<perfsee-project-id>
+PERFSEE_TOKEN=<your-token> npx @fe/perfsee-package <path-to-package> --project=<perfsee-project-id>
 ```
 
 If there are benchmark files named `xxx.{bench,benchmark}.{js,ts}`(by default), this command will run benchmarks before uploading.

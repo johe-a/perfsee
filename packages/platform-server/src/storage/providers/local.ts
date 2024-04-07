@@ -19,7 +19,7 @@ import { join, parse } from 'path'
 
 import debugFactory from 'debug'
 
-import { PrettyBytes } from '@perfsee/shared'
+import { PrettyBytes } from '@fe/perfsee-shared'
 
 import { BaseObjectStorage } from './provider'
 

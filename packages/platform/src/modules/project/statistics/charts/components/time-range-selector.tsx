@@ -16,7 +16,7 @@ limitations under the License.
 
 import { useCallback } from 'react'
 
-import { SingleSelector } from '@perfsee/components'
+import { SingleSelector } from '@fe/perfsee-components'
 
 export type TimeItemSchema = {
   id: string

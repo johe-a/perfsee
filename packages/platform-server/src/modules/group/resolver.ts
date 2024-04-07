@@ -27,8 +27,8 @@ import {
   GraphQLISODateTime,
 } from '@nestjs/graphql'
 
-import { Artifact, Group, Project, Snapshot, User } from '@perfsee/platform-server/db'
-import { PaginationInput, PaginatedType, paginate, Paginated } from '@perfsee/platform-server/graphql'
+import { Artifact, Group, Project, Snapshot, User } from '@fe/perfsee-platform-server/db'
+import { PaginationInput, PaginatedType, paginate, Paginated } from '@fe/perfsee-platform-server/graphql'
 
 import { CurrentUser, Auth } from '../auth'
 import { PermissionGuard, Permission } from '../permission'

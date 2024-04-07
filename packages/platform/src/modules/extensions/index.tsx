@@ -26,8 +26,8 @@ import {
   TableColumnProps,
   TooltipWithEllipsis,
   formatMDLink,
-} from '@perfsee/components'
-import { RouteTypes, pathFactory, staticPath } from '@perfsee/shared/routes'
+} from '@fe/perfsee-components'
+import { RouteTypes, pathFactory, staticPath } from '@fe/perfsee-shared/routes'
 
 import { RunnerScriptManager } from '../admin/runner-scripts'
 

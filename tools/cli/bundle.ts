@@ -26,7 +26,7 @@ import { runWebpack } from '../webpack/webpack.config'
 
 import { Command } from './command'
 
-const packages: PackageName[] = ['@perfsee/platform', '@perfsee/platform-server', '@perfsee/job-runner']
+const packages: PackageName[] = ['@fe/perfsee-platform', '@fe/perfsee-platform-server', '@fe/perfsee-job-runner']
 
 const projectQuestion: Question = {
   type: 'list',
@@ -36,27 +36,27 @@ const projectQuestion: Question = {
 }
 
 const webpackConfigs: { [index: string]: webpack.Configuration } = {
-  '@perfsee/platform': {
+  '@fe/perfsee-platform': {
     ...getFrontendConfig(),
     output: {
       path: pathToRoot('assets', 'platform'),
     },
   },
-  '@perfsee/platform-server': {
+  '@fe/perfsee-platform-server': {
     ...getNodeConfig(),
     entry: {
-      main: packagePath('@perfsee/platform-server', 'src', 'index.ts'),
-      cli: packagePath('@perfsee/platform-server', 'src', 'cli.app.ts'),
+      main: packagePath('@fe/perfsee-platform-server', 'src', 'index.ts'),
+      cli: packagePath('@fe/perfsee-platform-server', 'src', 'cli.app.ts'),
     },
   },
-  '@perfsee/job-runner': getNodeConfig(),
-  '@perfsee/bundle-report': {
+  '@fe/perfsee-job-runner': getNodeConfig(),
+  '@fe/perfsee-bundle-report': {
     entry: {
-      main: packagePath('@perfsee/bundle-report', 'src', 'static.tsx'),
+      main: packagePath('@fe/perfsee-bundle-report', 'src', 'static.tsx'),
     },
     devtool: 'inline-cheap-module-source-map',
     output: {
-      path: packagePath('@perfsee/plugin-utils', 'public'),
+      path: packagePath('@fe/perfsee-plugin-utils', 'public'),
       filename: 'report.js',
       asyncChunks: false,
     },
@@ -73,13 +73,13 @@ const webpackConfigs: { [index: string]: webpack.Configuration } = {
       ],
     },
   },
-  '@perfsee/package-report': {
+  '@fe/perfsee-package-report': {
     entry: {
-      main: packagePath('@perfsee/package-report', 'src', 'report.tsx'),
+      main: packagePath('@fe/perfsee-package-report', 'src', 'report.tsx'),
     },
     devtool: 'inline-cheap-module-source-map',
     output: {
-      path: packagePath('@perfsee/package', 'public'),
+      path: packagePath('@fe/perfsee-package', 'public'),
       filename: 'report.js',
       asyncChunks: false,
     },
@@ -88,13 +88,13 @@ const webpackConfigs: { [index: string]: webpack.Configuration } = {
       runtimeChunk: false,
     },
   },
-  '@perfsee/bundle-analyzer': {
+  '@fe/perfsee-bundle-analyzer': {
     entry: {
-      main: packagePath('@perfsee/bundle-analyzer', 'src', 'stats-parser', 'audit', '__extensions__', 'index.ts'),
+      main: packagePath('@fe/perfsee-bundle-analyzer', 'src', 'stats-parser', 'audit', '__extensions__', 'index.ts'),
     },
     devtool: false,
     output: {
-      path: packagePath('@perfsee/bundle-analyzer', 'tmp', 'audit'),
+      path: packagePath('@fe/perfsee-bundle-analyzer', 'tmp', 'audit'),
       filename: 'index.js',
       asyncChunks: false,
       iife: false,

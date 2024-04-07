@@ -14,4 +14,4 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-export { Permission } from '@perfsee/shared'
+export { Permission } from '@fe/perfsee-shared'

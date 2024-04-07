@@ -16,7 +16,7 @@ limitations under the License.
 
 import { useRef, useLayoutEffect } from 'react'
 
-import { CollapsiblePanel, formatMDLink } from '@perfsee/components'
+import { CollapsiblePanel, formatMDLink } from '@fe/perfsee-components'
 
 import { LighthouseAudit } from '../snapshot-type'
 

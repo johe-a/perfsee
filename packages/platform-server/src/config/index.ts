@@ -35,7 +35,7 @@ function ApplyType<T>(): ConstructorOf<T> {
 /**
  * usage:
  * ```
- * import { Config } from '@perfsee/server-common'
+ * import { Config } from '@fe/perfsee-server-common'
  *
  * class TestConfig {
  *   constructor(private readonly config: Config) {}

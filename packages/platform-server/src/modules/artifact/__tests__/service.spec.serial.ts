@@ -17,12 +17,12 @@ limitations under the License.
 import { faker } from '@faker-js/faker'
 import { omit, pick } from 'lodash'
 
-import { Artifact, ArtifactEntrypoint, ArtifactName, Project } from '@perfsee/platform-server/db'
-import { EventEmitter } from '@perfsee/platform-server/event'
-import { AnalyzeUpdateType } from '@perfsee/platform-server/event/type'
-import test, { createMock, initTestDB, createDBTestingModule, create } from '@perfsee/platform-server/test'
-import { BundleJobStatus, JobType } from '@perfsee/server-common'
-import { Size } from '@perfsee/shared'
+import { Artifact, ArtifactEntrypoint, ArtifactName, Project } from '@fe/perfsee-platform-server/db'
+import { EventEmitter } from '@fe/perfsee-platform-server/event'
+import { AnalyzeUpdateType } from '@fe/perfsee-platform-server/event/type'
+import test, { createMock, initTestDB, createDBTestingModule, create } from '@fe/perfsee-platform-server/test'
+import { BundleJobStatus, JobType } from '@fe/perfsee-server-common'
+import { Size } from '@fe/perfsee-shared'
 
 import { ArtifactService } from '../service'
 

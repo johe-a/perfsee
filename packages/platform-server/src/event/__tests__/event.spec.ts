@@ -1,7 +1,7 @@
 import { INestApplication } from '@nestjs/common'
 import { Test } from '@nestjs/testing'
 
-import test from '@perfsee/platform-server/test'
+import test from '@fe/perfsee-platform-server/test'
 
 import { EventsProviderConsumer, TestEventModule } from './test.module'
 

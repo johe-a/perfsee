@@ -19,9 +19,9 @@ import { Draft, freeze } from 'immer'
 import { Observable } from 'rxjs'
 import { switchMap, map, filter, startWith, endWith, withLatestFrom } from 'rxjs/operators'
 
-import { createErrorCatcher, RxFetch, GraphQLClient } from '@perfsee/platform/common'
-import { artifactQuery } from '@perfsee/schema'
-import { ModuleTreeNode } from '@perfsee/shared'
+import { createErrorCatcher, RxFetch, GraphQLClient } from '@fe/perfsee-platform/common'
+import { artifactQuery } from '@fe/perfsee-schema'
+import { ModuleTreeNode } from '@fe/perfsee-shared'
 
 import { ProjectModule } from '../../shared'
 

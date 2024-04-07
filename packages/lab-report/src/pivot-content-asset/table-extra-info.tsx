@@ -17,7 +17,7 @@ limitations under the License.
 import { PivotItem, Stack } from '@fluentui/react'
 import { ReactNode, memo } from 'react'
 
-import { RequestSchema, StackTrack } from '@perfsee/shared'
+import { RequestSchema, StackTrack } from '@fe/perfsee-shared'
 
 import { StyledPivot, StyledLink, StyledInfoItem, StyledInfoKey } from './style'
 

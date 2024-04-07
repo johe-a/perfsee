@@ -17,9 +17,9 @@ limitations under the License.
 import { ForbiddenException } from '@nestjs/common'
 import { Args, InputType, Mutation, Parent, PartialType, Query, ResolveField, Resolver } from '@nestjs/graphql'
 
-import { Config } from '@perfsee/platform-server/config'
-import { ApplicationSetting, User } from '@perfsee/platform-server/db'
-import { ExternalAccount } from '@perfsee/shared'
+import { Config } from '@fe/perfsee-platform-server/config'
+import { ApplicationSetting, User } from '@fe/perfsee-platform-server/db'
+import { ExternalAccount } from '@fe/perfsee-shared'
 
 import { Auth, CurrentUser } from '../auth'
 

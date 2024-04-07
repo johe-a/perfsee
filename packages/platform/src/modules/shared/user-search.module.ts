@@ -19,8 +19,8 @@ import { Draft } from 'immer'
 import { Observable } from 'rxjs'
 import { switchMap, map, startWith, endWith, debounceTime } from 'rxjs/operators'
 
-import { GraphQLClient, createErrorCatcher } from '@perfsee/platform/common'
-import { searchUsersQuery, SearchUsersQuery } from '@perfsee/schema'
+import { GraphQLClient, createErrorCatcher } from '@fe/perfsee-platform/common'
+import { searchUsersQuery, SearchUsersQuery } from '@fe/perfsee-schema'
 
 export type SearchedUser = SearchUsersQuery['searchUsers'][0]
 interface State {

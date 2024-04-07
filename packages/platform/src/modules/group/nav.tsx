@@ -20,8 +20,8 @@ import { parse, stringifyUrl } from 'query-string'
 import { useCallback, useEffect } from 'react'
 import { useHistory, useParams } from 'react-router'
 
-import { Permission } from '@perfsee/schema'
-import { pathFactory, RouteTypes } from '@perfsee/shared/routes'
+import { Permission } from '@fe/perfsee-schema'
+import { pathFactory, RouteTypes } from '@fe/perfsee-shared/routes'
 
 import { GroupModule } from '../shared'
 

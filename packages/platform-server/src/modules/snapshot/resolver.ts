@@ -26,10 +26,10 @@ import {
   GraphQLISODateTime,
 } from '@nestjs/graphql'
 
-import { Snapshot, Project, User, SnapshotTrigger } from '@perfsee/platform-server/db'
-import { UserError } from '@perfsee/platform-server/error'
-import { PaginationInput, PaginatedType, paginate, Paginated } from '@perfsee/platform-server/graphql'
-import { SnapshotStatus } from '@perfsee/server-common'
+import { Snapshot, Project, User, SnapshotTrigger } from '@fe/perfsee-platform-server/db'
+import { UserError } from '@fe/perfsee-platform-server/error'
+import { PaginationInput, PaginatedType, paginate, Paginated } from '@fe/perfsee-platform-server/graphql'
+import { SnapshotStatus } from '@fe/perfsee-server-common'
 
 import { CurrentUser } from '../auth'
 import { PermissionGuard, Permission } from '../permission'

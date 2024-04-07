@@ -17,7 +17,7 @@ limitations under the License.
 import { Stack, Checkbox, Link } from '@fluentui/react'
 import { FC, FormEvent, forwardRef, useCallback, useImperativeHandle, useState } from 'react'
 
-import { IconWithTips, LabelWithTips, RequiredTextField } from '@perfsee/components'
+import { IconWithTips, LabelWithTips, RequiredTextField } from '@fe/perfsee-components'
 
 export interface LoginScriptProps {
   defaultScript?: string | null

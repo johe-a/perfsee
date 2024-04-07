@@ -19,7 +19,7 @@ import { Draft } from 'immer'
 import { Observable } from 'rxjs'
 import { map, switchMap, startWith, endWith } from 'rxjs/operators'
 
-import { GraphQLClient, createErrorCatcher } from '@perfsee/platform/common'
+import { GraphQLClient, createErrorCatcher } from '@fe/perfsee-platform/common'
 import {
   groupUsageQuery,
   GroupUsageQuery,
@@ -27,7 +27,7 @@ import {
   latestSnapshotReportsQuery,
   LatestSnapshotReportsQuery,
   LatestSnapshotReportsQueryVariables,
-} from '@perfsee/schema'
+} from '@fe/perfsee-schema'
 
 export type ProjectUsageInfo = GroupUsageQuery['group']['projects'][0]
 export type ArtifactEntrypoints = NonNullable<ProjectUsageInfo['artifactRecords']>[0]['entrypoints']

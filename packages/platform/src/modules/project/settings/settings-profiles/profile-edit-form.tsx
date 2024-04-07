@@ -27,7 +27,7 @@ import { useModuleState } from '@sigi/react'
 import { pick } from 'lodash'
 import { useCallback, useState, FormEvent, useRef } from 'react'
 
-import { RequiredTextField } from '@perfsee/components'
+import { RequiredTextField } from '@fe/perfsee-components'
 
 import { ProfileSchema, PropertyModule } from '../../../shared'
 import { getDevicesOptions, getConnectionsOptions, DefaultConnection, DefaultDevice } from '../helper'

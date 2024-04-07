@@ -17,8 +17,8 @@ limitations under the License.
 import { Field, ObjectType, InputType, GraphQLISODateTime, Int } from '@nestjs/graphql'
 import GraphQLJSON from 'graphql-type-json'
 
-import { JobType } from '@perfsee/server-common'
-import { JobLog } from '@perfsee/shared'
+import { JobType } from '@fe/perfsee-server-common'
+import { JobLog } from '@fe/perfsee-shared'
 
 @ObjectType()
 export class JobAggregation {

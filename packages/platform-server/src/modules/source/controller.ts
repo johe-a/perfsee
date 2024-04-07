@@ -16,9 +16,9 @@ limitations under the License.
 
 import { Controller } from '@nestjs/common'
 
-import { OnEvent } from '@perfsee/platform-server/event'
-import { Logger } from '@perfsee/platform-server/logger'
-import { JobType, SourceAnalyzeJobResult, SourceStatus } from '@perfsee/server-common'
+import { OnEvent } from '@fe/perfsee-platform-server/event'
+import { Logger } from '@fe/perfsee-platform-server/logger'
+import { JobType, SourceAnalyzeJobResult, SourceStatus } from '@fe/perfsee-server-common'
 
 import { SourceService } from './service'
 

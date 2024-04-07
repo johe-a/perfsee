@@ -17,7 +17,7 @@ limitations under the License.
 import { useModule } from '@sigi/react'
 import { useCallback, useEffect, useMemo, useState } from 'react'
 
-import { SearchSelect } from '@perfsee/components'
+import { SearchSelect } from '@fe/perfsee-components'
 
 import { BundlePropertiesModule } from '../../shared'
 

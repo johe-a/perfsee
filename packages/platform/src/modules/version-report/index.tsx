@@ -21,9 +21,9 @@ import { capitalize } from 'lodash'
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { useHistory } from 'react-router'
 
-import { useQueryString, ContentCard } from '@perfsee/components'
-import { SnapshotStatus } from '@perfsee/schema'
-import { pathFactory } from '@perfsee/shared/routes'
+import { useQueryString, ContentCard } from '@fe/perfsee-components'
+import { SnapshotStatus } from '@fe/perfsee-schema'
+import { pathFactory } from '@fe/perfsee-shared/routes'
 
 import { VersionPerformanceOverview } from '../components'
 import { useProjectRouteGenerator } from '../shared'

@@ -26,10 +26,10 @@ import {
   ID,
 } from '@nestjs/graphql'
 
-import { Artifact, Project, ArtifactEntrypoint, AppVersion } from '@perfsee/platform-server/db'
-import { UserError } from '@perfsee/platform-server/error'
-import { PaginationInput, PaginatedType, paginate, Paginated } from '@perfsee/platform-server/graphql'
-import { artifactLink } from '@perfsee/platform-server/utils'
+import { Artifact, Project, ArtifactEntrypoint, AppVersion } from '@fe/perfsee-platform-server/db'
+import { UserError } from '@fe/perfsee-platform-server/error'
+import { PaginationInput, PaginatedType, paginate, Paginated } from '@fe/perfsee-platform-server/graphql'
+import { artifactLink } from '@fe/perfsee-platform-server/utils'
 
 import { PermissionGuard, Permission } from '../permission'
 import { ProjectService } from '../project/service'

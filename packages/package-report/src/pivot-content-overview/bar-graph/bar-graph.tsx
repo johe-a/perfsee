@@ -17,8 +17,8 @@ limitations under the License.
 import { TooltipHost } from '@fluentui/react'
 import { PureComponent } from 'react'
 
-import { TreeShakeIcon, SideEffectIcon } from '@perfsee/components/icon'
-import { PrettyBytes } from '@perfsee/shared'
+import { TreeShakeIcon, SideEffectIcon } from '@fe/perfsee-components/icon'
+import { PrettyBytes } from '@fe/perfsee-shared'
 
 import {
   BarContainer,

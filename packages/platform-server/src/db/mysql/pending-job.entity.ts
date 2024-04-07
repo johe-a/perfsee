@@ -1,4 +1,4 @@
-import { JobType } from '@perfsee/server-common'
+import { JobType } from '@fe/perfsee-server-common'
 import {
   BaseEntity,
   Column,

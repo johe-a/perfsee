@@ -3,7 +3,7 @@ import { Stack, Toggle, FocusZone } from '@fluentui/react'
 import { startCase } from 'lodash'
 import { memo, useCallback } from 'react'
 
-import { ApplicationSettings } from '@perfsee/platform/modules/shared'
+import { ApplicationSettings } from '@fe/perfsee-platform/modules/shared'
 
 const settingsDesc: Partial<
   Record<

@@ -19,11 +19,11 @@ import { Stack } from '@fluentui/react'
 import { debounce } from 'lodash'
 import React, { FC, useCallback, useEffect, useMemo, useRef, useState } from 'react'
 
-import { IconWithTips } from '@perfsee/components'
-import { darken } from '@perfsee/dls'
-import { SnapshotDetailType, SnapshotReportSchema } from '@perfsee/lab-report/snapshot-type'
-import { formatTime } from '@perfsee/platform/common'
-import { TimelineSchema } from '@perfsee/shared'
+import { IconWithTips } from '@fe/perfsee-components'
+import { darken } from '@fe/perfsee-dls'
+import { SnapshotDetailType, SnapshotReportSchema } from '@fe/perfsee-lab-report/snapshot-type'
+import { formatTime } from '@fe/perfsee-platform/common'
+import { TimelineSchema } from '@fe/perfsee-shared'
 
 import { HeaderTitle } from '../style'
 

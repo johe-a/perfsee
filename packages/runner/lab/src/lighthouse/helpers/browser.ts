@@ -16,7 +16,7 @@ limitations under the License.
 
 import puppeteer from 'puppeteer-core'
 
-import { findChrome } from '@perfsee/chrome-finder'
+import { findChrome } from '@fe/perfsee-chrome-finder'
 
 export type BrowserOptions = Parameters<typeof puppeteer.launch>[0] & {
   enableProxy?: boolean

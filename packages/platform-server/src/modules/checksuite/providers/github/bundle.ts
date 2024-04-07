@@ -16,9 +16,9 @@ limitations under the License.
 
 import { pad, padEnd, padStart, truncate, TruncateOptions } from 'lodash'
 
-import { Artifact } from '@perfsee/platform-server/db'
-import { BundleJobUpdate, isPassedBundleJobUpdate } from '@perfsee/server-common'
-import { PrettyBytes } from '@perfsee/shared'
+import { Artifact } from '@fe/perfsee-platform-server/db'
+import { BundleJobUpdate, isPassedBundleJobUpdate } from '@fe/perfsee-server-common'
+import { PrettyBytes } from '@fe/perfsee-shared'
 
 import { BundleCompletedAction } from '../../types'
 

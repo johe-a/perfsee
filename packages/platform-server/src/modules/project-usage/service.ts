@@ -16,8 +16,8 @@ limitations under the License.
 
 import { Injectable } from '@nestjs/common'
 
-import { DBService, Project, ProjectJobUsage, ProjectStorageUsage, UsagePack } from '@perfsee/platform-server/db'
-import { Logger } from '@perfsee/platform-server/logger'
+import { DBService, Project, ProjectJobUsage, ProjectStorageUsage, UsagePack } from '@fe/perfsee-platform-server/db'
+import { Logger } from '@fe/perfsee-platform-server/logger'
 
 import { ProjectService } from '../project/service'
 

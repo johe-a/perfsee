@@ -30,13 +30,13 @@ import {
   mergeMap,
 } from 'rxjs'
 
-import { createErrorCatcher, GraphQLClient } from '@perfsee/platform/common'
+import { createErrorCatcher, GraphQLClient } from '@fe/perfsee-platform/common'
 import {
   GithubSearchRepositoriesQuery,
   githubSearchRepositoriesQuery,
   verifyGithubRepositoryPermissionQuery,
   VerifyGithubRepositoryPermissionQuery,
-} from '@perfsee/schema'
+} from '@fe/perfsee-schema'
 
 export type Repository = GithubSearchRepositoriesQuery['githubSearchRepositories']['edges'][number]['node']
 export type RepositoryVerification = VerifyGithubRepositoryPermissionQuery['verifyGithubRepositoryPermission']

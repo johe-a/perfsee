@@ -1,8 +1,8 @@
 import styled from '@emotion/styled'
 import { SharedColors } from '@fluentui/theme'
 
-import { ForeignLink } from '@perfsee/components'
-import { getCommitLink } from '@perfsee/shared'
+import { ForeignLink } from '@fe/perfsee-components'
+import { getCommitLink } from '@fe/perfsee-shared'
 
 import { useProject } from '../../shared'
 

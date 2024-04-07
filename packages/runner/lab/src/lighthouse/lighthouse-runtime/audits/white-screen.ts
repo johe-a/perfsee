@@ -16,7 +16,7 @@ limitations under the License.
 
 import ffmpeg from 'fluent-ffmpeg'
 
-import { dynamicImport, logger } from '@perfsee/job-runner-shared'
+import { dynamicImport, logger } from '@fe/perfsee-job-runner-shared'
 
 // Minimum detected white duration expressed in seconds
 const MIN_DURATION = 0

@@ -19,8 +19,8 @@ import dayjs from 'dayjs'
 import { useCallback, useMemo } from 'react'
 import { useParams } from 'react-router'
 
-import { BodyContainer, NotFound, useQueryString, DateRangeSelector } from '@perfsee/components'
-import { RouteTypes } from '@perfsee/shared/routes'
+import { BodyContainer, NotFound, useQueryString, DateRangeSelector } from '@fe/perfsee-components'
+import { RouteTypes } from '@fe/perfsee-shared/routes'
 
 import { GroupTable } from './group-table'
 

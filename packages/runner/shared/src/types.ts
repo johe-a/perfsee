@@ -1,5 +1,5 @@
-import { JobInfo, JobType, UpdateJobEvent } from '@perfsee/server-common'
-import { JobLog } from '@perfsee/shared'
+import { JobInfo, JobType, UpdateJobEvent } from '@fe/perfsee-server-common'
+import { JobLog } from '@fe/perfsee-shared'
 
 export interface ServerConfig {
   url: string

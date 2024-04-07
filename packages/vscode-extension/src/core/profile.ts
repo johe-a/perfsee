@@ -18,8 +18,8 @@ import path from 'path'
 
 import { Position, TextDocument, Uri, workspace } from 'vscode'
 
-import { buildProfileFromFlameChartData, Flamechart, FlamechartFrame, buildFlamechart } from '@perfsee/flamechart'
-import { FlameChartData } from '@perfsee/shared'
+import { buildProfileFromFlameChartData, Flamechart, FlamechartFrame, buildFlamechart } from '@fe/perfsee-flamechart'
+import { FlameChartData } from '@fe/perfsee-shared'
 
 import { memoizeGetAggregatedSnapshotByReportId, Metrics } from '../api/aggregated'
 import { ApiClient } from '../api/api-client'

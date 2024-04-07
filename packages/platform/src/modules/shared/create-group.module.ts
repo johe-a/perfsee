@@ -19,7 +19,7 @@ import { Draft } from 'immer'
 import { Observable } from 'rxjs'
 import { switchMap, endWith, startWith, map, debounceTime } from 'rxjs/operators'
 
-import { GraphQLClient, createErrorCatcher } from '@perfsee/platform/common'
+import { GraphQLClient, createErrorCatcher } from '@fe/perfsee-platform/common'
 import {
   CreateGroupMutationVariables,
   CreateGroupMutation,
@@ -28,7 +28,7 @@ import {
   verifyGroupIdQuery,
   ProjectsQuery,
   projectsQuery,
-} from '@perfsee/schema'
+} from '@fe/perfsee-schema'
 
 export type CreatedGroup = CreateGroupMutation['createGroup']
 type OrgIdVerification = VerifyGroupIdQuery['verifyGroupId']

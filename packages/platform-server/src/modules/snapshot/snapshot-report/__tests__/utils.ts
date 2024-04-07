@@ -1,5 +1,5 @@
-import { Profile, Environment, Page, Snapshot, SnapshotReport } from '@perfsee/platform-server/db'
-import { create } from '@perfsee/platform-server/test'
+import { Profile, Environment, Page, Snapshot, SnapshotReport } from '@fe/perfsee-platform-server/db'
+import { create } from '@fe/perfsee-platform-server/test'
 
 export const mockCreateReport = async (projectId: number, payload?: Partial<SnapshotReport>) => {
   const page = await create(Page, { projectId })

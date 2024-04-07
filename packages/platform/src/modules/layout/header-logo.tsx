@@ -18,7 +18,7 @@ import { useModuleState } from '@sigi/react'
 import { useCallback } from 'react'
 import { useHistory } from 'react-router'
 
-import { staticPath } from '@perfsee/shared/routes'
+import { staticPath } from '@fe/perfsee-shared/routes'
 
 import { GlobalModule } from '../shared'
 

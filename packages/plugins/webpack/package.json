@@ -1,5 +1,5 @@
 {
-  "name": "@perfsee/webpack",
+  "name": "@fe/perfsee-webpack",
   "version": "1.12.2",
   "description": "perfsee webpack plugin",
   "repository": "https://github.com/perfsee/perfsee",
@@ -19,8 +19,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@perfsee/bundle-analyzer": "workspace:*",
-    "@perfsee/plugin-utils": "workspace:*",
+    "@fe/perfsee-bundle-analyzer": "workspace:*",
+    "@fe/perfsee-plugin-utils": "workspace:*",
     "chalk": "^4.1.2",
     "tslib": "^2.4.0"
   },
@@ -28,9 +28,9 @@
     "webpack": ">= 4"
   },
   "devDependencies": {
-    "@perfsee/package": "workspace:*"
+    "@fe/perfsee-package": "workspace:*"
   },
   "scripts": {
-    "analyze": "npx @perfsee/package ./ --project=perfsee"
+    "analyze": "npx @fe/perfsee-package ./ --project=perfsee"
   }
 }

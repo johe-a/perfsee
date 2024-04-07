@@ -25,8 +25,8 @@ import type {
   TimelineData,
 } from 'react-devtools-inline'
 
-import { ReactDevtoolProfilingDataFrontend } from '@perfsee/flamechart'
-import { ReactDevtoolProfilingDataExport } from '@perfsee/shared'
+import { ReactDevtoolProfilingDataFrontend } from '@fe/perfsee-flamechart'
+import { ReactDevtoolProfilingDataExport } from '@fe/perfsee-shared'
 
 interface State {
   replaceRange?: [number, number]

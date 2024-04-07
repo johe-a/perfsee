@@ -16,11 +16,11 @@ limitations under the License.
 
 import { useMemo } from 'react'
 
-import { buildProfileFromTracehouse, FlamechartContainer, lightTheme, Timing } from '@perfsee/flamechart'
-import { Color } from '@perfsee/flamechart/lib/color'
-import { triangle } from '@perfsee/flamechart/lib/utils'
-import { TraceTimesWithoutFCP, formatMsDuration } from '@perfsee/shared'
-import { Task } from '@perfsee/tracehouse'
+import { buildProfileFromTracehouse, FlamechartContainer, lightTheme, Timing } from '@fe/perfsee-flamechart'
+import { Color } from '@fe/perfsee-flamechart/lib/color'
+import { triangle } from '@fe/perfsee-flamechart/lib/utils'
+import { TraceTimesWithoutFCP, formatMsDuration } from '@fe/perfsee-shared'
+import { Task } from '@fe/perfsee-tracehouse'
 
 import { getRecordTypeParams, getSortedTimingType } from './helper'
 import {

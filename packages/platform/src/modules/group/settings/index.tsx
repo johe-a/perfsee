@@ -19,9 +19,9 @@ import { useModule } from '@sigi/react'
 import { useCallback, useEffect } from 'react'
 import { useParams } from 'react-router'
 
-import { BodyContainer } from '@perfsee/components'
-import { Permission } from '@perfsee/shared'
-import { RouteTypes } from '@perfsee/shared/routes'
+import { BodyContainer } from '@fe/perfsee-components'
+import { Permission } from '@fe/perfsee-shared'
+import { RouteTypes } from '@fe/perfsee-shared/routes'
 
 import { DumbSettingPermission } from '../../project/settings/settings-permission'
 import { GroupModule } from '../../shared/group.module'

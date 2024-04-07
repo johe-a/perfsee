@@ -4,8 +4,8 @@ import { parse, stringify } from 'query-string'
 import { useState, useMemo, useCallback, useContext } from 'react'
 import { useHistory, useLocation } from 'react-router'
 
-import { TooltipWithEllipsis } from '@perfsee/components'
-import { AssetInfo, SOURCE_CODE_PATH } from '@perfsee/shared'
+import { TooltipWithEllipsis } from '@fe/perfsee-components'
+import { AssetInfo, SOURCE_CODE_PATH } from '@fe/perfsee-shared'
 
 import { ColoredSize } from '../components'
 import { PackageTraceContext } from '../context'

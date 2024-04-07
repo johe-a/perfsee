@@ -16,7 +16,7 @@ limitations under the License.
 
 import { faker } from '@faker-js/faker'
 
-import { JobType } from '@perfsee/server-common'
+import { JobType } from '@fe/perfsee-server-common'
 
 import { Job } from '../mysql'
 

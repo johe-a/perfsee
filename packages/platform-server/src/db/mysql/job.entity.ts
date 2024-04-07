@@ -27,7 +27,7 @@ import {
   RelationId,
 } from 'typeorm'
 
-import { JobType } from '@perfsee/server-common'
+import { JobType } from '@fe/perfsee-server-common'
 
 import type { Project } from './project.entity'
 import type { Runner } from './runner.entity'

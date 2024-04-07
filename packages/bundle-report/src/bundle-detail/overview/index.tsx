@@ -18,7 +18,7 @@ import { QuestionCircleOutlined } from '@ant-design/icons'
 import { HoverCard, HoverCardType, IHoverCardProps, Stack } from '@fluentui/react'
 import { ComponentType } from 'react'
 
-import { LazyMDX } from '@perfsee/components'
+import { LazyMDX } from '@fe/perfsee-components'
 
 import { BundleCard, BundleCardTitle, cardGap } from '../style'
 import { ArtifactDiff, EntryDiff, Size } from '../types'

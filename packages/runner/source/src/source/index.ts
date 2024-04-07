@@ -29,9 +29,9 @@ import {
   ModuleMap,
   readJSONFile,
   Size,
-} from '@perfsee/bundle-analyzer'
-import { JobWorker } from '@perfsee/job-runner-shared'
-import { JobType, SourceAnalyzeJob, SourceAnalyzeJobResult, SourceStatus } from '@perfsee/server-common'
+} from '@fe/perfsee-bundle-analyzer'
+import { JobWorker } from '@fe/perfsee-job-runner-shared'
+import { JobType, SourceAnalyzeJob, SourceAnalyzeJobResult, SourceStatus } from '@fe/perfsee-server-common'
 import {
   FlameChartData,
   FlameChartDiagnostic,
@@ -41,16 +41,19 @@ import {
   CallFrame,
   CauseForLcp,
   RequestSchema,
-} from '@perfsee/shared'
-import { generateSourceCoverageTreemapData, GenerateSourceCoverageTreemapDataOptions } from '@perfsee/source-coverage'
+} from '@fe/perfsee-shared'
+import {
+  generateSourceCoverageTreemapData,
+  GenerateSourceCoverageTreemapDataOptions,
+} from '@fe/perfsee-source-coverage'
 
-let analyseProfile: typeof import('@perfsee/ori')['analyseProfile'] | null
+let analyseProfile: typeof import('@fe/perfsee-ori')['analyseProfile'] | null
 
 try {
-  const ori = require('@perfsee/ori')
+  const ori = require('@fe/perfsee-ori')
   analyseProfile = ori.analyseProfile
 } catch (e) {
-  console.warn('@perfsee/ori module is not available')
+  console.warn('@fe/perfsee-ori module is not available')
 }
 
 interface BundleMeta {
@@ -118,7 +121,7 @@ export class SourceJobWorker extends JobWorker<SourceAnalyzeJob> {
     })
 
     if (!analyseProfile) {
-      this.fatal(new Error('@perfsee/ori module is not available.'))
+      this.fatal(new Error('@fe/perfsee-ori module is not available.'))
     }
 
     const { payload } = this

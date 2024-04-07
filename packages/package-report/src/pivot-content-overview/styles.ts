@@ -16,8 +16,8 @@ limitations under the License.
 
 import styled from '@emotion/styled'
 
-import { DocumentCard } from '@perfsee/components'
-import { lighten, SharedColors } from '@perfsee/dls'
+import { DocumentCard } from '@fe/perfsee-components'
+import { lighten, SharedColors } from '@fe/perfsee-dls'
 
 export const DataNumber = styled.div(({ theme }) => ({
   fontSize: '2rem',

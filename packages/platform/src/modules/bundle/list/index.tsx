@@ -48,12 +48,12 @@ import {
   ModalType,
   useToggleState,
   ForeignLink,
-} from '@perfsee/components'
-import { SharedColors } from '@perfsee/dls'
-import { formatMsDuration } from '@perfsee/platform/common'
-import { BundleJobStatus, JobType, Permission } from '@perfsee/schema'
-import { PrettyBytes } from '@perfsee/shared'
-import { pathFactory, staticPath } from '@perfsee/shared/routes'
+} from '@fe/perfsee-components'
+import { SharedColors } from '@fe/perfsee-dls'
+import { formatMsDuration } from '@fe/perfsee-platform/common'
+import { BundleJobStatus, JobType, Permission } from '@fe/perfsee-schema'
+import { PrettyBytes } from '@fe/perfsee-shared'
+import { pathFactory, staticPath } from '@fe/perfsee-shared/routes'
 
 import { BranchSelector, ArtifactNameSelector } from '../../components'
 import { Commit } from '../../components/commit'

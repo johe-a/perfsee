@@ -18,8 +18,8 @@ import { useTheme } from '@emotion/react'
 import { Stack } from '@fluentui/react'
 import { useMemo } from 'react'
 
-import { FileColorsMaps, DonutChart } from '@perfsee/components'
-import { addSize, AssetInfo, AssetTypeEnum, getDefaultSize, Size } from '@perfsee/shared'
+import { FileColorsMaps, DonutChart } from '@fe/perfsee-components'
+import { addSize, AssetInfo, AssetTypeEnum, getDefaultSize, Size } from '@fe/perfsee-shared'
 
 import { ByteSizeWithDiff, NumberDiff } from '../components'
 import { EntryDiff, Diff } from '../types'

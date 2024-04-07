@@ -1,5 +1,5 @@
 {
-  "name": "@perfsee/schema",
+  "name": "@fe/perfsee-schema",
   "version": "1.12.0",
   "description": "graphql schema",
   "main": "dist/index.js",

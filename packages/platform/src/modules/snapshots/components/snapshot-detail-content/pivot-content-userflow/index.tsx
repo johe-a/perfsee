@@ -17,9 +17,9 @@ limitations under the License.
 import styled from '@emotion/styled'
 import { useCallback, useState } from 'react'
 
-import { OverviewZoneContent, OverviewZoneTitle } from '@perfsee/lab-report/pivot-content-overview/style'
-import { PerformanceContent } from '@perfsee/lab-report/pivot-content-performance'
-import { AnalysisReportTabType, SnapshotDetailType } from '@perfsee/lab-report/snapshot-type'
+import { OverviewZoneContent, OverviewZoneTitle } from '@fe/perfsee-lab-report/pivot-content-overview/style'
+import { PerformanceContent } from '@fe/perfsee-lab-report/pivot-content-performance'
+import { AnalysisReportTabType, SnapshotDetailType } from '@fe/perfsee-lab-report/snapshot-type'
 
 import { OverviewPivotContent } from '../pivot-content-overview'
 

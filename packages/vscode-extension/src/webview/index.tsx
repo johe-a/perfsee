@@ -17,7 +17,7 @@ limitations under the License.
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { createRoot } from 'react-dom/client'
 
-import { SharedColors } from '@perfsee/dls'
+import { SharedColors } from '@fe/perfsee-dls'
 import {
   buildProfileFromFlameChartData,
   darkTheme,
@@ -25,8 +25,8 @@ import {
   lightTheme,
   Timing,
   Frame,
-} from '@perfsee/flamechart'
-import { FlameChartData, MetricType } from '@perfsee/shared'
+} from '@fe/perfsee-flamechart'
+import { FlameChartData, MetricType } from '@fe/perfsee-shared'
 
 import { WebViewProps } from '../types/webview'
 

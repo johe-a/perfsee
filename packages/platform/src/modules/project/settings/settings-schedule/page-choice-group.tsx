@@ -17,7 +17,7 @@ limitations under the License.
 import { ChoiceGroup, IChoiceGroupOption, IChoiceGroupStyles, IChoiceGroupOptionStyles } from '@fluentui/react'
 import { useCallback } from 'react'
 
-import { ScheduleMonitorType } from '@perfsee/schema'
+import { ScheduleMonitorType } from '@fe/perfsee-schema'
 
 import { Field } from '../settings-basic/style'
 

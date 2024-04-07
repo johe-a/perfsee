@@ -16,7 +16,7 @@ limitations under the License.
 
 import { useCallback } from 'react'
 
-import { IconWithTips, SingleSelector } from '@perfsee/components'
+import { IconWithTips, SingleSelector } from '@fe/perfsee-components'
 
 type Props = {
   measure: string

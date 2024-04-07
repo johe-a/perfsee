@@ -21,7 +21,7 @@ import chalk from 'chalk'
 import fetch from 'node-fetch'
 import { create } from 'tar'
 
-import { PrettyBytes } from '@perfsee/utils'
+import { PrettyBytes } from '@fe/perfsee-utils'
 
 import { anaylize } from './analyze'
 import { getBuildEnv } from './build-env'

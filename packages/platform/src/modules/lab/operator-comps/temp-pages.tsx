@@ -19,9 +19,9 @@ import { useModuleState, useDispatchers } from '@sigi/react'
 import { FC, useCallback, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 
-import { URLTextField, MultiSelector } from '@perfsee/components'
-import { SharedColors } from '@perfsee/dls'
-import { pathFactory } from '@perfsee/shared/routes'
+import { URLTextField, MultiSelector } from '@fe/perfsee-components'
+import { SharedColors } from '@fe/perfsee-dls'
+import { pathFactory } from '@fe/perfsee-shared/routes'
 
 import { PropertyModule, useProjectRouteGenerator } from '../../shared'
 import { LabListModule } from '../list/module'

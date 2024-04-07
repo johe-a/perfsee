@@ -16,8 +16,8 @@ limitations under the License.
 
 import { Field, InputType, ObjectType, PartialType, PickType } from '@nestjs/graphql'
 
-import { User } from '@perfsee/platform-server/db'
-import { GitHost, Permission } from '@perfsee/shared'
+import { User } from '@fe/perfsee-platform-server/db'
+import { GitHost, Permission } from '@fe/perfsee-shared'
 
 @InputType()
 export class CreateProjectInput {

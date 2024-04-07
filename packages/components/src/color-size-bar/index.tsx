@@ -18,7 +18,7 @@ import styled from '@emotion/styled'
 import { TooltipHost, Stack, ITooltipHostStyles } from '@fluentui/react'
 import { useMemo } from 'react'
 
-import { NeutralColors } from '@perfsee/dls'
+import { NeutralColors } from '@fe/perfsee-dls'
 
 export type ColorSchema = {
   foreground: string

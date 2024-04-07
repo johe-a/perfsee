@@ -17,8 +17,8 @@ limitations under the License.
 import { Checkbox, Stack } from '@fluentui/react'
 import { memo, useCallback, useMemo, useState } from 'react'
 
-import { IconWithTips } from '@perfsee/components'
-import { LighthouseScoreType, MetricScoreSchema, formatTime } from '@perfsee/shared'
+import { IconWithTips } from '@fe/perfsee-components'
+import { LighthouseScoreType, MetricScoreSchema, formatTime } from '@fe/perfsee-shared'
 
 import { SmallText } from './style'
 

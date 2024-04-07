@@ -18,7 +18,7 @@ import { FilterOutlined } from '@ant-design/icons'
 import { ChoiceGroup, HoverCard, HoverCardType, IPlainCardProps, PrimaryButton, TextField } from '@fluentui/react'
 import { FC, useCallback, useMemo, useState } from 'react'
 
-import { Size, PackageInfo as RawPackage } from '@perfsee/shared'
+import { Size, PackageInfo as RawPackage } from '@fe/perfsee-shared'
 
 import { FilteredIcon, PackageFilterGroupWrap, PackageFilterWrap, TableHeaderFilterIcon } from '../style'
 

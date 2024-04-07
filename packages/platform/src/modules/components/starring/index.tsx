@@ -18,7 +18,7 @@ import { IButtonStyles, IconButton, IIconProps } from '@fluentui/react'
 import { useModule } from '@sigi/react'
 import { useCallback, MouseEvent, FC } from 'react'
 
-import { SharedColors } from '@perfsee/dls'
+import { SharedColors } from '@fe/perfsee-dls'
 
 import { GlobalModule } from '../../shared'
 

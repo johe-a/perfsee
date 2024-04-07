@@ -8,17 +8,19 @@
       "name": "Attach debug server",
       "port": 9229,
       "request": "attach",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "type": "pwa-node"
     },
     {
-      "command": "yarn dev -p @perfsee/platform-server --inspect",
+      "command": "yarn dev -p @fe/perfsee-platform-server --inspect",
       "name": "Run platform-server",
       "request": "launch",
       "type": "node-terminal"
     },
     {
-      "command": "yarn dev -p @perfsee/job-runner --inspect",
+      "command": "yarn dev -p @fe/perfsee-job-runner --inspect",
       "name": "Run job-runner",
       "request": "launch",
       "type": "node-terminal"
@@ -42,8 +44,12 @@
       "name": "Run Vscode Extension",
       "type": "extensionHost",
       "request": "launch",
-      "args": ["--extensionDevelopmentPath=${workspaceFolder}/packages/vscode-extension/"],
-      "outFiles": ["${workspaceFolder}/packages/vscode-extension/dist/**/*.js"]
+      "args": [
+        "--extensionDevelopmentPath=${workspaceFolder}/packages/vscode-extension/"
+      ],
+      "outFiles": [
+        "${workspaceFolder}/packages/vscode-extension/dist/**/*.js"
+      ]
     }
   ]
 }

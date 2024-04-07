@@ -17,9 +17,9 @@ limitations under the License.
 import { Injectable } from '@nestjs/common'
 import { noop } from 'lodash'
 
-import { EventEmitter } from '@perfsee/platform-server/event'
-import { Logger } from '@perfsee/platform-server/logger'
-import { Redis } from '@perfsee/platform-server/redis'
+import { EventEmitter } from '@fe/perfsee-platform-server/event'
+import { Logger } from '@fe/perfsee-platform-server/logger'
+import { Redis } from '@fe/perfsee-platform-server/redis'
 
 const MAINTENANCE_MODE_KEY = '__PERFSEE_MAINTAINING__'
 

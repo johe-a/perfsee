@@ -6,7 +6,7 @@ import ava, { TestFn } from 'ava'
 import Sinon from 'sinon'
 import request from 'supertest'
 
-import { GraphQLTestingClient } from '@perfsee/platform-server/test'
+import { GraphQLTestingClient } from '@fe/perfsee-platform-server/test'
 
 import { PermissionModule } from '..'
 import { Permission } from '../def'

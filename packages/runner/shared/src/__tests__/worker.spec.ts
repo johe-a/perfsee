@@ -1,7 +1,7 @@
 import ava, { TestFn } from 'ava'
 import Sinon from 'sinon'
 
-import { JobType } from '@perfsee/server-common'
+import { JobType } from '@fe/perfsee-server-common'
 
 import { AbstractJobLogger } from '../logger'
 

@@ -19,8 +19,8 @@ import { Draft } from 'immer'
 import { Observable } from 'rxjs'
 import { switchMap, map } from 'rxjs/operators'
 
-import { GraphQLClient, createErrorCatcher } from '@perfsee/platform/common'
-import { ProjectTimeUsagesQuery, ProjectUsageQuery, projectUsageQuery } from '@perfsee/schema'
+import { GraphQLClient, createErrorCatcher } from '@fe/perfsee-platform/common'
+import { ProjectTimeUsagesQuery, ProjectUsageQuery, projectUsageQuery } from '@fe/perfsee-schema'
 
 import { ProjectModule } from '../../../shared'
 

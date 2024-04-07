@@ -17,9 +17,9 @@ limitations under the License.
 import styled from '@emotion/styled'
 import { Link } from 'react-router-dom'
 
-import { ForeignLink } from '@perfsee/components'
-import { SharedColors } from '@perfsee/dls'
-import { SnapshotStatus } from '@perfsee/schema'
+import { ForeignLink } from '@fe/perfsee-components'
+import { SharedColors } from '@fe/perfsee-dls'
+import { SnapshotStatus } from '@fe/perfsee-schema'
 
 import { getStatusColor } from '../shared'
 

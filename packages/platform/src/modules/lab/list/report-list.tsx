@@ -31,11 +31,11 @@ import {
   Modal,
   ModalType,
   useToggleState,
-} from '@perfsee/components'
-import { SharedColors } from '@perfsee/dls'
-import { JobType, SnapshotStatus } from '@perfsee/schema'
-import { PrettyBytes } from '@perfsee/shared'
-import { pathFactory } from '@perfsee/shared/routes'
+} from '@fe/perfsee-components'
+import { SharedColors } from '@fe/perfsee-dls'
+import { JobType, SnapshotStatus } from '@fe/perfsee-schema'
+import { PrettyBytes } from '@fe/perfsee-shared'
+import { pathFactory } from '@fe/perfsee-shared/routes'
 
 import { useProjectRouteGenerator, useProject, getReportMessage } from '../../shared'
 import { StatusText, ListCell, TableContainer } from '../style'

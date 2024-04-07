@@ -18,7 +18,7 @@ import { DocumentCard, Stack } from '@fluentui/react'
 import { FC, useCallback } from 'react'
 import { useHistory } from 'react-router'
 
-import { pathFactory } from '@perfsee/shared/routes'
+import { pathFactory } from '@fe/perfsee-shared/routes'
 
 import { PackageNode } from './list.module'
 import { PackageCardHeader, PackageInfoText, PackageInfoTitle, PackageListWrap, PackageTitle } from './style'

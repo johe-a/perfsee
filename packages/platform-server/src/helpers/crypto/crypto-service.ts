@@ -26,7 +26,7 @@ import {
 
 import { Injectable } from '@nestjs/common'
 
-import { Config } from '@perfsee/platform-server/config'
+import { Config } from '@fe/perfsee-platform-server/config'
 
 const NONCE_LENGTH = 12
 const AUTH_TAG_LENGTH = 12

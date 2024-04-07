@@ -1,8 +1,8 @@
 import { faker } from '@faker-js/faker'
 
-import { Profile } from '@perfsee/platform-server/db'
-import { InternalIdService } from '@perfsee/platform-server/helpers'
-import test, { createMock, initTestDB, createDBTestingModule, create } from '@perfsee/platform-server/test'
+import { Profile } from '@fe/perfsee-platform-server/db'
+import { InternalIdService } from '@fe/perfsee-platform-server/helpers'
+import test, { createMock, initTestDB, createDBTestingModule, create } from '@fe/perfsee-platform-server/test'
 
 import { SnapshotReportService } from '../../snapshot/snapshot-report/service'
 import { ProfileService } from '../service'

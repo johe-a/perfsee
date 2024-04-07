@@ -1,10 +1,16 @@
 import { faker } from '@faker-js/faker'
 
-import { Project, User, Profile, Environment, Setting, UsagePack } from '@perfsee/platform-server/db'
-import { InternalIdService } from '@perfsee/platform-server/helpers'
-import { Metric } from '@perfsee/platform-server/metrics'
-import test, { createMock, initTestDB, createDBTestingModule, DeepMocked, create } from '@perfsee/platform-server/test'
-import { GitHost } from '@perfsee/shared'
+import { Project, User, Profile, Environment, Setting, UsagePack } from '@fe/perfsee-platform-server/db'
+import { InternalIdService } from '@fe/perfsee-platform-server/helpers'
+import { Metric } from '@fe/perfsee-platform-server/metrics'
+import test, {
+  createMock,
+  initTestDB,
+  createDBTestingModule,
+  DeepMocked,
+  create,
+} from '@fe/perfsee-platform-server/test'
+import { GitHost } from '@fe/perfsee-shared'
 
 import { PermissionProvider, Permission } from '../../permission'
 import { UserService } from '../../user'

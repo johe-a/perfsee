@@ -14,4 +14,4 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-export { CONNECTIONS, DEVICES } from '@perfsee/utils'
+export { CONNECTIONS, DEVICES } from '@fe/perfsee-utils'

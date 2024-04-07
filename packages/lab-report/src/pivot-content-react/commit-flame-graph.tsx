@@ -4,9 +4,9 @@ import { forwardRef, useCallback, useMemo, useState, ReactNode, MouseEvent, CSSP
 import AutoSizer from 'react-virtualized-auto-sizer'
 import { FixedSizeList } from 'react-window'
 
-import { Hovertip } from '@perfsee/flamechart/components/hovertip'
-import { Vec2 } from '@perfsee/flamechart/lib/math'
-import { lightTheme } from '@perfsee/flamechart/themes/light-theme'
+import { Hovertip } from '@fe/perfsee-flamechart/components/hovertip'
+import { Vec2 } from '@fe/perfsee-flamechart/lib/math'
+import { lightTheme } from '@fe/perfsee-flamechart/themes/light-theme'
 
 import { CommitFlamegraphListItem } from './commit-frame-graph-item'
 import { lineHeight } from './constant'

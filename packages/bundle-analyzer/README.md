@@ -1,9 +1,9 @@
-# `@perfsee/bundle-analyzer`
+# `@fe/perfsee-bundle-analyzer`
 
 ## Usage
 
 ```ts
-import { StatsParser } from '@perfsee/bundle-analyzer'
+import { StatsParser } from '@fe/perfsee-bundle-analyzer'
 
 // or const parser = StatsParser.FromStatsFile(webpackStatsFile)
 const parser = StatsParser.FromStats(webpackStats, outputPath)

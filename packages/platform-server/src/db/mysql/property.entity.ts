@@ -27,7 +27,7 @@ import {
   Index,
 } from 'typeorm'
 
-import { CookieType as Cookie, HeaderType as Header, LocalStorageType as LocalStorage } from '@perfsee/shared'
+import { CookieType as Cookie, HeaderType as Header, LocalStorageType as LocalStorage } from '@fe/perfsee-shared'
 
 import { ApplicationSetting } from './application-setting.entity'
 import type { Project } from './project.entity'

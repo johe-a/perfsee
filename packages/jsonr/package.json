@@ -1,5 +1,5 @@
 {
-  "name": "@perfsee/jsonr",
+  "name": "@fe/perfsee-jsonr",
   "version": "1.12.2",
   "description": "JSON with references",
   "sideEffect": false,
@@ -15,9 +15,9 @@
     "tslib": "^2.4.0"
   },
   "devDependencies": {
-    "@perfsee/package": "workspace:*"
+    "@fe/perfsee-package": "workspace:*"
   },
   "scripts": {
-    "analyze": "npx @perfsee/package ./ --project=perfsee"
+    "analyze": "npx @fe/perfsee-package ./ --project=perfsee"
   }
 }

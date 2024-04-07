@@ -17,7 +17,7 @@ limitations under the License.
 import { HoverCard, HoverCardType, Shimmer, Stack, Text } from '@fluentui/react'
 import { useContext } from 'react'
 
-import { Empty } from '@perfsee/components'
+import { Empty } from '@fe/perfsee-components'
 
 import { PackageResultContext } from '../context'
 

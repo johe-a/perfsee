@@ -17,7 +17,7 @@ limitations under the License.
 import styled from '@emotion/styled'
 import { DefaultButton, Text } from '@fluentui/react'
 
-import { Card } from '@perfsee/components'
+import { Card } from '@fe/perfsee-components'
 
 export const FormContainer = styled(Card)({
   width: 550,

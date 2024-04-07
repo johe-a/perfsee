@@ -20,7 +20,7 @@ import Fuse from 'fuse.js'
 import { debounce } from 'lodash'
 import { useState, useCallback, useMemo, useEffect } from 'react'
 
-import { MetricScoreSchema, RequestSchema } from '@perfsee/shared'
+import { MetricScoreSchema, RequestSchema } from '@fe/perfsee-shared'
 
 import { AssetFilter } from './asset-filter'
 import { CriticalTimeSelector } from './critical-time-selector'

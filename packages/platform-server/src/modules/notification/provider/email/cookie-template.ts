@@ -14,8 +14,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import templates from '@perfsee/email-templates'
-import { pathFactory, staticPath } from '@perfsee/shared/routes'
+import templates from '@fe/perfsee-email-templates'
+import { pathFactory, staticPath } from '@fe/perfsee-shared/routes'
 
 import { SendMailOptions } from '../../../email'
 import { CookieNotificationInfo } from '../../type'

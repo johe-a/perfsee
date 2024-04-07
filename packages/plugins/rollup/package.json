@@ -1,5 +1,5 @@
 {
-  "name": "@perfsee/rollup",
+  "name": "@fe/perfsee-rollup",
   "version": "1.12.2",
   "description": "perfsee rollup plugin",
   "repository": "https://github.com/perfsee/perfsee",
@@ -20,8 +20,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@perfsee/bundle-analyzer": "workspace:*",
-    "@perfsee/plugin-utils": "workspace:*",
+    "@fe/perfsee-bundle-analyzer": "workspace:*",
+    "@fe/perfsee-plugin-utils": "workspace:*",
     "chalk": "^4.1.2",
     "lodash": "^4.17.21",
     "tslib": "^2.4.0"
@@ -30,10 +30,10 @@
     "rollup": ">2"
   },
   "devDependencies": {
-    "@perfsee/package": "workspace:*",
+    "@fe/perfsee-package": "workspace:*",
     "rollup": "^2.77.0"
   },
   "scripts": {
-    "analyze": "npx @perfsee/package ./ --project=perfsee"
+    "analyze": "npx @fe/perfsee-package ./ --project=perfsee"
   }
 }

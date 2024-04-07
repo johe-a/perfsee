@@ -2,8 +2,8 @@ import styled from '@emotion/styled'
 import { memo } from 'react'
 import { Link } from 'react-router-dom'
 
-import { ForeignLink } from '@perfsee/components'
-import { staticPath } from '@perfsee/shared/routes'
+import { ForeignLink } from '@fe/perfsee-components'
+import { staticPath } from '@fe/perfsee-shared/routes'
 
 export const StyledFooter = styled.footer({
   padding: `20px 20px 32px`,

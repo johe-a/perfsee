@@ -18,8 +18,8 @@ import { PartitionOutlined } from '@ant-design/icons'
 import { SelectionMode, HoverCard, HoverCardType } from '@fluentui/react'
 import { useMemo, useCallback, useState, FC, MouseEvent } from 'react'
 
-import { TableColumnProps, Table, TooltipWithEllipsis, ForeignLink } from '@perfsee/components'
-import { lighten } from '@perfsee/dls'
+import { TableColumnProps, Table, TooltipWithEllipsis, ForeignLink } from '@fe/perfsee-components'
+import { lighten } from '@fe/perfsee-dls'
 import {
   OLD_SOURCE_CODE_PATH,
   SOURCE_CODE_PATH,
@@ -30,7 +30,7 @@ import {
   getDefaultSize,
   addSize,
   BundleAuditScore,
-} from '@perfsee/shared'
+} from '@fe/perfsee-shared'
 
 import { ByteSizeWithDiff } from '../components'
 import { TableHeaderFilterWrap, TraceIconWrap } from '../style'

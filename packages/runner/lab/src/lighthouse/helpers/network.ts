@@ -14,8 +14,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { dynamicImport } from '@perfsee/job-runner-shared'
-import { ArtifactSchema, LifeCycle, TimingSchema } from '@perfsee/shared'
+import { dynamicImport } from '@fe/perfsee-job-runner-shared'
+import { ArtifactSchema, LifeCycle, TimingSchema } from '@fe/perfsee-shared'
 
 export type NetworkRecord = ReturnType<typeof getNetworkRecords> extends Promise<infer T>
   ? T extends Array<any>

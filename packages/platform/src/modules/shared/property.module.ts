@@ -29,7 +29,7 @@ import {
   withLatestFrom,
 } from 'rxjs/operators'
 
-import { GraphQLClient, createErrorCatcher } from '@perfsee/platform/common'
+import { GraphQLClient, createErrorCatcher } from '@fe/perfsee-platform/common'
 import {
   SettingPropertyQuery,
   settingPropertyQuery,
@@ -46,7 +46,7 @@ import {
   pingResultQuery,
   PingResultQuery,
   pingMutation,
-} from '@perfsee/schema'
+} from '@fe/perfsee-schema'
 
 import { ProjectModule } from './project.module'
 import {

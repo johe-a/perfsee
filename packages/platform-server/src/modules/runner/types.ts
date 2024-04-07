@@ -16,9 +16,9 @@ limitations under the License.
 
 import { Field, InputType, PartialType, PickType } from '@nestjs/graphql'
 
-import { Runner } from '@perfsee/platform-server/db'
-import { PaginationInput } from '@perfsee/platform-server/graphql'
-import { JobType } from '@perfsee/server-common'
+import { Runner } from '@fe/perfsee-platform-server/db'
+import { PaginationInput } from '@fe/perfsee-platform-server/graphql'
+import { JobType } from '@fe/perfsee-server-common'
 
 @InputType()
 export class RunnerQueryFilter extends PaginationInput {

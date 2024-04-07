@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { getPackageStats, GetPackageStatsOptions } from '@perfsee/package-build-stats'
+import { getPackageStats, GetPackageStatsOptions } from '@fe/perfsee-package-build-stats'
 
 import { Logger, PackageJson } from './types'
 

@@ -28,7 +28,7 @@ import {
   OneToMany,
 } from 'typeorm'
 
-import { BundleJobStatus } from '@perfsee/server-common'
+import { BundleJobStatus } from '@fe/perfsee-server-common'
 
 import type { Project } from './project.entity'
 import type { ScriptFile } from './script-file.entity'

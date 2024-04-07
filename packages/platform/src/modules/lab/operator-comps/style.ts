@@ -17,7 +17,7 @@ limitations under the License.
 import styled from '@emotion/styled'
 import { DefaultButton, Stack } from '@fluentui/react'
 
-import { SharedColors } from '@perfsee/dls'
+import { SharedColors } from '@fe/perfsee-dls'
 
 export const EntryButton = styled(DefaultButton)(() => {
   return {

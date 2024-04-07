@@ -1,8 +1,8 @@
 import { Stack, TooltipHost } from '@fluentui/react'
 import { FC, memo, useMemo } from 'react'
 
-import { RequestTiming } from '@perfsee/flamechart'
-import { RequestSchema, formatMsDuration } from '@perfsee/shared'
+import { RequestTiming } from '@fe/perfsee-flamechart'
+import { RequestSchema, formatMsDuration } from '@fe/perfsee-shared'
 
 import { RequestPeriod, RequestPeriodMaps } from '../snapshot-type'
 

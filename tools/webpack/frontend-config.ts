@@ -19,14 +19,14 @@ import { readFileSync } from 'fs'
 import HtmlWebpackPlugin from 'html-webpack-plugin'
 import webpack from 'webpack'
 
-import { PerfseePlugin } from '@perfsee/webpack'
+import { PerfseePlugin } from '@fe/perfsee-webpack'
 
 import { getPackage, pathToRoot } from '../utils'
 
 const browserStyleReset = readFileSync(require.resolve('modern-css-reset'), 'utf-8')
 
 export function getFrontendConfig() {
-  const pkg = getPackage('@perfsee/platform')
+  const pkg = getPackage('@fe/perfsee-platform')
   return {
     resolve: {
       mainFields: ['esnext', 'browser', 'module', 'main'],

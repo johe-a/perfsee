@@ -5,7 +5,7 @@
 ## Usage
 
 ```
-import { parse } from '@perfsee/ori'
+import { parse } from '@fe/perfsee-ori'
 
 // tree result friendly with flame charts
 const result = parse({ })

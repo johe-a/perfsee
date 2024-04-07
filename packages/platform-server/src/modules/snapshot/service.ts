@@ -25,8 +25,8 @@ import {
 import { times } from 'lodash'
 import { In } from 'typeorm'
 
-import { Config } from '@perfsee/platform-server/config'
-import { Cron, CronExpression } from '@perfsee/platform-server/cron'
+import { Config } from '@fe/perfsee-platform-server/config'
+import { Cron, CronExpression } from '@fe/perfsee-platform-server/cron'
 import {
   SnapshotReport,
   Environment,
@@ -41,15 +41,15 @@ import {
   PageWithEnv,
   Job,
   JobStatus,
-} from '@perfsee/platform-server/db'
-import { UserError } from '@perfsee/platform-server/error'
-import { EventEmitter, OnEvent } from '@perfsee/platform-server/event'
-import { AnalyzeUpdateType } from '@perfsee/platform-server/event/type'
-import { PaginationInput } from '@perfsee/platform-server/graphql'
-import { InternalIdService } from '@perfsee/platform-server/helpers'
-import { Logger } from '@perfsee/platform-server/logger'
-import { Metric } from '@perfsee/platform-server/metrics'
-import { Redis } from '@perfsee/platform-server/redis'
+} from '@fe/perfsee-platform-server/db'
+import { UserError } from '@fe/perfsee-platform-server/error'
+import { EventEmitter, OnEvent } from '@fe/perfsee-platform-server/event'
+import { AnalyzeUpdateType } from '@fe/perfsee-platform-server/event/type'
+import { PaginationInput } from '@fe/perfsee-platform-server/graphql'
+import { InternalIdService } from '@fe/perfsee-platform-server/helpers'
+import { Logger } from '@fe/perfsee-platform-server/logger'
+import { Metric } from '@fe/perfsee-platform-server/metrics'
+import { Redis } from '@fe/perfsee-platform-server/redis'
 import {
   JobType,
   LabJobPayload,
@@ -59,8 +59,8 @@ import {
   PingJobResult,
   PingJobPayload,
   CreateJobEvent,
-} from '@perfsee/server-common'
-import { computeMedianRun } from '@perfsee/shared'
+} from '@fe/perfsee-server-common'
+import { computeMedianRun } from '@fe/perfsee-shared'
 
 import { getLighthouseRunData, createDataLoader, getLabPingData } from '../../utils'
 import { AppVersionService } from '../app-version/service'

@@ -4,7 +4,7 @@ import { join } from 'path'
 import ava, { TestFn } from 'ava'
 import { v4 as uuid } from 'uuid'
 
-import { RunnerConfig } from '@perfsee/job-runner-shared'
+import { RunnerConfig } from '@fe/perfsee-job-runner-shared'
 
 import { ConfigManager } from '..'
 
