@@ -1,6 +1,6 @@
 {
   "name": "@johfe/perfsee-utils",
-  "version": "1.10.0",
+  "version": "1.13.1",
   "description": "utilities function of perfsee platform",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

@@ -1,6 +1,6 @@
 {
   "name": "@johfe/perfsee-components",
-  "version": "1.12.2",
+  "version": "1.13.1",
   "description": "frontend components for perfsee platform",
   "private": true,
   "main": "esm/index.js",
