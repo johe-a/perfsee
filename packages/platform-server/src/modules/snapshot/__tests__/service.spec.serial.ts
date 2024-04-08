@@ -1,6 +1,6 @@
 import { faker } from '@faker-js/faker'
 
-import { ConfigModule } from '@fe/perfsee-platform-server/config'
+import { ConfigModule } from '@johfe/perfsee-platform-server/config'
 import {
   Snapshot,
   Project,
@@ -10,15 +10,15 @@ import {
   Environment,
   Profile,
   User,
-} from '@fe/perfsee-platform-server/db'
-import { seedProjectProperty } from '@fe/perfsee-platform-server/db/fixtures'
-import { EventEmitter } from '@fe/perfsee-platform-server/event'
-import { AnalyzeUpdateType } from '@fe/perfsee-platform-server/event/type'
-import { InternalIdService } from '@fe/perfsee-platform-server/helpers'
-import { Metric } from '@fe/perfsee-platform-server/metrics'
-import { Redis } from '@fe/perfsee-platform-server/redis'
-import test, { createMock, initTestDB, createDBTestingModule, create } from '@fe/perfsee-platform-server/test'
-import { SnapshotStatus } from '@fe/perfsee-server-common'
+} from '@johfe/perfsee-platform-server/db'
+import { seedProjectProperty } from '@johfe/perfsee-platform-server/db/fixtures'
+import { EventEmitter } from '@johfe/perfsee-platform-server/event'
+import { AnalyzeUpdateType } from '@johfe/perfsee-platform-server/event/type'
+import { InternalIdService } from '@johfe/perfsee-platform-server/helpers'
+import { Metric } from '@johfe/perfsee-platform-server/metrics'
+import { Redis } from '@johfe/perfsee-platform-server/redis'
+import test, { createMock, initTestDB, createDBTestingModule, create } from '@johfe/perfsee-platform-server/test'
+import { SnapshotStatus } from '@johfe/perfsee-server-common'
 
 import { PageService } from '../../page/service'
 import { SnapshotService } from '../service'

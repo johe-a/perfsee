@@ -19,7 +19,7 @@ import { Draft } from 'immer'
 import { Observable } from 'rxjs'
 import { switchMap, map, startWith, endWith } from 'rxjs/operators'
 
-import { GraphQLClient, createErrorCatcher } from '@fe/perfsee-platform/common'
+import { GraphQLClient, createErrorCatcher } from '@johfe/perfsee-platform/common'
 import {
   Permission,
   ProjectsQuery,
@@ -28,7 +28,7 @@ import {
   GroupsQuery,
   allPackagesQuery,
   AllPackagesQuery,
-} from '@fe/perfsee-schema'
+} from '@johfe/perfsee-schema'
 
 export type ProjectNode = ProjectsQuery['projects']['edges'][0]['node']
 export type OrgNode = GroupsQuery['groups']['edges'][0]['node']

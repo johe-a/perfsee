@@ -16,10 +16,10 @@ limitations under the License.
 
 import { stringify } from 'query-string'
 
-import templates from '@fe/perfsee-email-templates'
-import { isPassedBundleJobUpdate } from '@fe/perfsee-server-common'
-import { CommonGitHost, PrettyBytes } from '@fe/perfsee-shared'
-import { pathFactory, staticPath } from '@fe/perfsee-shared/routes'
+import templates from '@johfe/perfsee-email-templates'
+import { isPassedBundleJobUpdate } from '@johfe/perfsee-server-common'
+import { CommonGitHost, PrettyBytes } from '@johfe/perfsee-shared'
+import { pathFactory, staticPath } from '@johfe/perfsee-shared/routes'
 
 import { SendMailOptions } from '../../../email'
 import { BundleNotificationInfo } from '../../type'

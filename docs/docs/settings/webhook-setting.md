@@ -69,11 +69,11 @@ app.listen(3000)
 
 ## TypeScript definitions
 
-You can find the type definition of webhook in npm package `@fe/perfsee-sdk`.
+You can find the type definition of webhook in npm package `@johfe/perfsee-sdk`.
 
 ```ts
 import express from 'express'
-import { WebhookEvent } from '@fe/perfsee-sdk'
+import { WebhookEvent } from '@johfe/perfsee-sdk'
 
 const app = express()
 

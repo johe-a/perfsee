@@ -14,11 +14,11 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { PerformanceTabType } from '@fe/perfsee-lab-report/snapshot-type'
-import { formatTime } from '@fe/perfsee-platform/common'
-import { ReportNode } from '@fe/perfsee-platform/modules/version-report/types'
-import { LighthouseScoreType } from '@fe/perfsee-shared'
-import { pathFactory } from '@fe/perfsee-shared/routes'
+import { PerformanceTabType } from '@johfe/perfsee-lab-report/snapshot-type'
+import { formatTime } from '@johfe/perfsee-platform/common'
+import { ReportNode } from '@johfe/perfsee-platform/modules/version-report/types'
+import { LighthouseScoreType } from '@johfe/perfsee-shared'
+import { pathFactory } from '@johfe/perfsee-shared/routes'
 
 export const PerformanceScoreColorMap = {
   none: {

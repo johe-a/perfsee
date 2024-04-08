@@ -18,7 +18,7 @@ import { Stack, Label, Text } from '@fluentui/react'
 import { uniq } from 'lodash'
 import { FC, useCallback } from 'react'
 
-import { SharedColors } from '@fe/perfsee-dls'
+import { SharedColors } from '@johfe/perfsee-dls'
 
 import { UserInputPicker } from './user-input-picker'
 import { CloseableUserTag } from './user-tag'

@@ -20,9 +20,9 @@ import { useModuleState } from '@sigi/react'
 import { useCallback } from 'react'
 import { useHistory, useParams } from 'react-router'
 
-import { TeachingBubbleHost } from '@fe/perfsee-components'
-import { Permission } from '@fe/perfsee-schema'
-import { pathFactory, RouteTypes } from '@fe/perfsee-shared/routes'
+import { TeachingBubbleHost } from '@johfe/perfsee-components'
+import { Permission } from '@johfe/perfsee-schema'
+import { pathFactory, RouteTypes } from '@johfe/perfsee-shared/routes'
 
 import { ProjectModule } from '../shared'
 

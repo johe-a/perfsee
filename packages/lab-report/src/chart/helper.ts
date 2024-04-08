@@ -16,9 +16,9 @@ limitations under the License.
 
 import { isNumber } from 'lodash'
 
-import { SharedColors, NeutralColors, darken, lighten } from '@fe/perfsee-dls'
-import { TimingType, TraceTimesWithoutFCP } from '@fe/perfsee-shared'
-import { Task } from '@fe/perfsee-tracehouse'
+import { SharedColors, NeutralColors, darken, lighten } from '@johfe/perfsee-dls'
+import { TimingType, TraceTimesWithoutFCP } from '@johfe/perfsee-shared'
+import { Task } from '@johfe/perfsee-tracehouse'
 
 import { RecordType } from '../snapshot-type'
 

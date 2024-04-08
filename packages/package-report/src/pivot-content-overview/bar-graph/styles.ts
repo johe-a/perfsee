@@ -17,7 +17,7 @@ limitations under the License.
 import { keyframes } from '@emotion/react'
 import styled from '@emotion/styled'
 
-import { SharedColors, NeutralColors, lighten } from '@fe/perfsee-dls'
+import { SharedColors, NeutralColors, lighten } from '@johfe/perfsee-dls'
 
 const barWidth = '20px'
 const minBarWidth = '10px'

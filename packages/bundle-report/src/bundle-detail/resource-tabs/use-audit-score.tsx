@@ -17,7 +17,7 @@ limitations under the License.
 import { CheckCircleFilled, CloseCircleFilled, ExclamationCircleFilled, InfoCircleFilled } from '@ant-design/icons'
 import { useTheme } from '@emotion/react'
 
-import { BundleAuditScore } from '@fe/perfsee-shared'
+import { BundleAuditScore } from '@johfe/perfsee-shared'
 
 export type AuditScoreMap = {
   [key in BundleAuditScore]: {

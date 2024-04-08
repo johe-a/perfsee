@@ -17,8 +17,8 @@ limitations under the License.
 import { QuestionCircleOutlined } from '@ant-design/icons'
 import { NeutralColors, Stack, TooltipHost } from '@fluentui/react'
 
-import { getScoreColor, ScoreBlock } from '@fe/perfsee-components'
-import { MetricScoreSchema, formatTime } from '@fe/perfsee-shared'
+import { getScoreColor, ScoreBlock } from '@johfe/perfsee-components'
+import { MetricScoreSchema, formatTime } from '@johfe/perfsee-shared'
 
 import { cardGroups } from './card-groups'
 

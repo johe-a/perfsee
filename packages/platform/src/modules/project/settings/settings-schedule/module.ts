@@ -19,7 +19,7 @@ import { Draft } from 'immer'
 import { EMPTY, Observable } from 'rxjs'
 import { switchMap, map, startWith, endWith, withLatestFrom, exhaustMap } from 'rxjs/operators'
 
-import { GraphQLClient, createErrorCatcher } from '@fe/perfsee-platform/common'
+import { GraphQLClient, createErrorCatcher } from '@johfe/perfsee-platform/common'
 import {
   updateTimerMutation,
   timerSettingsQuery,
@@ -27,7 +27,7 @@ import {
   UpdateTimerInput,
   ScheduleType,
   ScheduleMonitorType,
-} from '@fe/perfsee-schema'
+} from '@johfe/perfsee-schema'
 
 import { ProjectModule } from '../../../shared'
 

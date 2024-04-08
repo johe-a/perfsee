@@ -18,8 +18,8 @@ import { PlayCircleFilled } from '@ant-design/icons'
 import { Modal } from '@fluentui/react'
 import { FC, memo, createRef, useState, useCallback } from 'react'
 
-import { useToggleState } from '@fe/perfsee-components'
-import { formatTime } from '@fe/perfsee-shared'
+import { useToggleState } from '@johfe/perfsee-components'
+import { formatTime } from '@johfe/perfsee-shared'
 
 import { VideoButton, VideoTime, VideoContainer } from './style'
 

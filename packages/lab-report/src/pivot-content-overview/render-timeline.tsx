@@ -18,7 +18,7 @@ import { css, useTheme } from '@emotion/react'
 import { Stack } from '@fluentui/react'
 import { FC } from 'react'
 
-import { TimelineSchema, formatTime } from '@fe/perfsee-shared'
+import { TimelineSchema, formatTime } from '@johfe/perfsee-shared'
 
 import { TimelineCell } from './style'
 

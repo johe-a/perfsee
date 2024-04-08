@@ -3,7 +3,7 @@ import { join } from 'path'
 
 import { Test } from '@nestjs/testing'
 
-import test, { createMock } from '@fe/perfsee-platform-server/test'
+import test, { createMock } from '@johfe/perfsee-platform-server/test'
 
 import { ObjectStorage } from '../local'
 

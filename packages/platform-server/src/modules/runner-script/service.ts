@@ -17,8 +17,8 @@ limitations under the License.
 import { Injectable } from '@nestjs/common'
 import { isNil, omitBy } from 'lodash'
 
-import { RunnerScript } from '@fe/perfsee-platform-server/db'
-import { JobType } from '@fe/perfsee-server-common'
+import { RunnerScript } from '@johfe/perfsee-platform-server/db'
+import { JobType } from '@johfe/perfsee-server-common'
 
 export function longestOnlineContactedTime() {
   return new Date(Date.now() - /* 2 hours */ 2 * 60 * 60 * 1000)

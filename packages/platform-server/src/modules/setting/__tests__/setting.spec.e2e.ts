@@ -1,7 +1,7 @@
 import { omit } from 'lodash'
 
-import { Project, Setting, User } from '@fe/perfsee-platform-server/db'
-import test, { initTestDB, GraphQLTestingClient } from '@fe/perfsee-platform-server/test'
+import { Project, Setting, User } from '@johfe/perfsee-platform-server/db'
+import test, { initTestDB, GraphQLTestingClient } from '@johfe/perfsee-platform-server/test'
 import {
   basicSettingsQuery,
   BundleMessageFilter,
@@ -9,7 +9,7 @@ import {
   LabMessageSource,
   MessageTargetType,
   updateProjectSettingsMutation,
-} from '@fe/perfsee-schema'
+} from '@johfe/perfsee-schema'
 
 let gqlClient: GraphQLTestingClient
 let project: Project

@@ -19,7 +19,7 @@ import { Stack, PrimaryButton } from '@fluentui/react'
 import { useModule } from '@sigi/react'
 import { useCallback, useState, useMemo } from 'react'
 
-import { SharedColors } from '@fe/perfsee-dls'
+import { SharedColors } from '@johfe/perfsee-dls'
 
 import { DeleteProgress, ProfileSchema, PropertyModule } from '../../../shared'
 import { SettingCards } from '../cards'

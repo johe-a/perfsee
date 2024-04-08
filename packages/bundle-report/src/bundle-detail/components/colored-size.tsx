@@ -19,8 +19,8 @@ import styled from '@emotion/styled'
 import { HoverCard, HoverCardType, IPlainCardProps, Stack } from '@fluentui/react'
 import { useMemo } from 'react'
 
-import { Size } from '@fe/perfsee-shared'
-import { PrettyBytes } from '@fe/perfsee-utils'
+import { Size } from '@johfe/perfsee-shared'
+import { PrettyBytes } from '@johfe/perfsee-utils'
 
 import { DANGEROUS_SIZE_THROTTLE, WARNING_SIZE_THROTTLE } from '../constants'
 

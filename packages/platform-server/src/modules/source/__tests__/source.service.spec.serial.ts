@@ -1,5 +1,5 @@
-import { SourceIssue } from '@fe/perfsee-platform-server/db'
-import test, { createMock, initTestDB, createDBTestingModule, create } from '@fe/perfsee-platform-server/test'
+import { SourceIssue } from '@johfe/perfsee-platform-server/db'
+import test, { createMock, initTestDB, createDBTestingModule, create } from '@johfe/perfsee-platform-server/test'
 
 import { SourceService } from '../service'
 

@@ -4,8 +4,8 @@ import { useModule } from '@sigi/react'
 import dayjs from 'dayjs'
 import { useEffect, useMemo } from 'react'
 
-import { Progress } from '@fe/perfsee-components'
-import { formatTime } from '@fe/perfsee-platform/common'
+import { Progress } from '@johfe/perfsee-components'
+import { formatTime } from '@johfe/perfsee-platform/common'
 
 import { SettingsUsageModule } from './module'
 import {

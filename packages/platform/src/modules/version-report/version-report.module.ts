@@ -19,7 +19,7 @@ import { Draft } from 'immer'
 import { Observable } from 'rxjs'
 import { map, startWith, endWith, switchMap, withLatestFrom, filter, delay } from 'rxjs/operators'
 
-import { GraphQLClient, createErrorCatcher, RxFetch } from '@fe/perfsee-platform/common'
+import { GraphQLClient, createErrorCatcher, RxFetch } from '@johfe/perfsee-platform/common'
 import {
   ArtifactByCommitQuery,
   artifactByCommitQuery,
@@ -28,7 +28,7 @@ import {
   SnapshotReportsByCommitQuery,
   issuesByReportIdQuery,
   sourceIssuesCountQuery,
-} from '@fe/perfsee-schema'
+} from '@johfe/perfsee-schema'
 
 import { ProjectModule } from '../shared'
 

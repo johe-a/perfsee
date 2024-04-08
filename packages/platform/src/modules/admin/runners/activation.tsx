@@ -18,7 +18,7 @@ import { Dialog, DialogFooter, DialogType, DefaultButton, getTheme } from '@flue
 import { useDispatchers } from '@sigi/react'
 import { useCallback } from 'react'
 
-import { ColorButton, useToggleState } from '@fe/perfsee-components'
+import { ColorButton, useToggleState } from '@johfe/perfsee-components'
 
 import { Runner, RunnersModule } from './module'
 

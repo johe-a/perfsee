@@ -17,7 +17,7 @@ limitations under the License.
 import { Stack, Toggle } from '@fluentui/react'
 import { forwardRef, useCallback, useImperativeHandle, useState } from 'react'
 
-import { LabelWithTips } from '@fe/perfsee-components'
+import { LabelWithTips } from '@johfe/perfsee-components'
 
 interface FormReactProps {
   defaultEnable: boolean

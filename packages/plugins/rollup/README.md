@@ -1,4 +1,4 @@
-# `@fe/perfsee-rollup`
+# `@johfe/perfsee-rollup`
 
 [Repo](https://github.com/perfsee/perfsee) | [Docs](https://perfsee.com/docs)
 
@@ -8,7 +8,7 @@ Perfsee rollup plugin used to collect bundle information and analyze.
 
 ```ts
 // rollup.config.js
-const { PerfseePlugin } = require('@fe/perfsee-rollup')
+const { PerfseePlugin } = require('@johfe/perfsee-rollup')
 
 module.exports = {
   // ...

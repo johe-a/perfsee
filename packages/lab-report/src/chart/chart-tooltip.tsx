@@ -14,8 +14,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { formatTime, detectThirdPartyProvider } from '@fe/perfsee-shared'
-import { Task } from '@fe/perfsee-tracehouse'
+import { formatTime, detectThirdPartyProvider } from '@johfe/perfsee-shared'
+import { Task } from '@johfe/perfsee-tracehouse'
 
 import { StyledTooltip, StyledItem } from './style'
 

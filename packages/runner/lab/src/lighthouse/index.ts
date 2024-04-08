@@ -14,8 +14,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { JobType, SnapshotStatus } from '@fe/perfsee-server-common'
-import { LighthouseScoreMetric } from '@fe/perfsee-shared'
+import { JobType, SnapshotStatus } from '@johfe/perfsee-server-common'
+import { LighthouseScoreMetric } from '@johfe/perfsee-shared'
 
 import { E2eJobWorker } from './e2e-worker'
 import { LighthouseJobWorker } from './lighthouse-worker'

@@ -16,10 +16,10 @@ limitations under the License.
 
 import { useMemo, useCallback, FC } from 'react'
 
-import { Empty } from '@fe/perfsee-components'
-import { TreeMapChart } from '@fe/perfsee-components/treemap'
-import { ModuleTreeNode } from '@fe/perfsee-shared'
-import { hierarchy, SearchEngine, Match } from '@fe/perfsee-treemap'
+import { Empty } from '@johfe/perfsee-components'
+import { TreeMapChart } from '@johfe/perfsee-components/treemap'
+import { ModuleTreeNode } from '@johfe/perfsee-shared'
+import { hierarchy, SearchEngine, Match } from '@johfe/perfsee-treemap'
 
 import { BundleAnalyzerTooltip } from './tooltip'
 

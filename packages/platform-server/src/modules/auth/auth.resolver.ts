@@ -16,8 +16,8 @@ limitations under the License.
 
 import { Resolver, Query, Args, Mutation, Parent, ResolveField } from '@nestjs/graphql'
 
-import { AccessToken, User } from '@fe/perfsee-platform-server/db'
-import { ExternalAccount } from '@fe/perfsee-shared'
+import { AccessToken, User } from '@johfe/perfsee-platform-server/db'
+import { ExternalAccount } from '@johfe/perfsee-shared'
 
 import { Auth, CurrentUser, SkipAuth } from './auth.guard'
 import { AuthService } from './auth.service'

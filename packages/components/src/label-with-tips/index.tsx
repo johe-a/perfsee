@@ -18,7 +18,7 @@ import styled from '@emotion/styled'
 import { Stack } from '@fluentui/react'
 import { FC } from 'react'
 
-import { SharedColors } from '@fe/perfsee-dls'
+import { SharedColors } from '@johfe/perfsee-dls'
 
 import { IconWithTips } from '../icon-with-tips'
 

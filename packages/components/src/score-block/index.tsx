@@ -1,7 +1,7 @@
 import styled from '@emotion/styled'
 import { NeutralColors, Stack } from '@fluentui/react'
 
-import { darken } from '@fe/perfsee-dls'
+import { darken } from '@johfe/perfsee-dls'
 
 const ScoreDesc = styled.span({
   textOverflow: 'clip',

@@ -16,8 +16,8 @@ limitations under the License.
 
 import { Args, Int, ObjectType, Parent, ResolveField, Resolver } from '@nestjs/graphql'
 
-import { Project, SnapshotReport, SourceIssue } from '@fe/perfsee-platform-server/db'
-import { PaginationInput, PaginatedType, paginate, Paginated } from '@fe/perfsee-platform-server/graphql'
+import { Project, SnapshotReport, SourceIssue } from '@johfe/perfsee-platform-server/db'
+import { PaginationInput, PaginatedType, paginate, Paginated } from '@johfe/perfsee-platform-server/graphql'
 
 import { SnapshotReportService } from '../snapshot/snapshot-report/service'
 

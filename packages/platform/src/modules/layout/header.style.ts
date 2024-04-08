@@ -16,7 +16,7 @@ limitations under the License.
 
 import styled from '@emotion/styled'
 
-import { darken, NeutralColors } from '@fe/perfsee-dls'
+import { darken, NeutralColors } from '@johfe/perfsee-dls'
 
 export const HeaderContainer = styled.div(({ theme }) => ({
   position: 'sticky',

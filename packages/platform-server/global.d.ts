@@ -16,10 +16,10 @@ limitations under the License.
 
 declare namespace Express {
   interface Request {
-    user?: import('@fe/perfsee-platform-server/db').User | null
+    user?: import('@johfe/perfsee-platform-server/db').User | null
     session: import('express-session').Session &
       Partial<import('express-session').SessionData> & {
-        user?: import('@fe/perfsee-platform-server/db').User | null
+        user?: import('@johfe/perfsee-platform-server/db').User | null
       }
   }
 }

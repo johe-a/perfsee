@@ -19,9 +19,9 @@ import { Stack, DocumentCard, TooltipHost } from '@fluentui/react'
 import { useModule } from '@sigi/react'
 import { useCallback, useEffect, FC, useState, useMemo } from 'react'
 
-import { Pagination, useQueryString, useToggleState, ContentCard, Empty, ForeignLink } from '@fe/perfsee-components'
-import { SnapshotTrigger } from '@fe/perfsee-schema'
-import { staticPath } from '@fe/perfsee-shared/routes'
+import { Pagination, useQueryString, useToggleState, ContentCard, Empty, ForeignLink } from '@johfe/perfsee-components'
+import { SnapshotTrigger } from '@johfe/perfsee-schema'
+import { staticPath } from '@johfe/perfsee-shared/routes'
 
 import { SnapshotFilters, CreateSnapshot } from '../operator-comps/'
 import { SnapshotTitle } from '../style'

@@ -18,7 +18,7 @@ import { IStackTokens, Stack } from '@fluentui/react'
 import { useModuleState } from '@sigi/react'
 import { useCallback } from 'react'
 
-import { MultiSelector } from '@fe/perfsee-components'
+import { MultiSelector } from '@johfe/perfsee-components'
 
 import { PropertyModule } from '../../../shared'
 

@@ -18,9 +18,9 @@ import { LinkOutlined } from '@ant-design/icons'
 import { Stack } from '@fluentui/react'
 import Dayjs from 'dayjs'
 
-import { ForeignLink } from '@fe/perfsee-components'
-import { ProjectInfo } from '@fe/perfsee-platform/modules/shared'
-import { pathFactory } from '@fe/perfsee-shared/routes'
+import { ForeignLink } from '@johfe/perfsee-components'
+import { ProjectInfo } from '@johfe/perfsee-platform/modules/shared'
+import { pathFactory } from '@johfe/perfsee-shared/routes'
 
 import { ColorDot } from '../style'
 

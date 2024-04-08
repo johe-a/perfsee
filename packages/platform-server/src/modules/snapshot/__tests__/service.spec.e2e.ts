@@ -1,13 +1,20 @@
 import { faker } from '@faker-js/faker'
 
-import { Project, ProjectStorageUsage, UsagePack, Snapshot, SnapshotReport, User } from '@fe/perfsee-platform-server/db'
-import test, { GraphQLTestingClient, initTestDB, create } from '@fe/perfsee-platform-server/test'
+import {
+  Project,
+  ProjectStorageUsage,
+  UsagePack,
+  Snapshot,
+  SnapshotReport,
+  User,
+} from '@johfe/perfsee-platform-server/db'
+import test, { GraphQLTestingClient, initTestDB, create } from '@johfe/perfsee-platform-server/test'
 import {
   snapshotsQuery,
   setSnapshotHashMutation,
   deleteSnapshotMutation,
   takeSnapshotMutation,
-} from '@fe/perfsee-schema'
+} from '@johfe/perfsee-schema'
 
 import { mockCreateReport } from '../snapshot-report/__tests__/utils'
 

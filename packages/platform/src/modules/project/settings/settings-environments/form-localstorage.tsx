@@ -17,7 +17,7 @@ limitations under the License.
 import { DefaultButton, Label, Stack, IconButton, SharedColors, TextField } from '@fluentui/react'
 import { FormEvent, forwardRef, useCallback, useImperativeHandle, useMemo, useState, memo } from 'react'
 
-import { LocalStorageType } from '@fe/perfsee-shared'
+import { LocalStorageType } from '@johfe/perfsee-shared'
 
 import { NormalToken } from '../style'
 

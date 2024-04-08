@@ -27,12 +27,12 @@ import {
   DBService,
   Profile,
   Environment,
-} from '@fe/perfsee-platform-server/db'
-import { UserError } from '@fe/perfsee-platform-server/error'
-import { InternalIdService } from '@fe/perfsee-platform-server/helpers'
-import { Logger } from '@fe/perfsee-platform-server/logger'
-import { Redis } from '@fe/perfsee-platform-server/redis'
-import { createDataLoader } from '@fe/perfsee-platform-server/utils'
+} from '@johfe/perfsee-platform-server/db'
+import { UserError } from '@johfe/perfsee-platform-server/error'
+import { InternalIdService } from '@johfe/perfsee-platform-server/helpers'
+import { Logger } from '@johfe/perfsee-platform-server/logger'
+import { Redis } from '@johfe/perfsee-platform-server/redis'
+import { createDataLoader } from '@johfe/perfsee-platform-server/utils'
 
 import { SnapshotReportService } from '../snapshot/snapshot-report/service'
 

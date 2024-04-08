@@ -17,8 +17,8 @@ limitations under the License.
 import { Separator, Stack } from '@fluentui/react'
 import { FC } from 'react'
 
-import { AssetTransferred } from '@fe/perfsee-lab-report/pivot-content-asset/asset-transferred'
-import { SnapshotDetailType, SnapshotReportSchema } from '@fe/perfsee-lab-report/snapshot-type'
+import { AssetTransferred } from '@johfe/perfsee-lab-report/pivot-content-asset/asset-transferred'
+import { SnapshotDetailType, SnapshotReportSchema } from '@johfe/perfsee-lab-report/snapshot-type'
 
 import {
   OverviewRequestSummary,

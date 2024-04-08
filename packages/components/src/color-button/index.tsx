@@ -17,7 +17,7 @@ limitations under the License.
 import { PrimaryButton, IButtonProps } from '@fluentui/react'
 import { merge } from 'lodash'
 
-import { darken } from '@fe/perfsee-dls'
+import { darken } from '@johfe/perfsee-dls'
 
 export const ColorButton = (props: IButtonProps & { color: string }) => {
   const { color, styles } = props

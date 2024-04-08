@@ -18,7 +18,7 @@ import { SharedColors } from '@fluentui/react'
 import { useModule } from '@sigi/react'
 import { memo, useCallback, useEffect, useMemo } from 'react'
 
-import { ReactLogoIcon, useWideScreen } from '@fe/perfsee-components'
+import { ReactLogoIcon, useWideScreen } from '@johfe/perfsee-components'
 import {
   buildProfileFromFlameChartData,
   buildProfileFromNetworkRequests,
@@ -36,9 +36,9 @@ import {
   PerfseeFlameChartData,
   ReactDevtoolProfilingDataExport,
   prepareProfilingDataFrontendFromExport,
-} from '@fe/perfsee-flamechart'
-import { LighthouseScoreType, MetricScoreSchema, RequestSchema, UserTimingSchema } from '@fe/perfsee-shared'
-import { Task } from '@fe/perfsee-tracehouse'
+} from '@johfe/perfsee-flamechart'
+import { LighthouseScoreType, MetricScoreSchema, RequestSchema, UserTimingSchema } from '@johfe/perfsee-shared'
+import { Task } from '@johfe/perfsee-tracehouse'
 
 import { FlamechartModule, FlamechartPlaceholder } from '../flamechart'
 import { ReactFlameGraphModule } from '../pivot-content-react/module'

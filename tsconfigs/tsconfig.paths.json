@@ -3,148 +3,148 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "@fe/perfsee-bundle-analyzer": [
+      "@johfe/perfsee-bundle-analyzer": [
         "packages/bundle-analyzer/src"
       ],
-      "@fe/perfsee-bundle-analyzer/*": [
+      "@johfe/perfsee-bundle-analyzer/*": [
         "packages/bundle-analyzer/src/*"
       ],
-      "@fe/perfsee-bundle-report": [
+      "@johfe/perfsee-bundle-report": [
         "packages/bundle-report/src"
       ],
-      "@fe/perfsee-bundle-report/*": [
+      "@johfe/perfsee-bundle-report/*": [
         "packages/bundle-report/src/*"
       ],
-      "@fe/perfsee-chrome-finder": [
+      "@johfe/perfsee-chrome-finder": [
         "packages/chrome-finder/src"
       ],
-      "@fe/perfsee-chrome-finder/*": [
+      "@johfe/perfsee-chrome-finder/*": [
         "packages/chrome-finder/src/*"
       ],
-      "@fe/perfsee-components": [
+      "@johfe/perfsee-components": [
         "packages/components/src"
       ],
-      "@fe/perfsee-components/*": [
+      "@johfe/perfsee-components/*": [
         "packages/components/src/*"
       ],
-      "@fe/perfsee-dls": [
+      "@johfe/perfsee-dls": [
         "packages/dls/src"
       ],
-      "@fe/perfsee-dls/*": [
+      "@johfe/perfsee-dls/*": [
         "packages/dls/src/*"
       ],
-      "@fe/perfsee-email-templates": [
+      "@johfe/perfsee-email-templates": [
         "packages/email-templates/src"
       ],
-      "@fe/perfsee-email-templates/*": [
+      "@johfe/perfsee-email-templates/*": [
         "packages/email-templates/src/*"
       ],
-      "@fe/perfsee-flamechart": [
+      "@johfe/perfsee-flamechart": [
         "packages/flamechart/src"
       ],
-      "@fe/perfsee-flamechart/*": [
+      "@johfe/perfsee-flamechart/*": [
         "packages/flamechart/src/*"
       ],
-      "@fe/perfsee-iri": [
+      "@johfe/perfsee-iri": [
         "packages/iri/src"
       ],
-      "@fe/perfsee-iri/*": [
+      "@johfe/perfsee-iri/*": [
         "packages/iri/src/*"
       ],
-      "@fe/perfsee-jsonr": [
+      "@johfe/perfsee-jsonr": [
         "packages/jsonr/src"
       ],
-      "@fe/perfsee-jsonr/*": [
+      "@johfe/perfsee-jsonr/*": [
         "packages/jsonr/src/*"
       ],
-      "@fe/perfsee-lab-report": [
+      "@johfe/perfsee-lab-report": [
         "packages/lab-report/src"
       ],
-      "@fe/perfsee-lab-report/*": [
+      "@johfe/perfsee-lab-report/*": [
         "packages/lab-report/src/*"
       ],
-      "@fe/perfsee-ori": [
+      "@johfe/perfsee-ori": [
         "packages/ori/src"
       ],
-      "@fe/perfsee-ori/*": [
+      "@johfe/perfsee-ori/*": [
         "packages/ori/src/*"
       ],
-      "@fe/perfsee-package-build-stats": [
+      "@johfe/perfsee-package-build-stats": [
         "packages/package-build-stats/src"
       ],
-      "@fe/perfsee-package-build-stats/*": [
+      "@johfe/perfsee-package-build-stats/*": [
         "packages/package-build-stats/src/*"
       ],
-      "@fe/perfsee-package-report": [
+      "@johfe/perfsee-package-report": [
         "packages/package-report/src"
       ],
-      "@fe/perfsee-package-report/*": [
+      "@johfe/perfsee-package-report/*": [
         "packages/package-report/src/*"
       ],
-      "@fe/perfsee-package": [
+      "@johfe/perfsee-package": [
         "packages/package/src"
       ],
-      "@fe/perfsee-package/*": [
+      "@johfe/perfsee-package/*": [
         "packages/package/src/*"
       ],
-      "@fe/perfsee-platform-server": [
+      "@johfe/perfsee-platform-server": [
         "packages/platform-server/src"
       ],
-      "@fe/perfsee-platform-server/*": [
+      "@johfe/perfsee-platform-server/*": [
         "packages/platform-server/src/*"
       ],
-      "@fe/perfsee-platform": [
+      "@johfe/perfsee-platform": [
         "packages/platform/src"
       ],
-      "@fe/perfsee-platform/*": [
+      "@johfe/perfsee-platform/*": [
         "packages/platform/src/*"
       ],
-      "@fe/perfsee-schema": [
+      "@johfe/perfsee-schema": [
         "packages/schema/src"
       ],
-      "@fe/perfsee-schema/*": [
+      "@johfe/perfsee-schema/*": [
         "packages/schema/src/*"
       ],
-      "@fe/perfsee-sdk": [
+      "@johfe/perfsee-sdk": [
         "packages/sdk/src"
       ],
-      "@fe/perfsee-sdk/*": [
+      "@johfe/perfsee-sdk/*": [
         "packages/sdk/src/*"
       ],
-      "@fe/perfsee-server-common": [
+      "@johfe/perfsee-server-common": [
         "packages/server-common/src"
       ],
-      "@fe/perfsee-server-common/*": [
+      "@johfe/perfsee-server-common/*": [
         "packages/server-common/src/*"
       ],
-      "@fe/perfsee-shared": [
+      "@johfe/perfsee-shared": [
         "packages/shared/src"
       ],
-      "@fe/perfsee-shared/*": [
+      "@johfe/perfsee-shared/*": [
         "packages/shared/src/*"
       ],
-      "@fe/perfsee-source-coverage": [
+      "@johfe/perfsee-source-coverage": [
         "packages/source-coverage/src"
       ],
-      "@fe/perfsee-source-coverage/*": [
+      "@johfe/perfsee-source-coverage/*": [
         "packages/source-coverage/src/*"
       ],
-      "@fe/perfsee-tracehouse": [
+      "@johfe/perfsee-tracehouse": [
         "packages/tracehouse/src"
       ],
-      "@fe/perfsee-tracehouse/*": [
+      "@johfe/perfsee-tracehouse/*": [
         "packages/tracehouse/src/*"
       ],
-      "@fe/perfsee-treemap": [
+      "@johfe/perfsee-treemap": [
         "packages/treemap/src"
       ],
-      "@fe/perfsee-treemap/*": [
+      "@johfe/perfsee-treemap/*": [
         "packages/treemap/src/*"
       ],
-      "@fe/perfsee-utils": [
+      "@johfe/perfsee-utils": [
         "packages/utils/src"
       ],
-      "@fe/perfsee-utils/*": [
+      "@johfe/perfsee-utils/*": [
         "packages/utils/src/*"
       ],
       "perfsee-vscode": [
@@ -153,64 +153,64 @@
       "perfsee-vscode/*": [
         "packages/vscode-extension/src/*"
       ],
-      "@fe/perfsee-esbuild": [
+      "@johfe/perfsee-esbuild": [
         "packages/plugins/esbuild/src"
       ],
-      "@fe/perfsee-esbuild/*": [
+      "@johfe/perfsee-esbuild/*": [
         "packages/plugins/esbuild/src/*"
       ],
-      "@fe/perfsee-rollup": [
+      "@johfe/perfsee-rollup": [
         "packages/plugins/rollup/src"
       ],
-      "@fe/perfsee-rollup/*": [
+      "@johfe/perfsee-rollup/*": [
         "packages/plugins/rollup/src/*"
       ],
-      "@fe/perfsee-plugin-utils": [
+      "@johfe/perfsee-plugin-utils": [
         "packages/plugins/utils/src"
       ],
-      "@fe/perfsee-plugin-utils/*": [
+      "@johfe/perfsee-plugin-utils/*": [
         "packages/plugins/utils/src/*"
       ],
-      "@fe/perfsee-webpack": [
+      "@johfe/perfsee-webpack": [
         "packages/plugins/webpack/src"
       ],
-      "@fe/perfsee-webpack/*": [
+      "@johfe/perfsee-webpack/*": [
         "packages/plugins/webpack/src/*"
       ],
-      "@fe/perfsee-job-runner-bundle": [
+      "@johfe/perfsee-job-runner-bundle": [
         "packages/runner/bundle/src"
       ],
-      "@fe/perfsee-job-runner-bundle/*": [
+      "@johfe/perfsee-job-runner-bundle/*": [
         "packages/runner/bundle/src/*"
       ],
-      "@fe/perfsee-job-runner": [
+      "@johfe/perfsee-job-runner": [
         "packages/runner/executor/src"
       ],
-      "@fe/perfsee-job-runner/*": [
+      "@johfe/perfsee-job-runner/*": [
         "packages/runner/executor/src/*"
       ],
-      "@fe/perfsee-job-runner-lab": [
+      "@johfe/perfsee-job-runner-lab": [
         "packages/runner/lab/src"
       ],
-      "@fe/perfsee-job-runner-lab/*": [
+      "@johfe/perfsee-job-runner-lab/*": [
         "packages/runner/lab/src/*"
       ],
-      "@fe/perfsee-job-runner-package": [
+      "@johfe/perfsee-job-runner-package": [
         "packages/runner/package/src"
       ],
-      "@fe/perfsee-job-runner-package/*": [
+      "@johfe/perfsee-job-runner-package/*": [
         "packages/runner/package/src/*"
       ],
-      "@fe/perfsee-job-runner-shared": [
+      "@johfe/perfsee-job-runner-shared": [
         "packages/runner/shared/src"
       ],
-      "@fe/perfsee-job-runner-shared/*": [
+      "@johfe/perfsee-job-runner-shared/*": [
         "packages/runner/shared/src/*"
       ],
-      "@fe/perfsee-job-runner-source": [
+      "@johfe/perfsee-job-runner-source": [
         "packages/runner/source/src"
       ],
-      "@fe/perfsee-job-runner-source/*": [
+      "@johfe/perfsee-job-runner-source/*": [
         "packages/runner/source/src/*"
       ]
     }

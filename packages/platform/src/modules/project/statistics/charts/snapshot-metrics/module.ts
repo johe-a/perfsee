@@ -19,9 +19,9 @@ import { Draft } from 'immer'
 import { Observable } from 'rxjs'
 import { switchMap, map, withLatestFrom, startWith } from 'rxjs/operators'
 
-import { GraphQLClient, createErrorCatcher } from '@fe/perfsee-platform/common'
-import { ProjectModule } from '@fe/perfsee-platform/modules/shared'
-import { SnapshotReportHistoryQuery, snapshotReportHistoryQuery, SnapshotReportFilter } from '@fe/perfsee-schema'
+import { GraphQLClient, createErrorCatcher } from '@johfe/perfsee-platform/common'
+import { ProjectModule } from '@johfe/perfsee-platform/modules/shared'
+import { SnapshotReportHistoryQuery, snapshotReportHistoryQuery, SnapshotReportFilter } from '@johfe/perfsee-schema'
 
 export type SnapshotReport = SnapshotReportHistoryQuery['project']['snapshotReports'][0]
 interface State {

@@ -17,9 +17,9 @@ limitations under the License.
 import { Injectable } from '@nestjs/common'
 import { escape } from 'lodash'
 
-import { GithubCheckRunsAssociation, GithubPullRequestsAssociation } from '@fe/perfsee-platform-server/db'
-import { UrlService } from '@fe/perfsee-platform-server/helpers'
-import { pathFactory } from '@fe/perfsee-shared/routes'
+import { GithubCheckRunsAssociation, GithubPullRequestsAssociation } from '@johfe/perfsee-platform-server/db'
+import { UrlService } from '@johfe/perfsee-platform-server/helpers'
+import { pathFactory } from '@johfe/perfsee-shared/routes'
 
 import { GithubCheckRunOutput, GithubCheckRunParameters, GithubService } from '../../../github'
 import { CheckAction, CheckConclusion, CheckStatus, CheckSuiteProvider, CheckType } from '../../types'

@@ -29,9 +29,9 @@ import { useModule } from '@sigi/react'
 import dayjs from 'dayjs'
 import { useCallback, useEffect, useState } from 'react'
 
-import { LabelWithTips } from '@fe/perfsee-components'
-import { notify } from '@fe/perfsee-platform/common'
-import { ScheduleMonitorType, ScheduleType } from '@fe/perfsee-schema'
+import { LabelWithTips } from '@johfe/perfsee-components'
+import { notify } from '@johfe/perfsee-platform/common'
+import { ScheduleMonitorType, ScheduleType } from '@johfe/perfsee-schema'
 
 import { defaultTimer, ScheduleModule, TimerSchema } from './module'
 import { PagesChoiceGroup } from './page-choice-group'

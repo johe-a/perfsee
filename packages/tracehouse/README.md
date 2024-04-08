@@ -1,11 +1,11 @@
-# `@fe/perfsee-tracehouse`
+# `@johfe/perfsee-tracehouse`
 
 Process puppeteer main thread tracing data
 
 ## Usage
 
 ```ts
-import { computeMainThreadTasks } from '@fe/perfsee-tracehouse'
+import { computeMainThreadTasks } from '@johfe/perfsee-tracehouse'
 
 computeMainThreadTasks(data)
 ```

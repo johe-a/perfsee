@@ -28,8 +28,8 @@ import { useModule } from '@sigi/react'
 import dayjs from 'dayjs'
 import { useCallback, useEffect, useRef } from 'react'
 
-import { ForeignLink, useToggleState } from '@fe/perfsee-components'
-import { staticPath } from '@fe/perfsee-shared/routes'
+import { ForeignLink, useToggleState } from '@johfe/perfsee-components'
+import { staticPath } from '@johfe/perfsee-shared/routes'
 
 import { Title } from '../styled'
 

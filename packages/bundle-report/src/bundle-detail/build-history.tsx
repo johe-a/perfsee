@@ -21,9 +21,9 @@ import dayjs from 'dayjs'
 import { FC, memo } from 'react'
 import { Link } from 'react-router-dom'
 
-import { ForeignLink, Tag } from '@fe/perfsee-components'
-import { getCommitLink } from '@fe/perfsee-shared'
-import { pathFactory } from '@fe/perfsee-shared/routes'
+import { ForeignLink, Tag } from '@johfe/perfsee-components'
+import { getCommitLink } from '@johfe/perfsee-shared'
+import { pathFactory } from '@johfe/perfsee-shared/routes'
 
 import { BundleCard, BuildRound, EmptyBaselineWrap, EmptyBaselineIcon } from './style'
 import { ArtifactDiff } from './types'

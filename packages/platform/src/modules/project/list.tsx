@@ -42,10 +42,10 @@ import {
   useQueryString,
   GitlabIcon,
   GithubIcon,
-} from '@fe/perfsee-components'
-import { NeutralColors, SharedColors } from '@fe/perfsee-dls'
-import { GitHost } from '@fe/perfsee-schema'
-import { pathFactory, staticPath } from '@fe/perfsee-shared/routes'
+} from '@johfe/perfsee-components'
+import { NeutralColors, SharedColors } from '@johfe/perfsee-dls'
+import { GitHost } from '@johfe/perfsee-schema'
+import { pathFactory, staticPath } from '@johfe/perfsee-shared/routes'
 
 import { Starring } from '../components'
 import { useSettings } from '../shared'

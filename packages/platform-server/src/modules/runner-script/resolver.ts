@@ -16,8 +16,8 @@ limitations under the License.
 
 import { Args, PickType, InputType, Mutation, PartialType, Query } from '@nestjs/graphql'
 
-import { RunnerScript } from '@fe/perfsee-platform-server/db'
-import { JobType } from '@fe/perfsee-server-common'
+import { RunnerScript } from '@johfe/perfsee-platform-server/db'
+import { JobType } from '@johfe/perfsee-server-common'
 
 import { Auth } from '../auth'
 

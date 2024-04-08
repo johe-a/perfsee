@@ -26,7 +26,7 @@ import {
   BaseEntity,
 } from 'typeorm'
 
-import { Size } from '@fe/perfsee-shared'
+import { Size } from '@johfe/perfsee-shared'
 
 import { Artifact } from './artifact.entity'
 import type { Project } from './project.entity'

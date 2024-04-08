@@ -1,6 +1,6 @@
-import { Project, User } from '@fe/perfsee-platform-server/db'
-import test, { createDBTestingModule, createMock, initTestDB } from '@fe/perfsee-platform-server/test'
-import { GitHost, Permission } from '@fe/perfsee-shared'
+import { Project, User } from '@johfe/perfsee-platform-server/db'
+import test, { createDBTestingModule, createMock, initTestDB } from '@johfe/perfsee-platform-server/test'
+import { GitHost, Permission } from '@johfe/perfsee-shared'
 
 import { SelfHostPermissionProvider } from '../providers/self-host'
 

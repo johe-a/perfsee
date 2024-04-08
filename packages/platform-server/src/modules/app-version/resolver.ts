@@ -16,7 +16,7 @@ limitations under the License.
 
 import { Int, Resolver, Args, GraphQLISODateTime, ResolveField, Parent } from '@nestjs/graphql'
 
-import { AppVersion, Project } from '@fe/perfsee-platform-server/db'
+import { AppVersion, Project } from '@johfe/perfsee-platform-server/db'
 
 import { AppVersionService } from './service'
 

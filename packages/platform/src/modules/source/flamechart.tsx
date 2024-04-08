@@ -18,10 +18,10 @@ import { DefaultButton } from '@fluentui/react'
 import { useModule, useModuleState } from '@sigi/react'
 import { memo, useCallback, useEffect, useMemo } from 'react'
 
-import { SharedColors } from '@fe/perfsee-dls'
-import { buildProfileFromFlameChartData, FlamechartContainer, Timing } from '@fe/perfsee-flamechart'
-import { FlamechartModule, FlamechartPlaceholder } from '@fe/perfsee-lab-report/flamechart'
-import { MetricType } from '@fe/perfsee-shared'
+import { SharedColors } from '@johfe/perfsee-dls'
+import { buildProfileFromFlameChartData, FlamechartContainer, Timing } from '@johfe/perfsee-flamechart'
+import { FlamechartModule, FlamechartPlaceholder } from '@johfe/perfsee-lab-report/flamechart'
+import { MetricType } from '@johfe/perfsee-shared'
 
 import { ProjectModule } from '../shared'
 

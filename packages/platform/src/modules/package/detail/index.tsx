@@ -18,8 +18,8 @@ import { useModule } from '@sigi/react'
 import { memo, useEffect } from 'react'
 import { RouteComponentProps, useHistory } from 'react-router'
 
-import { PackageResultContext, PackageDetail as PackageReport } from '@fe/perfsee-package-report'
-import { pathFactory } from '@fe/perfsee-shared/routes'
+import { PackageResultContext, PackageDetail as PackageReport } from '@johfe/perfsee-package-report'
+import { pathFactory } from '@johfe/perfsee-shared/routes'
 
 import { PackageBundleDetailModule } from './module'
 

@@ -29,7 +29,7 @@ import {
   mergeMap,
 } from 'rxjs/operators'
 
-import { GraphQLClient, createErrorCatcher } from '@fe/perfsee-platform/common'
+import { GraphQLClient, createErrorCatcher } from '@johfe/perfsee-platform/common'
 import {
   SnapshotsQuery,
   snapshotsQuery,
@@ -47,7 +47,7 @@ import {
   deleteSnapshotReportMutation,
   snapshotQuery,
   SnapshotQuery,
-} from '@fe/perfsee-schema'
+} from '@johfe/perfsee-schema'
 
 import { ProjectModule } from '../../shared'
 

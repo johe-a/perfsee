@@ -16,7 +16,7 @@ limitations under the License.
 
 import { Field, InputType, PartialType, OmitType } from '@nestjs/graphql'
 
-import { Setting } from '@fe/perfsee-platform-server/db'
+import { Setting } from '@johfe/perfsee-platform-server/db'
 
 @InputType()
 export class UpdateSettingInput extends PartialType(OmitType(Setting, ['id']), InputType) {

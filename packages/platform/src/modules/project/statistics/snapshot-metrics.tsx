@@ -23,11 +23,11 @@ import { useEffect, useMemo, useState, memo, useCallback } from 'react'
 import { useHistory } from 'react-router'
 import { Link } from 'react-router-dom'
 
-import { ForeignLink, Select, Space, Table, TableColumnProps, getScoreColor } from '@fe/perfsee-components'
-import { formatTime } from '@fe/perfsee-platform/common'
-import { PageSchema, useProjectRouteGenerator } from '@fe/perfsee-platform/modules/shared'
-import { LighthouseScoreType } from '@fe/perfsee-shared'
-import { pathFactory, staticPath } from '@fe/perfsee-shared/routes'
+import { ForeignLink, Select, Space, Table, TableColumnProps, getScoreColor } from '@johfe/perfsee-components'
+import { formatTime } from '@johfe/perfsee-platform/common'
+import { PageSchema, useProjectRouteGenerator } from '@johfe/perfsee-platform/modules/shared'
+import { LighthouseScoreType } from '@johfe/perfsee-shared'
+import { pathFactory, staticPath } from '@johfe/perfsee-shared/routes'
 
 import { PropertyModule } from '../../shared'
 

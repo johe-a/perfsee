@@ -14,7 +14,7 @@ For the Perfsee frontend project, we need to use Webpack to bundle the code, and
 # Note: production build assets need to set NODE_ENV=production
 export NODE_ENV=production
 
-yarn cli bundle -p @fe/perfsee-platform
+yarn cli bundle -p @johfe/perfsee-platform
 ```
 
 ### CDN
@@ -24,7 +24,7 @@ If you chose to use a CDN service to distribute static assets, you can specify t
 ```bash
 export PUBLIC_PATH=https://your.cdn/perfsee/assets
 
-yarn cli bundle -p @fe/perfsee-platform
+yarn cli bundle -p @johfe/perfsee-platform
 ```
 
 ### API Service
@@ -34,7 +34,7 @@ If you have a service API with a different domain name from the front end, such 
 ```bash
 export SERVER=https://api.perfsee.com
 
-yarn cli bundle -p @fe/perfsee-platform
+yarn cli bundle -p @johfe/perfsee-platform
 ```
 
 ## Backend
@@ -72,7 +72,7 @@ cp ./packages/platform-server/.env.example ./packages/platform-server/.env
 
 ### Start Service
 
-Since the project code uses the reference path alias capability provided by TypeScript, such as `@fe/perfsee-shared => ./packages/shared/src/index.ts`, we need to use the `paths-register` tool provided in tools to register these aliases before starting the service, so that Node.js can correctly resolve these referenced paths.
+Since the project code uses the reference path alias capability provided by TypeScript, such as `@johfe/perfsee-shared => ./packages/shared/src/index.ts`, we need to use the `paths-register` tool provided in tools to register these aliases before starting the service, so that Node.js can correctly resolve these referenced paths.
 
 ```bash
 node -r ./tools/paths-register ./packages/platform-server/dist/index.js
@@ -152,7 +152,7 @@ export SUB_PATH=/perfsee
 # Generate relative scaffold code for the new subpath
 yarn codegen
 
-yarn cli bundle -p @fe/perfsee-platform
+yarn cli bundle -p @johfe/perfsee-platform
 ```
 
 ```bash

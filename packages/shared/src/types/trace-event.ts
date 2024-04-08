@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { CallFrame } from '@fe/perfsee-flamechart'
+import { CallFrame } from '@johfe/perfsee-flamechart'
 
 /** The type of the Profile & ProfileChunk event in Chromium traces. Note that this is subtly different from Crdp.Profiler.Profile. */
 export interface TraceCpuProfile {

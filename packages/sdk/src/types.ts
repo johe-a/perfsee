@@ -16,7 +16,7 @@ limitations under the License.
 
 import { RequestInit } from 'node-fetch'
 
-import { QueryVariables, RecursiveMaybeFields, GraphQLQuery, QueryResponse } from '@fe/perfsee-schema'
+import { QueryVariables, RecursiveMaybeFields, GraphQLQuery, QueryResponse } from '@johfe/perfsee-schema'
 
 type AllowedRequestContent = Omit<RequestInit, 'method' | 'body' | 'signal'>
 

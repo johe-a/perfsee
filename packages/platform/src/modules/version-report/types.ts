@@ -14,8 +14,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { ArtifactByCommitQuery, SnapshotReportsByCommitQuery, IssuesByReportIdQuery } from '@fe/perfsee-schema'
-import { AuditsSchema, LHStoredSchema, MetricScoreSchema } from '@fe/perfsee-shared'
+import { ArtifactByCommitQuery, SnapshotReportsByCommitQuery, IssuesByReportIdQuery } from '@johfe/perfsee-schema'
+import { AuditsSchema, LHStoredSchema, MetricScoreSchema } from '@johfe/perfsee-shared'
 
 type Unwrap<Element> = Element extends Array<infer S> ? S : unknown
 

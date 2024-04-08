@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { UserQuery, userQuery } from '@fe/perfsee-schema'
+import { UserQuery, userQuery } from '@johfe/perfsee-schema'
 
 import { query } from '../utils/graphql'
 

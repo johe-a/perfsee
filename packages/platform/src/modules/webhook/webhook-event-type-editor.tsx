@@ -2,7 +2,7 @@ import styled from '@emotion/styled'
 import { Checkbox, Label, Stack } from '@fluentui/react'
 import { useCallback, useMemo } from 'react'
 
-import { parseWebhookEventTypeWildcardExpr, WebhookEventType, WEBHOOK_EVENT_TYPE } from '@fe/perfsee-shared'
+import { parseWebhookEventTypeWildcardExpr, WebhookEventType, WEBHOOK_EVENT_TYPE } from '@johfe/perfsee-shared'
 
 interface Props {
   value: string

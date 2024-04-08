@@ -16,7 +16,7 @@ limitations under the License.
 
 import { FC, memo, useMemo } from 'react'
 
-import { SnapshotStatus } from '@fe/perfsee-schema'
+import { SnapshotStatus } from '@johfe/perfsee-schema'
 
 import { ScoreWarnings } from './score-warnings'
 import {

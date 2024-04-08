@@ -19,8 +19,8 @@ import { Draft } from 'immer'
 import { Observable } from 'rxjs'
 import { switchMap, map, startWith, endWith } from 'rxjs/operators'
 
-import { createErrorCatcher, GraphQLClient } from '@fe/perfsee-platform/common'
-import { applicationQuery, ApplicationQuery, authorizeApplicationMutation, Permission } from '@fe/perfsee-schema'
+import { createErrorCatcher, GraphQLClient } from '@johfe/perfsee-platform/common'
+import { applicationQuery, ApplicationQuery, authorizeApplicationMutation, Permission } from '@johfe/perfsee-schema'
 
 export type Application = ApplicationQuery['application']
 

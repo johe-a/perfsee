@@ -24,7 +24,7 @@ import {
 import { useTheme } from '@emotion/react'
 import { FC, memo, useCallback, useEffect } from 'react'
 
-import { Message, NoticeType } from '@fe/perfsee-platform/common'
+import { Message, NoticeType } from '@johfe/perfsee-platform/common'
 
 import { CloseButtonWrap, ContentWrap, IconWrap, NoticeTitle, NoticeWrap } from './styled'
 

@@ -25,10 +25,10 @@ import { getPackage, PackageName } from '../utils'
 import { Command } from './command'
 
 const scripts: { [key in PackageName]?: string[] } = {
-  '@fe/perfsee-job-runner-bundle': ['job.BundleAnalyze'],
-  '@fe/perfsee-job-runner-lab': ['job.LabAnalyze', 'job.E2EAnalyze', 'job.LabPing'],
-  '@fe/perfsee-job-runner-source': ['job.SourceAnalyze'],
-  '@fe/perfsee-job-runner-package': ['job.PackageAnalyze'],
+  '@johfe/perfsee-job-runner-bundle': ['job.BundleAnalyze'],
+  '@johfe/perfsee-job-runner-lab': ['job.LabAnalyze', 'job.E2EAnalyze', 'job.LabPing'],
+  '@johfe/perfsee-job-runner-source': ['job.SourceAnalyze'],
+  '@johfe/perfsee-job-runner-package': ['job.PackageAnalyze'],
 }
 export class UploadScriptsCommand extends Command {
   static paths = [['upload-scripts']]

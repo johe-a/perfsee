@@ -26,7 +26,7 @@ import {
 import { useModuleState } from '@sigi/react'
 import { useCallback, useState, useRef } from 'react'
 
-import { RequiredTextField } from '@fe/perfsee-components'
+import { RequiredTextField } from '@johfe/perfsee-components'
 
 import { CookieSchema, EnvSchema, PropertyModule, LocalStorageSchema, HeaderSchema } from '../../../shared'
 

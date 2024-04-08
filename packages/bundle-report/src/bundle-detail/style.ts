@@ -18,7 +18,7 @@ import { FilterFilled } from '@ant-design/icons'
 import styled from '@emotion/styled'
 import { CommunicationColors, IStackTokens, Pivot, SharedColors, Stack } from '@fluentui/react'
 
-import { NeutralColors } from '@fe/perfsee-dls'
+import { NeutralColors } from '@johfe/perfsee-dls'
 
 export const cardGap: IStackTokens = { childrenGap: '12px' }
 

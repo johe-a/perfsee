@@ -19,8 +19,8 @@ import { PropsOf, Theme } from '@emotion/react'
 import styled from '@emotion/styled'
 import { ComponentType, FC } from 'react'
 
-import { ForeignLink, Tag } from '@fe/perfsee-components'
-import { BundleJobStatus } from '@fe/perfsee-schema'
+import { ForeignLink, Tag } from '@johfe/perfsee-components'
+import { BundleJobStatus } from '@johfe/perfsee-schema'
 
 const iconMap: { [key in BundleJobStatus]: ComponentType<any> } = {
   [BundleJobStatus.Passed]: CheckCircleOutlined,

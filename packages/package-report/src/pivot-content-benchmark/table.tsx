@@ -23,8 +23,8 @@ import {
   Table,
   TableColumnProps,
   TableProps,
-} from '@fe/perfsee-components'
-import { BenchmarkSummary as Summary } from '@fe/perfsee-shared'
+} from '@johfe/perfsee-components'
+import { BenchmarkSummary as Summary } from '@johfe/perfsee-shared'
 
 import { BenchmarkName } from './style'
 

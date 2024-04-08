@@ -18,8 +18,8 @@ import { ExclamationCircleOutlined } from '@ant-design/icons'
 import { TooltipHost } from '@fluentui/react'
 import { NeutralColors, SharedColors } from '@fluentui/theme'
 
-import { TableColumnProps, TooltipWithEllipsis, RequestLabelDot } from '@fe/perfsee-components'
-import { RequestSchema, formatMsDuration } from '@fe/perfsee-shared'
+import { TableColumnProps, TooltipWithEllipsis, RequestLabelDot } from '@johfe/perfsee-components'
+import { RequestSchema, formatMsDuration } from '@johfe/perfsee-shared'
 
 import { RequestType, RequestTypeColorsMaps } from '../../snapshot-type'
 import {

@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { LighthouseScoreType, MetricType } from '@fe/perfsee-shared'
+import { LighthouseScoreType, MetricType } from '@johfe/perfsee-shared'
 
 import { ArtifactEntrypoints, SnapshotRecord } from './module'
 

@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { PaginationInput, vscodeArtifactByCommitQuery, vscodeArtifactsQuery } from '@fe/perfsee-schema'
+import { PaginationInput, vscodeArtifactByCommitQuery, vscodeArtifactsQuery } from '@johfe/perfsee-schema'
 
 import { UnwrapPromise } from '../types/graphql'
 import { memoizePromise } from '../utils/cache'

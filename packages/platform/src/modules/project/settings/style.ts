@@ -16,7 +16,7 @@ limitations under the License.
 
 import styled from '@emotion/styled'
 
-import { NeutralColors, SharedColors } from '@fe/perfsee-dls'
+import { NeutralColors, SharedColors } from '@johfe/perfsee-dls'
 
 export const StyledDesc = styled.span<{ size?: string }>(({ theme, size }) => ({
   fontSize: size ?? '14px',

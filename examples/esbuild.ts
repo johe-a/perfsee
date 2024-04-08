@@ -16,7 +16,7 @@ limitations under the License.
 
 import esbuild from 'esbuild'
 
-import { PerfseePlugin } from '@fe/perfsee-esbuild'
+import { PerfseePlugin } from '@johfe/perfsee-esbuild'
 
 export const runEsbuild = async (entryPoints: string[]) => {
   return esbuild.build({

@@ -17,8 +17,8 @@ limitations under the License.
 import styled from '@emotion/styled'
 import { SharedColors } from '@fluentui/theme'
 
-import { TreeMapTooltipProps } from '@fe/perfsee-components/treemap'
-import { PrettyBytes } from '@fe/perfsee-shared'
+import { TreeMapTooltipProps } from '@johfe/perfsee-components/treemap'
+import { PrettyBytes } from '@johfe/perfsee-shared'
 
 const Information = styled.div({
   fontSize: '12px',

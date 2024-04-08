@@ -5,9 +5,9 @@ import { useForceUpdate } from '@fluentui/react-hooks'
 import { useModule } from '@sigi/react'
 import { useCallback, useEffect, useRef } from 'react'
 
-import { ContentCard } from '@fe/perfsee-components'
-import { useSettings } from '@fe/perfsee-platform/modules/shared'
-import { UpdateApplicationSettingsInput } from '@fe/perfsee-schema'
+import { ContentCard } from '@johfe/perfsee-components'
+import { useSettings } from '@johfe/perfsee-platform/modules/shared'
+import { UpdateApplicationSettingsInput } from '@johfe/perfsee-schema'
 
 import { SettingsAdminModule } from './module'
 import { SettingFieldRenderer } from './renderers'

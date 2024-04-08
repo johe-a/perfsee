@@ -11,8 +11,8 @@ import {
 import { useModule } from '@sigi/react'
 import { useCallback, useEffect, useMemo, useState } from 'react'
 
-import { Modal, PopConfirm, Table, TableColumnProps, useToggleState } from '@fe/perfsee-components'
-import { Permission } from '@fe/perfsee-schema'
+import { Modal, PopConfirm, Table, TableColumnProps, useToggleState } from '@johfe/perfsee-components'
+import { Permission } from '@johfe/perfsee-schema'
 
 import { PermissionSettingsModule, User } from './module'
 import { ModalContent, OperationSpan } from './styled'

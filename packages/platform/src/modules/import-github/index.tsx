@@ -20,9 +20,9 @@ import { useModule } from '@sigi/react'
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { Redirect } from 'react-router'
 
-import { BodyContainer } from '@fe/perfsee-components'
-import { ExternalAccount, GitHost } from '@fe/perfsee-schema'
-import { pathFactory } from '@fe/perfsee-shared/routes'
+import { BodyContainer } from '@johfe/perfsee-components'
+import { ExternalAccount, GitHost } from '@johfe/perfsee-schema'
+import { pathFactory } from '@johfe/perfsee-shared/routes'
 
 import { ConnectedAccountsModule, CreateProjectModule } from '../shared'
 

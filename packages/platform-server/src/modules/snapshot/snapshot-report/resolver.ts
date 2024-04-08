@@ -27,9 +27,9 @@ import {
   Snapshot,
   SnapshotReport,
   SourceIssue,
-} from '@fe/perfsee-platform-server/db'
-import { transformInputType } from '@fe/perfsee-platform-server/graphql'
-import { artifactLink } from '@fe/perfsee-platform-server/utils'
+} from '@johfe/perfsee-platform-server/db'
+import { transformInputType } from '@johfe/perfsee-platform-server/graphql'
+import { artifactLink } from '@johfe/perfsee-platform-server/utils'
 
 import { Permission, PermissionGuard } from '../../permission'
 import { ProjectService } from '../../project/service'

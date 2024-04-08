@@ -19,8 +19,8 @@ import { parse, stringify } from 'query-string'
 import { useCallback, FC, memo, useContext } from 'react'
 import { useHistory, useLocation } from 'react-router-dom'
 
-import { MessageBar } from '@fe/perfsee-components'
-import { BundleJobStatus } from '@fe/perfsee-schema'
+import { MessageBar } from '@johfe/perfsee-components'
+import { BundleJobStatus } from '@johfe/perfsee-schema'
 
 import { PackageResultContext } from './context'
 import { BenchmarkDetail } from './pivot-content-benchmark'

@@ -1,13 +1,13 @@
 import { faker } from '@faker-js/faker'
 
-import { AccessToken, Application, Project, User, UserPermission } from '@fe/perfsee-platform-server/db'
+import { AccessToken, Application, Project, User, UserPermission } from '@johfe/perfsee-platform-server/db'
 import test, {
   create,
   createDBTestingModule,
   createMock,
   DeepMocked,
   initTestDB,
-} from '@fe/perfsee-platform-server/test'
+} from '@johfe/perfsee-platform-server/test'
 
 import { AuthService } from '../../auth/auth.service'
 import { Permission, PermissionProvider } from '../../permission'

@@ -17,9 +17,9 @@ limitations under the License.
 import { Spinner, SpinnerSize, Stack } from '@fluentui/react'
 import { FC, useMemo } from 'react'
 
-import { Empty } from '@fe/perfsee-components'
-import { SnapshotStatus } from '@fe/perfsee-schema'
-import { addSize, getDefaultSize } from '@fe/perfsee-shared'
+import { Empty } from '@johfe/perfsee-components'
+import { SnapshotStatus } from '@johfe/perfsee-schema'
+import { addSize, getDefaultSize } from '@johfe/perfsee-shared'
 
 import { useProject } from '../../shared'
 import { VersionSnapshotReport, Artifact, VersionLHContent } from '../../version-report/types'

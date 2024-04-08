@@ -16,7 +16,7 @@ limitations under the License.
 
 import { TextField } from '@fluentui/react'
 
-import { BodyContainer } from '@fe/perfsee-components'
+import { BodyContainer } from '@johfe/perfsee-components'
 
 import { BlockButton, FormContainer } from './styled'
 

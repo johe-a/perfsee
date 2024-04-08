@@ -37,8 +37,8 @@ import {
 } from '@fluentui/react'
 import { useCallback, FC, memo } from 'react'
 
-import { ColorButton, TooltipWithEllipsis } from '@fe/perfsee-components'
-import { SharedColors } from '@fe/perfsee-dls'
+import { ColorButton, TooltipWithEllipsis } from '@johfe/perfsee-components'
+import { SharedColors } from '@johfe/perfsee-dls'
 
 import { DeleteProgress } from '../../shared'
 

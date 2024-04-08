@@ -16,7 +16,7 @@ limitations under the License.
 
 import { Module } from '@nestjs/common'
 
-import { StorageModule } from '@fe/perfsee-platform-server/storage'
+import { StorageModule } from '@johfe/perfsee-platform-server/storage'
 
 import { RunnerModule } from '../runner'
 

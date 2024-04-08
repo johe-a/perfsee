@@ -16,10 +16,10 @@ limitations under the License.
 
 import { Args, Field, Int, ObjectType, Query, Resolver } from '@nestjs/graphql'
 
-import { User } from '@fe/perfsee-platform-server/db'
-import { UserError } from '@fe/perfsee-platform-server/error'
-import { Paginated, PaginationInput } from '@fe/perfsee-platform-server/graphql'
-import { ExternalAccount } from '@fe/perfsee-shared'
+import { User } from '@johfe/perfsee-platform-server/db'
+import { UserError } from '@johfe/perfsee-platform-server/error'
+import { Paginated, PaginationInput } from '@johfe/perfsee-platform-server/graphql'
+import { ExternalAccount } from '@johfe/perfsee-shared'
 
 import { Auth, CurrentUser } from '../auth/auth.guard'
 import { UserService } from '../user'

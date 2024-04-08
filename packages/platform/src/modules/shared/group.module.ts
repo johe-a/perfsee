@@ -19,7 +19,7 @@ import { Draft } from 'immer'
 import { Observable } from 'rxjs'
 import { map, switchMap, startWith, endWith, withLatestFrom, filter } from 'rxjs/operators'
 
-import { GraphQLClient, createErrorCatcher } from '@fe/perfsee-platform/common'
+import { GraphQLClient, createErrorCatcher } from '@johfe/perfsee-platform/common'
 import {
   GroupQuery,
   groupQuery,
@@ -28,7 +28,7 @@ import {
   updateGroupMutation,
   UpdateGroupMutationVariables,
   UpdateGroupMutation,
-} from '@fe/perfsee-schema'
+} from '@johfe/perfsee-schema'
 
 import { DeleteProgress } from './property-type'
 

@@ -30,16 +30,16 @@ import {
   extractBundleFromStream,
   readStatsFile,
   AssetTypeEnum,
-} from '@fe/perfsee-bundle-analyzer'
-import { JobWorker } from '@fe/perfsee-job-runner-shared'
+} from '@johfe/perfsee-bundle-analyzer'
+import { JobWorker } from '@johfe/perfsee-job-runner-shared'
 import {
   BundleJobPayload,
   BundleJobUpdate,
   BundleJobStatus,
   JobType,
   BundleJobEntryPoint,
-} from '@fe/perfsee-server-common'
-import { briefEntryDiff, BundleAuditWarning, BundleResult, diffBundleResult } from '@fe/perfsee-shared'
+} from '@johfe/perfsee-server-common'
+import { briefEntryDiff, BundleAuditWarning, BundleResult, diffBundleResult } from '@johfe/perfsee-shared'
 
 export class BundleWorker extends JobWorker<BundleJobPayload> {
   private pwd!: string

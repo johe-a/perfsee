@@ -20,11 +20,16 @@ import { isNumber } from 'lodash'
 import { FC, useMemo } from 'react'
 import { Link } from 'react-router-dom'
 
-import { HeaderWithVerticalLineStyles, onRenderVerticalLineRow, Table, TableColumnProps } from '@fe/perfsee-components'
-import { PerformanceTabType, SnapshotDetailType, SnapshotReportSchema } from '@fe/perfsee-lab-report/snapshot-type'
-import { useProject } from '@fe/perfsee-platform/modules/shared'
-import { LighthouseScoreMetric } from '@fe/perfsee-shared'
-import { pathFactory } from '@fe/perfsee-shared/routes'
+import {
+  HeaderWithVerticalLineStyles,
+  onRenderVerticalLineRow,
+  Table,
+  TableColumnProps,
+} from '@johfe/perfsee-components'
+import { PerformanceTabType, SnapshotDetailType, SnapshotReportSchema } from '@johfe/perfsee-lab-report/snapshot-type'
+import { useProject } from '@johfe/perfsee-platform/modules/shared'
+import { LighthouseScoreMetric } from '@johfe/perfsee-shared'
+import { pathFactory } from '@johfe/perfsee-shared/routes'
 
 import { HeaderTitle } from '../style'
 

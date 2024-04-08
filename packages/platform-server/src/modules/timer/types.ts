@@ -16,7 +16,7 @@ limitations under the License.
 
 import { InputType, PartialType, PickType } from '@nestjs/graphql'
 
-import { Timer } from '@fe/perfsee-platform-server/db'
+import { Timer } from '@johfe/perfsee-platform-server/db'
 
 @InputType()
 export class UpdateTimerInput extends PartialType(

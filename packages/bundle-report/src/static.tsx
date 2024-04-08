@@ -36,9 +36,9 @@ import { useEffect, useMemo, useState } from 'react'
 import { createRoot } from 'react-dom/client'
 import { Switch, Route, MemoryRouter } from 'react-router'
 
-import { MDXComponents } from '@fe/perfsee-components'
-import { ThemeProvider } from '@fe/perfsee-dls'
-import { AssetInfo, ModuleReasons, ModuleTreeNode, diffBundleResult } from '@fe/perfsee-shared'
+import { MDXComponents } from '@johfe/perfsee-components'
+import { ThemeProvider } from '@johfe/perfsee-dls'
+import { AssetInfo, ModuleReasons, ModuleTreeNode, diffBundleResult } from '@johfe/perfsee-shared'
 
 import { PackageTraceContext } from './bundle-detail/context'
 

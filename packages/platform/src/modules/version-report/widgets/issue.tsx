@@ -21,9 +21,9 @@ import { startCase } from 'lodash'
 import { FC, useMemo, useCallback } from 'react'
 import { useHistory, useParams } from 'react-router'
 
-import { Table, TableColumnProps, TooltipWithEllipsis } from '@fe/perfsee-components'
-import { formatTime } from '@fe/perfsee-platform/common'
-import { pathFactory } from '@fe/perfsee-shared/routes'
+import { Table, TableColumnProps, TooltipWithEllipsis } from '@johfe/perfsee-components'
+import { formatTime } from '@johfe/perfsee-platform/common'
+import { pathFactory } from '@johfe/perfsee-shared/routes'
 
 import { ProjectModule, useProjectRouteGenerator } from '../../shared'
 import { SourceIssue, VersionIssue } from '../types'

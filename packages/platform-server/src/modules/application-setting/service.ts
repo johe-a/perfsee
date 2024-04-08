@@ -17,13 +17,13 @@ limitations under the License.
 import { Injectable, OnApplicationBootstrap } from '@nestjs/common'
 import { isUndefined, omitBy } from 'lodash'
 
-import { Config } from '@fe/perfsee-platform-server/config'
-import { ApplicationSetting } from '@fe/perfsee-platform-server/db'
-import { UserError } from '@fe/perfsee-platform-server/error'
-import { CryptoService } from '@fe/perfsee-platform-server/helpers'
-import { Logger } from '@fe/perfsee-platform-server/logger'
-import { Redis } from '@fe/perfsee-platform-server/redis'
-import { DeepPartial } from '@fe/perfsee-platform-server/utils/types'
+import { Config } from '@johfe/perfsee-platform-server/config'
+import { ApplicationSetting } from '@johfe/perfsee-platform-server/db'
+import { UserError } from '@johfe/perfsee-platform-server/error'
+import { CryptoService } from '@johfe/perfsee-platform-server/helpers'
+import { Logger } from '@johfe/perfsee-platform-server/logger'
+import { Redis } from '@johfe/perfsee-platform-server/redis'
+import { DeepPartial } from '@johfe/perfsee-platform-server/utils/types'
 
 @Injectable()
 export class ApplicationSettingService implements OnApplicationBootstrap {

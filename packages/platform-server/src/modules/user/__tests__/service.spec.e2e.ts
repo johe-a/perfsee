@@ -1,9 +1,9 @@
 import { faker } from '@faker-js/faker'
 
-import { User, UserConnectedAccount } from '@fe/perfsee-platform-server/db'
-import test, { GraphQLTestingClient, initTestDB, create } from '@fe/perfsee-platform-server/test'
-import { disconnectAccountMutation, userConnectedAccountsQuery, userQuery } from '@fe/perfsee-schema'
-import { ExternalAccount } from '@fe/perfsee-shared'
+import { User, UserConnectedAccount } from '@johfe/perfsee-platform-server/db'
+import test, { GraphQLTestingClient, initTestDB, create } from '@johfe/perfsee-platform-server/test'
+import { disconnectAccountMutation, userConnectedAccountsQuery, userQuery } from '@johfe/perfsee-schema'
+import { ExternalAccount } from '@johfe/perfsee-shared'
 
 let gqlClient: GraphQLTestingClient
 

@@ -18,8 +18,8 @@ import { Effect, EffectModule, ImmerReducer, Module } from '@sigi/core'
 import { Draft } from 'immer'
 import { endWith, exhaustMap, filter, map, Observable, startWith, withLatestFrom } from 'rxjs'
 
-import { createErrorCatcher, GraphQLClient } from '@fe/perfsee-platform/common'
-import { associatedGithubInstallationsQuery } from '@fe/perfsee-schema'
+import { createErrorCatcher, GraphQLClient } from '@johfe/perfsee-platform/common'
+import { associatedGithubInstallationsQuery } from '@johfe/perfsee-schema'
 
 import { Installation } from './github-installation.module'
 

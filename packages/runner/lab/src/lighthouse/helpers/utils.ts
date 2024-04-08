@@ -21,8 +21,8 @@ import {
   TimingType,
   HeaderType,
   CookieType,
-} from '@fe/perfsee-shared'
-import { Task } from '@fe/perfsee-tracehouse'
+} from '@johfe/perfsee-shared'
+import { Task } from '@johfe/perfsee-tracehouse'
 
 const getParams = (audit?: LH.Audit.Result) => {
   if (!audit) {

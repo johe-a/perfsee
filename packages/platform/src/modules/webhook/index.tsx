@@ -21,8 +21,8 @@ import dayjs from 'dayjs'
 import { pick } from 'lodash'
 import { useCallback, useEffect, useMemo, useState } from 'react'
 
-import { Empty, ForeignLink } from '@fe/perfsee-components'
-import { staticPath } from '@fe/perfsee-shared/routes'
+import { Empty, ForeignLink } from '@johfe/perfsee-components'
+import { staticPath } from '@johfe/perfsee-shared/routes'
 
 import { DialogVisible, SettingDialogs } from '../project/settings/settings-common-comp'
 

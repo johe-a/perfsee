@@ -19,7 +19,7 @@ import findCacheDir from 'find-cache-dir'
 import { merge } from 'lodash'
 import fetch from 'node-fetch'
 
-import { calcBundleScore, StatsParser, PerfseeReportStats, Audit } from '@fe/perfsee-bundle-analyzer'
+import { calcBundleScore, StatsParser, PerfseeReportStats, Audit } from '@johfe/perfsee-bundle-analyzer'
 
 import { getBuildEnv } from './build-env'
 import { formatAuditResult } from './formater'
@@ -80,7 +80,7 @@ export async function generateReports(stats: PerfseeReportStats, outputPath: str
         }
 
         if (!pass && failIfNotPass) {
-          console.error(chalk.red('[@fe/perfsee-webpack] Bundle audit not pass.'))
+          console.error(chalk.red('[@johfe/perfsee-webpack] Bundle audit not pass.'))
           process.exit(1)
         }
       }

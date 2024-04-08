@@ -17,7 +17,7 @@ limitations under the License.
 import { MessageBar, MessageBarType } from '@fluentui/react'
 import { FC } from 'react'
 
-import { ArtifactFragment, BundleJobStatus } from '@fe/perfsee-schema'
+import { ArtifactFragment, BundleJobStatus } from '@johfe/perfsee-schema'
 
 interface Props {
   bundle?: ArtifactFragment | null

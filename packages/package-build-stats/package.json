@@ -1,5 +1,5 @@
 {
-  "name": "@fe/perfsee-package-build-stats",
+  "name": "@johfe/perfsee-package-build-stats",
   "version": "1.8.4",
   "repository": "https://github.com/perfsee/perfsee",
   "publishConfig": {

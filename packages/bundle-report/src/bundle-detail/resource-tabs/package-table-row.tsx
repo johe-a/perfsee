@@ -2,8 +2,8 @@ import { IDetailsRowProps, IDetailsRowStyles, DetailsRow, PivotItem } from '@flu
 import { NeutralColors } from '@fluentui/theme'
 import { useState, useMemo, useCallback } from 'react'
 
-import { TooltipWithEllipsis } from '@fe/perfsee-components'
-import { OLD_SOURCE_CODE_PATH, Size, SOURCE_CODE_PATH } from '@fe/perfsee-shared'
+import { TooltipWithEllipsis } from '@johfe/perfsee-components'
+import { OLD_SOURCE_CODE_PATH, Size, SOURCE_CODE_PATH } from '@johfe/perfsee-shared'
 
 import { ColoredSize } from '../components'
 import { TableExtraWrap, StyledInfoItem, StyledPivot } from '../style'

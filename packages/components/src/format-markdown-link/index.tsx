@@ -16,7 +16,7 @@ limitations under the License.
 
 import { Fragment } from 'react'
 
-import { ForeignLink } from '@fe/perfsee-components'
+import { ForeignLink } from '@johfe/perfsee-components'
 
 const LinkReg = /\[([^\]]+)\]\(([^)]+)\)/g
 

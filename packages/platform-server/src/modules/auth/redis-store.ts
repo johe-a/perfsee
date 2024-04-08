@@ -17,7 +17,7 @@ limitations under the License.
 import { Store, SessionData } from 'express-session'
 import { noop } from 'lodash'
 
-import { Redis } from '@fe/perfsee-platform-server/redis'
+import { Redis } from '@johfe/perfsee-platform-server/redis'
 
 export class RedisStore extends Store {
   static create(redisClient: any) {

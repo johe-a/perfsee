@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { SourceCoverageResult } from '@fe/perfsee-shared'
+import { SourceCoverageResult } from '@johfe/perfsee-shared'
 
 export interface GenerateSourceCoverageTreemapDataOptions {
   pageUrl: string

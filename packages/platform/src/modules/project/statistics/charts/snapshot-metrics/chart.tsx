@@ -20,7 +20,7 @@ import { MarkLineOption } from 'echarts/types/dist/shared'
 import { compact, isInteger } from 'lodash'
 import { useEffect, useMemo, useState, useCallback, memo } from 'react'
 
-import { DateRangeSelector, SingleSelector, Space, useQueryString } from '@fe/perfsee-components'
+import { DateRangeSelector, SingleSelector, Space, useQueryString } from '@johfe/perfsee-components'
 import {
   Chart,
   ChartHeader,
@@ -28,10 +28,10 @@ import {
   formatChartData,
   renderTooltip,
   TooltipRendererParam,
-} from '@fe/perfsee-components/chart'
-import { formatTime } from '@fe/perfsee-platform/common'
-import { PropertyModule, useProject } from '@fe/perfsee-platform/modules/shared'
-import { LighthouseScoreMetric } from '@fe/perfsee-shared'
+} from '@johfe/perfsee-components/chart'
+import { formatTime } from '@johfe/perfsee-platform/common'
+import { PropertyModule, useProject } from '@johfe/perfsee-platform/modules/shared'
+import { LighthouseScoreMetric } from '@johfe/perfsee-shared'
 
 import { MeasureSelector, SnapshotChartTooltip, SnapshotChartItemType } from '../components'
 import { Metrics } from '../utils'

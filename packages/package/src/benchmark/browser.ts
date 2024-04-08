@@ -18,7 +18,7 @@ import { readFile } from 'fs/promises'
 
 import puppeteer from 'puppeteer-core'
 
-import { findChrome } from '@fe/perfsee-chrome-finder'
+import { findChrome } from '@johfe/perfsee-chrome-finder'
 
 import { getConsoleLogger } from '../analyzer'
 import { BenchmarkResult } from '../types'

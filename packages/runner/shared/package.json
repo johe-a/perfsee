@@ -1,13 +1,13 @@
 {
-  "name": "@fe/perfsee-job-runner-shared",
+  "name": "@johfe/perfsee-job-runner-shared",
   "version": "1.12.2",
   "description": "Perfsee job runner common module",
   "main": "./dist/index.js",
   "private": true,
   "dependencies": {
-    "@fe/perfsee-iri": "workspace:*",
-    "@fe/perfsee-server-common": "workspace:*",
-    "@fe/perfsee-shared": "workspace:*",
+    "@johfe/perfsee-iri": "workspace:*",
+    "@johfe/perfsee-server-common": "workspace:*",
+    "@johfe/perfsee-shared": "workspace:*",
     "chalk": "^4.1.2",
     "lodash": "^4.17.21",
     "node-fetch": "^2.6.2",

@@ -16,7 +16,7 @@ limitations under the License.
 
 import { faker } from '@faker-js/faker'
 
-import { BundleJobStatus } from '@fe/perfsee-server-common'
+import { BundleJobStatus } from '@johfe/perfsee-server-common'
 
 import { Artifact } from '../mysql'
 

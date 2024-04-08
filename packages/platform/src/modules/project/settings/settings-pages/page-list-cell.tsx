@@ -21,7 +21,7 @@ import { useModuleState } from '@sigi/react'
 import { compact } from 'lodash'
 import { FC } from 'react'
 
-import { PageSchema, PropertyModule } from '@fe/perfsee-platform/modules/shared'
+import { PageSchema, PropertyModule } from '@johfe/perfsee-platform/modules/shared'
 
 import { ButtonOperators, PagePropertyItem, PagePropertyType } from '../settings-common-comp'
 import {

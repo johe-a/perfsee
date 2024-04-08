@@ -16,7 +16,7 @@ limitations under the License.
 
 import { FC, memo } from 'react'
 
-import { pathFactory } from '@fe/perfsee-shared/routes'
+import { pathFactory } from '@johfe/perfsee-shared/routes'
 
 import { useProjectRouteGenerator } from '../../../shared'
 

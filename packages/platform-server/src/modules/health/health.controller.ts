@@ -25,10 +25,10 @@ import {
 } from '@nestjs/terminus'
 import { compact } from 'lodash'
 
-import { Cron, CronExpression } from '@fe/perfsee-platform-server/cron'
-import { Logger } from '@fe/perfsee-platform-server/logger'
-import { Metric } from '@fe/perfsee-platform-server/metrics'
-import { HealthCheckCategory } from '@fe/perfsee-shared'
+import { Cron, CronExpression } from '@johfe/perfsee-platform-server/cron'
+import { Logger } from '@johfe/perfsee-platform-server/logger'
+import { Metric } from '@johfe/perfsee-platform-server/metrics'
+import { HealthCheckCategory } from '@johfe/perfsee-shared'
 
 import { RedisIndicator } from './redis.indicator'
 

@@ -16,7 +16,7 @@ limitations under the License.
 
 import { merge } from 'lodash'
 
-import { GraphQLQuery, propertyQuery, takeSnapshotMutation } from '@fe/perfsee-schema'
+import { GraphQLQuery, propertyQuery, takeSnapshotMutation } from '@johfe/perfsee-schema'
 
 import { mutate, query } from './graphql'
 import { MutationOptions, QueryOptions } from './types'

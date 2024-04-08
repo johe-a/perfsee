@@ -26,7 +26,7 @@ import {
   CommonPluginOptions as Options,
   initOptions,
   BuildUploadClient,
-} from '@fe/perfsee-plugin-utils'
+} from '@johfe/perfsee-plugin-utils'
 
 import { rollupOutput2WebpackStats } from './adaptor'
 

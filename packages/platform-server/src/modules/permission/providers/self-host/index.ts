@@ -16,7 +16,7 @@ limitations under the License.
 
 import { Injectable } from '@nestjs/common'
 
-import { Group, Project, User, UserPermission, UserGroupPermission } from '@fe/perfsee-platform-server/db'
+import { Group, Project, User, UserPermission, UserGroupPermission } from '@johfe/perfsee-platform-server/db'
 
 import { Permission } from '../../def'
 import { PermissionProvider } from '../provider'

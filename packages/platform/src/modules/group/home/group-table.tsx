@@ -21,10 +21,10 @@ import dayjs from 'dayjs'
 import { memo, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
-import { ByteSizeWithDiff } from '@fe/perfsee-bundle-report/bundle-detail/components'
-import { IconWithTips, Table, TableColumnProps } from '@fe/perfsee-components'
-import { MetricType } from '@fe/perfsee-shared'
-import { pathFactory } from '@fe/perfsee-shared/routes'
+import { ByteSizeWithDiff } from '@johfe/perfsee-bundle-report/bundle-detail/components'
+import { IconWithTips, Table, TableColumnProps } from '@johfe/perfsee-components'
+import { MetricType } from '@johfe/perfsee-shared'
+import { pathFactory } from '@johfe/perfsee-shared/routes'
 
 import { UnderlineText } from '../styled'
 

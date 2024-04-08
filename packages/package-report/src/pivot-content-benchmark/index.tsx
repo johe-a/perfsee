@@ -17,14 +17,14 @@ limitations under the License.
 import { Spinner, Stack, Toggle } from '@fluentui/react'
 import { FC, memo, useCallback, useContext, useMemo, useRef, useState } from 'react'
 
-import { useWideScreen } from '@fe/perfsee-components'
+import { useWideScreen } from '@johfe/perfsee-components'
 import {
   FlamechartContainer,
   importFromChromeCPUProfile,
   ProfileNameSearchEngine,
   CPUProfile,
   CallTreeNode,
-} from '@fe/perfsee-flamechart'
+} from '@johfe/perfsee-flamechart'
 
 import { PackageResultContext } from '../context'
 

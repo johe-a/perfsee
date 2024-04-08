@@ -1,6 +1,6 @@
 import styled from '@emotion/styled'
 
-import { lighten } from '@fe/perfsee-dls'
+import { lighten } from '@johfe/perfsee-dls'
 
 export const Container = styled.div({
   padding: '12px 18px',

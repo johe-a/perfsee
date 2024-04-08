@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { GraphQLQuery, QueryVariables, RecursiveMaybeFields, QueryResponse } from '@fe/perfsee-schema'
+import { GraphQLQuery, QueryVariables, RecursiveMaybeFields, QueryResponse } from '@johfe/perfsee-schema'
 
 type AllowedRequestContent = Omit<RequestInit, 'method' | 'body' | 'signal'>
 

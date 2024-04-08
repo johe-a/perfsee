@@ -18,7 +18,7 @@ import { CloseOutlined, SearchOutlined } from '@ant-design/icons'
 import styled from '@emotion/styled'
 import { useCallback, useEffect, useState } from 'react'
 
-import { SharedColors } from '@fe/perfsee-dls'
+import { SharedColors } from '@johfe/perfsee-dls'
 
 interface Props {
   onSearch: (query: string | null) => void

@@ -17,9 +17,9 @@ limitations under the License.
 import { useCallback } from 'react'
 import { useHistory, useParams } from 'react-router'
 
-import { OverviewPivotContent as Overview } from '@fe/perfsee-lab-report/pivot-content-overview'
-import { SnapshotDetailType, SnapshotUserFlowDetailType } from '@fe/perfsee-lab-report/snapshot-type'
-import { RouteTypes, pathFactory } from '@fe/perfsee-shared/routes'
+import { OverviewPivotContent as Overview } from '@johfe/perfsee-lab-report/pivot-content-overview'
+import { SnapshotDetailType, SnapshotUserFlowDetailType } from '@johfe/perfsee-lab-report/snapshot-type'
+import { RouteTypes, pathFactory } from '@johfe/perfsee-shared/routes'
 
 type Props = {
   snapshot: SnapshotDetailType | SnapshotUserFlowDetailType

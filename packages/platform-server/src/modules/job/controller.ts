@@ -30,20 +30,20 @@ import {
 import { ApiExcludeController } from '@nestjs/swagger'
 import { Response } from 'express'
 
-import { Config } from '@fe/perfsee-platform-server/config'
-import { Cron, CronExpression } from '@fe/perfsee-platform-server/cron'
-import { Job } from '@fe/perfsee-platform-server/db'
-import { EventEmitter } from '@fe/perfsee-platform-server/event'
-import { Logger } from '@fe/perfsee-platform-server/logger'
-import { Metric } from '@fe/perfsee-platform-server/metrics'
-import { ObjectStorage } from '@fe/perfsee-platform-server/storage'
-import { artifactKey } from '@fe/perfsee-platform-server/utils/artifact-link'
+import { Config } from '@johfe/perfsee-platform-server/config'
+import { Cron, CronExpression } from '@johfe/perfsee-platform-server/cron'
+import { Job } from '@johfe/perfsee-platform-server/db'
+import { EventEmitter } from '@johfe/perfsee-platform-server/event'
+import { Logger } from '@johfe/perfsee-platform-server/logger'
+import { Metric } from '@johfe/perfsee-platform-server/metrics'
+import { ObjectStorage } from '@johfe/perfsee-platform-server/storage'
+import { artifactKey } from '@johfe/perfsee-platform-server/utils/artifact-link'
 import {
   JobRequestParams,
   JobRequestResponse,
   UpdateJobTraceParams,
   UpdateJobTraceResponse,
-} from '@fe/perfsee-server-common'
+} from '@johfe/perfsee-server-common'
 
 import { MaintenanceService } from '../maintenance/service'
 import { RunnerService } from '../runner/service'

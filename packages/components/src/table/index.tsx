@@ -25,7 +25,7 @@ import {
 } from '@fluentui/react'
 import { useMemo, useCallback, useState, MouseEvent, ReactNode, useEffect } from 'react'
 
-import { SharedColors } from '@fe/perfsee-dls'
+import { SharedColors } from '@johfe/perfsee-dls'
 
 import { Empty } from '../empty'
 

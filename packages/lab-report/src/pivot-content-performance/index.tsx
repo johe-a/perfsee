@@ -19,7 +19,7 @@ import { css, useTheme } from '@emotion/react'
 import { CommandButton, IPivotItemProps, PivotItem } from '@fluentui/react'
 import { FC, memo, useCallback, useEffect, useState } from 'react'
 
-import { AuditItem, formatMDLink, useQueryString } from '@fe/perfsee-components'
+import { AuditItem, formatMDLink, useQueryString } from '@johfe/perfsee-components'
 
 import { LabAuditDetailWithPanel } from '../lab-audit-detail'
 import {

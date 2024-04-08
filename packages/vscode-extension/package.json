@@ -258,11 +258,11 @@
     }
   },
   "devDependencies": {
-    "@fe/perfsee-dls": "workspace:*",
-    "@fe/perfsee-flamechart": "workspace:*",
-    "@fe/perfsee-schema": "workspace:*",
-    "@fe/perfsee-shared": "workspace:*",
-    "@fe/perfsee-utils": "workspace:*",
+    "@johfe/perfsee-dls": "workspace:*",
+    "@johfe/perfsee-flamechart": "workspace:*",
+    "@johfe/perfsee-schema": "workspace:*",
+    "@johfe/perfsee-shared": "workspace:*",
+    "@johfe/perfsee-utils": "workspace:*",
     "@types/diff": "^5.0.2",
     "@types/vscode": "^1.50.0",
     "diff": "^5.1.0",

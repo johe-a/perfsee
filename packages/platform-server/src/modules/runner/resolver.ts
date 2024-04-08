@@ -16,8 +16,8 @@ limitations under the License.
 
 import { Args, Mutation, Resolver, Query, ResolveField, Parent, ID, ObjectType } from '@nestjs/graphql'
 
-import { Runner } from '@fe/perfsee-platform-server/db'
-import { PaginatedType, paginate, Paginated, transformInputType } from '@fe/perfsee-platform-server/graphql'
+import { Runner } from '@johfe/perfsee-platform-server/db'
+import { PaginatedType, paginate, Paginated, transformInputType } from '@johfe/perfsee-platform-server/graphql'
 
 import { Auth } from '../auth'
 

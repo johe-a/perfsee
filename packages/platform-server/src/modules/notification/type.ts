@@ -23,8 +23,8 @@ import {
   User,
   Artifact,
   PackageBundle,
-} from '@fe/perfsee-platform-server/db'
-import { BundleJobPassedUpdate, PackageJobPassedUpdate } from '@fe/perfsee-server-common'
+} from '@johfe/perfsee-platform-server/db'
+import { BundleJobPassedUpdate, PackageJobPassedUpdate } from '@johfe/perfsee-server-common'
 
 export interface BundleNotificationInfo {
   artifact: Artifact

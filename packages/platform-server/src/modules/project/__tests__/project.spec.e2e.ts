@@ -1,8 +1,8 @@
 import { faker } from '@faker-js/faker'
 import { chunk, sample } from 'lodash'
 
-import { Environment, Profile, Project, Setting, User } from '@fe/perfsee-platform-server/db'
-import test, { create, GraphQLTestingClient, initTestDB } from '@fe/perfsee-platform-server/test'
+import { Environment, Profile, Project, Setting, User } from '@johfe/perfsee-platform-server/db'
+import test, { create, GraphQLTestingClient, initTestDB } from '@johfe/perfsee-platform-server/test'
 import {
   createProjectMutation,
   GitHost,
@@ -15,7 +15,7 @@ import {
   updateProjectUserPermissionMutation,
   Permission,
   projectAuthedUsersQuery,
-} from '@fe/perfsee-schema'
+} from '@johfe/perfsee-schema'
 
 let gqlClient: GraphQLTestingClient
 let project: Project

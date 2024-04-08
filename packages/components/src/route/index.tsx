@@ -18,7 +18,7 @@ import { useMemo } from 'react'
 import { Route as ReactRoute } from 'react-router'
 import type { RouteProps as ReactRouteProps } from 'react-router'
 
-import { titleFactory as titleFactories } from '@fe/perfsee-shared/routes'
+import { titleFactory as titleFactories } from '@johfe/perfsee-shared/routes'
 
 import { Helmet } from '../helmet'
 

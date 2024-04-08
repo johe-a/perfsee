@@ -28,12 +28,12 @@ import {
   SnapshotReport,
   SnapshotReportWithArtifact,
   SourceIssue,
-} from '@fe/perfsee-platform-server/db'
-import { OnEvent } from '@fe/perfsee-platform-server/event'
-import { Logger } from '@fe/perfsee-platform-server/logger'
-import { ObjectStorage } from '@fe/perfsee-platform-server/storage'
-import { createDataLoader } from '@fe/perfsee-platform-server/utils'
-import { JobType, SnapshotStatus } from '@fe/perfsee-server-common'
+} from '@johfe/perfsee-platform-server/db'
+import { OnEvent } from '@johfe/perfsee-platform-server/event'
+import { Logger } from '@johfe/perfsee-platform-server/logger'
+import { ObjectStorage } from '@johfe/perfsee-platform-server/storage'
+import { createDataLoader } from '@johfe/perfsee-platform-server/utils'
+import { JobType, SnapshotStatus } from '@johfe/perfsee-server-common'
 
 import { ProjectUsageService } from '../../project-usage/service'
 

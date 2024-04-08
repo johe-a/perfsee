@@ -26,7 +26,7 @@ import {
   TableColumnProps,
   TooltipWithEllipsis,
   VerticalCenteredStyles,
-} from '@fe/perfsee-components'
+} from '@johfe/perfsee-components'
 
 import { RunnerActivateOperation } from './activation'
 import { RunnerDeleteOperation } from './deletion'

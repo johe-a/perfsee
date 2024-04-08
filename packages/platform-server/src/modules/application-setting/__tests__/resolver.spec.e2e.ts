@@ -1,5 +1,5 @@
-import { User } from '@fe/perfsee-platform-server/db'
-import test, { create, GraphQLTestingClient, initTestDB } from '@fe/perfsee-platform-server/test'
+import { User } from '@johfe/perfsee-platform-server/db'
+import test, { create, GraphQLTestingClient, initTestDB } from '@johfe/perfsee-platform-server/test'
 import {
   globalStateQuery,
   registrationTokenQuery,
@@ -8,7 +8,7 @@ import {
   addJobZonesMutation,
   deleteJobZonesMutation,
   setDefaultJobZoneMutation,
-} from '@fe/perfsee-schema'
+} from '@johfe/perfsee-schema'
 
 let gqlClient: GraphQLTestingClient
 let admin: User

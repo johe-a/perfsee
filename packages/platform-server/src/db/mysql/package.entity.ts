@@ -15,7 +15,7 @@ limitations under the License.
 */
 
 import { ObjectType, Field, Int, GraphQLISODateTime } from '@nestjs/graphql'
-import { BundleJobStatus } from '@fe/perfsee-server-common'
+import { BundleJobStatus } from '@johfe/perfsee-server-common'
 import {
   Entity,
   PrimaryGeneratedColumn,

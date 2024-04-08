@@ -2,7 +2,7 @@ import { CheckOutlined } from '@ant-design/icons'
 import { TooltipHost } from '@fluentui/react'
 import { Link } from 'react-router-dom'
 
-import { staticPath } from '@fe/perfsee-shared/routes'
+import { staticPath } from '@johfe/perfsee-shared/routes'
 
 import { PrimaryButton } from '../button'
 

@@ -18,7 +18,7 @@ import { useTheme } from '@emotion/react'
 import styled from '@emotion/styled'
 import { Stack } from '@fluentui/react'
 
-import { CircleWrapper, ColorfulDot } from '@fe/perfsee-components/donut-chart/style'
+import { CircleWrapper, ColorfulDot } from '@johfe/perfsee-components/donut-chart/style'
 
 import { NumberDiff } from '../components'
 

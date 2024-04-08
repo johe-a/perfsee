@@ -16,7 +16,7 @@ limitations under the License.
 
 import { Injectable } from '@nestjs/common'
 
-import { Config } from '@fe/perfsee-platform-server/config'
+import { Config } from '@johfe/perfsee-platform-server/config'
 
 import { EmailService } from '../../../email'
 import { getBundleJobMessageTargets, getCookieMessageTargets, getLabJobMessageTargets } from '../../shared'

@@ -18,7 +18,7 @@ import { ArrowUpRightIcon } from '@fluentui/react-icons-mdl2'
 import { FC, useCallback } from 'react'
 import { useHistory, useParams } from 'react-router'
 
-import { RouteTypes, pathFactory } from '@fe/perfsee-shared/routes'
+import { RouteTypes, pathFactory } from '@johfe/perfsee-shared/routes'
 
 import { AuditJumpButton } from './style'
 

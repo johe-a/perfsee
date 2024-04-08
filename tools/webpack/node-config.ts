@@ -35,7 +35,7 @@ export function getNodeConfig() {
     node: false,
     externals: nodeExternals({
       modulesDir: join(rootPath, 'node_modules'),
-      allowlist: [/@perfsee\/(.*)/],
+      allowlist: [/@johfe\/perfsee-\/(.*)/],
     }),
     output: {
       path: join(rootPath, 'output'),

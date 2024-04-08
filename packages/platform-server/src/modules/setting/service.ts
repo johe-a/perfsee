@@ -17,10 +17,10 @@ limitations under the License.
 import { Injectable, NotFoundException } from '@nestjs/common'
 import { In } from 'typeorm'
 
-import { Setting } from '@fe/perfsee-platform-server/db'
-import { UserError } from '@fe/perfsee-platform-server/error'
-import { createDataLoader } from '@fe/perfsee-platform-server/utils'
-import { EMAIL_REGEXP } from '@fe/perfsee-shared'
+import { Setting } from '@johfe/perfsee-platform-server/db'
+import { UserError } from '@johfe/perfsee-platform-server/error'
+import { createDataLoader } from '@johfe/perfsee-platform-server/utils'
+import { EMAIL_REGEXP } from '@johfe/perfsee-shared'
 
 @Injectable()
 export class SettingService {

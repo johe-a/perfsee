@@ -17,7 +17,7 @@ limitations under the License.
 import styled from '@emotion/styled'
 import { DefaultButton, IDocumentCardStyles } from '@fluentui/react'
 
-import { NeutralColors } from '@fe/perfsee-dls'
+import { NeutralColors } from '@johfe/perfsee-dls'
 
 export const cardStyle: IDocumentCardStyles = {
   root: {

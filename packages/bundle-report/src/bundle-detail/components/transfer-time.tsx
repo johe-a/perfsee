@@ -18,7 +18,7 @@ import styled from '@emotion/styled'
 import { HoverCard, HoverCardType, IPlainCardProps, Stack } from '@fluentui/react'
 import { FC, useMemo } from 'react'
 
-import { CONNECTIONS } from '@fe/perfsee-utils'
+import { CONNECTIONS } from '@johfe/perfsee-utils'
 
 const unit = ['ms', 'sec', 'min'] as const
 

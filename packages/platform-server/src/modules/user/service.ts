@@ -17,9 +17,9 @@ limitations under the License.
 import { Injectable } from '@nestjs/common'
 import { In } from 'typeorm'
 
-import { User, UserConnectedAccount } from '@fe/perfsee-platform-server/db'
-import { UserError } from '@fe/perfsee-platform-server/error'
-import { EMAIL_REGEXP, ExternalAccount } from '@fe/perfsee-shared'
+import { User, UserConnectedAccount } from '@johfe/perfsee-platform-server/db'
+import { UserError } from '@johfe/perfsee-platform-server/error'
+import { EMAIL_REGEXP, ExternalAccount } from '@johfe/perfsee-shared'
 
 @Injectable()
 export class UserService {

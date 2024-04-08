@@ -19,14 +19,14 @@ import { Draft } from 'immer'
 import { Observable } from 'rxjs'
 import { switchMap, endWith, startWith, map, debounceTime } from 'rxjs/operators'
 
-import { GraphQLClient, createErrorCatcher } from '@fe/perfsee-platform/common'
+import { GraphQLClient, createErrorCatcher } from '@johfe/perfsee-platform/common'
 import {
   CreateProjectMutationVariables,
   CreateProjectMutation,
   createProjectMutation,
   VerifyProjectIdQuery,
   verifyProjectIdQuery,
-} from '@fe/perfsee-schema'
+} from '@johfe/perfsee-schema'
 
 export type CreatedProject = CreateProjectMutation['createProject']
 export type IdVerification = VerifyProjectIdQuery['verifyProjectId']

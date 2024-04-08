@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { ContentCard } from '@fe/perfsee-components'
+import { ContentCard } from '@johfe/perfsee-components'
 
 import { ArtifactSize } from './artifact-size'
 import { SnapshotMetrics } from './snapshot-metrics'

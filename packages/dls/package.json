@@ -1,5 +1,5 @@
 {
-  "name": "@fe/perfsee-dls",
+  "name": "@johfe/perfsee-dls",
   "version": "1.3.0",
   "description": "Theme related components for platform frontend",
   "sideEffects": false,

@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { PerfseeConfig } from '@fe/perfsee-platform-server/config'
+import { PerfseeConfig } from '@johfe/perfsee-platform-server/config'
 
 export interface ExternalAccountUser {
   username: string

@@ -26,9 +26,9 @@ const cliDeps = [
   path.resolve(__dirname, './webpack'),
   path.resolve(__dirname, './codegen'),
   path.resolve(__dirname, './utils'),
-  path.resolve(__dirname, '../node_modules/@fe/perfsee-webpack/src'),
-  path.resolve(__dirname, '../node_modules/@fe/perfsee-plugin-utils/src'),
-  path.resolve(__dirname, '../node_modules/@fe/perfsee-jsonr/src'),
+  path.resolve(__dirname, '../node_modules/@johfe/perfsee-webpack/src'),
+  path.resolve(__dirname, '../node_modules/@johfe/perfsee-plugin-utils/src'),
+  path.resolve(__dirname, '../node_modules/@johfe/perfsee-jsonr/src'),
 ]
 const cliSrc = path.resolve(__dirname, './cli/index.ts')
 const cliDist = `./cli.generated.${cliHash()}.js`

@@ -1,8 +1,8 @@
 import { Stack, IconButton, DialogFooter, DefaultButton } from '@fluentui/react'
 import { FC, ReactNode, useCallback } from 'react'
 
-import { Tag } from '@fe/perfsee-components'
-import { EnvSchema, PageSchema, PingResult, ProfileSchema } from '@fe/perfsee-platform/modules/shared'
+import { Tag } from '@johfe/perfsee-components'
+import { EnvSchema, PageSchema, PingResult, ProfileSchema } from '@johfe/perfsee-platform/modules/shared'
 
 type Props = {
   page: Partial<PageSchema>

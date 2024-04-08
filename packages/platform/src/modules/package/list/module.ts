@@ -29,7 +29,7 @@ import {
   withLatestFrom,
 } from 'rxjs'
 
-import { createErrorCatcher, GraphQLClient } from '@fe/perfsee-platform/common'
+import { createErrorCatcher, GraphQLClient } from '@johfe/perfsee-platform/common'
 import {
   PackageBundleFragment,
   packagesQuery,
@@ -41,7 +41,7 @@ import {
   deletePackageBundleMutation,
   dispatchPackageJobMutation,
   BundleJobStatus,
-} from '@fe/perfsee-schema'
+} from '@johfe/perfsee-schema'
 
 import { ProjectModule } from '../../shared'
 

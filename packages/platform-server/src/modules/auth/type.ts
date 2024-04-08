@@ -16,7 +16,7 @@ limitations under the License.
 
 import { SessionData, Session } from 'express-session'
 
-import { User } from '@fe/perfsee-platform-server/db'
+import { User } from '@johfe/perfsee-platform-server/db'
 
 export type PerfseeSession = Session &
   Partial<SessionData> & {

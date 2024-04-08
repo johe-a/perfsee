@@ -4,12 +4,12 @@ title: Benchmark API
 sidebar_position: 3
 ---
 
-`@fe/perfsee-package` 中的 Benchmark API 非常简单。
+`@johfe/perfsee-package` 中的 Benchmark API 非常简单。
 
 ## 简单例子
 
 ```js
-const Benchmark = require('@fe/perfsee-package')
+const Benchmark = require('@johfe/perfsee-package')
 
 Benchmark('Reduce elements', () => {
   ;[1, 2].reduce((a, b) => a + b)
@@ -31,7 +31,7 @@ Benchmark('My second case', () => {
 同时支持 ts:
 
 ```ts
-import Benchmark from '@fe/perfsee-package'
+import Benchmark from '@johfe/perfsee-package'
 
 Benchmark('Reduce elements', () => {
   ;[1, 2].reduce((a, b) => a + b)
@@ -41,7 +41,7 @@ Benchmark('Reduce elements', () => {
 ### 多个 cases
 
 ```js
-const Benchmark = require('@fe/perfsee-package')
+const Benchmark = require('@johfe/perfsee-package')
 
 Benchmark('Many cases', [
   {

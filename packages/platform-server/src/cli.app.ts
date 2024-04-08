@@ -17,7 +17,7 @@ limitations under the License.
 import './prelude'
 import { Cli } from 'clipanion'
 
-import { DBModule, DBService } from '@fe/perfsee-platform-server/db'
+import { DBModule, DBService } from '@johfe/perfsee-platform-server/db'
 
 import { createApp } from './app.entry'
 import { Context, DemoScript } from './scripts'

@@ -17,7 +17,7 @@ limitations under the License.
 import { SharedColors } from '@fluentui/theme'
 import { memo } from 'react'
 
-import { AssetTypeEnum } from '@fe/perfsee-shared'
+import { AssetTypeEnum } from '@johfe/perfsee-shared'
 
 import { CssIcon, JsIcon, HtmlIcon, ImageIcon, MediaIcon, FontIcon, OtherIcon } from '../icon'
 

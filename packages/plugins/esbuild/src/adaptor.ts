@@ -24,8 +24,8 @@ import {
   detectFileType,
   BundleToolkit,
   BundleChunkGroup,
-} from '@fe/perfsee-bundle-analyzer'
-import { getBuildEnv, getAllPackagesVersions, resolveModuleVersion } from '@fe/perfsee-plugin-utils'
+} from '@johfe/perfsee-bundle-analyzer'
+import { getBuildEnv, getAllPackagesVersions, resolveModuleVersion } from '@johfe/perfsee-plugin-utils'
 
 import { Chunk } from './type'
 import {

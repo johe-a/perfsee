@@ -17,7 +17,7 @@ limitations under the License.
 import styled from '@emotion/styled'
 import { Stack } from '@fluentui/react'
 
-import { darken } from '@fe/perfsee-dls'
+import { darken } from '@johfe/perfsee-dls'
 
 export const StyledBorderWrapper = styled.div(({ theme }) => ({
   width: '100%',

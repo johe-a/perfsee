@@ -37,7 +37,7 @@ export class GenerateReactCommand extends Command {
     })
 
     await writeFileAsync(
-      packagePath('@fe/perfsee-job-runner-lab', 'src/lighthouse/lighthouse-runtime/gatherers/devtools-injection.ts'),
+      packagePath('@johfe/perfsee-job-runner-lab', 'src/lighthouse/lighthouse-runtime/gatherers/devtools-injection.ts'),
       `export const DEVTOOLS_INJECTION = \`${result.outputFiles[0].text
         .replaceAll(/\\/g, '\\\\')
         .replaceAll(/`/g, '\\`')

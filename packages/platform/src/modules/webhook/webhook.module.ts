@@ -2,7 +2,7 @@ import { Effect, EffectModule, ImmerReducer, Module } from '@sigi/core'
 import { Draft } from 'immer'
 import { endWith, filter, map, Observable, startWith, switchMap, withLatestFrom } from 'rxjs'
 
-import { createErrorCatcher, GraphQLClient } from '@fe/perfsee-platform/common'
+import { createErrorCatcher, GraphQLClient } from '@johfe/perfsee-platform/common'
 import {
   createWebhookForProjectMutation,
   createWebhookForApplicationMutation,
@@ -12,7 +12,7 @@ import {
   webhooksByProjectQuery,
   WebhooksByProjectQuery,
   webhooksByApplicationQuery,
-} from '@fe/perfsee-schema'
+} from '@johfe/perfsee-schema'
 
 import { ProjectModule } from '../shared'
 

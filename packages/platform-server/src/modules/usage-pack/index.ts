@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common'
 
-import { DBModule } from '@fe/perfsee-platform-server/db'
+import { DBModule } from '@johfe/perfsee-platform-server/db'
 
 import { UsagePackResolver } from './resolver'
 import { UsagePackService } from './service'

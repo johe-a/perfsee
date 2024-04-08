@@ -19,7 +19,7 @@ import { parse, stringify } from 'query-string'
 import { FC, MouseEvent, useCallback, useContext, useState } from 'react'
 import { useHistory, useLocation } from 'react-router'
 
-import { AssetInfo, EntryDiff, ModuleReasons, ModuleTreeNode } from '@fe/perfsee-shared'
+import { AssetInfo, EntryDiff, ModuleReasons, ModuleTreeNode } from '@johfe/perfsee-shared'
 
 import { PackageTraceContext } from '../context'
 

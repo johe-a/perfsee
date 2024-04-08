@@ -26,9 +26,9 @@ import fetch, { Response } from 'node-fetch'
 import { create } from 'tar'
 import { v4 as uuid } from 'uuid'
 
-import { PerfseeReportStats, hashCode } from '@fe/perfsee-bundle-analyzer'
-import JSONR from '@fe/perfsee-jsonr'
-import { PrettyBytes } from '@fe/perfsee-utils'
+import { PerfseeReportStats, hashCode } from '@johfe/perfsee-bundle-analyzer'
+import JSONR from '@johfe/perfsee-jsonr'
+import { PrettyBytes } from '@johfe/perfsee-utils'
 
 import { getBuildEnv } from './build-env'
 import { CommonPluginOptions } from './options'

@@ -17,7 +17,7 @@ limitations under the License.
 import styled from '@emotion/styled'
 import { DefaultButton, Stack } from '@fluentui/react'
 
-import { getScoreColor } from '@fe/perfsee-components'
+import { getScoreColor } from '@johfe/perfsee-components'
 
 export const HeaderContainer = styled.div({
   display: 'flex',

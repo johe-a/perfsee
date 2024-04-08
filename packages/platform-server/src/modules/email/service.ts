@@ -17,8 +17,8 @@ limitations under the License.
 import { Injectable } from '@nestjs/common'
 import nodemailer from 'nodemailer'
 
-import { Config } from '@fe/perfsee-platform-server/config'
-import { Logger } from '@fe/perfsee-platform-server/logger'
+import { Config } from '@johfe/perfsee-platform-server/config'
+import { Logger } from '@johfe/perfsee-platform-server/logger'
 
 import { ApplicationSettingService } from '../application-setting'
 

@@ -20,8 +20,8 @@ import { useModuleState } from '@sigi/react'
 import dayjs from 'dayjs'
 import { FC, memo, useCallback, useMemo } from 'react'
 
-import { Select } from '@fe/perfsee-components'
-import { getCommitLink } from '@fe/perfsee-shared'
+import { Select } from '@johfe/perfsee-components'
+import { getCommitLink } from '@johfe/perfsee-shared'
 
 import { VersionTag } from '../../project/statistics/style'
 import { ProjectModule } from '../../shared'

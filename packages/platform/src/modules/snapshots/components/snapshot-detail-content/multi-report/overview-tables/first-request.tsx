@@ -17,10 +17,15 @@ limitations under the License.
 import { SelectionMode, TooltipHost } from '@fluentui/react'
 import { FC, useMemo } from 'react'
 
-import { HeaderWithVerticalLineStyles, onRenderVerticalLineRow, Table, TableColumnProps } from '@fe/perfsee-components'
-import { SnapshotDetailType, SnapshotReportSchema } from '@fe/perfsee-lab-report/snapshot-type'
-import { formatMsDuration } from '@fe/perfsee-platform/common'
-import { LighthouseScoreType, RequestSchema, Timing } from '@fe/perfsee-shared'
+import {
+  HeaderWithVerticalLineStyles,
+  onRenderVerticalLineRow,
+  Table,
+  TableColumnProps,
+} from '@johfe/perfsee-components'
+import { SnapshotDetailType, SnapshotReportSchema } from '@johfe/perfsee-lab-report/snapshot-type'
+import { formatMsDuration } from '@johfe/perfsee-platform/common'
+import { LighthouseScoreType, RequestSchema, Timing } from '@johfe/perfsee-shared'
 
 import { HeaderTitle } from '../style'
 

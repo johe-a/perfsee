@@ -17,7 +17,7 @@ limitations under the License.
 import { Body, Controller, Headers, HttpCode, HttpStatus, Post } from '@nestjs/common'
 import { ApiExcludeController } from '@nestjs/swagger'
 
-import { RegisterRunnerParams, RegisterRunnerResponse } from '@fe/perfsee-server-common'
+import { RegisterRunnerParams, RegisterRunnerResponse } from '@johfe/perfsee-server-common'
 
 import { RunnerService } from './service'
 

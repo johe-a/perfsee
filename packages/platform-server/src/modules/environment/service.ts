@@ -17,12 +17,12 @@ limitations under the License.
 import { Injectable } from '@nestjs/common'
 import { In } from 'typeorm'
 
-import { Cron, CronExpression } from '@fe/perfsee-platform-server/cron'
-import { Environment, InternalIdUsage } from '@fe/perfsee-platform-server/db'
-import { UserError } from '@fe/perfsee-platform-server/error'
-import { InternalIdService } from '@fe/perfsee-platform-server/helpers'
-import { Logger } from '@fe/perfsee-platform-server/logger'
-import { createDataLoader } from '@fe/perfsee-platform-server/utils'
+import { Cron, CronExpression } from '@johfe/perfsee-platform-server/cron'
+import { Environment, InternalIdUsage } from '@johfe/perfsee-platform-server/db'
+import { UserError } from '@johfe/perfsee-platform-server/error'
+import { InternalIdService } from '@johfe/perfsee-platform-server/helpers'
+import { Logger } from '@johfe/perfsee-platform-server/logger'
+import { createDataLoader } from '@johfe/perfsee-platform-server/utils'
 
 import { NotificationService } from '../notification/service'
 import { SnapshotReportService } from '../snapshot/snapshot-report/service'

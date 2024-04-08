@@ -17,8 +17,8 @@ limitations under the License.
 import styled from '@emotion/styled'
 import { FC, PropsWithChildren } from 'react'
 
-import { FlameIcon } from '@fe/perfsee-components'
-import { NeutralColors } from '@fe/perfsee-dls'
+import { FlameIcon } from '@johfe/perfsee-components'
+import { NeutralColors } from '@johfe/perfsee-dls'
 
 const Container = styled.div({
   height: '100%',

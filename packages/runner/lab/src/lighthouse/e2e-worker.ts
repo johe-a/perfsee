@@ -19,10 +19,10 @@ import { dirname, join } from 'path'
 
 import { v4 as uuid } from 'uuid'
 
-import { JobWorker, dynamicImport } from '@fe/perfsee-job-runner-shared'
-import { E2EJobPayload } from '@fe/perfsee-server-common'
-import { CookieType, LighthouseScoreMetric, MetricKeyType, MetricType, RequestSchema } from '@fe/perfsee-shared'
-import { computeMainThreadTasksWithTimings } from '@fe/perfsee-tracehouse'
+import { JobWorker, dynamicImport } from '@johfe/perfsee-job-runner-shared'
+import { E2EJobPayload } from '@johfe/perfsee-server-common'
+import { CookieType, LighthouseScoreMetric, MetricKeyType, MetricType, RequestSchema } from '@johfe/perfsee-shared'
+import { computeMainThreadTasksWithTimings } from '@johfe/perfsee-tracehouse'
 
 import { createSandbox } from './e2e-runtime/sandbox'
 import { ScreenRecorder } from './e2e-runtime/screen-recorder'

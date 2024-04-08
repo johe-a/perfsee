@@ -17,7 +17,7 @@ limitations under the License.
 import { Spinner, Stack, Separator } from '@fluentui/react'
 import { useEffect, useState } from 'react'
 
-import { ForeignLink } from '@fe/perfsee-components'
+import { ForeignLink } from '@johfe/perfsee-components'
 
 const packageSuggestions = new Map<string, string>([
   ['moment', 'use dayjs to reduce size.'],

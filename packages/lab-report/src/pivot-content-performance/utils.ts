@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { AuditsSchema } from '@fe/perfsee-shared'
+import { AuditsSchema } from '@johfe/perfsee-shared'
 
 import { LighthouseAudit, LighthouseGroupType } from '../snapshot-type'
 

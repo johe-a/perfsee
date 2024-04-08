@@ -23,7 +23,7 @@ import { parse, Token } from 'path-to-regexp'
 
 import { getPackage, logger, prettier } from '../utils'
 
-const routesDef = getPackage('@fe/perfsee-shared').relative('src', 'routes', 'router.yaml')
+const routesDef = getPackage('@johfe/perfsee-shared').relative('src', 'routes', 'router.yaml')
 const output = path.join(routesDef, '../', path.parse(routesDef).name + '.ts')
 
 const template = `import { compile, PathFunctionOptions } from 'path-to-regexp'

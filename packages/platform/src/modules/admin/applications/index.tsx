@@ -19,8 +19,8 @@ import dayjs from 'dayjs'
 import { FC, memo, useCallback, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 
-import { ContentCard, Pagination } from '@fe/perfsee-components'
-import { pathFactory } from '@fe/perfsee-shared/routes'
+import { ContentCard, Pagination } from '@johfe/perfsee-components'
+import { pathFactory } from '@johfe/perfsee-shared/routes'
 
 import { WebhookSettings } from '../../webhook'
 

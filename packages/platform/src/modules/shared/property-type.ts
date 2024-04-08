@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { SettingPropertyQuery, PageRelationsQuery, PropertyQuery } from '@fe/perfsee-schema'
+import { SettingPropertyQuery, PageRelationsQuery, PropertyQuery } from '@johfe/perfsee-schema'
 
 export type PageSchema = PropertyQuery['project']['pages'][0]
 export type ProfileSchema = PropertyQuery['project']['profiles'][0]

@@ -17,7 +17,7 @@ limitations under the License.
 import dayjs from 'dayjs'
 import { isInteger } from 'lodash'
 
-import { formatTime } from '@fe/perfsee-platform/common'
+import { formatTime } from '@johfe/perfsee-platform/common'
 
 import { ColorSpan } from '../styled'
 

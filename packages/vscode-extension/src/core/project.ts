@@ -19,9 +19,9 @@ import fs from 'fs'
 import git from 'isomorphic-git'
 import { CancellationToken } from 'vscode'
 
-import { GitHost, PaginationInput } from '@fe/perfsee-schema'
-import { gitHostFromDomain } from '@fe/perfsee-shared'
-import { parseGitRemoteUrl } from '@fe/perfsee-utils'
+import { GitHost, PaginationInput } from '@johfe/perfsee-schema'
+import { gitHostFromDomain } from '@johfe/perfsee-shared'
+import { parseGitRemoteUrl } from '@johfe/perfsee-utils'
 
 import { ApiClient, UnauthorizedError } from '../api/api-client'
 import { ArtifactResult, memoizeGetArtifactByHash, memoizeGetLastArtifactsByProjectId } from '../api/artifact'

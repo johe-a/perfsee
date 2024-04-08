@@ -14,8 +14,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { vscodeReportMetricsQuery } from '@fe/perfsee-schema'
-import { MetricType } from '@fe/perfsee-shared'
+import { vscodeReportMetricsQuery } from '@johfe/perfsee-schema'
+import { MetricType } from '@johfe/perfsee-shared'
 
 import { memoizePromise } from '../utils/cache'
 

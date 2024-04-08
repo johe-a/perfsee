@@ -14,8 +14,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { NetworkRequest as RequestSchema, RequestTiming, StackTrack } from '@fe/perfsee-flamechart/types'
-import { Task } from '@fe/perfsee-tracehouse'
+import { NetworkRequest as RequestSchema, RequestTiming, StackTrack } from '@johfe/perfsee-flamechart/types'
+import { Task } from '@johfe/perfsee-tracehouse'
 
 import { MetricScoreSchema, TimelineSchema, UserTimingSchema } from './lighthouse-score'
 import { TraceEvent } from './trace-event'

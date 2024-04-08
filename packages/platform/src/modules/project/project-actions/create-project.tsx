@@ -19,7 +19,7 @@ import { useModule } from '@sigi/react'
 import { FC, memo, useCallback, useEffect, useState } from 'react'
 import { Redirect } from 'react-router'
 
-import { pathFactory } from '@fe/perfsee-shared/routes'
+import { pathFactory } from '@johfe/perfsee-shared/routes'
 
 import { CreateGroupModule, CreateProjectModule } from '../../shared'
 

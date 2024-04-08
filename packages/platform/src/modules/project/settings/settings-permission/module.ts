@@ -2,14 +2,14 @@ import { Effect, EffectModule, ImmerReducer, Module } from '@sigi/core'
 import { Draft } from 'immer'
 import { map, Observable, switchMap } from 'rxjs'
 
-import { createErrorCatcher, GraphQLClient } from '@fe/perfsee-platform/common'
-import { ProjectModule } from '@fe/perfsee-platform/modules/shared'
+import { createErrorCatcher, GraphQLClient } from '@johfe/perfsee-platform/common'
+import { ProjectModule } from '@johfe/perfsee-platform/modules/shared'
 import {
   updateProjectUserPermissionMutation,
   projectAuthedUsersQuery,
   ProjectAuthedUsersQuery,
   Permission,
-} from '@fe/perfsee-schema'
+} from '@johfe/perfsee-schema'
 
 export type User = ProjectAuthedUsersQuery['project']['authorizedUsers'][0]
 

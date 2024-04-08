@@ -16,7 +16,7 @@ limitations under the License.
 
 import styled from '@emotion/styled'
 
-import { lighten } from '@fe/perfsee-dls'
+import { lighten } from '@johfe/perfsee-dls'
 
 export const ColoredDiff = styled.span<{ diff: number }>(({ diff, theme }) => {
   const color = diff > 0 ? theme.colors.success : theme.colors.error

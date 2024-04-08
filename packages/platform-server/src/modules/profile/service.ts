@@ -17,10 +17,10 @@ limitations under the License.
 import { Injectable } from '@nestjs/common'
 import { In } from 'typeorm'
 
-import { InternalIdUsage, Profile } from '@fe/perfsee-platform-server/db'
-import { InternalIdService } from '@fe/perfsee-platform-server/helpers'
-import { Logger } from '@fe/perfsee-platform-server/logger'
-import { createDataLoader } from '@fe/perfsee-platform-server/utils'
+import { InternalIdUsage, Profile } from '@johfe/perfsee-platform-server/db'
+import { InternalIdService } from '@johfe/perfsee-platform-server/helpers'
+import { Logger } from '@johfe/perfsee-platform-server/logger'
+import { createDataLoader } from '@johfe/perfsee-platform-server/utils'
 
 import { SnapshotReportService } from '../snapshot/snapshot-report/service'
 

@@ -1,5 +1,5 @@
 {
-  "name": "@fe/perfsee-server-common",
+  "name": "@johfe/perfsee-server-common",
   "version": "1.12.2",
   "description": "Common module for nodejs servers",
   "repository": "https://github.com/perfsee/perfsee",
@@ -7,6 +7,6 @@
   "private": true,
   "main": "dist/index.js",
   "dependencies": {
-    "@fe/perfsee-shared": "workspace:*"
+    "@johfe/perfsee-shared": "workspace:*"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "@fe/perfsee-sdk",
+  "name": "@johfe/perfsee-sdk",
   "version": "1.12.2",
   "description": "perfsee sdk",
   "repository": "https://github.com/perfsee/perfsee",
@@ -29,7 +29,7 @@
     "simple-git": "^3.15.0"
   },
   "devDependencies": {
-    "@fe/perfsee-schema": "workspace:*",
-    "@fe/perfsee-shared": "workspace:*"
+    "@johfe/perfsee-schema": "workspace:*",
+    "@johfe/perfsee-shared": "workspace:*"
   }
 }

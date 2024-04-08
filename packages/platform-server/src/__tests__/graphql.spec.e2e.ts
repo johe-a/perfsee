@@ -1,7 +1,7 @@
 import test from 'ava'
 
-import { GraphQLTestingClient, initTestDB } from '@fe/perfsee-platform-server/test'
-import { projectQuery } from '@fe/perfsee-schema'
+import { GraphQLTestingClient, initTestDB } from '@johfe/perfsee-platform-server/test'
+import { projectQuery } from '@johfe/perfsee-schema'
 
 import { Project } from '../db'
 

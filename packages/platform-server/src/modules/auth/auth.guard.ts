@@ -17,7 +17,7 @@ limitations under the License.
 import { Injectable, CanActivate, ExecutionContext, createParamDecorator, UseGuards, SetMetadata } from '@nestjs/common'
 import { Reflector } from '@nestjs/core'
 
-import { getRequestFromContext } from '@fe/perfsee-platform-server/nestjs-extends'
+import { getRequestFromContext } from '@johfe/perfsee-platform-server/nestjs-extends'
 
 import { AuthService } from './auth.service'
 

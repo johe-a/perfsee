@@ -14,8 +14,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { SharedColors } from '@fe/perfsee-dls'
-import { SnapshotReportQuery } from '@fe/perfsee-schema'
+import { SharedColors } from '@johfe/perfsee-dls'
+import { SnapshotReportQuery } from '@johfe/perfsee-schema'
 import {
   TimingType,
   TimelineSchema,
@@ -24,8 +24,8 @@ import {
   UserTimingSchema,
   AuditsSchema,
   TraceTimesWithoutFCP,
-} from '@fe/perfsee-shared'
-import { Task } from '@fe/perfsee-tracehouse'
+} from '@johfe/perfsee-shared'
+import { Task } from '@johfe/perfsee-tracehouse'
 
 export type SnapshotReportSchema = SnapshotReportQuery['project']['snapshotReport']
 

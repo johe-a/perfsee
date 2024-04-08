@@ -16,8 +16,8 @@ limitations under the License.
 
 import styled from '@emotion/styled'
 
-import { TreeMapTooltipProps } from '@fe/perfsee-components/treemap'
-import { PrettyBytes, ModuleTreeNode } from '@fe/perfsee-shared'
+import { TreeMapTooltipProps } from '@johfe/perfsee-components/treemap'
+import { PrettyBytes, ModuleTreeNode } from '@johfe/perfsee-shared'
 
 const Information = styled.div({
   fontSize: '12px',

@@ -17,7 +17,7 @@ limitations under the License.
 import { Dropdown, IDropdownOption, IDropdownProps } from '@fluentui/react'
 import { memo, useCallback } from 'react'
 
-import { JobType } from '@fe/perfsee-schema'
+import { JobType } from '@johfe/perfsee-schema'
 
 const options: IDropdownOption[] = Object.values(JobType).map((type) => ({
   key: type,

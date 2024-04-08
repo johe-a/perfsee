@@ -1,5 +1,5 @@
 {
-  "name": "@fe/perfsee-flamechart",
+  "name": "@johfe/perfsee-flamechart",
   "version": "1.11.0",
   "description": "Web-based viewer for performance profiles",
   "sideEffect": false,

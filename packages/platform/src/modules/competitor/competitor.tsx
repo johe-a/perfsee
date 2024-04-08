@@ -21,8 +21,8 @@ import { parse } from 'query-string'
 import { useEffect, useCallback, useState, useMemo } from 'react'
 import { useHistory, useLocation } from 'react-router-dom'
 
-import { DateTimePicker, SingleSelector, ContentCard } from '@fe/perfsee-components'
-import { pathFactory } from '@fe/perfsee-shared/routes'
+import { DateTimePicker, SingleSelector, ContentCard } from '@johfe/perfsee-components'
+import { pathFactory } from '@johfe/perfsee-shared/routes'
 
 import { LinkButton } from '../lab/style'
 import { PropertyModule, useProjectRouteGenerator } from '../shared'

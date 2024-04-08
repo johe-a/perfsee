@@ -20,9 +20,9 @@ import { Callout, Persona, PersonaSize, SearchBox, Spinner, SpinnerSize, Stack }
 import { useModule } from '@sigi/react'
 import { FC, useCallback, useRef } from 'react'
 
-import { useToggleState } from '@fe/perfsee-components'
-import { NeutralColors } from '@fe/perfsee-dls'
-import { SearchedUser, UserSearchModule } from '@fe/perfsee-platform/modules/shared'
+import { useToggleState } from '@johfe/perfsee-components'
+import { NeutralColors } from '@johfe/perfsee-dls'
+import { SearchedUser, UserSearchModule } from '@johfe/perfsee-platform/modules/shared'
 
 interface Props {
   onPick: (user: SearchedUser) => void

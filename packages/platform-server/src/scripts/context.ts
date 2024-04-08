@@ -17,7 +17,7 @@ limitations under the License.
 import { INestApplication } from '@nestjs/common'
 import { BaseContext, Command } from 'clipanion'
 
-import { DBService } from '@fe/perfsee-platform-server/db'
+import { DBService } from '@johfe/perfsee-platform-server/db'
 
 export interface Context extends BaseContext {
   app: INestApplication

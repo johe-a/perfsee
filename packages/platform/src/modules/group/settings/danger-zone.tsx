@@ -20,8 +20,8 @@ import { useModule } from '@sigi/react'
 import { useState, useCallback } from 'react'
 import { Redirect } from 'react-router'
 
-import { useToggleState, ColorButton, ModalType, Modal } from '@fe/perfsee-components'
-import { pathFactory } from '@fe/perfsee-shared/routes'
+import { useToggleState, ColorButton, ModalType, Modal } from '@johfe/perfsee-components'
+import { pathFactory } from '@johfe/perfsee-shared/routes'
 
 import {
   DangerContent,

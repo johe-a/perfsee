@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { PrettyBytes } from '@fe/perfsee-utils'
+import { PrettyBytes } from '@johfe/perfsee-utils'
 
 import { Audit, BundleAuditScore } from '../../types'
 

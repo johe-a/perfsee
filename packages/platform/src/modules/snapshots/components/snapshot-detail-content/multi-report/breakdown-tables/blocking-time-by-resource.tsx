@@ -24,11 +24,11 @@ import {
   Table,
   IconWithTips,
   HeaderWithVerticalLineStyles,
-} from '@fe/perfsee-components'
-import { ChartHeaderTitle } from '@fe/perfsee-components/chart/style'
-import { getRecordTypeParams } from '@fe/perfsee-lab-report/chart/helper'
-import { RecordType, SnapshotDetailType, SnapshotReportSchema } from '@fe/perfsee-lab-report/snapshot-type'
-import { formatMsDuration } from '@fe/perfsee-platform/common'
+} from '@johfe/perfsee-components'
+import { ChartHeaderTitle } from '@johfe/perfsee-components/chart/style'
+import { getRecordTypeParams } from '@johfe/perfsee-lab-report/chart/helper'
+import { RecordType, SnapshotDetailType, SnapshotReportSchema } from '@johfe/perfsee-lab-report/snapshot-type'
+import { formatMsDuration } from '@johfe/perfsee-platform/common'
 
 type TimingByResourceKind = { [key: string]: number } & { name: string; title: string; total: number; index: number }
 

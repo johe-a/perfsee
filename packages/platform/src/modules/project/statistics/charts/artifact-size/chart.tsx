@@ -20,7 +20,7 @@ import dayjs from 'dayjs'
 import { compact, floor } from 'lodash'
 import { useCallback, useEffect, useMemo } from 'react'
 
-import { ForeignLink, Space, DateRangeSelector, useQueryString } from '@fe/perfsee-components'
+import { ForeignLink, Space, DateRangeSelector, useQueryString } from '@johfe/perfsee-components'
 import {
   Chart,
   EChartsOption,
@@ -28,11 +28,11 @@ import {
   TooltipRendererParam,
   ChartHeader,
   formatChartData,
-} from '@fe/perfsee-components/chart'
-import { ArtifactNameSelector, BranchSelector } from '@fe/perfsee-platform/modules/components'
-import { useProject, useProjectRouteGenerator } from '@fe/perfsee-platform/modules/shared'
-import { PrettyBytes, Size } from '@fe/perfsee-shared'
-import { pathFactory } from '@fe/perfsee-shared/routes'
+} from '@johfe/perfsee-components/chart'
+import { ArtifactNameSelector, BranchSelector } from '@johfe/perfsee-platform/modules/components'
+import { useProject, useProjectRouteGenerator } from '@johfe/perfsee-platform/modules/shared'
+import { PrettyBytes, Size } from '@johfe/perfsee-shared'
+import { pathFactory } from '@johfe/perfsee-shared/routes'
 
 import { StatisticsModule } from '../../module'
 import { CustomTooltip, ColorDot } from '../style'

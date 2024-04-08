@@ -17,9 +17,9 @@ limitations under the License.
 import { Stack, IDropdownOption, DefaultButton, ActionButton } from '@fluentui/react'
 import { useMemo, useCallback, FC, useState } from 'react'
 
-import { ContentCard, Select } from '@fe/perfsee-components'
-import { AssetInfo, BundleDiff, ModuleReasons, ModuleTreeNode } from '@fe/perfsee-shared'
-import { PrettyBytes } from '@fe/perfsee-utils'
+import { ContentCard, Select } from '@johfe/perfsee-components'
+import { AssetInfo, BundleDiff, ModuleReasons, ModuleTreeNode } from '@johfe/perfsee-shared'
+import { PrettyBytes } from '@johfe/perfsee-utils'
 
 import { BuildHistory } from './build-history'
 import { Overview } from './overview'

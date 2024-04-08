@@ -19,8 +19,8 @@ import { Draft } from 'immer'
 import { Observable, of } from 'rxjs'
 import { switchMap, map, catchError, exhaustMap, startWith, endWith } from 'rxjs/operators'
 
-import { GraphQLClient, createErrorCatcher } from '@fe/perfsee-platform/common'
-import { toggleStarProjectMutation, GlobalStateQuery, globalStateQuery } from '@fe/perfsee-schema'
+import { GraphQLClient, createErrorCatcher } from '@johfe/perfsee-platform/common'
+import { toggleStarProjectMutation, GlobalStateQuery, globalStateQuery } from '@johfe/perfsee-schema'
 
 export type User = GlobalStateQuery['user']
 export type ApplicationSettings = GlobalStateQuery['applicationSettings']

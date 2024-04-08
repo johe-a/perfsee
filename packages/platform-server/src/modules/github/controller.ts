@@ -18,7 +18,7 @@ import { Controller, Get, Res } from '@nestjs/common'
 import { ApiExcludeController } from '@nestjs/swagger'
 import { Response } from 'express'
 
-import { staticPath } from '@fe/perfsee-shared/routes'
+import { staticPath } from '@johfe/perfsee-shared/routes'
 
 import { GithubService } from './service'
 

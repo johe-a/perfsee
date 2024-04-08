@@ -18,9 +18,9 @@ import styled from '@emotion/styled'
 import { Modal, Spinner, SpinnerSize } from '@fluentui/react'
 import { FC, useEffect, useState } from 'react'
 
-import { ShortcutTips, Header } from '@fe/perfsee-bundle-report/bundle-content/styled'
-import { Treemap } from '@fe/perfsee-bundle-report/bundle-content/treemap'
-import { AssetInfo, ModuleTreeNode } from '@fe/perfsee-shared'
+import { ShortcutTips, Header } from '@johfe/perfsee-bundle-report/bundle-content/styled'
+import { Treemap } from '@johfe/perfsee-bundle-report/bundle-content/treemap'
+import { AssetInfo, ModuleTreeNode } from '@johfe/perfsee-shared'
 
 export interface ContentModalProps {
   asset: AssetInfo | undefined

@@ -19,7 +19,7 @@ import { useDispatchers } from '@sigi/react'
 import { useEffect } from 'react'
 import { Redirect, Route, Switch, useParams } from 'react-router'
 
-import { pathFactory, RouteTypes, staticPath } from '@fe/perfsee-shared/routes'
+import { pathFactory, RouteTypes, staticPath } from '@johfe/perfsee-shared/routes'
 
 import { GroupModule } from '../shared/group.module'
 

@@ -17,10 +17,10 @@ limitations under the License.
 import { Separator, Stack } from '@fluentui/react'
 import { FC, useMemo } from 'react'
 
-import { IconWithTips } from '@fe/perfsee-components'
-import { ExecutionChart } from '@fe/perfsee-lab-report/chart'
-import { getChartEndTime } from '@fe/perfsee-lab-report/chart/helper'
-import { SnapshotDetailType, SnapshotReportSchema } from '@fe/perfsee-lab-report/snapshot-type'
+import { IconWithTips } from '@johfe/perfsee-components'
+import { ExecutionChart } from '@johfe/perfsee-lab-report/chart'
+import { getChartEndTime } from '@johfe/perfsee-lab-report/chart/helper'
+import { SnapshotDetailType, SnapshotReportSchema } from '@johfe/perfsee-lab-report/snapshot-type'
 
 import { ConnectionByDomainTable, TimingByResourceKindTable, OptimizationTable } from './breakdown-tables'
 import { HeaderTitle } from './style'

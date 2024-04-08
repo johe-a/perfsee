@@ -27,8 +27,8 @@ import {
 } from '@fluentui/react'
 import { FormEvent, forwardRef, useCallback, useImperativeHandle, useMemo, useState, memo } from 'react'
 
-import { RequiredTextField } from '@fe/perfsee-components'
-import { HeaderHostType, HeaderType } from '@fe/perfsee-shared'
+import { RequiredTextField } from '@johfe/perfsee-components'
+import { HeaderHostType, HeaderType } from '@johfe/perfsee-shared'
 
 import { NormalToken } from '../style'
 

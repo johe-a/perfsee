@@ -5,7 +5,7 @@ import {
   SnapshotStatus,
   BundleJobUpdate,
   PackageJobUpdate,
-} from '@fe/perfsee-server-common'
+} from '@johfe/perfsee-server-common'
 
 import { Artifact, Package, PackageBundle, Project, Snapshot, SnapshotReport } from '../db'
 

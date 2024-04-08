@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { VscodeSourceIssuesQuery, vscodeSourceIssuesQuery } from '@fe/perfsee-schema'
+import { VscodeSourceIssuesQuery, vscodeSourceIssuesQuery } from '@johfe/perfsee-schema'
 
 import { memoizePromise } from '../utils/cache'
 

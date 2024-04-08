@@ -14,10 +14,10 @@ import {
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
-import { ForeignLink } from '@fe/perfsee-components'
-import { GitHost } from '@fe/perfsee-schema'
-import { getCommitLink, hostDomains } from '@fe/perfsee-shared'
-import { pathFactory } from '@fe/perfsee-shared/routes'
+import { ForeignLink } from '@johfe/perfsee-components'
+import { GitHost } from '@johfe/perfsee-schema'
+import { getCommitLink, hostDomains } from '@johfe/perfsee-shared'
+import { pathFactory } from '@johfe/perfsee-shared/routes'
 
 import { useProject, useProjectRouteGenerator } from '../../shared'
 

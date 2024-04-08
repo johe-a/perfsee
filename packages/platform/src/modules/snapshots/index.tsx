@@ -19,7 +19,7 @@ import { useModule } from '@sigi/react'
 import { useCallback, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 
-import { ContentCard } from '@fe/perfsee-components'
+import { ContentCard } from '@johfe/perfsee-components'
 
 import { ReportContentWithRoute } from './components/snapshot-detail-content'
 import { SnapshotHeader } from './components/snapshot-header'

@@ -21,8 +21,8 @@ import { groupBy, mapValues } from 'lodash'
 import { Target } from 'puppeteer-core'
 import { v4 as uuid } from 'uuid'
 
-import { JobWorker, clearProxyCache, dynamicImport, startProxyServer } from '@fe/perfsee-job-runner-shared'
-import { LabJobPayload } from '@fe/perfsee-server-common'
+import { JobWorker, clearProxyCache, dynamicImport, startProxyServer } from '@johfe/perfsee-job-runner-shared'
+import { LabJobPayload } from '@johfe/perfsee-server-common'
 import {
   CookieType,
   LighthouseScoreMetric,
@@ -39,8 +39,8 @@ import {
   MetricsRecord,
   getMeanValue,
   getPerformance,
-} from '@fe/perfsee-shared'
-import { computeMainThreadTasksWithTimings } from '@fe/perfsee-tracehouse'
+} from '@johfe/perfsee-shared'
+import { computeMainThreadTasksWithTimings } from '@johfe/perfsee-tracehouse'
 
 import { createSandbox } from './e2e-runtime/sandbox'
 import { puppeteerNodeWrapper } from './e2e-runtime/wrapper/puppeteer'

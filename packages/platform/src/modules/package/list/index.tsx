@@ -18,7 +18,7 @@ import { Stack, DocumentCard } from '@fluentui/react'
 import { useModule, useModuleState } from '@sigi/react'
 import React, { useCallback, useEffect, useState } from 'react'
 
-import { ContentCard, Empty, Pagination, useQueryString } from '@fe/perfsee-components'
+import { ContentCard, Empty, Pagination, useQueryString } from '@johfe/perfsee-components'
 
 import { BranchSelector } from '../../components'
 import { ProjectModule } from '../../shared'

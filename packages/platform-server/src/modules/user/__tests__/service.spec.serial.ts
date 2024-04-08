@@ -1,9 +1,9 @@
 import { faker } from '@faker-js/faker'
 import { isMatch, omit } from 'lodash'
 
-import { User, UserConnectedAccount } from '@fe/perfsee-platform-server/db'
-import test, { create, createDBTestingModule, createMock, initTestDB } from '@fe/perfsee-platform-server/test'
-import { ExternalAccount } from '@fe/perfsee-shared'
+import { User, UserConnectedAccount } from '@johfe/perfsee-platform-server/db'
+import test, { create, createDBTestingModule, createMock, initTestDB } from '@johfe/perfsee-platform-server/test'
+import { ExternalAccount } from '@johfe/perfsee-shared'
 
 import { UserService } from '../service'
 

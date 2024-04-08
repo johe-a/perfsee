@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { EMAIL_REGEXP } from '@fe/perfsee-shared'
+import { EMAIL_REGEXP } from '@johfe/perfsee-shared'
 
 export const isNonEmpty = (value?: string) => {
   if (!value) {

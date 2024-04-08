@@ -6,8 +6,8 @@ import {
   Project,
   Setting,
   User,
-} from '@fe/perfsee-platform-server/db'
-import test, { createDBTestingModule, createMock, initTestDB } from '@fe/perfsee-platform-server/test'
+} from '@johfe/perfsee-platform-server/db'
+import test, { createDBTestingModule, createMock, initTestDB } from '@johfe/perfsee-platform-server/test'
 
 import { SettingService } from '../service'
 

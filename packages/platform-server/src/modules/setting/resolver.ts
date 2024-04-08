@@ -16,7 +16,7 @@ limitations under the License.
 
 import { Args, Mutation, Resolver, ResolveField, Parent, ID } from '@nestjs/graphql'
 
-import { Project, Setting } from '@fe/perfsee-platform-server/db'
+import { Project, Setting } from '@johfe/perfsee-platform-server/db'
 
 import { PermissionGuard, Permission } from '../permission'
 import { ProjectService } from '../project/service'

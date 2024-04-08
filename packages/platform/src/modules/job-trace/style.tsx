@@ -17,7 +17,7 @@ limitations under the License.
 import styled from '@emotion/styled'
 import { NeutralColors, SharedColors } from '@fluentui/theme'
 
-import { JobLogLevel } from '@fe/perfsee-shared'
+import { JobLogLevel } from '@johfe/perfsee-shared'
 
 import { Log as LogType } from './module'
 

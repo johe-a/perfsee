@@ -30,12 +30,12 @@ import { parse, stringifyUrl } from 'query-string'
 import { useMemo, useCallback, FC, useEffect, memo } from 'react'
 import { useParams, useHistory } from 'react-router-dom'
 
-import { ForeignLink, MessageBar } from '@fe/perfsee-components'
-import { PerformanceTabType, SnapshotReportSchema } from '@fe/perfsee-lab-report/snapshot-type'
-import { LighthouseBrand } from '@fe/perfsee-lab-report/style'
-import { getReportMessage, useProject } from '@fe/perfsee-platform/modules/shared'
-import { SnapshotStatus, SourceStatus } from '@fe/perfsee-schema'
-import { pathFactory } from '@fe/perfsee-shared/routes'
+import { ForeignLink, MessageBar } from '@johfe/perfsee-components'
+import { PerformanceTabType, SnapshotReportSchema } from '@johfe/perfsee-lab-report/snapshot-type'
+import { LighthouseBrand } from '@johfe/perfsee-lab-report/style'
+import { getReportMessage, useProject } from '@johfe/perfsee-platform/modules/shared'
+import { SnapshotStatus, SourceStatus } from '@johfe/perfsee-schema'
+import { pathFactory } from '@johfe/perfsee-shared/routes'
 
 import { SnapshotModule } from '../../snapshot.module'
 import {

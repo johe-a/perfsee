@@ -14,8 +14,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { GitHost } from '@fe/perfsee-schema'
-import { hostDomains } from '@fe/perfsee-shared'
+import { GitHost } from '@johfe/perfsee-schema'
+import { hostDomains } from '@johfe/perfsee-shared'
 
 export const GitHostOptions = [
   {

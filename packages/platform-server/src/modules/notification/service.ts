@@ -16,23 +16,23 @@ limitations under the License.
 
 import { Injectable } from '@nestjs/common'
 
-import { Environment, Setting, SnapshotTrigger } from '@fe/perfsee-platform-server/db'
-import { OnEvent } from '@fe/perfsee-platform-server/event'
+import { Environment, Setting, SnapshotTrigger } from '@johfe/perfsee-platform-server/db'
+import { OnEvent } from '@johfe/perfsee-platform-server/event'
 import {
   AnalyzeUpdateType,
   BundleUpdatePayload,
   PackageUpdatePayload,
   SnapshotUpdatePayload,
-} from '@fe/perfsee-platform-server/event/type'
-import { Logger } from '@fe/perfsee-platform-server/logger'
-import { Redis } from '@fe/perfsee-platform-server/redis'
+} from '@johfe/perfsee-platform-server/event/type'
+import { Logger } from '@johfe/perfsee-platform-server/logger'
+import { Redis } from '@johfe/perfsee-platform-server/redis'
 import {
   BundleJobPassedUpdate,
   BundleJobStatus,
   SnapshotStatus,
   PackageJobPassedUpdate,
-} from '@fe/perfsee-server-common'
-import { Permission } from '@fe/perfsee-shared'
+} from '@johfe/perfsee-server-common'
+import { Permission } from '@johfe/perfsee-shared'
 
 import { ProjectService } from '../project/service'
 import { SettingService } from '../setting/service'

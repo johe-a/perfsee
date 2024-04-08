@@ -19,8 +19,8 @@ import { Draft } from 'immer'
 import { Observable } from 'rxjs'
 import { endWith, filter, map, startWith, switchMap, withLatestFrom } from 'rxjs/operators'
 
-import { createErrorCatcher, GraphQLClient } from '@fe/perfsee-platform/common'
-import { issueCommitsQuery, sourceIssuesQuery, SourceIssuesQuery } from '@fe/perfsee-schema'
+import { createErrorCatcher, GraphQLClient } from '@johfe/perfsee-platform/common'
+import { issueCommitsQuery, sourceIssuesQuery, SourceIssuesQuery } from '@johfe/perfsee-schema'
 
 import { ProjectModule } from '../shared'
 

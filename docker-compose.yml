@@ -56,7 +56,7 @@ services:
       timeout: 10s
       retries: 10
       start_period: 20s
-    command: yarn dev -p @fe/perfsee-platform-server
+    command: yarn dev -p @johfe/perfsee-platform-server
 
   job-runner:
     image: perfsee_develop
@@ -67,7 +67,7 @@ services:
       - .:/code
       - /code/node_modules
     network_mode: host
-    command: yarn dev -p @fe/perfsee-job-runner
+    command: yarn dev -p @johfe/perfsee-job-runner
 
   frontend:
     image: perfsee_develop
@@ -80,4 +80,4 @@ services:
       - /code/node_modules
     environment:
       PERFSEE_PLATFORM_HOST: http://server:3000
-    command: yarn dev -p @fe/perfsee-platform
+    command: yarn dev -p @johfe/perfsee-platform

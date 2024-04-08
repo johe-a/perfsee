@@ -14,8 +14,11 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { vscodeGetProjectsByNamespaceAndNameQuery, VscodeGetProjectsByNamespaceAndNameQuery } from '@fe/perfsee-schema'
-import { GitHost } from '@fe/perfsee-shared'
+import {
+  vscodeGetProjectsByNamespaceAndNameQuery,
+  VscodeGetProjectsByNamespaceAndNameQuery,
+} from '@johfe/perfsee-schema'
+import { GitHost } from '@johfe/perfsee-shared'
 
 import { memoizePromise } from '../utils/cache'
 

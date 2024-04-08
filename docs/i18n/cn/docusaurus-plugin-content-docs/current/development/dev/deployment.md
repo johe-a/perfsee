@@ -14,7 +14,7 @@ sidebar_position: 4
 # 注意：生产环境打包产物需要设置 NODE_ENV=production
 export NODE_ENV=production
 
-yarn cli bundle -p @fe/perfsee-platform
+yarn cli bundle -p @johfe/perfsee-platform
 ```
 
 ### CDN
@@ -24,7 +24,7 @@ yarn cli bundle -p @fe/perfsee-platform
 ```bash
 export PUBLIC_PATH=https://your.cdn/perfsee/assets
 
-yarn cli bundle -p @fe/perfsee-platform
+yarn cli bundle -p @johfe/perfsee-platform
 ```
 
 ### API 服务
@@ -34,7 +34,7 @@ yarn cli bundle -p @fe/perfsee-platform
 ```bash
 export SERVER=https://api.perfsee.com
 
-yarn cli bundle -p @fe/perfsee-platform
+yarn cli bundle -p @johfe/perfsee-platform
 ```
 
 ## 后端
@@ -72,7 +72,7 @@ cp ./packages/platform-server/.env.example ./packages/platform-server/.env
 
 ### 启动服务
 
-由于项目代码中使用到了 TypeScript 提供的引用路径别名能力，例如 `@fe/perfsee-shared => ./packages/shared/src/index.ts`，所以在启动服务之前，我们需要先使用在 tools 中提供的 `paths-register` 工具来注册这些别名，这样 Node.js 才能正确解析这些引用路径。
+由于项目代码中使用到了 TypeScript 提供的引用路径别名能力，例如 `@johfe/perfsee-shared => ./packages/shared/src/index.ts`，所以在启动服务之前，我们需要先使用在 tools 中提供的 `paths-register` 工具来注册这些别名，这样 Node.js 才能正确解析这些引用路径。
 
 ```bash
 node -r ./tools/paths-register ./packages/platform-server/dist/index.js
@@ -151,7 +151,7 @@ export SUB_PATH=/perfsee
 # 为新的子路径生成对应的类型代码
 yarn codegen
 
-yarn cli bundle -p @fe/perfsee-platform
+yarn cli bundle -p @johfe/perfsee-platform
 ```
 
 ```bash

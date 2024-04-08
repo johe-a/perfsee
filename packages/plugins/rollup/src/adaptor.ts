@@ -17,8 +17,8 @@ limitations under the License.
 import { partition, union } from 'lodash'
 import { OutputAsset, OutputBundle, OutputChunk, PluginContext } from 'rollup'
 
-import { BundleModule, BundleToolkit, PerfseeReportStats } from '@fe/perfsee-bundle-analyzer'
-import { getBuildEnv } from '@fe/perfsee-plugin-utils'
+import { BundleModule, BundleToolkit, PerfseeReportStats } from '@johfe/perfsee-bundle-analyzer'
+import { getBuildEnv } from '@johfe/perfsee-plugin-utils'
 
 import { recursivelyFindEntryChunks } from './util'
 

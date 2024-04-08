@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { SnapshotReportsQuery, SnapshotStatus } from '@fe/perfsee-schema'
+import { SnapshotReportsQuery, SnapshotStatus } from '@johfe/perfsee-schema'
 
 export const getReportMessage = (
   report: Pick<SnapshotReportsQuery['project']['snapshot']['snapshotReports'][0], 'failedReason' | 'status'>,

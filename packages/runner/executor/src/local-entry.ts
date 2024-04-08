@@ -14,20 +14,20 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { JobType } from '@fe/perfsee-server-common'
+import { JobType } from '@johfe/perfsee-server-common'
 
 export function localRunnerScriptEntry(jobType: JobType) {
   switch (jobType) {
     case JobType.BundleAnalyze:
-      return require.resolve('@fe/perfsee-job-runner-bundle/src/loader.js')
+      return require.resolve('@johfe/perfsee-job-runner-bundle/src/loader.js')
     case JobType.LabAnalyze:
     case JobType.LabPing:
     case JobType.E2EAnalyze:
-      return require.resolve('@fe/perfsee-job-runner-lab/src/loader.js')
+      return require.resolve('@johfe/perfsee-job-runner-lab/src/loader.js')
     case JobType.SourceAnalyze:
-      return require.resolve('@fe/perfsee-job-runner-source/src/loader.js')
+      return require.resolve('@johfe/perfsee-job-runner-source/src/loader.js')
     case JobType.PackageAnalyze:
-      return require.resolve('@fe/perfsee-job-runner-package/src/loader.js')
+      return require.resolve('@johfe/perfsee-job-runner-package/src/loader.js')
     default:
       throw new Error('Unknown job type')
   }

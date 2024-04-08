@@ -13,7 +13,7 @@ import {
 import { useModule } from '@sigi/react'
 import { useCallback, useState } from 'react'
 
-import { ColorButton, Form, RequiredTextField, useToggleState } from '@fe/perfsee-components'
+import { ColorButton, Form, RequiredTextField, useToggleState } from '@johfe/perfsee-components'
 
 import { JobTypeSelector } from '../runners/job-type-selector'
 

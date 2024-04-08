@@ -18,8 +18,8 @@ import { FilterFilled } from '@ant-design/icons'
 import styled from '@emotion/styled'
 import { NeutralColors, Pivot, Stack } from '@fluentui/react'
 
-import { ForeignLink } from '@fe/perfsee-components'
-import { darken } from '@fe/perfsee-dls'
+import { ForeignLink } from '@johfe/perfsee-components'
+import { darken } from '@johfe/perfsee-dls'
 
 export const StyledPivot = styled(Pivot)(() => {
   return {

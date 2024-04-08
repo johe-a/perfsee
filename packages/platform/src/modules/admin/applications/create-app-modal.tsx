@@ -18,7 +18,7 @@ import { DefaultButton, Dialog, DialogFooter, DialogType, Label, PrimaryButton, 
 import { useModule } from '@sigi/react'
 import { useCallback, useMemo, useState } from 'react'
 
-import { Form, useToggleState } from '@fe/perfsee-components'
+import { Form, useToggleState } from '@johfe/perfsee-components'
 
 import { ApplicationsModule } from './module'
 

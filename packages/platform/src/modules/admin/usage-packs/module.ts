@@ -3,7 +3,7 @@ import { Draft } from 'immer'
 import { Observable } from 'rxjs'
 import { switchMap, map, startWith, endWith, exhaustMap } from 'rxjs/operators'
 
-import { GraphQLClient, createErrorCatcher } from '@fe/perfsee-platform/common'
+import { GraphQLClient, createErrorCatcher } from '@johfe/perfsee-platform/common'
 import {
   UsagePackFragment,
   createUsagePackMutation,
@@ -12,7 +12,7 @@ import {
   CreateUsagePackInput,
   UpdateUsagePackInput,
   setDefaultUsagePackMutation,
-} from '@fe/perfsee-schema'
+} from '@johfe/perfsee-schema'
 
 export type UsagePack = UsagePackFragment
 

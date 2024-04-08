@@ -17,7 +17,7 @@ limitations under the License.
 import { Injectable } from '@nestjs/common'
 import { In } from 'typeorm'
 
-import { Cron, CronExpression } from '@fe/perfsee-platform-server/cron'
+import { Cron, CronExpression } from '@johfe/perfsee-platform-server/cron'
 import {
   ScheduleMonitorType,
   ScheduleType,
@@ -26,10 +26,10 @@ import {
   Profile,
   Environment,
   SnapshotTrigger,
-} from '@fe/perfsee-platform-server/db'
-import { Logger } from '@fe/perfsee-platform-server/logger'
-import { Redis } from '@fe/perfsee-platform-server/redis'
-import { createDataLoader } from '@fe/perfsee-platform-server/utils'
+} from '@johfe/perfsee-platform-server/db'
+import { Logger } from '@johfe/perfsee-platform-server/logger'
+import { Redis } from '@johfe/perfsee-platform-server/redis'
+import { createDataLoader } from '@johfe/perfsee-platform-server/utils'
 
 import { SnapshotService } from '../snapshot/service'
 

@@ -17,7 +17,7 @@ limitations under the License.
 import { Stack } from '@fluentui/react'
 import { FC, memo, useCallback, useContext } from 'react'
 
-import { ContentCard } from '@fe/perfsee-components'
+import { ContentCard } from '@johfe/perfsee-components'
 
 import { PackageResultContext } from './context'
 import { ReportContentWithRoute } from './pivot-content'

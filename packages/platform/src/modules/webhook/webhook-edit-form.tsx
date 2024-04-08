@@ -9,7 +9,7 @@ import {
 } from '@fluentui/react'
 import { useCallback, useState } from 'react'
 
-import { URLTextField } from '@fe/perfsee-components'
+import { URLTextField } from '@johfe/perfsee-components'
 
 import { WebhookEventTypeEditor } from './webhook-event-type-editor'
 import { WebhookSchema } from './webhook.module'

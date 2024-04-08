@@ -1,7 +1,7 @@
 import test from 'ava'
 
-import { Environment, Page, SnapshotReport, Profile } from '@fe/perfsee-platform-server/db'
-import { createMock } from '@fe/perfsee-platform-server/test'
+import { Environment, Page, SnapshotReport, Profile } from '@johfe/perfsee-platform-server/db'
+import { createMock } from '@johfe/perfsee-platform-server/test'
 
 import { getLighthouseRunData } from '../get-lh-run-data'
 

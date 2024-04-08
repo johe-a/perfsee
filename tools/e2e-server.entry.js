@@ -16,7 +16,7 @@ limitations under the License.
 
 require('ts-node/register/transpile-only')
 require('tsconfig-paths/register')
-require('@fe/perfsee-platform-server/index.ts')
+require('@johfe/perfsee-platform-server/index.ts')
 
 process.on('message', (msg) => {
   if (msg === 'exit') {

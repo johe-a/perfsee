@@ -4,7 +4,7 @@ import { DefaultButton, PrimaryButton, SharedColors, Spinner, Stack } from '@flu
 import { useModule } from '@sigi/react'
 import { useCallback, useEffect, useState } from 'react'
 
-import { Card, ContentCard, useToggleState } from '@fe/perfsee-components'
+import { Card, ContentCard, useToggleState } from '@johfe/perfsee-components'
 
 import { UsagePackForm } from './form'
 import { UsagePack, UsagePackModule } from './module'

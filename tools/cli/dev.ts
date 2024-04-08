@@ -31,17 +31,17 @@ interface PackageDevInfo {
 }
 
 const allowPackages: { [key in PackageName]?: PackageDevInfo } = {
-  '@fe/perfsee-platform': {
+  '@johfe/perfsee-platform': {
     type: 'browser',
   },
-  '@fe/perfsee-platform-server': {
+  '@johfe/perfsee-platform-server': {
     type: 'node',
     ignore: ['node_modules/**/*', 'router.ts', 'packages/schema/**/*', '__tests__/**/*'],
     env: {
-      DOTENV_CONFIG_PATH: getPackage('@fe/perfsee-platform-server').relative('.env'),
+      DOTENV_CONFIG_PATH: getPackage('@johfe/perfsee-platform-server').relative('.env'),
     },
   },
-  '@fe/perfsee-job-runner': {
+  '@johfe/perfsee-job-runner': {
     type: 'node',
     ignore: ['node_modules/**/*', 'router.ts', '__tests__/**/*', 'tmp/**/*'],
     env: {

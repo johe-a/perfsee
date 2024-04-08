@@ -27,15 +27,15 @@ import {
   SnapshotReport,
   SnapshotReportWithArtifact,
   SourceIssue,
-} from '@fe/perfsee-platform-server/db'
-import { EventEmitter } from '@fe/perfsee-platform-server/event'
-import { AnalyzeUpdateType } from '@fe/perfsee-platform-server/event/type'
-import { PaginationInput } from '@fe/perfsee-platform-server/graphql'
-import { InternalIdService } from '@fe/perfsee-platform-server/helpers'
-import { Logger } from '@fe/perfsee-platform-server/logger'
-import { ObjectStorage } from '@fe/perfsee-platform-server/storage'
-import { JobType, SourceAnalyzeJob, SourceAnalyzeJobResult, SourceStatus } from '@fe/perfsee-server-common'
-import { FlameChartDiagnostic, LHStoredSchema } from '@fe/perfsee-shared'
+} from '@johfe/perfsee-platform-server/db'
+import { EventEmitter } from '@johfe/perfsee-platform-server/event'
+import { AnalyzeUpdateType } from '@johfe/perfsee-platform-server/event/type'
+import { PaginationInput } from '@johfe/perfsee-platform-server/graphql'
+import { InternalIdService } from '@johfe/perfsee-platform-server/helpers'
+import { Logger } from '@johfe/perfsee-platform-server/logger'
+import { ObjectStorage } from '@johfe/perfsee-platform-server/storage'
+import { JobType, SourceAnalyzeJob, SourceAnalyzeJobResult, SourceStatus } from '@johfe/perfsee-server-common'
+import { FlameChartDiagnostic, LHStoredSchema } from '@johfe/perfsee-shared'
 
 import { ProjectUsageService } from '../project-usage/service'
 import { ScriptFileService } from '../script-file/service'

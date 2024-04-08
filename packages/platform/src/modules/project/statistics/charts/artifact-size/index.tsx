@@ -16,7 +16,7 @@ limitations under the License.
 
 import { Stack } from '@fluentui/react'
 
-import { ContentCard } from '@fe/perfsee-components'
+import { ContentCard } from '@johfe/perfsee-components'
 
 import { ArtifactSizeChart } from './chart'
 

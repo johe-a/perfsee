@@ -16,8 +16,8 @@ limitations under the License.
 
 import { ContinueRequestOverrides, ResponseForRequest, HTTPRequest } from 'puppeteer-core'
 
-import { logger } from '@fe/perfsee-job-runner-shared'
-import { HeaderHostType } from '@fe/perfsee-shared'
+import { logger } from '@johfe/perfsee-job-runner-shared'
+import { HeaderHostType } from '@johfe/perfsee-shared'
 
 interface HeaderEntry {
   name: string

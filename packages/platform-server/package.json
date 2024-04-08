@@ -1,5 +1,5 @@
 {
-  "name": "@fe/perfsee-platform-server",
+  "name": "@johfe/perfsee-platform-server",
   "version": "1.12.2",
   "description": "Perfsee server",
   "private": true,
@@ -55,9 +55,9 @@
   },
   "devDependencies": {
     "@faker-js/faker": "^7.3.0",
-    "@fe/perfsee-schema": "workspace:*",
-    "@fe/perfsee-server-common": "workspace:*",
-    "@fe/perfsee-shared": "workspace:*",
+    "@johfe/perfsee-schema": "workspace:*",
+    "@johfe/perfsee-server-common": "workspace:*",
+    "@johfe/perfsee-shared": "workspace:*",
     "@nestjs/serve-static": "^3.0.1",
     "@types/debug": "^4.1.7",
     "@types/express-session": "^1.17.5",

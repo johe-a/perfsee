@@ -2,8 +2,8 @@ import { HttpStatus } from '@nestjs/common'
 import test from 'ava'
 import request from 'supertest'
 
-import { initTestDB } from '@fe/perfsee-platform-server/test'
-import { RegisterRunnerParams } from '@fe/perfsee-server-common'
+import { initTestDB } from '@johfe/perfsee-platform-server/test'
+import { RegisterRunnerParams } from '@johfe/perfsee-server-common'
 
 test.before(async () => {
   await initTestDB()

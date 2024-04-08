@@ -20,9 +20,9 @@ import { memo, useEffect, useMemo } from 'react'
 import { useParams, Redirect } from 'react-router'
 import { Switch } from 'react-router-dom'
 
-import { BodyContainer, NotFound, Route } from '@fe/perfsee-components'
-import { Permission } from '@fe/perfsee-schema'
-import { staticPath, RouteTypes, pathFactory } from '@fe/perfsee-shared/routes'
+import { BodyContainer, NotFound, Route } from '@johfe/perfsee-components'
+import { Permission } from '@johfe/perfsee-schema'
+import { staticPath, RouteTypes, pathFactory } from '@johfe/perfsee-shared/routes'
 
 import { ProjectNav } from '../layout'
 import { ProjectModule } from '../shared'

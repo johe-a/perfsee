@@ -16,7 +16,7 @@ limitations under the License.
 
 import styled from '@emotion/styled'
 
-import { NeutralColors } from '@fe/perfsee-dls'
+import { NeutralColors } from '@johfe/perfsee-dls'
 
 export const ExportAnalysisContainer = styled.section(({ theme }) => ({
   marginTop: 24,

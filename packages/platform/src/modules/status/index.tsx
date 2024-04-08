@@ -19,7 +19,7 @@ import { Stack, Icon, TooltipHost, Text } from '@fluentui/react'
 import { useModule, useModuleState } from '@sigi/react'
 import { useEffect } from 'react'
 
-import { BodyContainer } from '@fe/perfsee-components'
+import { BodyContainer } from '@johfe/perfsee-components'
 
 import { GlobalModule } from '../shared'
 

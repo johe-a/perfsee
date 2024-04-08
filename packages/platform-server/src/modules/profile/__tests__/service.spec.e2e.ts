@@ -1,10 +1,10 @@
 import { faker } from '@faker-js/faker'
 import { pick } from 'lodash'
 
-import { Project, Profile, SnapshotReport, User } from '@fe/perfsee-platform-server/db'
-import test, { GraphQLTestingClient, initTestDB, create } from '@fe/perfsee-platform-server/test'
-import { deleteProfileMutation, updateProfileMutation, settingPropertyQuery } from '@fe/perfsee-schema'
-import { CONNECTIONS, DEVICES } from '@fe/perfsee-shared'
+import { Project, Profile, SnapshotReport, User } from '@johfe/perfsee-platform-server/db'
+import test, { GraphQLTestingClient, initTestDB, create } from '@johfe/perfsee-platform-server/test'
+import { deleteProfileMutation, updateProfileMutation, settingPropertyQuery } from '@johfe/perfsee-schema'
+import { CONNECTIONS, DEVICES } from '@johfe/perfsee-shared'
 
 import { mockCreateReport } from '../../snapshot/snapshot-report/__tests__/utils'
 

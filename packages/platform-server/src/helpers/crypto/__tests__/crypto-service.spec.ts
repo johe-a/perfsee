@@ -2,7 +2,7 @@ import { Test } from '@nestjs/testing'
 import test from 'ava'
 import sinon from 'sinon'
 
-import { ConfigModule } from '@fe/perfsee-platform-server/config'
+import { ConfigModule } from '@johfe/perfsee-platform-server/config'
 
 import { CryptoService } from '../crypto-service'
 

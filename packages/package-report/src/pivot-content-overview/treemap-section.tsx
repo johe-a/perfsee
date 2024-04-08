@@ -17,7 +17,7 @@ limitations under the License.
 import { cloneDeep } from 'lodash'
 import { Component } from 'react'
 
-import { PackageStats, PrettyBytes } from '@fe/perfsee-shared'
+import { PackageStats, PrettyBytes } from '@johfe/perfsee-shared'
 
 import {
   TreemapSectionContainer,

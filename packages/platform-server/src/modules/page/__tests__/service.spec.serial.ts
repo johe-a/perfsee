@@ -7,10 +7,10 @@ import {
   PageWithEnv,
   Profile,
   Environment,
-} from '@fe/perfsee-platform-server/db'
-import { seedProjectProperty } from '@fe/perfsee-platform-server/db/fixtures'
-import { InternalIdService } from '@fe/perfsee-platform-server/helpers'
-import test, { createMock, initTestDB, createDBTestingModule, create } from '@fe/perfsee-platform-server/test'
+} from '@johfe/perfsee-platform-server/db'
+import { seedProjectProperty } from '@johfe/perfsee-platform-server/db/fixtures'
+import { InternalIdService } from '@johfe/perfsee-platform-server/helpers'
+import test, { createMock, initTestDB, createDBTestingModule, create } from '@johfe/perfsee-platform-server/test'
 
 import { SnapshotReportService } from '../../snapshot/snapshot-report/service'
 import { PageService } from '../service'

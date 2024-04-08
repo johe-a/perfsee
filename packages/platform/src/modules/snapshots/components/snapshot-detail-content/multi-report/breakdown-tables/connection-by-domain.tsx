@@ -18,10 +18,10 @@ import { SelectionMode } from '@fluentui/react'
 import { groupBy } from 'lodash'
 import { FC, useMemo } from 'react'
 
-import { TableColumnProps, Table, TooltipWithEllipsis } from '@fe/perfsee-components'
-import { getRequestDomain, getRequestSize, getTransferred } from '@fe/perfsee-lab-report/pivot-content-asset/utils'
-import { formatMsDuration } from '@fe/perfsee-platform/common'
-import { RequestSchema, PrettyBytes } from '@fe/perfsee-shared'
+import { TableColumnProps, Table, TooltipWithEllipsis } from '@johfe/perfsee-components'
+import { getRequestDomain, getRequestSize, getTransferred } from '@johfe/perfsee-lab-report/pivot-content-asset/utils'
+import { formatMsDuration } from '@johfe/perfsee-platform/common'
+import { RequestSchema, PrettyBytes } from '@johfe/perfsee-shared'
 
 type Props = {
   requests: RequestSchema[]

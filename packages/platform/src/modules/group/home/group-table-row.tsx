@@ -4,10 +4,10 @@ import { useModule } from '@sigi/react'
 import dayjs from 'dayjs'
 import { useState, useMemo, useCallback, useEffect } from 'react'
 
-import { Empty, Table, TableColumnProps, TooltipWithEllipsis } from '@fe/perfsee-components'
-import { SnapshotStatus } from '@fe/perfsee-schema'
-import { MetricType } from '@fe/perfsee-shared'
-import { pathFactory } from '@fe/perfsee-shared/routes'
+import { Empty, Table, TableColumnProps, TooltipWithEllipsis } from '@johfe/perfsee-components'
+import { SnapshotStatus } from '@johfe/perfsee-schema'
+import { MetricType } from '@johfe/perfsee-shared'
+import { pathFactory } from '@johfe/perfsee-shared/routes'
 
 import { SnapshotStatusTag } from '../../lab/list/status-tag'
 

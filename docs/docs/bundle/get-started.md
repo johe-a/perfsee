@@ -18,11 +18,11 @@ Bundle analysis plugin requires `node --version >= v12`
 
 ```bash
 # or any package manager you are using, e.g. npm/pnpm
-yarn add @fe/perfsee-webpack -D
+yarn add @johfe/perfsee-webpack -D
 ```
 
 ```js title="webpack.config.js"
-const { PerfseePlugin } = require('@fe/perfsee-webpack')
+const { PerfseePlugin } = require('@johfe/perfsee-webpack')
 
 module.exports = {
   // ...
@@ -59,11 +59,11 @@ module.exports = {
 
 ```bash
 # or any package manager you are using, e.g. npm/pnpm
-yarn add @fe/perfsee-esbuild -D
+yarn add @johfe/perfsee-esbuild -D
 ```
 
 ```js title="build.js"
-const { PerfseePlugin } = require('@fe/perfsee-esbuild')
+const { PerfseePlugin } = require('@johfe/perfsee-esbuild')
 
 require('esbuild').build({
   // ...
@@ -100,11 +100,11 @@ require('esbuild').build({
 
 ```bash
 # or any package manager you are using, e.g. npm/pnpm
-yarn add @fe/perfsee-rollup -D
+yarn add @johfe/perfsee-rollup -D
 ```
 
 ```js title=" rollup.config.js"
-const { PerfseePlugin } = require('@fe/perfsee-rollup')
+const { PerfseePlugin } = require('@johfe/perfsee-rollup')
 
 module.exports = {
   // ...

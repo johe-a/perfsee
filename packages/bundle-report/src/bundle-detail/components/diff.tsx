@@ -20,7 +20,7 @@ import styled from '@emotion/styled'
 import { HoverCard, HoverCardType, IPlainCardProps, Stack } from '@fluentui/react'
 import { useMemo } from 'react'
 
-import { PrettyBytes } from '@fe/perfsee-utils'
+import { PrettyBytes } from '@johfe/perfsee-utils'
 
 import { Diff, Size } from '../types'
 

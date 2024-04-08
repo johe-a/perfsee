@@ -1,4 +1,4 @@
-# `@fe/perfsee-chrome-finder`
+# `@johfe/perfsee-chrome-finder`
 
 Find local installed Google Chrome(Chromium) executable path or download it.
 

@@ -16,7 +16,7 @@ limitations under the License.
 
 import { InputType, OmitType, PartialType, ObjectType, Field, Int } from '@nestjs/graphql'
 
-import { Profile } from '@fe/perfsee-platform-server/db'
+import { Profile } from '@johfe/perfsee-platform-server/db'
 
 @ObjectType()
 export class ConnectionType {

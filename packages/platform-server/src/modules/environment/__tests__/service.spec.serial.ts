@@ -1,8 +1,8 @@
 import { faker } from '@faker-js/faker'
 
-import { Environment } from '@fe/perfsee-platform-server/db'
-import { InternalIdService } from '@fe/perfsee-platform-server/helpers'
-import test, { createMock, initTestDB, createDBTestingModule, create } from '@fe/perfsee-platform-server/test'
+import { Environment } from '@johfe/perfsee-platform-server/db'
+import { InternalIdService } from '@johfe/perfsee-platform-server/helpers'
+import test, { createMock, initTestDB, createDBTestingModule, create } from '@johfe/perfsee-platform-server/test'
 
 import { SnapshotReportService } from '../../snapshot/snapshot-report/service'
 import { EnvironmentService } from '../service'

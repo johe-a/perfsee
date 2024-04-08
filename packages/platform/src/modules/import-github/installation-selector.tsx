@@ -19,7 +19,7 @@ import { SelectionMode } from '@fluentui/utilities'
 import { useModule } from '@sigi/react'
 import React, { useCallback, useEffect, useMemo } from 'react'
 
-import { ForeignLink, MessageBar, Table, TableColumnProps } from '@fe/perfsee-components'
+import { ForeignLink, MessageBar, Table, TableColumnProps } from '@johfe/perfsee-components'
 
 import { AssociatedGithubInstallationsModel } from './associated-github-installations.module'
 import { GithubInstallationModel, Installation } from './github-installation.module'

@@ -19,8 +19,8 @@ import { Theme } from '@emotion/react'
 import styled from '@emotion/styled'
 import { FC, ComponentType } from 'react'
 
-import { Tag } from '@fe/perfsee-components'
-import { SourceStatus } from '@fe/perfsee-schema'
+import { Tag } from '@johfe/perfsee-components'
+import { SourceStatus } from '@johfe/perfsee-schema'
 
 const statusIconMap: Record<SourceStatus, ComponentType> = {
   [SourceStatus.Completed]: CheckCircleOutlined,

@@ -19,7 +19,7 @@ import { Draft, freeze } from 'immer'
 import { Observable } from 'rxjs'
 import { switchMap, map, startWith, endWith } from 'rxjs/operators'
 
-import { SourceCoverageResult, createErrorCatcher, RxFetch } from '@fe/perfsee-shared'
+import { SourceCoverageResult, createErrorCatcher, RxFetch } from '@johfe/perfsee-shared'
 
 interface State {
   data: SourceCoverageResult | null

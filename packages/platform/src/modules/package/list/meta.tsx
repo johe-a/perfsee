@@ -19,9 +19,9 @@ import { useModule, useModuleState } from '@sigi/react'
 import { FC, useCallback, useEffect } from 'react'
 import { useHistory } from 'react-router'
 
-import { BarGraph, Reading } from '@fe/perfsee-package-report'
-import { BundleJobStatus } from '@fe/perfsee-schema'
-import { pathFactory } from '@fe/perfsee-shared/routes'
+import { BarGraph, Reading } from '@johfe/perfsee-package-report'
+import { BundleJobStatus } from '@johfe/perfsee-schema'
+import { pathFactory } from '@johfe/perfsee-shared/routes'
 
 import { ProjectModule } from '../../shared'
 

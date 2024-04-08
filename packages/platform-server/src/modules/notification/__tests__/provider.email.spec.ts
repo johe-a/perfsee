@@ -7,9 +7,9 @@ import {
   BundleMessageSource,
   MessageTargetType,
   Setting,
-} from '@fe/perfsee-platform-server/db'
-import { EmailService } from '@fe/perfsee-platform-server/src/modules/email'
-import test, { createMock } from '@fe/perfsee-platform-server/test'
+} from '@johfe/perfsee-platform-server/db'
+import { EmailService } from '@johfe/perfsee-platform-server/src/modules/email'
+import test, { createMock } from '@johfe/perfsee-platform-server/test'
 
 import { EmailNotificationProvider } from '../provider'
 

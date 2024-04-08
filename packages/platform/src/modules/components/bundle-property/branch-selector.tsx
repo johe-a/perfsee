@@ -18,8 +18,8 @@ import { useModule } from '@sigi/react'
 import { compact } from 'lodash'
 import { useCallback, useEffect, useMemo, useState } from 'react'
 
-import { SearchSelect } from '@fe/perfsee-components'
-import { convertRegex, isBaselineRegex } from '@fe/perfsee-shared'
+import { SearchSelect } from '@johfe/perfsee-components'
+import { convertRegex, isBaselineRegex } from '@johfe/perfsee-shared'
 
 import { BundlePropertiesModule, useProject } from '../../shared'
 

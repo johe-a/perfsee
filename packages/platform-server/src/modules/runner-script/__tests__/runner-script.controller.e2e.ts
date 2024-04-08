@@ -3,8 +3,8 @@ import { createHash } from 'crypto'
 import { HttpStatus } from '@nestjs/common'
 import request from 'supertest'
 
-import test, { initTestDB } from '@fe/perfsee-platform-server/test'
-import { RegisterRunnerParams } from '@fe/perfsee-server-common'
+import test, { initTestDB } from '@johfe/perfsee-platform-server/test'
+import { RegisterRunnerParams } from '@johfe/perfsee-server-common'
 
 const registrationToken = 'registrationToken'
 let runnerToken = ''

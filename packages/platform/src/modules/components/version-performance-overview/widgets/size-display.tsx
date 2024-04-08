@@ -16,7 +16,7 @@ limitations under the License.
 
 import { FC, memo } from 'react'
 
-import { PrettyBytes } from '@fe/perfsee-shared'
+import { PrettyBytes } from '@johfe/perfsee-shared'
 
 import { SizeUnit, SizeWrap } from './styled'
 

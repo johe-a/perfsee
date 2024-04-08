@@ -17,7 +17,7 @@ limitations under the License.
 import styled from '@emotion/styled'
 import { Stack, Text } from '@fluentui/react'
 
-import { Card } from '@fe/perfsee-components'
+import { Card } from '@johfe/perfsee-components'
 
 export const Container = styled(Card)({
   width: 550,

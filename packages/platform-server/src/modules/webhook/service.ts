@@ -22,23 +22,23 @@ import { lastValueFrom, retry, timeout } from 'rxjs'
 import { In } from 'typeorm'
 import { v4 as uuid } from 'uuid'
 
-import { Project, Webhook } from '@fe/perfsee-platform-server/db'
-import { UserError } from '@fe/perfsee-platform-server/error'
-import { OnEvent } from '@fe/perfsee-platform-server/event'
+import { Project, Webhook } from '@johfe/perfsee-platform-server/db'
+import { UserError } from '@johfe/perfsee-platform-server/error'
+import { OnEvent } from '@johfe/perfsee-platform-server/event'
 import {
   AnalyzeUpdateType,
   BundleUpdatePayload,
   SnapshotReportUpdatePayload,
   SnapshotUpdatePayload,
   SourceUpdatePayload,
-} from '@fe/perfsee-platform-server/event/type'
-import { WebhookEventPayloadFactories } from '@fe/perfsee-platform-server/event/webhook-events'
-import { GqlService } from '@fe/perfsee-platform-server/graphql.module'
-import { RxFetch } from '@fe/perfsee-platform-server/helpers'
-import { Logger } from '@fe/perfsee-platform-server/logger'
-import { Redis } from '@fe/perfsee-platform-server/redis'
-import { BundleJobStatus, SnapshotStatus } from '@fe/perfsee-server-common'
-import { parseWebhookEventTypeWildcardExpr } from '@fe/perfsee-shared'
+} from '@johfe/perfsee-platform-server/event/type'
+import { WebhookEventPayloadFactories } from '@johfe/perfsee-platform-server/event/webhook-events'
+import { GqlService } from '@johfe/perfsee-platform-server/graphql.module'
+import { RxFetch } from '@johfe/perfsee-platform-server/helpers'
+import { Logger } from '@johfe/perfsee-platform-server/logger'
+import { Redis } from '@johfe/perfsee-platform-server/redis'
+import { BundleJobStatus, SnapshotStatus } from '@johfe/perfsee-server-common'
+import { parseWebhookEventTypeWildcardExpr } from '@johfe/perfsee-shared'
 
 import { ApplicationService } from '../application/service'
 

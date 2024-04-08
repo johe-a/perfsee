@@ -18,8 +18,8 @@ import { Stack, IStackTokens } from '@fluentui/react'
 import { useDispatchers, useModule } from '@sigi/react'
 import { useCallback, useEffect, useMemo, useState } from 'react'
 
-import { ContentCard, Select } from '@fe/perfsee-components'
-import { SnapshotStatus } from '@fe/perfsee-schema'
+import { ContentCard, Select } from '@johfe/perfsee-components'
+import { SnapshotStatus } from '@johfe/perfsee-schema'
 
 import { VersionPerformanceOverview } from '../../components'
 import { VersionSnapshotReport } from '../../version-report/types'

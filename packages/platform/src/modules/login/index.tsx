@@ -20,9 +20,9 @@ import { useModuleState } from '@sigi/react'
 import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
-import { BodyContainer, ForeignLink, useQueryString } from '@fe/perfsee-components'
-import { serverLink } from '@fe/perfsee-platform/common'
-import { staticPath } from '@fe/perfsee-shared/routes'
+import { BodyContainer, ForeignLink, useQueryString } from '@johfe/perfsee-components'
+import { serverLink } from '@johfe/perfsee-platform/common'
+import { staticPath } from '@johfe/perfsee-shared/routes'
 
 import { GlobalModule, useSettings } from '../shared'
 

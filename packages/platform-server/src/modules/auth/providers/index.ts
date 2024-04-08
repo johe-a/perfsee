@@ -17,8 +17,8 @@ limitations under the License.
 import { Injectable, OnModuleInit } from '@nestjs/common'
 import { ModuleRef } from '@nestjs/core'
 
-import { Config } from '@fe/perfsee-platform-server/config'
-import { ExternalAccount } from '@fe/perfsee-shared'
+import { Config } from '@johfe/perfsee-platform-server/config'
+import { ExternalAccount } from '@johfe/perfsee-shared'
 
 import { GithubOAuthProvider } from './github'
 import { OAuthProvider } from './provider'

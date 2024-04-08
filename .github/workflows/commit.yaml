@@ -160,7 +160,7 @@ jobs:
       - name: Bundle
         run: |
           yarn codegen
-          NODE_ENV=production yarn cli bundle -p @fe/perfsee-platform
+          NODE_ENV=production yarn cli bundle -p @johfe/perfsee-platform
 
   examples:
     name: Test plugin on node - ${{ matrix.node }}

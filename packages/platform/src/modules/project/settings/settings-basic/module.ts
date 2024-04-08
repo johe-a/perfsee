@@ -30,8 +30,8 @@ import {
   filter,
 } from 'rxjs/operators'
 
-import { GraphQLClient, createErrorCatcher } from '@fe/perfsee-platform/common'
-import { basicSettingsQuery, BasicSettingsQuery, updateBasicSettingsMutation } from '@fe/perfsee-schema'
+import { GraphQLClient, createErrorCatcher } from '@johfe/perfsee-platform/common'
+import { basicSettingsQuery, BasicSettingsQuery, updateBasicSettingsMutation } from '@johfe/perfsee-schema'
 
 import { ProjectModule } from '../../../shared'
 

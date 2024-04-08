@@ -19,7 +19,7 @@ const path = require('path')
 
 const originalResolveFilename = Module._resolveFilename
 Module._resolveFilename = function (request) {
-  if (request.startsWith('@fe/perfsee-')) {
+  if (request.startsWith('@johfe/perfsee-')) {
     const [scope, name, ...rest] = request.split('/')
 
     if (!rest.length) {

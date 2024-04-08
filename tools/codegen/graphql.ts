@@ -20,7 +20,7 @@ import { watch } from 'chokidar'
 
 import { getPackage, logger } from '../utils'
 
-const schemaPackage = getPackage('@fe/perfsee-schema')
+const schemaPackage = getPackage('@johfe/perfsee-schema')
 const serverSchema = schemaPackage.relative('src/server-schema.gql')
 const clientSchema = schemaPackage.relative('src/graphql/**/*.{gql,graphql}')
 

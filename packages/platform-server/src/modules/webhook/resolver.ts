@@ -29,8 +29,8 @@ import {
   Resolver,
 } from '@nestjs/graphql'
 
-import { Application, Project, User, Webhook } from '@fe/perfsee-platform-server/db'
-import { UserError } from '@fe/perfsee-platform-server/error'
+import { Application, Project, User, Webhook } from '@johfe/perfsee-platform-server/db'
+import { UserError } from '@johfe/perfsee-platform-server/error'
 
 import { ApplicationService } from '../application/service'
 import { Auth, CurrentUser } from '../auth'

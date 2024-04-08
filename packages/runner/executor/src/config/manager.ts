@@ -20,8 +20,8 @@ import { join, parse } from 'path'
 
 import { isNil, merge, omitBy } from 'lodash'
 
-import { PartialRunnerConfig, RunnerConfig, logger } from '@fe/perfsee-job-runner-shared'
-import { JobType } from '@fe/perfsee-server-common'
+import { PartialRunnerConfig, RunnerConfig, logger } from '@johfe/perfsee-job-runner-shared'
+import { JobType } from '@johfe/perfsee-server-common'
 
 import { version } from '../version'
 

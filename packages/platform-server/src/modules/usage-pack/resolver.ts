@@ -1,6 +1,6 @@
 import { Args, Mutation, Query, Resolver } from '@nestjs/graphql'
 
-import { UsagePack } from '@fe/perfsee-platform-server/db'
+import { UsagePack } from '@johfe/perfsee-platform-server/db'
 
 import { Auth } from '../auth'
 

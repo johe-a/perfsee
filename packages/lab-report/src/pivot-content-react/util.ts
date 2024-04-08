@@ -1,4 +1,4 @@
-import { ReactDevtoolProfilingDataForRootFrontend, ReactDevtoolProfilingDataFrontend } from '@fe/perfsee-flamechart'
+import { ReactDevtoolProfilingDataForRootFrontend, ReactDevtoolProfilingDataFrontend } from '@johfe/perfsee-flamechart'
 
 import {
   commitGradient,

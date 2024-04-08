@@ -3,8 +3,8 @@ import { Draft } from 'immer'
 import { Observable, of, timer, merge } from 'rxjs'
 import { map, startWith, endWith, exhaustMap, mergeMap } from 'rxjs/operators'
 
-import { GraphQLClient, createErrorCatcher } from '@fe/perfsee-platform/common'
-import { UpdateApplicationSettingsInput, updateApplicationSettingsMutation } from '@fe/perfsee-schema'
+import { GraphQLClient, createErrorCatcher } from '@johfe/perfsee-platform/common'
+import { UpdateApplicationSettingsInput, updateApplicationSettingsMutation } from '@johfe/perfsee-schema'
 
 import { GlobalModule } from '../../shared'
 

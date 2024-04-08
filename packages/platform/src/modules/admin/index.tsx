@@ -1,8 +1,8 @@
 import { Stack } from '@fluentui/react'
 import { Route, Switch } from 'react-router'
 
-import { BodyContainer, ContentCard } from '@fe/perfsee-components'
-import { staticPath } from '@fe/perfsee-shared/routes'
+import { BodyContainer, ContentCard } from '@johfe/perfsee-components'
+import { staticPath } from '@johfe/perfsee-shared/routes'
 
 import { StatusPage } from '../status'
 

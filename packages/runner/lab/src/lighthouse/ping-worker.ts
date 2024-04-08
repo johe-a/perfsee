@@ -14,9 +14,9 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { JobWorker } from '@fe/perfsee-job-runner-shared'
-import { PingJobPayload } from '@fe/perfsee-server-common'
-import { CookieType, HeaderHostType } from '@fe/perfsee-shared'
+import { JobWorker } from '@johfe/perfsee-job-runner-shared'
+import { PingJobPayload } from '@johfe/perfsee-server-common'
+import { CookieType, HeaderHostType } from '@johfe/perfsee-shared'
 
 import { createBrowser, HostHeaders, transformHeadersToHostHeaders, DEVICE_DESCRIPTORS, formatCookies } from './helpers'
 

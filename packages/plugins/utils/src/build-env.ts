@@ -17,7 +17,7 @@ limitations under the License.
 import chalk from 'chalk'
 import envCI, { CiEnv } from 'env-ci'
 
-import { GitHost } from '@fe/perfsee-utils'
+import { GitHost } from '@johfe/perfsee-utils'
 
 import { getCommitMessage, getCurrentCommit, getProjectInfoFromGit } from './git'
 

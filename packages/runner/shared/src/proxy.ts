@@ -23,11 +23,11 @@ import { noop } from 'lodash'
 export const clearProxyCache = (function () {
   try {
     if (process.env.ENABLE_PROXY || process.env.NODE_ENV === 'production') {
-      const { clearCache } = require('@fe/perfsee-iri')
+      const { clearCache } = require('@johfe/perfsee-iri')
       return promisify(clearCache)
     }
   } catch (e) {
-    console.warn('@fe/perfsee-iri module is not available, clear cache failed.')
+    console.warn('@johfe/perfsee-iri module is not available, clear cache failed.')
   }
   return noop
 })()
@@ -36,7 +36,7 @@ export const startProxyServer = (function () {
   if (process.env.ENABLE_PROXY || process.env.NODE_ENV === 'production') {
     return () => {
       try {
-        const { startServer } = require('@fe/perfsee-iri')
+        const { startServer } = require('@johfe/perfsee-iri')
         if (process.env.NODE_ENV === 'production') {
           execSync(`${join(process.cwd(), 'mkcert')} -install`, {
             stdio: 'inherit',
@@ -48,7 +48,7 @@ export const startProxyServer = (function () {
           }
         })
       } catch (e) {
-        console.warn('@fe/perfsee-iri module is not available, start proxy server failed.')
+        console.warn('@johfe/perfsee-iri module is not available, start proxy server failed.')
       }
     }
   }

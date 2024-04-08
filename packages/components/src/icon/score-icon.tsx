@@ -17,8 +17,8 @@ limitations under the License.
 import { CheckCircleOutlined, ExclamationCircleOutlined, WarningOutlined } from '@ant-design/icons'
 import { isNumber } from 'lodash'
 
-import { SharedColors } from '@fe/perfsee-dls'
-import { Maybe } from '@fe/perfsee-schema'
+import { SharedColors } from '@johfe/perfsee-dls'
+import { Maybe } from '@johfe/perfsee-schema'
 
 export function getScoreColor<T = undefined>(): T
 export function getScoreColor<T = number>(score: T): string

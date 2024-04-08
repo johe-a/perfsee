@@ -32,7 +32,7 @@ import { createBrotliDecompress, createGunzip } from 'zlib'
 import { decode, decodeStream } from '@eyhn/msgpack-stream'
 import { extract } from 'tar'
 
-import JSONR from '@fe/perfsee-jsonr'
+import JSONR from '@johfe/perfsee-jsonr'
 
 import { PerfseeReportStats } from './stats'
 import { readJSONFile } from './utils'

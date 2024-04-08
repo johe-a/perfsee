@@ -17,9 +17,9 @@ limitations under the License.
 import { ChildProcess, fork } from 'child_process'
 import { EventEmitter } from 'events'
 
-import { ParentMessage, RunnerConfig, WorkerMessage, logger } from '@fe/perfsee-job-runner-shared'
-import { JobInfo, UpdateJobTraceParams } from '@fe/perfsee-server-common'
-import { JobLog, JobLogLevel } from '@fe/perfsee-shared'
+import { ParentMessage, RunnerConfig, WorkerMessage, logger } from '@johfe/perfsee-job-runner-shared'
+import { JobInfo, UpdateJobTraceParams } from '@johfe/perfsee-server-common'
+import { JobLog, JobLogLevel } from '@johfe/perfsee-shared'
 
 export class JobWorkerExecutor extends EventEmitter {
   private workerProcess: ChildProcess | null = null

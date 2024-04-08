@@ -29,8 +29,8 @@ import {
   BeforeInsert,
 } from 'typeorm'
 
-import { SnapshotStatus, SourceStatus } from '@fe/perfsee-server-common'
-import { MetricKeyType } from '@fe/perfsee-shared'
+import { SnapshotStatus, SourceStatus } from '@johfe/perfsee-server-common'
+import { MetricKeyType } from '@johfe/perfsee-shared'
 
 import type { Project } from './project.entity'
 import type { Environment, Page, Profile } from './property.entity'

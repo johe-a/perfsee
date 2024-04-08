@@ -18,7 +18,7 @@ import { RightOutlined } from '@ant-design/icons'
 import styled from '@emotion/styled'
 import { FC, ReactNode, useCallback, useState } from 'react'
 
-import { NeutralColors } from '@fe/perfsee-dls'
+import { NeutralColors } from '@johfe/perfsee-dls'
 
 const Header = styled.div<{ spaceBetween?: boolean }>(({ spaceBetween }) => ({
   fontWeight: 500,

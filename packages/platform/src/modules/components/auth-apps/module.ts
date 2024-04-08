@@ -19,7 +19,7 @@ import { Draft } from 'immer'
 import { Observable } from 'rxjs'
 import { switchMap, map, endWith } from 'rxjs/operators'
 
-import { GraphQLClient, createErrorCatcher } from '@fe/perfsee-platform/common'
+import { GraphQLClient, createErrorCatcher } from '@johfe/perfsee-platform/common'
 import {
   authorizedApplicationsQuery,
   AuthorizedApplicationsQuery,
@@ -29,7 +29,7 @@ import {
   authorizeApplicationMutation,
   revokeApplicationPermissionsMutation,
   Permission,
-} from '@fe/perfsee-schema'
+} from '@johfe/perfsee-schema'
 
 export type AuthApplication = AuthorizedApplicationsQuery['project']['authorizedApplications'][0]
 export type Application = GetApplicationsQuery['applications']['edges'][0]['node']

@@ -16,7 +16,7 @@ limitations under the License.
 
 import styled from '@emotion/styled'
 
-import { Tag as RawTag } from '@fe/perfsee-components'
+import { Tag as RawTag } from '@johfe/perfsee-components'
 
 export enum PageStatus {
   Normal = 'success',

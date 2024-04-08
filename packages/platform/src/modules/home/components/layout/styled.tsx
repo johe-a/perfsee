@@ -1,7 +1,7 @@
 import styled from '@emotion/styled'
 import { Link as RouterLink } from 'react-router-dom'
 
-import { ForeignLink as RawForeignLink } from '@fe/perfsee-components'
+import { ForeignLink as RawForeignLink } from '@johfe/perfsee-components'
 
 export const LayoutWrapper = styled.div({
   width: '100%',

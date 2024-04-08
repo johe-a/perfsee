@@ -19,7 +19,7 @@ import { Stack, IPlainCardProps, HoverCard, HoverCardType } from '@fluentui/reac
 import { capitalize } from 'lodash'
 import { FC, useCallback, useMemo, MouseEvent } from 'react'
 
-import { RequestSchema } from '@fe/perfsee-shared'
+import { RequestSchema } from '@johfe/perfsee-shared'
 
 import { SelectionColumn, FilterTrigger } from '../style'
 

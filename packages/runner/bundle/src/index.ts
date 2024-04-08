@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { workerMain } from '@fe/perfsee-job-runner-shared'
+import { workerMain } from '@johfe/perfsee-job-runner-shared'
 
 import { BundleWorker } from './bundle'
 

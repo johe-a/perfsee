@@ -69,11 +69,11 @@ app.listen(3000)
 
 ## TypeScript 定义
 
-Webhook 的类型定义包含在 npm 包 `@fe/perfsee-sdk` 中，用法如下。
+Webhook 的类型定义包含在 npm 包 `@johfe/perfsee-sdk` 中，用法如下。
 
 ```ts
 import express from 'express'
-import { WebhookEvent } from '@fe/perfsee-sdk'
+import { WebhookEvent } from '@johfe/perfsee-sdk'
 
 const app = express()
 

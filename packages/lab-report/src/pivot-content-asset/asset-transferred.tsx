@@ -17,9 +17,9 @@ limitations under the License.
 import { NeutralColors, Stack } from '@fluentui/react'
 import { FC, memo, useMemo } from 'react'
 
-import { DonutChart } from '@fe/perfsee-components'
-import { ColorfulSizeBar } from '@fe/perfsee-components/color-size-bar'
-import { PrettyBytes, RequestSchema } from '@fe/perfsee-shared'
+import { DonutChart } from '@johfe/perfsee-components'
+import { ColorfulSizeBar } from '@johfe/perfsee-components/color-size-bar'
+import { PrettyBytes, RequestSchema } from '@johfe/perfsee-shared'
 
 import { RequestType, RequestTypeColorsMaps } from '../snapshot-type'
 

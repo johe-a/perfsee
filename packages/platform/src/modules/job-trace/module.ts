@@ -19,9 +19,9 @@ import { Draft } from 'immer'
 import { interval, Observable, of } from 'rxjs'
 import { switchMap, startWith, takeUntil, mergeMap, withLatestFrom, catchError, map } from 'rxjs/operators'
 
-import { GraphQLClient, notify } from '@fe/perfsee-platform/common'
-import { JobType, jobTraceQuery, JobTraceQuery, jobsQuery, JobsQuery } from '@fe/perfsee-schema'
-import { JobLog, JobLogLevel } from '@fe/perfsee-shared'
+import { GraphQLClient, notify } from '@johfe/perfsee-platform/common'
+import { JobType, jobTraceQuery, JobTraceQuery, jobsQuery, JobsQuery } from '@johfe/perfsee-schema'
+import { JobLog, JobLogLevel } from '@johfe/perfsee-shared'
 
 type JobTraceResponse = Omit<JobTraceQuery['project']['job']['trace'], 'logs'> & { logs: JobLog[] }
 

@@ -17,8 +17,8 @@ limitations under the License.
 import { Panel, LayerHost } from '@fluentui/react'
 import { useCallback, useEffect, useMemo, useState } from 'react'
 
-import { useQueryString } from '@fe/perfsee-components'
-import { PerfseeFlameChartData, ReactDevtoolProfilingDataExport, Timing } from '@fe/perfsee-flamechart'
+import { useQueryString } from '@johfe/perfsee-components'
+import { PerfseeFlameChartData, ReactDevtoolProfilingDataExport, Timing } from '@johfe/perfsee-flamechart'
 
 import { FlamechartPlaceholder } from '../flamechart'
 import { SnapshotDetailType } from '../snapshot-type'

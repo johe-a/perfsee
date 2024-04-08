@@ -2,8 +2,8 @@ import { Effect, EffectModule, ImmerReducer, Module } from '@sigi/core'
 import { Draft } from 'immer'
 import { filter, map, mergeMap, distinctUntilChanged, Observable, withLatestFrom, catchError, of } from 'rxjs'
 
-import { GraphQLClient } from '@fe/perfsee-platform/common'
-import { appVersionByHashQuery, AppVersionByHashQuery } from '@fe/perfsee-schema'
+import { GraphQLClient } from '@johfe/perfsee-platform/common'
+import { appVersionByHashQuery, AppVersionByHashQuery } from '@johfe/perfsee-schema'
 
 import { ProjectModule } from '../../shared'
 

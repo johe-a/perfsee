@@ -1,10 +1,10 @@
 import { faker } from '@faker-js/faker'
 
-import { Environment, Page, Snapshot, PageWithCompetitor, SnapshotReport } from '@fe/perfsee-platform-server/db'
-import { ProjectUsageService } from '@fe/perfsee-platform-server/modules/project-usage/service'
-import { ObjectStorage } from '@fe/perfsee-platform-server/storage'
-import test, { createMock, initTestDB, createDBTestingModule, create } from '@fe/perfsee-platform-server/test'
-import { SnapshotStatus } from '@fe/perfsee-server-common'
+import { Environment, Page, Snapshot, PageWithCompetitor, SnapshotReport } from '@johfe/perfsee-platform-server/db'
+import { ProjectUsageService } from '@johfe/perfsee-platform-server/modules/project-usage/service'
+import { ObjectStorage } from '@johfe/perfsee-platform-server/storage'
+import test, { createMock, initTestDB, createDBTestingModule, create } from '@johfe/perfsee-platform-server/test'
+import { SnapshotStatus } from '@johfe/perfsee-server-common'
 
 import { SnapshotReportService } from '../service'
 import { SnapshotReportFilter } from '../types'

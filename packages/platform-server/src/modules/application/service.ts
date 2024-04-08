@@ -17,11 +17,11 @@ limitations under the License.
 import { Injectable } from '@nestjs/common'
 import { groupBy, keyBy, omit, uniq, without } from 'lodash'
 
-import { Project, User, UserPermission } from '@fe/perfsee-platform-server/db'
-import { UserError } from '@fe/perfsee-platform-server/error'
-import { PaginationInput } from '@fe/perfsee-platform-server/graphql'
-import { createDataLoader } from '@fe/perfsee-platform-server/utils'
-import { GitHost } from '@fe/perfsee-shared'
+import { Project, User, UserPermission } from '@johfe/perfsee-platform-server/db'
+import { UserError } from '@johfe/perfsee-platform-server/error'
+import { PaginationInput } from '@johfe/perfsee-platform-server/graphql'
+import { createDataLoader } from '@johfe/perfsee-platform-server/utils'
+import { GitHost } from '@johfe/perfsee-shared'
 
 import { AuthService } from '../auth/auth.service'
 import { Permission, PermissionProvider } from '../permission'

@@ -14,8 +14,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { Page, Profile, SnapshotReport, Environment } from '@fe/perfsee-platform-server/db'
-import { E2EJobPayload, LabJobPayload, PingJobPayload } from '@fe/perfsee-server-common'
+import { Page, Profile, SnapshotReport, Environment } from '@johfe/perfsee-platform-server/db'
+import { E2EJobPayload, LabJobPayload, PingJobPayload } from '@johfe/perfsee-server-common'
 
 import { Config } from '../config'
 import { CONNECTIONS } from '../modules/profile/constants'

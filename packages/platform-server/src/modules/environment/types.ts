@@ -16,7 +16,7 @@ limitations under the License.
 
 import { Field, InputType, OmitType, PartialType } from '@nestjs/graphql'
 
-import { Environment, LocalStorageType, HeaderType, CookieType } from '@fe/perfsee-platform-server/db'
+import { Environment, LocalStorageType, HeaderType, CookieType } from '@johfe/perfsee-platform-server/db'
 
 @InputType()
 export class LocalStorageInputType extends OmitType(LocalStorageType, [], InputType) {}

@@ -3,12 +3,12 @@ import type {
   SourceFinishedEventQuery,
   LabSnapshotCompletedEventQuery,
   LabSnapshotReportCompletedEventQuery,
-} from '@fe/perfsee-schema'
-import type { WebhookEventType } from '@fe/perfsee-shared'
+} from '@johfe/perfsee-schema'
+import type { WebhookEventType } from '@johfe/perfsee-shared'
 
 type WebhookPayload<T> = { data: T }
 
-// use generics to check this type stay in sync with @fe/perfsee-shared
+// use generics to check this type stay in sync with @johfe/perfsee-shared
 type GenerateWebhookEvent<T extends Record<WebhookEventType['key'], any>> = {
   [key in keyof T]: { eventType: key; payload: WebhookPayload<T[key]> }
 }[keyof T]

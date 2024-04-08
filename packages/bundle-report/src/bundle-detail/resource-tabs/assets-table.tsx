@@ -19,9 +19,9 @@ import { Stack, SelectionMode, IGroup, TooltipHost } from '@fluentui/react'
 import { groupBy } from 'lodash'
 import { FC, MouseEvent, useCallback, useMemo, useState } from 'react'
 
-import { TableColumnProps, Table, TooltipWithEllipsis, ForeignLink } from '@fe/perfsee-components'
-import { SharedColors, lighten } from '@fe/perfsee-dls'
-import { AssetTypeEnum, AssetInfo, EntryDiff, BundleAuditScore, ModuleTreeNode } from '@fe/perfsee-shared'
+import { TableColumnProps, Table, TooltipWithEllipsis, ForeignLink } from '@johfe/perfsee-components'
+import { SharedColors, lighten } from '@johfe/perfsee-dls'
+import { AssetTypeEnum, AssetInfo, EntryDiff, BundleAuditScore, ModuleTreeNode } from '@johfe/perfsee-shared'
 
 import { ColoredSize, TransferTime } from '../components'
 import { TableHeaderFilterWrap, TraceIconWrap } from '../style'

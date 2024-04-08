@@ -16,7 +16,7 @@ limitations under the License.
 
 import { reduce } from 'lodash'
 
-import { MetricType, LighthouseScoreMetric } from '@fe/perfsee-shared'
+import { MetricType, LighthouseScoreMetric } from '@johfe/perfsee-shared'
 
 export const MetricKeys = new Set([
   MetricType.FCP,

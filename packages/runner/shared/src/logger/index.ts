@@ -21,7 +21,7 @@ import { identity } from 'lodash'
 import { createLogger as createWinstonLogger, format, transports } from 'winston'
 import Transport from 'winston-transport'
 
-import { JobLogLevel } from '@fe/perfsee-shared'
+import { JobLogLevel } from '@johfe/perfsee-shared'
 
 import { IS_WORKER_PROCESS } from '../constants'
 

@@ -24,11 +24,11 @@ import {
   Table,
   IconWithTips,
   HeaderWithVerticalLineStyles,
-} from '@fe/perfsee-components'
-import { ChartHeaderTitle } from '@fe/perfsee-components/chart/style'
-import { needOptimizeCache, needOptimizeCompression } from '@fe/perfsee-lab-report/pivot-content-asset/utils'
-import { RequestType, SnapshotDetailType, SnapshotReportSchema } from '@fe/perfsee-lab-report/snapshot-type'
-import { RequestSchema } from '@fe/perfsee-shared'
+} from '@johfe/perfsee-components'
+import { ChartHeaderTitle } from '@johfe/perfsee-components/chart/style'
+import { needOptimizeCache, needOptimizeCompression } from '@johfe/perfsee-lab-report/pivot-content-asset/utils'
+import { RequestType, SnapshotDetailType, SnapshotReportSchema } from '@johfe/perfsee-lab-report/snapshot-type'
+import { RequestSchema } from '@johfe/perfsee-shared'
 
 type ItemType = {
   name: string

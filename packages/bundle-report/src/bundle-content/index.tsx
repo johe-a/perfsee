@@ -21,9 +21,9 @@ import { useMemo, useCallback, FC, useState, useEffect } from 'react'
 import { useHistory } from 'react-router'
 import { Link } from 'react-router-dom'
 
-import { Select, useWideScreen } from '@fe/perfsee-components'
-import { ModuleTreeNode } from '@fe/perfsee-shared'
-import { pathFactory } from '@fe/perfsee-shared/routes'
+import { Select, useWideScreen } from '@johfe/perfsee-components'
+import { ModuleTreeNode } from '@johfe/perfsee-shared'
+import { pathFactory } from '@johfe/perfsee-shared/routes'
 
 import { ChartWrapper, Header, Container, ShortcutTips } from './styled'
 import { Treemap } from './treemap'

@@ -16,8 +16,8 @@ limitations under the License.
 
 import { Resolver, Args, Int, Mutation, ResolveField, Parent, ID } from '@nestjs/graphql'
 
-import { Page, Project } from '@fe/perfsee-platform-server/db'
-import { transformInputType } from '@fe/perfsee-platform-server/graphql'
+import { Page, Project } from '@johfe/perfsee-platform-server/db'
+import { transformInputType } from '@johfe/perfsee-platform-server/graphql'
 
 import { PermissionGuard, Permission } from '../permission'
 import { ProjectService } from '../project/service'

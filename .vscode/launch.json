@@ -14,13 +14,13 @@
       "type": "pwa-node"
     },
     {
-      "command": "yarn dev -p @fe/perfsee-platform-server --inspect",
+      "command": "yarn dev -p @johfe/perfsee-platform-server --inspect",
       "name": "Run platform-server",
       "request": "launch",
       "type": "node-terminal"
     },
     {
-      "command": "yarn dev -p @fe/perfsee-job-runner --inspect",
+      "command": "yarn dev -p @johfe/perfsee-job-runner --inspect",
       "name": "Run job-runner",
       "request": "launch",
       "type": "node-terminal"

@@ -17,7 +17,7 @@ limitations under the License.
 import { IPersonaProps, Persona, PersonaSize } from '@fluentui/react'
 import { useModuleState } from '@sigi/react'
 
-import { adjustOSSImgSize } from '@fe/perfsee-platform/common'
+import { adjustOSSImgSize } from '@johfe/perfsee-platform/common'
 
 import { GlobalModule } from '../../modules/shared'
 

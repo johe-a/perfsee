@@ -51,7 +51,7 @@ const config = {
       pragma: 'React',
       version: 'detect',
     },
-    'import/internal-regex': '^@fe/perfsee-',
+    'import/internal-regex': '^@johfe/perfsee-',
   },
   rules: {
     // 0 = off, 1 = warn, 2 = error

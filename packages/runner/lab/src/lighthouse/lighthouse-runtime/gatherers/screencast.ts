@@ -21,7 +21,7 @@ import ffmpeg from 'fluent-ffmpeg'
 import Jimp from 'jimp'
 import { noop } from 'lodash'
 
-import { logger } from '@fe/perfsee-job-runner-shared'
+import { logger } from '@johfe/perfsee-job-runner-shared'
 
 import { GathererInstance } from './gatherer'
 

@@ -29,8 +29,8 @@ import {
   Table,
   ForeignLink,
   AuditItem as AuditItemBase,
-} from '@fe/perfsee-components'
-import { BundleAuditResult, BundleAuditDetail, BundleAuditScore } from '@fe/perfsee-shared'
+} from '@johfe/perfsee-components'
+import { BundleAuditResult, BundleAuditDetail, BundleAuditScore } from '@johfe/perfsee-shared'
 
 import { ByteSizeWithDiff } from '../components'
 import { PackageTraceContext } from '../context'

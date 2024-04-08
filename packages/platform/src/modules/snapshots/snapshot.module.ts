@@ -19,12 +19,12 @@ import { Draft, freeze } from 'immer'
 import { from, forkJoin, Observable, merge } from 'rxjs'
 import { switchMap, map, withLatestFrom, filter, startWith, mergeMap, endWith, tap } from 'rxjs/operators'
 
-import { SnapshotDetailType, SnapshotReportSchema } from '@fe/perfsee-lab-report/snapshot-type'
-import { formatStorageResultToSnapshotDetail } from '@fe/perfsee-lab-report/util'
-import { GraphQLClient, createErrorCatcher, RxFetch } from '@fe/perfsee-platform/common'
-import { snapshotReportsByIdsQuery, snapshotReportQuery } from '@fe/perfsee-schema'
-import { LHStoredSchema, RequestSchema } from '@fe/perfsee-shared'
-import { Task } from '@fe/perfsee-tracehouse'
+import { SnapshotDetailType, SnapshotReportSchema } from '@johfe/perfsee-lab-report/snapshot-type'
+import { formatStorageResultToSnapshotDetail } from '@johfe/perfsee-lab-report/util'
+import { GraphQLClient, createErrorCatcher, RxFetch } from '@johfe/perfsee-platform/common'
+import { snapshotReportsByIdsQuery, snapshotReportQuery } from '@johfe/perfsee-schema'
+import { LHStoredSchema, RequestSchema } from '@johfe/perfsee-shared'
+import { Task } from '@johfe/perfsee-tracehouse'
 
 import { ProjectModule } from '../shared'
 

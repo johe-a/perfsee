@@ -19,9 +19,9 @@ import { DirectionalHint, IStackTokens, Spinner, SpinnerSize, Stack, TooltipHost
 import { FC, useCallback, useContext, useMemo } from 'react'
 import { useHistory } from 'react-router'
 
-import { BundleJobStatus } from '@fe/perfsee-schema'
-import { PrettyBytes } from '@fe/perfsee-shared'
-import { pathFactory } from '@fe/perfsee-shared/routes'
+import { BundleJobStatus } from '@johfe/perfsee-schema'
+import { PrettyBytes } from '@johfe/perfsee-shared'
+import { pathFactory } from '@johfe/perfsee-shared/routes'
 
 import { PackageResultContext } from '../context'
 

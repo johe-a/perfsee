@@ -19,11 +19,11 @@ import { IconButton, IIconProps, TooltipHost, ActionButton, SharedColors, Stack 
 import { useDispatchers, useModule } from '@sigi/react'
 import { FC, useCallback, useMemo, MouseEvent } from 'react'
 
-import { TooltipWithEllipsis } from '@fe/perfsee-components'
-import { PerformanceTabType } from '@fe/perfsee-lab-report/snapshot-type'
-import { Permission, SnapshotStatus } from '@fe/perfsee-schema'
-import { PrettyBytes } from '@fe/perfsee-shared'
-import { pathFactory } from '@fe/perfsee-shared/routes'
+import { TooltipWithEllipsis } from '@johfe/perfsee-components'
+import { PerformanceTabType } from '@johfe/perfsee-lab-report/snapshot-type'
+import { Permission, SnapshotStatus } from '@johfe/perfsee-schema'
+import { PrettyBytes } from '@johfe/perfsee-shared'
+import { pathFactory } from '@johfe/perfsee-shared/routes'
 
 import { CompareModule, ProjectInfo } from '../../shared'
 import { DisabledText, NoticeLabel } from '../style'

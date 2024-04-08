@@ -19,8 +19,8 @@ import { Stack, Icon, getTheme, DefaultButton, Checkbox, ComboBox, IComboBoxOpti
 import { useModule } from '@sigi/react'
 import { useCallback, useEffect, useMemo } from 'react'
 
-import { Tag } from '@fe/perfsee-components'
-import { JobType } from '@fe/perfsee-schema'
+import { Tag } from '@johfe/perfsee-components'
+import { JobType } from '@johfe/perfsee-schema'
 
 import { PropertyModule } from '../../shared'
 

@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { VscodeSnapshotReportsQuery, vscodeSnapshotReportsQuery } from '@fe/perfsee-schema'
+import { VscodeSnapshotReportsQuery, vscodeSnapshotReportsQuery } from '@johfe/perfsee-schema'
 
 import { memoizePromise } from '../utils/cache'
 

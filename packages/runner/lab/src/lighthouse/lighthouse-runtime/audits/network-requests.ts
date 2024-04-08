@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { dynamicImport } from '@fe/perfsee-job-runner-shared'
+import { dynamicImport } from '@johfe/perfsee-job-runner-shared'
 
 import { getNetworkRecords } from '../../helpers'
 

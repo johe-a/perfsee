@@ -19,8 +19,8 @@ import { useDispatchers } from '@sigi/react'
 import { useEffect, useCallback, useMemo } from 'react'
 import { useParams, useHistory } from 'react-router-dom'
 
-import { ContentCard } from '@fe/perfsee-components'
-import { pathFactory, RouteTypes } from '@fe/perfsee-shared/routes'
+import { ContentCard } from '@johfe/perfsee-components'
+import { pathFactory, RouteTypes } from '@johfe/perfsee-shared/routes'
 
 import { SecondaryNav } from '../../layout'
 import { PropertyModule } from '../../shared'

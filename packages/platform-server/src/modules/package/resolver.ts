@@ -28,10 +28,10 @@ import {
   Resolver,
 } from '@nestjs/graphql'
 
-import { AppVersion, Package, PackageBundle, Project, User } from '@fe/perfsee-platform-server/db'
-import { UserError } from '@fe/perfsee-platform-server/error'
-import { paginate, Paginated, PaginationInput } from '@fe/perfsee-platform-server/graphql'
-import { packageLink } from '@fe/perfsee-platform-server/utils'
+import { AppVersion, Package, PackageBundle, Project, User } from '@johfe/perfsee-platform-server/db'
+import { UserError } from '@johfe/perfsee-platform-server/error'
+import { paginate, Paginated, PaginationInput } from '@johfe/perfsee-platform-server/graphql'
+import { packageLink } from '@johfe/perfsee-platform-server/utils'
 
 import { CurrentUser } from '../auth'
 import { Permission, PermissionGuard } from '../permission'

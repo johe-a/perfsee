@@ -19,7 +19,7 @@ import { useModule } from '@sigi/react'
 import { useEffect } from 'react'
 import { useParams } from 'react-router'
 
-import { BundleContent } from '@fe/perfsee-bundle-report'
+import { BundleContent } from '@johfe/perfsee-bundle-report'
 
 import { useProject } from '../../shared'
 

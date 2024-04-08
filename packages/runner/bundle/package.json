@@ -1,14 +1,14 @@
 {
-  "name": "@fe/perfsee-job-runner-bundle",
+  "name": "@johfe/perfsee-job-runner-bundle",
   "version": "1.12.2",
   "description": "Perfsee job runner bundle",
   "main": "./dist/index.js",
   "private": true,
   "dependencies": {
-    "@fe/perfsee-bundle-analyzer": "workspace:*",
-    "@fe/perfsee-job-runner-shared": "workspace:*",
-    "@fe/perfsee-server-common": "workspace:*",
-    "@fe/perfsee-shared": "workspace:*",
+    "@johfe/perfsee-bundle-analyzer": "workspace:*",
+    "@johfe/perfsee-job-runner-shared": "workspace:*",
+    "@johfe/perfsee-server-common": "workspace:*",
+    "@johfe/perfsee-shared": "workspace:*",
     "uuid": "^9.0.0"
   },
   "devDependencies": {

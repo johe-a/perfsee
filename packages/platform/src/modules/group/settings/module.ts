@@ -18,13 +18,13 @@ import { Effect, EffectModule, ImmerReducer, Module } from '@sigi/core'
 import { Draft } from 'immer'
 import { map, Observable, switchMap } from 'rxjs'
 
-import { createErrorCatcher, GraphQLClient } from '@fe/perfsee-platform/common'
+import { createErrorCatcher, GraphQLClient } from '@johfe/perfsee-platform/common'
 import {
   updateGroupUserPermissionMutation,
   groupAuthedUsersQuery,
   GroupAuthedUsersQuery,
   Permission,
-} from '@fe/perfsee-schema'
+} from '@johfe/perfsee-schema'
 
 import { GroupModule } from '../../shared/group.module'
 
