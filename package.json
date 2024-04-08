@@ -163,7 +163,9 @@
     "postinstall": "husky install",
     "release": "lerna version --sign-git-tag --exact --allow-branch main",
     "docs": "cd docs && yarn",
-    "analyze": "lerna run analyze"
+    "analyze": "lerna run analyze",
+    "version": "lerna version",
+    "publish": "lerna publish from-package"
   },
   "packageManager": "yarn@3.4.1"
 }
