@@ -120,22 +120,17 @@ export class PerfseePlugin implements WebpackPluginInstance {
   }
 
   // @internal
-  async reportStats(compilation: Compilation) {
+  async reportStats() {
     console.log(version)
     // const client = new BuildUploadClient(this.options, this.outputPath, version)
     // await client.uploadBuild(this.stats)
-    console.log('outputPath', this.outputPath)
+    console.log('entryPoints', this.stats.entrypoints)
     if (!this.options.reportOptions) {
       this.options.reportOptions = {
         fileName: '',
       }
     }
-    const entries = Array.from(compilation.entrypoints.keys())
-    if (entries.length === 0) return
-    const hash = compilation.hash
-    console.log('hash', hash)
-    console.log(compilation.fullHash)
-    this.options.reportOptions.fileName = path.resolve(this.outputPath, `bundle-analyze.${hash}.html`)
+    this.options.reportOptions.fileName = path.resolve(this.outputPath, `bundle-analyze.html`)
     await generateReports(this.stats, this.outputPath, this.options)
   }
 
@@ -199,11 +194,11 @@ export class PerfseePlugin implements WebpackPluginInstance {
     }
   }
 
-  private readonly afterEmit = async (compilation: Compilation) => {
+  private readonly afterEmit = async () => {
     if (!this.outputPath) {
       return
     }
 
-    await this.reportStats(compilation)
+    await this.reportStats()
   }
 }
