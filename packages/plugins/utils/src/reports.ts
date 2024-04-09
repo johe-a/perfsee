@@ -25,6 +25,7 @@ import { getBuildEnv } from './build-env'
 import { formatAuditResult } from './formater'
 import { CommonPluginOptions } from './options'
 import { saveReport, PACKAGE_NAME } from './viewer'
+import path from 'path'
 
 export async function generateReports(stats: PerfseeReportStats, outputPath: string, options: CommonPluginOptions) {
   const { enableAudit, shouldPassAudit = (score) => score >= 80, failIfNotPass = false, processStats } = options
@@ -45,6 +46,13 @@ export async function generateReports(stats: PerfseeReportStats, outputPath: str
   stats.rules = options.rules?.filter((rule) => typeof rule === 'string') as string[]
   stats.includeAuxiliary = options.includeAuxiliary
   console.log('entry', stats.entrypoints?.['main'])
+  const entryMain = stats.entrypoints?.['main']
+  if (!options.reportOptions) {
+    options.reportOptions = { fileName: path.resolve(outputPath, `bundle-analyzer.${stats.hash}.html`) }
+  }
+  if (entryMain) {
+    console.log('entryMain:', entryMain)
+  }
 
   try {
     console.info('Start bundle analyzing')

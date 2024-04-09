@@ -343,7 +343,7 @@ export class StatsParser {
 
         assets.push(asset)
         ref++
-        this.logger.verbose(`Asset parsed '${name}'`)
+        // this.logger.verbose(`Asset parsed '${name}'`)
       }
 
       this.assetsMap = new Map(assets.map((asset) => [asset.name, asset]))
@@ -520,7 +520,7 @@ export class StatsParser {
           })
         }
 
-        this.logger.verbose(`Chunk parsed: '${id}'`)
+        // this.logger.verbose(`Chunk parsed: '${id}'`)
 
         return {
           id,
