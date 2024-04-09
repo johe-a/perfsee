@@ -14,7 +14,7 @@ import { BundleToolkit, ID, PerfseeReportStats, Reason, StatsParser, hashCode } 
 import {
   CommonPluginOptions as Options,
   initOptions,
-  BuildUploadClient,
+  // BuildUploadClient,
   getAllPackagesVersions,
   generateReports,
   getBuildEnv,
@@ -121,6 +121,7 @@ export class PerfseePlugin implements WebpackPluginInstance {
 
   // @internal
   async reportStats(compilation: Compilation) {
+    console.log(version)
     // const client = new BuildUploadClient(this.options, this.outputPath, version)
     // await client.uploadBuild(this.stats)
     console.log('outputPath', this.outputPath)
