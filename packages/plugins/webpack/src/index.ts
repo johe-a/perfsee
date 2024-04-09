@@ -125,13 +125,16 @@ export class PerfseePlugin implements WebpackPluginInstance {
     // const client = new BuildUploadClient(this.options, this.outputPath, version)
     // await client.uploadBuild(this.stats)
     console.log('outputPath', this.outputPath)
-    if (this.options.reportOptions?.fileName) {
-      const entries = Array.from(compilation.entrypoints.keys())
-      if (entries.length === 0) return
-      const outputName = compilation.getAsset(entries[0])?.name
-      console.log('entry outputName', outputName)
-      this.options.reportOptions.fileName = path.resolve(this.outputPath, `${outputName}.html`)
+    if (!this.options.reportOptions) {
+      this.options.reportOptions = {
+        fileName: '',
+      }
     }
+    const entries = Array.from(compilation.entrypoints.keys())
+    if (entries.length === 0) return
+    const outputName = compilation.getAsset(entries[0])?.name
+    console.log('entry outputName', outputName)
+    this.options.reportOptions.fileName = path.resolve(this.outputPath, `${outputName}.html`)
     await generateReports(this.stats, this.outputPath, this.options)
   }
 
