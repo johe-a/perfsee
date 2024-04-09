@@ -1,0 +1,16 @@
+{
+  "name": "@johefe/perfsee-jsonr",
+  "version": "1.13.2-alpha.0",
+  "description": "JSON with references",
+  "sideEffect": false,
+  "license": "Apache-2.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "dependencies": {
+    "tslib": "^2.4.0"
+  }
+}

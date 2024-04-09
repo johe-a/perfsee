@@ -1,0 +1,104 @@
+{
+  "name": "@johefe/perfsee",
+  "version": "0.0.0",
+  "license": "UNLICENSED",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "packages/plugins/*"
+  ],
+  "devDependencies": {
+    "@commitlint/config-conventional": "^17.0.3",
+    "@commitlint/config-lerna-scopes": "^17.0.2",
+    "@types/debug": "^4.1.7",
+    "@types/lodash": "^4.14.182",
+    "@types/node": "16",
+    "@types/prettier": "^2.6.4",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@types/webpack": "4.41.27",
+    "@types/yup": "^0.29.14",
+    "@typescript-eslint/eslint-plugin": "^5.30.7",
+    "@typescript-eslint/parser": "^5.30.7",
+    "chalk": "^4.1.2",
+    "commitlint": "^17.0.3",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.7.1",
+    "esbuild": "~0.16.0",
+    "eslint": "^8.20.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-sonarjs": "^0.18.0",
+    "eslint-plugin-unicorn": "^45.0.0",
+    "extract-comments": "^1.1.0",
+    "husky": "^8.0.1",
+    "lerna": "^6.0.0",
+    "lint-staged": "^13.0.3",
+    "madge": "^5.0.1",
+    "node-fetch": "^2.6.2",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.7.1",
+    "rollup": "^2.77.0",
+    "rollup-plugin-dts": "^4.2.2",
+    "rollup-plugin-sourcemaps": "^0.6.3",
+    "shx": "^0.3.4",
+    "ts-loader": "^9.3.1",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.0.0",
+    "tslib": "^2.4.0",
+    "typescript": "~4.7.4",
+    "vite": "^3.0.2",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^5.0.0",
+    "webpack-dev-server": "^4.9.3",
+    "yup": "^0.32.11"
+  },
+  "resolutions": {
+    "jpeg-js": "0.4.4",
+    "qs@6.2.3": "6.2.4"
+  },
+  "lint-staged": {
+    "*.@(js|ts|tsx)": [
+      "prettier --write"
+    ],
+    "*.@(yml|yaml)": [
+      "prettier --parser yaml --write"
+    ],
+    "*.md": [
+      "prettier --parser markdown --write"
+    ],
+    "*.json": [
+      "prettier --parser json --write"
+    ]
+  },
+  "prettier": {
+    "printWidth": 120,
+    "semi": false,
+    "trailingComma": "all",
+    "singleQuote": true,
+    "arrowParens": "always",
+    "parser": "typescript",
+    "overrides": [
+      {
+        "files": "*.json",
+        "options": {
+          "printWidth": 1
+        }
+      }
+    ]
+  },
+  "scripts": {
+    "build": "tsc -b ./tsconfigs/tsconfig.project.json --verbose",
+    "clean": "shx rm -rf ./packages/**/*.tsbuildinfo && shx rm -rf ./packages/**/{esm,dist}",
+    "clean:node_modules": "shx rm -rf  node_modules packages/*/node_modules(N)",
+    "lint": "cross-env NODE_OPTIONS=--max-old-space-size=8192 eslint . --cache --cache-location ./.eslint-cache",
+    "circular": "madge --circular --ts-config ./tsconfig.json packages/**/src/index.ts",
+    "postinstall": "husky install",
+    "version": "lerna version",
+    "publish": "lerna publish from-package"
+  },
+  "packageManager": "yarn@3.4.1"
+}

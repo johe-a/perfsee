@@ -1,0 +1,30 @@
+// AUTO GENERATED
+{
+  "compilerOptions": {
+    "noEmit": true
+  },
+  "include": [],
+  "references": [
+    {
+      "path": "../packages/bundle-analyzer"
+    },
+    {
+      "path": "../packages/jsonr"
+    },
+    {
+      "path": "../packages/utils"
+    },
+    {
+      "path": "../packages/plugins/esbuild"
+    },
+    {
+      "path": "../packages/plugins/rollup"
+    },
+    {
+      "path": "../packages/plugins/utils"
+    },
+    {
+      "path": "../packages/plugins/webpack"
+    }
+  ]
+}

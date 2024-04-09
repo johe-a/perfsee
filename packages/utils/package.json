@@ -1,0 +1,19 @@
+{
+  "name": "@johefe/perfsee-utils",
+  "version": "1.13.2-alpha.0",
+  "description": "utilities function of perfsee platform",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "Apache-2.0",
+  "files": [
+    "dist",
+    "CHANGELOG.md"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "dependencies": {
+    "tslib": "^2.4.0"
+  }
+}

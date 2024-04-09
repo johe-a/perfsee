@@ -1,0 +1,33 @@
+{
+  "name": "@johefe/perfsee-esbuild",
+  "version": "1.13.2-alpha.0",
+  "description": "perfsee esbuild plugin",
+  "license": "Apache-2.0",
+  "keywords": [
+    "esbuild",
+    "perfsee"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "CHANGELOG.md"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "dependencies": {
+    "@johefe/perfsee-bundle-analyzer": "workspace:*",
+    "@johefe/perfsee-plugin-utils": "workspace:*",
+    "chalk": "^4.1.2",
+    "lodash": "^4.17.21",
+    "tslib": "^2.4.0"
+  },
+  "peerDependencies": {
+    "esbuild": "> 0.10"
+  },
+  "devDependencies": {
+    "esbuild": "~0.16.0"
+  }
+}
