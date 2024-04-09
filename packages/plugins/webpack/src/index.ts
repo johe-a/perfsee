@@ -1,4 +1,4 @@
-import path, { relative, sep } from 'path'
+import { relative, sep } from 'path'
 
 import chalk from 'chalk'
 import {
@@ -124,13 +124,6 @@ export class PerfseePlugin implements WebpackPluginInstance {
     console.log(version)
     // const client = new BuildUploadClient(this.options, this.outputPath, version)
     // await client.uploadBuild(this.stats)
-    console.log('entryPoints', this.stats.entrypoints)
-    if (!this.options.reportOptions) {
-      this.options.reportOptions = {
-        fileName: '',
-      }
-    }
-    this.options.reportOptions.fileName = path.resolve(this.outputPath, `bundle-analyze.html`)
     await generateReports(this.stats, this.outputPath, this.options)
   }
 
