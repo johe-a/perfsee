@@ -1,6 +1,6 @@
 {
   "name": "@johefe/perfsee-webpack",
-  "version": "1.13.3-alpha.0",
+  "version": "1.14.0-alpha.0",
   "description": "perfsee webpack plugin",
   "license": "Apache-2.0",
   "keywords": [
