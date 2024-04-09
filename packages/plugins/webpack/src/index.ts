@@ -1,4 +1,4 @@
-import { relative, sep } from 'path'
+import path, { relative, sep } from 'path'
 
 import chalk from 'chalk'
 import {
@@ -120,9 +120,17 @@ export class PerfseePlugin implements WebpackPluginInstance {
   }
 
   // @internal
-  async reportStats() {
-    const client = new BuildUploadClient(this.options, this.outputPath, version)
-    await client.uploadBuild(this.stats)
+  async reportStats(compilation: Compilation) {
+    // const client = new BuildUploadClient(this.options, this.outputPath, version)
+    // await client.uploadBuild(this.stats)
+    console.log('outputPath', this.outputPath)
+    if (this.options.reportOptions?.fileName) {
+      const entries = Array.from(compilation.entrypoints.keys())
+      if (entries.length === 0) return
+      const outputName = compilation.getAsset(entries[0])?.name
+      console.log('entry outputName', outputName)
+      this.options.reportOptions.fileName = path.resolve(this.outputPath, `${outputName}.html`)
+    }
     await generateReports(this.stats, this.outputPath, this.options)
   }
 
@@ -186,12 +194,11 @@ export class PerfseePlugin implements WebpackPluginInstance {
     }
   }
 
-  private readonly afterEmit = async () => {
+  private readonly afterEmit = async (compilation: Compilation) => {
     if (!this.outputPath) {
       return
     }
 
-    await this.reportStats()
+    await this.reportStats(compilation)
   }
 }
-console.log('1')

@@ -6,4 +6,3 @@ export * from './types'
 export * from './utils'
 export * from './bundle-extractor'
 export { Audit, AuditParam, AuditID, Reason } from './stats-parser/types'
-console.log('1')

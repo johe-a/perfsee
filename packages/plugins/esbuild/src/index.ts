@@ -47,4 +47,3 @@ export const PerfseePlugin = (options: Options = {}): Plugin => {
     },
   }
 }
-console.log('1')
