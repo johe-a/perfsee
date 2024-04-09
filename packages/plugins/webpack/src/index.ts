@@ -132,11 +132,10 @@ export class PerfseePlugin implements WebpackPluginInstance {
     }
     const entries = Array.from(compilation.entrypoints.keys())
     if (entries.length === 0) return
-    const outputName = compilation.getAsset(entries[0])?.name
-    console.log('entry 0', entries[0])
-    console.log('entry 0 asset', compilation.getAsset(entries[0]))
-    console.log('entry outputName', outputName)
-    this.options.reportOptions.fileName = path.resolve(this.outputPath, `${outputName}.html`)
+    const hash = compilation.hash
+    console.log('hash', hash)
+    console.log(compilation.fullHash)
+    this.options.reportOptions.fileName = path.resolve(this.outputPath, `bundle-analyze.${hash}.html`)
     await generateReports(this.stats, this.outputPath, this.options)
   }
 
