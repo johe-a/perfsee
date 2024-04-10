@@ -13,19 +13,19 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 */
+import path from 'path'
 
 import chalk from 'chalk'
 import findCacheDir from 'find-cache-dir'
 import { merge } from 'lodash'
 import fetch from 'node-fetch'
 
-import { calcBundleScore, StatsParser, PerfseeReportStats, Audit } from '@johefe/perfsee-bundle-analyzer'
+import { Audit, PerfseeReportStats, StatsParser, calcBundleScore } from '@johefe/perfsee-bundle-analyzer'
 
 import { getBuildEnv } from './build-env'
 import { formatAuditResult } from './formater'
 import { CommonPluginOptions } from './options'
-import { saveReport, PACKAGE_NAME } from './viewer'
-import path from 'path'
+import { PACKAGE_NAME, saveReport } from './viewer'
 
 export async function generateReports(stats: PerfseeReportStats, outputPath: string, options: CommonPluginOptions) {
   const { enableAudit, shouldPassAudit = (score) => score >= 80, failIfNotPass = false, processStats } = options
@@ -45,13 +45,23 @@ export async function generateReports(stats: PerfseeReportStats, outputPath: str
 
   stats.rules = options.rules?.filter((rule) => typeof rule === 'string') as string[]
   stats.includeAuxiliary = options.includeAuxiliary
-  console.log('entry', stats.entrypoints?.['main'])
-  const entryMain = stats.entrypoints?.['main']
+  const entries = Object.keys(stats.entrypoints!)
+  const entryName = entries[0]
+  const entryMain = stats.entrypoints?.[entryName]
   if (!options.reportOptions) {
     options.reportOptions = { fileName: path.resolve(outputPath, `bundle-analyzer.${stats.hash}.html`) }
   }
   if (entryMain) {
-    console.log('entryMain:', entryMain)
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore
+    const entryAsset = entryMain.assets.find((asset) => asset.name.includes(entryName))
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore
+    const regExec = /\.([a-zA-Z0-9]+)\./.exec(entryAsset?.name || '')
+    if (regExec) {
+      const [, entryMainHash] = regExec
+      options.reportOptions.fileName = path.resolve(outputPath, `bundle-analyzer.${entryMainHash || stats.hash}.html`)
+    }
   }
 
   try {
